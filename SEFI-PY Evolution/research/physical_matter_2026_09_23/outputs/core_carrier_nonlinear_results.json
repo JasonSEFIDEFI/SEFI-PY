@@ -1,0 +1,107 @@
+{
+  "status": "Provisional two-field classical model; no physical-particle identification or full stability proof.",
+  "parameters": {
+    "alpha": 1,
+    "beta": 1,
+    "Omega_phi": 1.4142135623730951,
+    "kappa": 4,
+    "mu_sigma_squared": 3,
+    "lambda_sigma": 25
+  },
+  "profiles": [
+    {
+      "n": 400,
+      "L": 20.0,
+      "h": 0.05,
+      "residual": 4.529226993454927e-11,
+      "carrier_amplitude_at_core": 0.30023735986654876,
+      "carrier_transverse_norm": 0.8090445614913517,
+      "carrier_at_r10": 5.490779317314018e-05,
+      "lowest_radial_real_amplitude_hessian_eigenvalues": [
+        0.6416732445644957,
+        0.9866524706479844,
+        1.0810545275121344,
+        1.2320198048966406,
+        1.4355577728666193
+      ],
+      "scope": "Straight string, zero carrier phase frequency and current. Radial real-amplitude Hessian only; not full dynamical stability or a charged loop."
+    },
+    {
+      "n": 800,
+      "L": 20.0,
+      "h": 0.025,
+      "residual": 4.580080759097882e-11,
+      "carrier_amplitude_at_core": 0.300226356835302,
+      "carrier_transverse_norm": 0.8091532009837521,
+      "carrier_at_r10": 5.489261081202547e-05,
+      "lowest_radial_real_amplitude_hessian_eigenvalues": [
+        0.641685818598855,
+        0.986657119422964,
+        1.0810643493200098,
+        1.2320446898623107,
+        1.4356126464895207
+      ],
+      "scope": "Straight string, zero carrier phase frequency and current. Radial real-amplitude Hessian only; not full dynamical stability or a charged loop."
+    },
+    {
+      "n": 600,
+      "L": 30.0,
+      "h": 0.05,
+      "omega": 0,
+      "carrier_charge_per_length": 0.0,
+      "tail_decay_rate": 1.0,
+      "residual": 4.533080855129157e-11,
+      "carrier_amplitude_at_core": 0.30023735986658573,
+      "carrier_transverse_norm": 0.8090445614929289,
+      "carrier_at_r10": 5.490779403151603e-05,
+      "lowest_radial_real_amplitude_hessian_eigenvalues": [
+        0.641673241325265,
+        0.9814697598275215,
+        1.0230679414421313,
+        1.0851970771323458,
+        1.172853274010635
+      ],
+      "scope": "Straight string, specified carrier phase frequency and zero longitudinal current. Radial real-amplitude Hessian of the frequency-constrained functional only; not full dynamical stability or a charged loop."
+    },
+    {
+      "n": 400,
+      "L": 20.0,
+      "h": 0.05,
+      "omega": 0.3,
+      "carrier_charge_per_length": 0.2823354024591341,
+      "tail_decay_rate": 0.9539392014169457,
+      "residual": 2.0444410053777062e-13,
+      "carrier_amplitude_at_core": 0.3100719375896106,
+      "carrier_transverse_norm": 0.9411180081971137,
+      "carrier_at_r10": 8.97334533077768e-05,
+      "lowest_radial_real_amplitude_hessian_eigenvalues": [
+        0.6100264870196436,
+        0.9022719235279347,
+        0.9991117123291066,
+        1.153184620577869,
+        1.3594381428222067
+      ],
+      "scope": "Straight string, specified carrier phase frequency and zero longitudinal current. Radial real-amplitude Hessian of the frequency-constrained functional only; not full dynamical stability or a charged loop."
+    },
+    {
+      "n": 800,
+      "L": 20.0,
+      "h": 0.025,
+      "omega": 0.3,
+      "carrier_charge_per_length": 0.2823720088134003,
+      "tail_decay_rate": 0.9539392014169457,
+      "residual": 8.362954426188729e-13,
+      "carrier_amplitude_at_core": 0.31006268282867716,
+      "carrier_transverse_norm": 0.9412400293780011,
+      "carrier_at_r10": 8.971364739663393e-05,
+      "lowest_radial_real_amplitude_hessian_eigenvalues": [
+        0.6100407379484897,
+        0.9022761010303229,
+        0.9991217003196141,
+        1.153210098593259,
+        1.3594943983268748
+      ],
+      "scope": "Straight string, specified carrier phase frequency and zero longitudinal current. Radial real-amplitude Hessian of the frequency-constrained functional only; not full dynamical stability or a charged loop."
+    }
+  ]
+}

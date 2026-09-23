@@ -1,0 +1,20 @@
+{
+  "n": 400,
+  "L": 20.0,
+  "h": 0.05,
+  "omega": 0.3,
+  "carrier_charge_per_length": 0.2823354024591341,
+  "tail_decay_rate": 0.9539392014169457,
+  "residual": 2.0444410053777062e-13,
+  "carrier_amplitude_at_core": 0.3100719375896106,
+  "carrier_transverse_norm": 0.9411180081971137,
+  "carrier_at_r10": 8.97334533077768e-05,
+  "lowest_radial_real_amplitude_hessian_eigenvalues": [
+    0.6100264870196436,
+    0.9022719235279347,
+    0.9991117123291066,
+    1.153184620577869,
+    1.3594381428222067
+  ],
+  "scope": "Straight string, specified carrier phase frequency and zero longitudinal current. Radial real-amplitude Hessian of the frequency-constrained functional only; not full dynamical stability or a charged loop."
+}

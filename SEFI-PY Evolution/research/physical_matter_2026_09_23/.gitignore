@@ -1,0 +1,3 @@
+__pycache__/
+work/*.npz
+work/checkpoint_smoke*

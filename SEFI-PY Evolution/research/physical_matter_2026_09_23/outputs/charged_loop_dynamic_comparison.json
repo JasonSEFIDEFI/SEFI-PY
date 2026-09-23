@@ -1,0 +1,9 @@
+{
+  "dt_phi_max_difference": 9.787262868591393e-09,
+  "dt_sigma_max_difference": 1.85891442490538e-08,
+  "sigma_phase_shift": 0.08871657795907506,
+  "sigma_phase_aligned_distance": 0.00870458435942693,
+  "sigma_amplitude_distance": 0.007386513292257607,
+  "sigma_raw_distance": 0.432652827988198,
+  "sigma_base_norm": 4.876301333591493
+}

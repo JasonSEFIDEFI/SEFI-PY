@@ -1,0 +1,27 @@
+{
+  "n": 24,
+  "h": 0.666666666666667,
+  "L": 16.000000000000007,
+  "c": 0.0,
+  "nu": 0.85,
+  "lambda_sigma": 12.0,
+  "carrier_azimuthal_winding": 3,
+  "v": 0.0,
+  "residual": 0.6889570264452671,
+  "carrier_max": 0.5251996712899261,
+  "carrier_min": -0.00013050517713991425,
+  "carrier_norm_comoving": 67.5002244404704,
+  "carrier_charge": 57.37519077439984,
+  "core_radii": [
+    1.7834759482207536
+  ],
+  "history": [
+    1.0109962902656184,
+    0.7218659719977848,
+    0.7187755975582522,
+    0.690474619268886,
+    0.6891739316428531,
+    0.6889570264452671
+  ],
+  "scope": "Finite-domain coupled classical profile search; convergence and nonzero winding must be checked; no dynamical stability test."
+}

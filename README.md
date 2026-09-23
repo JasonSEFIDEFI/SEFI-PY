@@ -94,3 +94,12 @@ All tests pass at 100%.
 ```python
 from sefi_qec.runner import run_sefi_qec_demo
 run_sefi_qec_demo()
+
+
+## Isolated field research checkpoint
+
+The [23 September 2026 research addition](SEFI-PY%20Evolution/research/physical_matter_2026_09_23/README.md) contains coupled vortex/carrier solvers, reference profiles, nonlinear and azimuthal perturbation probes, an analytical rest-state audit, and the research-direction note.
+
+It is opt-in and separate from the existing engine: no engine modules, entry points, configuration or dependency files are changed. The goal of deriving physical matter remains unachieved. Finite-domain classical candidates and limited disturbance tests must not be interpreted as observed particles or universal gravity. The two unsuccessful revised rest-loop searches are retained in the evidence.
+
+See the addition's README for reproduction commands, model restrictions and validation limits.

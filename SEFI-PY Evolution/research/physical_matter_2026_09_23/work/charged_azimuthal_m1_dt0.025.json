@@ -1,0 +1,1016 @@
+{
+  "m": 1,
+  "dt": 0.025,
+  "duration": 100.0,
+  "profile": "charged_ring_refined",
+  "final_field_norm_ratio": 1.1083332922488502,
+  "max_field_norm_ratio": 1.7724740913829493,
+  "history": [
+    {
+      "time": 0.0,
+      "field_norm_ratio": 1.0,
+      "velocity_norm_ratio": 0.0
+    },
+    {
+      "time": 0.5,
+      "field_norm_ratio": 0.8396877207789092,
+      "velocity_norm_ratio": 1.0445234735570903
+    },
+    {
+      "time": 1.0,
+      "field_norm_ratio": 0.8189312400875048,
+      "velocity_norm_ratio": 1.0457421618175962
+    },
+    {
+      "time": 1.5,
+      "field_norm_ratio": 1.0080225601532133,
+      "velocity_norm_ratio": 0.7979461376713461
+    },
+    {
+      "time": 2.0,
+      "field_norm_ratio": 1.0849601084988894,
+      "velocity_norm_ratio": 1.0092641866461767
+    },
+    {
+      "time": 2.5,
+      "field_norm_ratio": 1.145614686406998,
+      "velocity_norm_ratio": 1.0033215790902763
+    },
+    {
+      "time": 3.0,
+      "field_norm_ratio": 1.231429370736288,
+      "velocity_norm_ratio": 0.923854328690473
+    },
+    {
+      "time": 3.5,
+      "field_norm_ratio": 1.3060993305654454,
+      "velocity_norm_ratio": 0.892572995785211
+    },
+    {
+      "time": 4.0,
+      "field_norm_ratio": 1.3530468626171654,
+      "velocity_norm_ratio": 0.9014569623481019
+    },
+    {
+      "time": 4.5,
+      "field_norm_ratio": 1.3824178851411777,
+      "velocity_norm_ratio": 0.9163671896138464
+    },
+    {
+      "time": 5.0,
+      "field_norm_ratio": 1.4118760522509923,
+      "velocity_norm_ratio": 0.9187767322233518
+    },
+    {
+      "time": 5.5,
+      "field_norm_ratio": 1.4562509790274398,
+      "velocity_norm_ratio": 0.9245320626591146
+    },
+    {
+      "time": 6.0,
+      "field_norm_ratio": 1.5218955074319234,
+      "velocity_norm_ratio": 0.9240071666117241
+    },
+    {
+      "time": 6.5,
+      "field_norm_ratio": 1.5889384586616482,
+      "velocity_norm_ratio": 0.9204192132482752
+    },
+    {
+      "time": 7.0,
+      "field_norm_ratio": 1.6352154674879158,
+      "velocity_norm_ratio": 0.9190921974895072
+    },
+    {
+      "time": 7.5,
+      "field_norm_ratio": 1.6737568968480596,
+      "velocity_norm_ratio": 0.9143330736024524
+    },
+    {
+      "time": 8.0,
+      "field_norm_ratio": 1.7268911511400953,
+      "velocity_norm_ratio": 0.9205619869492895
+    },
+    {
+      "time": 8.5,
+      "field_norm_ratio": 1.7724740913829493,
+      "velocity_norm_ratio": 0.9061661587469112
+    },
+    {
+      "time": 9.0,
+      "field_norm_ratio": 1.7675208781269836,
+      "velocity_norm_ratio": 0.9100812332716989
+    },
+    {
+      "time": 9.5,
+      "field_norm_ratio": 1.7310845442984826,
+      "velocity_norm_ratio": 0.9152439621124989
+    },
+    {
+      "time": 10.0,
+      "field_norm_ratio": 1.7104615105728807,
+      "velocity_norm_ratio": 0.910233766625579
+    },
+    {
+      "time": 10.5,
+      "field_norm_ratio": 1.6969819678477547,
+      "velocity_norm_ratio": 0.9158685089093208
+    },
+    {
+      "time": 11.0,
+      "field_norm_ratio": 1.6553503020709328,
+      "velocity_norm_ratio": 0.9214289044867296
+    },
+    {
+      "time": 11.5,
+      "field_norm_ratio": 1.599853492924182,
+      "velocity_norm_ratio": 0.9190062800968675
+    },
+    {
+      "time": 12.0,
+      "field_norm_ratio": 1.5780899837178741,
+      "velocity_norm_ratio": 0.9215058634000197
+    },
+    {
+      "time": 12.5,
+      "field_norm_ratio": 1.5835696682656353,
+      "velocity_norm_ratio": 0.9172894111773112
+    },
+    {
+      "time": 13.0,
+      "field_norm_ratio": 1.5536071464705838,
+      "velocity_norm_ratio": 0.9137787115870915
+    },
+    {
+      "time": 13.5,
+      "field_norm_ratio": 1.4714967731299242,
+      "velocity_norm_ratio": 0.9278514901442405
+    },
+    {
+      "time": 14.0,
+      "field_norm_ratio": 1.3969551365571233,
+      "velocity_norm_ratio": 0.9352616214063488
+    },
+    {
+      "time": 14.5,
+      "field_norm_ratio": 1.3617805416483277,
+      "velocity_norm_ratio": 0.9209681220023694
+    },
+    {
+      "time": 15.0,
+      "field_norm_ratio": 1.3140445207863887,
+      "velocity_norm_ratio": 0.9271011693124019
+    },
+    {
+      "time": 15.5,
+      "field_norm_ratio": 1.2332099341852623,
+      "velocity_norm_ratio": 0.9292452322761017
+    },
+    {
+      "time": 16.0,
+      "field_norm_ratio": 1.1755260164521766,
+      "velocity_norm_ratio": 0.9221865055032956
+    },
+    {
+      "time": 16.5,
+      "field_norm_ratio": 1.1714848399233342,
+      "velocity_norm_ratio": 0.93732350013615
+    },
+    {
+      "time": 17.0,
+      "field_norm_ratio": 1.1702651123132473,
+      "velocity_norm_ratio": 0.9429107203375329
+    },
+    {
+      "time": 17.5,
+      "field_norm_ratio": 1.1263222021977912,
+      "velocity_norm_ratio": 0.913880540856238
+    },
+    {
+      "time": 18.0,
+      "field_norm_ratio": 1.0741650793317752,
+      "velocity_norm_ratio": 0.9242185491106975
+    },
+    {
+      "time": 18.5,
+      "field_norm_ratio": 1.0821167033173649,
+      "velocity_norm_ratio": 0.9317780490810053
+    },
+    {
+      "time": 19.0,
+      "field_norm_ratio": 1.1105613356732955,
+      "velocity_norm_ratio": 0.9227467463384671
+    },
+    {
+      "time": 19.5,
+      "field_norm_ratio": 1.0947761197595403,
+      "velocity_norm_ratio": 0.924576328462345
+    },
+    {
+      "time": 20.0,
+      "field_norm_ratio": 1.0782084978165367,
+      "velocity_norm_ratio": 0.9080609625218383
+    },
+    {
+      "time": 20.5,
+      "field_norm_ratio": 1.1235959426669333,
+      "velocity_norm_ratio": 0.9250876195480724
+    },
+    {
+      "time": 21.0,
+      "field_norm_ratio": 1.2005732718280573,
+      "velocity_norm_ratio": 0.8881452102265706
+    },
+    {
+      "time": 21.5,
+      "field_norm_ratio": 1.2265313172483558,
+      "velocity_norm_ratio": 0.9134154593420165
+    },
+    {
+      "time": 22.0,
+      "field_norm_ratio": 1.2375395410368408,
+      "velocity_norm_ratio": 0.9113086628756717
+    },
+    {
+      "time": 22.5,
+      "field_norm_ratio": 1.2935475406491566,
+      "velocity_norm_ratio": 0.891498432615441
+    },
+    {
+      "time": 23.0,
+      "field_norm_ratio": 1.363935088360392,
+      "velocity_norm_ratio": 0.8866489670799566
+    },
+    {
+      "time": 23.5,
+      "field_norm_ratio": 1.3888620996464143,
+      "velocity_norm_ratio": 0.8743699489216769
+    },
+    {
+      "time": 24.0,
+      "field_norm_ratio": 1.3740610835791054,
+      "velocity_norm_ratio": 0.8951137907130164
+    },
+    {
+      "time": 24.5,
+      "field_norm_ratio": 1.389306917143204,
+      "velocity_norm_ratio": 0.8947746518602242
+    },
+    {
+      "time": 25.0,
+      "field_norm_ratio": 1.4429574103205984,
+      "velocity_norm_ratio": 0.8922486885067715
+    },
+    {
+      "time": 25.5,
+      "field_norm_ratio": 1.4828850938162133,
+      "velocity_norm_ratio": 0.880255371093791
+    },
+    {
+      "time": 26.0,
+      "field_norm_ratio": 1.495736165334722,
+      "velocity_norm_ratio": 0.8762507434143948
+    },
+    {
+      "time": 26.5,
+      "field_norm_ratio": 1.5206559107423496,
+      "velocity_norm_ratio": 0.8840634568348246
+    },
+    {
+      "time": 27.0,
+      "field_norm_ratio": 1.5618213456897259,
+      "velocity_norm_ratio": 0.8845591260050636
+    },
+    {
+      "time": 27.5,
+      "field_norm_ratio": 1.5717416380659819,
+      "velocity_norm_ratio": 0.87465648901207
+    },
+    {
+      "time": 28.0,
+      "field_norm_ratio": 1.5403649525142311,
+      "velocity_norm_ratio": 0.8985758025617991
+    },
+    {
+      "time": 28.5,
+      "field_norm_ratio": 1.5216720646205464,
+      "velocity_norm_ratio": 0.8886913432572996
+    },
+    {
+      "time": 29.0,
+      "field_norm_ratio": 1.5297012903307856,
+      "velocity_norm_ratio": 0.863577351448479
+    },
+    {
+      "time": 29.5,
+      "field_norm_ratio": 1.5176576511574686,
+      "velocity_norm_ratio": 0.883645196348155
+    },
+    {
+      "time": 30.0,
+      "field_norm_ratio": 1.4724506280082217,
+      "velocity_norm_ratio": 0.909315264082623
+    },
+    {
+      "time": 30.5,
+      "field_norm_ratio": 1.4351322918828346,
+      "velocity_norm_ratio": 0.8807605636269816
+    },
+    {
+      "time": 31.0,
+      "field_norm_ratio": 1.4210712457335042,
+      "velocity_norm_ratio": 0.8832450996498917
+    },
+    {
+      "time": 31.5,
+      "field_norm_ratio": 1.4074184316418497,
+      "velocity_norm_ratio": 0.8934706372003809
+    },
+    {
+      "time": 32.0,
+      "field_norm_ratio": 1.3747975881711094,
+      "velocity_norm_ratio": 0.8724764338365667
+    },
+    {
+      "time": 32.5,
+      "field_norm_ratio": 1.3312390780888892,
+      "velocity_norm_ratio": 0.8859792073217068
+    },
+    {
+      "time": 33.0,
+      "field_norm_ratio": 1.2981065084517427,
+      "velocity_norm_ratio": 0.9013173390361631
+    },
+    {
+      "time": 33.5,
+      "field_norm_ratio": 1.2659381788694877,
+      "velocity_norm_ratio": 0.909802127571999
+    },
+    {
+      "time": 34.0,
+      "field_norm_ratio": 1.2179216402679394,
+      "velocity_norm_ratio": 0.8969333777192073
+    },
+    {
+      "time": 34.5,
+      "field_norm_ratio": 1.1551050163491454,
+      "velocity_norm_ratio": 0.8836345162761012
+    },
+    {
+      "time": 35.0,
+      "field_norm_ratio": 1.0951910488404961,
+      "velocity_norm_ratio": 0.9113904768167098
+    },
+    {
+      "time": 35.5,
+      "field_norm_ratio": 1.0632246720121195,
+      "velocity_norm_ratio": 0.9172320680807097
+    },
+    {
+      "time": 36.0,
+      "field_norm_ratio": 1.0486879332008296,
+      "velocity_norm_ratio": 0.8786142267552666
+    },
+    {
+      "time": 36.5,
+      "field_norm_ratio": 1.0178115611528387,
+      "velocity_norm_ratio": 0.8863189145309305
+    },
+    {
+      "time": 37.0,
+      "field_norm_ratio": 0.9843603874995405,
+      "velocity_norm_ratio": 0.9072738110596663
+    },
+    {
+      "time": 37.5,
+      "field_norm_ratio": 0.9806580248154111,
+      "velocity_norm_ratio": 0.9039021272858996
+    },
+    {
+      "time": 38.0,
+      "field_norm_ratio": 0.9958416302850133,
+      "velocity_norm_ratio": 0.8976103509187174
+    },
+    {
+      "time": 38.5,
+      "field_norm_ratio": 0.9947673054913126,
+      "velocity_norm_ratio": 0.9088133047425386
+    },
+    {
+      "time": 39.0,
+      "field_norm_ratio": 0.9856389391613369,
+      "velocity_norm_ratio": 0.9113913295467052
+    },
+    {
+      "time": 39.5,
+      "field_norm_ratio": 1.0075113276134462,
+      "velocity_norm_ratio": 0.9001920110311092
+    },
+    {
+      "time": 40.0,
+      "field_norm_ratio": 1.060794891405523,
+      "velocity_norm_ratio": 0.9096429499354256
+    },
+    {
+      "time": 40.5,
+      "field_norm_ratio": 1.1072613362683623,
+      "velocity_norm_ratio": 0.887548990283336
+    },
+    {
+      "time": 41.0,
+      "field_norm_ratio": 1.114708105321599,
+      "velocity_norm_ratio": 0.8728989636936204
+    },
+    {
+      "time": 41.5,
+      "field_norm_ratio": 1.1180806397104301,
+      "velocity_norm_ratio": 0.9022522280336921
+    },
+    {
+      "time": 42.0,
+      "field_norm_ratio": 1.1711035991518013,
+      "velocity_norm_ratio": 0.888111312435348
+    },
+    {
+      "time": 42.5,
+      "field_norm_ratio": 1.2301138891028291,
+      "velocity_norm_ratio": 0.8779128736551858
+    },
+    {
+      "time": 43.0,
+      "field_norm_ratio": 1.2510668519099386,
+      "velocity_norm_ratio": 0.9136736543986973
+    },
+    {
+      "time": 43.5,
+      "field_norm_ratio": 1.2804664617553154,
+      "velocity_norm_ratio": 0.8782220428275184
+    },
+    {
+      "time": 44.0,
+      "field_norm_ratio": 1.3375714096202538,
+      "velocity_norm_ratio": 0.8749643960671185
+    },
+    {
+      "time": 44.5,
+      "field_norm_ratio": 1.3858358321108746,
+      "velocity_norm_ratio": 0.8993958269710377
+    },
+    {
+      "time": 45.0,
+      "field_norm_ratio": 1.3980672866461357,
+      "velocity_norm_ratio": 0.86881151621092
+    },
+    {
+      "time": 45.5,
+      "field_norm_ratio": 1.3939262380649817,
+      "velocity_norm_ratio": 0.8916995816605958
+    },
+    {
+      "time": 46.0,
+      "field_norm_ratio": 1.4214155045859431,
+      "velocity_norm_ratio": 0.8895995876585845
+    },
+    {
+      "time": 46.5,
+      "field_norm_ratio": 1.4481299356970092,
+      "velocity_norm_ratio": 0.8645041964830861
+    },
+    {
+      "time": 47.0,
+      "field_norm_ratio": 1.417933564803434,
+      "velocity_norm_ratio": 0.8987340280730292
+    },
+    {
+      "time": 47.5,
+      "field_norm_ratio": 1.3665803200653523,
+      "velocity_norm_ratio": 0.8876415626925305
+    },
+    {
+      "time": 48.0,
+      "field_norm_ratio": 1.351369197244376,
+      "velocity_norm_ratio": 0.8737612876072669
+    },
+    {
+      "time": 48.5,
+      "field_norm_ratio": 1.3654260813810701,
+      "velocity_norm_ratio": 0.8944304651856673
+    },
+    {
+      "time": 49.0,
+      "field_norm_ratio": 1.3623200929617671,
+      "velocity_norm_ratio": 0.8792964494678064
+    },
+    {
+      "time": 49.5,
+      "field_norm_ratio": 1.3287895366846807,
+      "velocity_norm_ratio": 0.8748585390639617
+    },
+    {
+      "time": 50.0,
+      "field_norm_ratio": 1.3080206094032256,
+      "velocity_norm_ratio": 0.8821950129294367
+    },
+    {
+      "time": 50.5,
+      "field_norm_ratio": 1.3033832448741447,
+      "velocity_norm_ratio": 0.8917118563880787
+    },
+    {
+      "time": 51.0,
+      "field_norm_ratio": 1.2584292562456054,
+      "velocity_norm_ratio": 0.892010647154826
+    },
+    {
+      "time": 51.5,
+      "field_norm_ratio": 1.165171440676235,
+      "velocity_norm_ratio": 0.8959362253561182
+    },
+    {
+      "time": 52.0,
+      "field_norm_ratio": 1.100204795935901,
+      "velocity_norm_ratio": 0.8810758272803946
+    },
+    {
+      "time": 52.5,
+      "field_norm_ratio": 1.0939005600963503,
+      "velocity_norm_ratio": 0.8908872392592777
+    },
+    {
+      "time": 53.0,
+      "field_norm_ratio": 1.0847971406851746,
+      "velocity_norm_ratio": 0.9015086577699326
+    },
+    {
+      "time": 53.5,
+      "field_norm_ratio": 1.0395385958449805,
+      "velocity_norm_ratio": 0.8845146157759808
+    },
+    {
+      "time": 54.0,
+      "field_norm_ratio": 1.0020273298991864,
+      "velocity_norm_ratio": 0.865786464793548
+    },
+    {
+      "time": 54.5,
+      "field_norm_ratio": 0.9985096285348245,
+      "velocity_norm_ratio": 0.8990272456770046
+    },
+    {
+      "time": 55.0,
+      "field_norm_ratio": 0.9904650987399995,
+      "velocity_norm_ratio": 0.9156289389672891
+    },
+    {
+      "time": 55.5,
+      "field_norm_ratio": 0.9429214964663765,
+      "velocity_norm_ratio": 0.874369029312878
+    },
+    {
+      "time": 56.0,
+      "field_norm_ratio": 0.880390727354487,
+      "velocity_norm_ratio": 0.9014584362821444
+    },
+    {
+      "time": 56.5,
+      "field_norm_ratio": 0.8779618604972173,
+      "velocity_norm_ratio": 0.9196066785688153
+    },
+    {
+      "time": 57.0,
+      "field_norm_ratio": 0.9160111985376956,
+      "velocity_norm_ratio": 0.8984459609554858
+    },
+    {
+      "time": 57.5,
+      "field_norm_ratio": 0.9249867501160735,
+      "velocity_norm_ratio": 0.8797795268003086
+    },
+    {
+      "time": 58.0,
+      "field_norm_ratio": 0.9140804128067351,
+      "velocity_norm_ratio": 0.8742940638981506
+    },
+    {
+      "time": 58.5,
+      "field_norm_ratio": 0.9308835412968416,
+      "velocity_norm_ratio": 0.8963791937645738
+    },
+    {
+      "time": 59.0,
+      "field_norm_ratio": 0.9746700793649206,
+      "velocity_norm_ratio": 0.8986821394868421
+    },
+    {
+      "time": 59.5,
+      "field_norm_ratio": 1.0018979745823424,
+      "velocity_norm_ratio": 0.8799220884328891
+    },
+    {
+      "time": 60.0,
+      "field_norm_ratio": 1.015223417782301,
+      "velocity_norm_ratio": 0.9114040696651177
+    },
+    {
+      "time": 60.5,
+      "field_norm_ratio": 1.0641512229768504,
+      "velocity_norm_ratio": 0.8944645536386531
+    },
+    {
+      "time": 61.0,
+      "field_norm_ratio": 1.128437055382575,
+      "velocity_norm_ratio": 0.8686576294496402
+    },
+    {
+      "time": 61.5,
+      "field_norm_ratio": 1.1715663279777944,
+      "velocity_norm_ratio": 0.8980050170040661
+    },
+    {
+      "time": 62.0,
+      "field_norm_ratio": 1.2033567743411229,
+      "velocity_norm_ratio": 0.8693687099420183
+    },
+    {
+      "time": 62.5,
+      "field_norm_ratio": 1.2234377129886211,
+      "velocity_norm_ratio": 0.8546953054203346
+    },
+    {
+      "time": 63.0,
+      "field_norm_ratio": 1.2454429813745485,
+      "velocity_norm_ratio": 0.8980990884472171
+    },
+    {
+      "time": 63.5,
+      "field_norm_ratio": 1.2783028002582844,
+      "velocity_norm_ratio": 0.8766114593689909
+    },
+    {
+      "time": 64.0,
+      "field_norm_ratio": 1.2834049573629,
+      "velocity_norm_ratio": 0.8633033212974688
+    },
+    {
+      "time": 64.5,
+      "field_norm_ratio": 1.2661858920002735,
+      "velocity_norm_ratio": 0.8669711045876002
+    },
+    {
+      "time": 65.0,
+      "field_norm_ratio": 1.2656693956155505,
+      "velocity_norm_ratio": 0.8634148187442763
+    },
+    {
+      "time": 65.5,
+      "field_norm_ratio": 1.2744304939672295,
+      "velocity_norm_ratio": 0.8882339264674949
+    },
+    {
+      "time": 66.0,
+      "field_norm_ratio": 1.2715076102500937,
+      "velocity_norm_ratio": 0.8871048648324793
+    },
+    {
+      "time": 66.5,
+      "field_norm_ratio": 1.2643857689388809,
+      "velocity_norm_ratio": 0.8742695277304225
+    },
+    {
+      "time": 67.0,
+      "field_norm_ratio": 1.2718552132513161,
+      "velocity_norm_ratio": 0.871487017611519
+    },
+    {
+      "time": 67.5,
+      "field_norm_ratio": 1.2770874172049826,
+      "velocity_norm_ratio": 0.8588213635247293
+    },
+    {
+      "time": 68.0,
+      "field_norm_ratio": 1.248023019963211,
+      "velocity_norm_ratio": 0.8848707873319654
+    },
+    {
+      "time": 68.5,
+      "field_norm_ratio": 1.2089016793420835,
+      "velocity_norm_ratio": 0.9017213254271054
+    },
+    {
+      "time": 69.0,
+      "field_norm_ratio": 1.195778532342679,
+      "velocity_norm_ratio": 0.8542246280467398
+    },
+    {
+      "time": 69.5,
+      "field_norm_ratio": 1.1858923591559933,
+      "velocity_norm_ratio": 0.8767686565308918
+    },
+    {
+      "time": 70.0,
+      "field_norm_ratio": 1.1684478804175031,
+      "velocity_norm_ratio": 0.9033092944495981
+    },
+    {
+      "time": 70.5,
+      "field_norm_ratio": 1.148977879875702,
+      "velocity_norm_ratio": 0.8554767986160808
+    },
+    {
+      "time": 71.0,
+      "field_norm_ratio": 1.1183334751051457,
+      "velocity_norm_ratio": 0.8711108955969102
+    },
+    {
+      "time": 71.5,
+      "field_norm_ratio": 1.0906281998722718,
+      "velocity_norm_ratio": 0.8953996889919111
+    },
+    {
+      "time": 72.0,
+      "field_norm_ratio": 1.060043836157224,
+      "velocity_norm_ratio": 0.8886179300369
+    },
+    {
+      "time": 72.5,
+      "field_norm_ratio": 1.0129338449290708,
+      "velocity_norm_ratio": 0.8984926160706571
+    },
+    {
+      "time": 73.0,
+      "field_norm_ratio": 0.9774780039360683,
+      "velocity_norm_ratio": 0.872033967104157
+    },
+    {
+      "time": 73.5,
+      "field_norm_ratio": 0.9578459116868042,
+      "velocity_norm_ratio": 0.8948783337811518
+    },
+    {
+      "time": 74.0,
+      "field_norm_ratio": 0.941661185080514,
+      "velocity_norm_ratio": 0.9004068352709133
+    },
+    {
+      "time": 74.5,
+      "field_norm_ratio": 0.9112251504771016,
+      "velocity_norm_ratio": 0.8878672218058935
+    },
+    {
+      "time": 75.0,
+      "field_norm_ratio": 0.8814961866942378,
+      "velocity_norm_ratio": 0.9093173279686463
+    },
+    {
+      "time": 75.5,
+      "field_norm_ratio": 0.8853237649243388,
+      "velocity_norm_ratio": 0.8899600715318252
+    },
+    {
+      "time": 76.0,
+      "field_norm_ratio": 0.896495939540421,
+      "velocity_norm_ratio": 0.8967974069528376
+    },
+    {
+      "time": 76.5,
+      "field_norm_ratio": 0.9051165310739817,
+      "velocity_norm_ratio": 0.9004508978811289
+    },
+    {
+      "time": 77.0,
+      "field_norm_ratio": 0.9157529485312639,
+      "velocity_norm_ratio": 0.8776077887665034
+    },
+    {
+      "time": 77.5,
+      "field_norm_ratio": 0.922465097445974,
+      "velocity_norm_ratio": 0.8911302041130533
+    },
+    {
+      "time": 78.0,
+      "field_norm_ratio": 0.9466848065399054,
+      "velocity_norm_ratio": 0.9265918219561307
+    },
+    {
+      "time": 78.5,
+      "field_norm_ratio": 0.9997288242711283,
+      "velocity_norm_ratio": 0.9051924378026269
+    },
+    {
+      "time": 79.0,
+      "field_norm_ratio": 1.0358651257914646,
+      "velocity_norm_ratio": 0.8718360489612937
+    },
+    {
+      "time": 79.5,
+      "field_norm_ratio": 1.0462191809438157,
+      "velocity_norm_ratio": 0.8938308402700762
+    },
+    {
+      "time": 80.0,
+      "field_norm_ratio": 1.0845849632798383,
+      "velocity_norm_ratio": 0.9089049380901502
+    },
+    {
+      "time": 80.5,
+      "field_norm_ratio": 1.1422166589309395,
+      "velocity_norm_ratio": 0.8955235363222408
+    },
+    {
+      "time": 81.0,
+      "field_norm_ratio": 1.1735079771620005,
+      "velocity_norm_ratio": 0.8848577607141639
+    },
+    {
+      "time": 81.5,
+      "field_norm_ratio": 1.1959495815845516,
+      "velocity_norm_ratio": 0.8940544351516728
+    },
+    {
+      "time": 82.0,
+      "field_norm_ratio": 1.2434924775369032,
+      "velocity_norm_ratio": 0.8995595081783007
+    },
+    {
+      "time": 82.5,
+      "field_norm_ratio": 1.2886235749345654,
+      "velocity_norm_ratio": 0.8777108267544259
+    },
+    {
+      "time": 83.0,
+      "field_norm_ratio": 1.290043801345499,
+      "velocity_norm_ratio": 0.8961050851986183
+    },
+    {
+      "time": 83.5,
+      "field_norm_ratio": 1.282590766607766,
+      "velocity_norm_ratio": 0.8883004220091196
+    },
+    {
+      "time": 84.0,
+      "field_norm_ratio": 1.3031466041723607,
+      "velocity_norm_ratio": 0.8636037231826273
+    },
+    {
+      "time": 84.5,
+      "field_norm_ratio": 1.3258178610299896,
+      "velocity_norm_ratio": 0.901934369046669
+    },
+    {
+      "time": 85.0,
+      "field_norm_ratio": 1.332445895844572,
+      "velocity_norm_ratio": 0.8995102803141148
+    },
+    {
+      "time": 85.5,
+      "field_norm_ratio": 1.330510914050355,
+      "velocity_norm_ratio": 0.8564991466093665
+    },
+    {
+      "time": 86.0,
+      "field_norm_ratio": 1.3287576555846419,
+      "velocity_norm_ratio": 0.8903284968477628
+    },
+    {
+      "time": 86.5,
+      "field_norm_ratio": 1.3258014406846446,
+      "velocity_norm_ratio": 0.9016415696700096
+    },
+    {
+      "time": 87.0,
+      "field_norm_ratio": 1.2955192963542457,
+      "velocity_norm_ratio": 0.8952323740946768
+    },
+    {
+      "time": 87.5,
+      "field_norm_ratio": 1.240785845260815,
+      "velocity_norm_ratio": 0.8865125838742077
+    },
+    {
+      "time": 88.0,
+      "field_norm_ratio": 1.1918927983729972,
+      "velocity_norm_ratio": 0.8962482551151725
+    },
+    {
+      "time": 88.5,
+      "field_norm_ratio": 1.160686147752752,
+      "velocity_norm_ratio": 0.8996928156529548
+    },
+    {
+      "time": 89.0,
+      "field_norm_ratio": 1.125571316627913,
+      "velocity_norm_ratio": 0.8814264572252672
+    },
+    {
+      "time": 89.5,
+      "field_norm_ratio": 1.0805000021778837,
+      "velocity_norm_ratio": 0.9009731491254759
+    },
+    {
+      "time": 90.0,
+      "field_norm_ratio": 1.0605085672691816,
+      "velocity_norm_ratio": 0.8970201260096705
+    },
+    {
+      "time": 90.5,
+      "field_norm_ratio": 1.0515946957026896,
+      "velocity_norm_ratio": 0.867913919372874
+    },
+    {
+      "time": 91.0,
+      "field_norm_ratio": 1.0027318820844004,
+      "velocity_norm_ratio": 0.8919936593020412
+    },
+    {
+      "time": 91.5,
+      "field_norm_ratio": 0.9235372406989871,
+      "velocity_norm_ratio": 0.9155047608336963
+    },
+    {
+      "time": 92.0,
+      "field_norm_ratio": 0.8486926569256726,
+      "velocity_norm_ratio": 0.9049211738743208
+    },
+    {
+      "time": 92.5,
+      "field_norm_ratio": 0.7811311912850813,
+      "velocity_norm_ratio": 0.900121172164929
+    },
+    {
+      "time": 93.0,
+      "field_norm_ratio": 0.7269168376726084,
+      "velocity_norm_ratio": 0.9293238218892027
+    },
+    {
+      "time": 93.5,
+      "field_norm_ratio": 0.7148471407736772,
+      "velocity_norm_ratio": 0.9168725209232501
+    },
+    {
+      "time": 94.0,
+      "field_norm_ratio": 0.7164518706759404,
+      "velocity_norm_ratio": 0.8632948893110016
+    },
+    {
+      "time": 94.5,
+      "field_norm_ratio": 0.6972578641496501,
+      "velocity_norm_ratio": 0.9001001485318302
+    },
+    {
+      "time": 95.0,
+      "field_norm_ratio": 0.7079075275430234,
+      "velocity_norm_ratio": 0.9203667584868035
+    },
+    {
+      "time": 95.5,
+      "field_norm_ratio": 0.7373562582173556,
+      "velocity_norm_ratio": 0.9060007284337179
+    },
+    {
+      "time": 96.0,
+      "field_norm_ratio": 0.7459746004668576,
+      "velocity_norm_ratio": 0.8908925104784811
+    },
+    {
+      "time": 96.5,
+      "field_norm_ratio": 0.7678062136429571,
+      "velocity_norm_ratio": 0.911525371021133
+    },
+    {
+      "time": 97.0,
+      "field_norm_ratio": 0.8420464828642856,
+      "velocity_norm_ratio": 0.9232004905134208
+    },
+    {
+      "time": 97.5,
+      "field_norm_ratio": 0.9180923549706544,
+      "velocity_norm_ratio": 0.8810718749337884
+    },
+    {
+      "time": 98.0,
+      "field_norm_ratio": 0.9458792473696175,
+      "velocity_norm_ratio": 0.8701091225442381
+    },
+    {
+      "time": 98.5,
+      "field_norm_ratio": 0.9727278529372962,
+      "velocity_norm_ratio": 0.9123980915677617
+    },
+    {
+      "time": 99.0,
+      "field_norm_ratio": 1.0376388902795792,
+      "velocity_norm_ratio": 0.8896496736552864
+    },
+    {
+      "time": 99.5,
+      "field_norm_ratio": 1.0852928400700868,
+      "velocity_norm_ratio": 0.8899366189597392
+    },
+    {
+      "time": 100.0,
+      "field_norm_ratio": 1.1083332922488502,
+      "velocity_norm_ratio": 0.8929925244916835
+    }
+  ],
+  "scope": "One initial perturbation in one azimuthal Fourier sector of the linearized equations, finite grid and reflecting domain. Not an eigenvalue search or nonlinear 3D evolution."
+}

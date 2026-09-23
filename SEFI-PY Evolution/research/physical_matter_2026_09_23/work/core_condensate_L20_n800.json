@@ -1,0 +1,17 @@
+{
+  "n": 800,
+  "L": 20.0,
+  "h": 0.025,
+  "residual": 4.580080759097882e-11,
+  "carrier_amplitude_at_core": 0.300226356835302,
+  "carrier_transverse_norm": 0.8091532009837521,
+  "carrier_at_r10": 5.489261081202547e-05,
+  "lowest_radial_real_amplitude_hessian_eigenvalues": [
+    0.641685818598855,
+    0.986657119422964,
+    1.0810643493200098,
+    1.2320446898623107,
+    1.4356126464895207
+  ],
+  "scope": "Straight string, zero carrier phase frequency and current. Radial real-amplitude Hessian only; not full dynamical stability or a charged loop."
+}

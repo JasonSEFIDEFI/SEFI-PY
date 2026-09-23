@@ -1,0 +1,67 @@
+{
+  "status": "New explicit model assumption; linear instability of the zero-carrier vortex toward a core condensate. Not a solved nonlinear condensate or stable loop.",
+  "potential": "V=alpha/2 |Phi|^2+beta/4 |Phi|^4+lambda/4 |Sigma|^4+(kappa |Phi|^2-mu2)/2 |Sigma|^2",
+  "parameters": {
+    "alpha": 1,
+    "beta": 1.0,
+    "Omega": 1.4142135623730951,
+    "R_infinity_squared": 1.0,
+    "kappa": 4.0,
+    "mu2": 3.0,
+    "lambda": 25.0
+  },
+  "bulk_carrier_mass_squared": 1.0,
+  "core_carrier_mass_squared": -3.0,
+  "rotating_potential_hessian_determinant_in_squared_amplitudes_up_to_positive_factor": 9.0,
+  "results": [
+    {
+      "L": 20.0,
+      "n": 400,
+      "h": 0.05,
+      "lowest_eigenvalues": [
+        -1.1287285522003139,
+        0.7748970406793997,
+        1.005978386352876,
+        1.1166747993249286
+      ],
+      "ground_mode_rms_radius": 1.1912875192330568,
+      "probability_outside_radius_8": 4.549378153704569e-09,
+      "symmetric_eigen_residual": 1.1832879971386958e-12
+    },
+    {
+      "L": 20.0,
+      "n": 800,
+      "h": 0.025,
+      "lowest_eigenvalues": [
+        -1.128336132164288,
+        0.7751181150831775,
+        1.0060060037857197,
+        1.1167311372375641
+      ],
+      "ground_mode_rms_radius": 1.1915715907293853,
+      "probability_outside_radius_8": 4.553500141957732e-09,
+      "symmetric_eigen_residual": 6.032744091975519e-12
+    },
+    {
+      "L": 30.0,
+      "n": 600,
+      "h": 0.05,
+      "lowest_eigenvalues": [
+        -1.1287285522003734,
+        0.77489676217103,
+        0.9932167654096618,
+        1.0360532664850235
+      ],
+      "ground_mode_rms_radius": 1.191287519233069,
+      "probability_outside_radius_8": 4.549378153705094e-09,
+      "symmetric_eigen_residual": 9.869756005271006e-13
+    }
+  ],
+  "limitations": [
+    "Second complex field and cross coupling are added assumptions.",
+    "Carrier field is ungauged; no electric charge or fermions have been derived.",
+    "Negative eigenvalue signals instability of Sigma=0, not stability of the extended system.",
+    "Original vortex profile is held fixed at linear order. Nonlinear backreaction and loop curvature remain untested.",
+    "Original background profile is interpolated from spacing 0.05, limiting eigenvalue accuracy."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "n": 32,
+  "h": 0.5,
+  "L": 16.0,
+  "c": 0.6,
+  "nu": 0.3,
+  "v": 0.20751433915982237,
+  "residual": 3.862848929614415e-11,
+  "carrier_max": 0.29812139148779493,
+  "carrier_min": 0.0,
+  "carrier_norm_comoving": 23.77793466548888,
+  "carrier_charge": 7.133380399646663,
+  "core_radii": [
+    5.3574045193915785
+  ],
+  "history": [
+    0.19097132641725245,
+    0.00307887569371193,
+    5.542577062145337e-06,
+    3.862848929614415e-11
+  ],
+  "scope": "Finite-domain traveling coupled classical loop candidate; no dynamical stability test."
+}

@@ -1,0 +1,1838 @@
+{
+  "profile": "charged_ring_refined",
+  "dt": 0.025,
+  "duration": 100.0,
+  "amplitude": 0.0,
+  "background_acceleration_residual": 3.8628211740387997e-11,
+  "initial": {
+    "time": 0.0,
+    "phi_distance": 0.0,
+    "sigma_distance": 0.0,
+    "carrier_charge": 7.133494408795853,
+    "winding": 1.0,
+    "contour_min_amplitude": 0.625974714723425,
+    "carrier_peak": 0.29812139148779493
+  },
+  "final": {
+    "time": 100.0,
+    "phi_distance": 2.890672239598724e-09,
+    "sigma_distance": 5.777606543762192e-09,
+    "carrier_charge": 7.133494408795838,
+    "winding": 1.0,
+    "contour_min_amplitude": 0.6259747147205278,
+    "carrier_peak": 0.2981213914805074
+  },
+  "max_relative_charge_drift": 2.3314683517128287e-15,
+  "history": [
+    {
+      "time": 0.0,
+      "phi_distance": 0.0,
+      "sigma_distance": 0.0,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714723425,
+      "carrier_peak": 0.29812139148779493
+    },
+    {
+      "time": 0.5,
+      "phi_distance": 3.410549334332344e-11,
+      "sigma_distance": 4.91494157387418e-11,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147221911,
+      "carrier_peak": 0.2981213914834678
+    },
+    {
+      "time": 1.0,
+      "phi_distance": 9.845344291670308e-11,
+      "sigma_distance": 1.543207117396113e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147210333,
+      "carrier_peak": 0.29812139147551736
+    },
+    {
+      "time": 1.5,
+      "phi_distance": 1.313609566089354e-10,
+      "sigma_distance": 2.4346534612567906e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147220391,
+      "carrier_peak": 0.2981213914727228
+    },
+    {
+      "time": 2.0,
+      "phi_distance": 1.215152346404172e-10,
+      "sigma_distance": 2.917281264345782e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147224729,
+      "carrier_peak": 0.29812139147628713
+    },
+    {
+      "time": 2.5,
+      "phi_distance": 1.3278516982902916e-10,
+      "sigma_distance": 3.1425273039627347e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147206461,
+      "carrier_peak": 0.2981213914801972
+    },
+    {
+      "time": 3.0,
+      "phi_distance": 1.8615917739506693e-10,
+      "sigma_distance": 3.249596486865573e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147190533,
+      "carrier_peak": 0.29812139148131567
+    },
+    {
+      "time": 3.5,
+      "phi_distance": 2.1718575496834327e-10,
+      "sigma_distance": 3.3444784726712e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147192788,
+      "carrier_peak": 0.298121391480764
+    },
+    {
+      "time": 4.0,
+      "phi_distance": 2.2210759967513343e-10,
+      "sigma_distance": 3.5079146423379e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714719467,
+      "carrier_peak": 0.298121391479947
+    },
+    {
+      "time": 4.5,
+      "phi_distance": 2.5355935980218146e-10,
+      "sigma_distance": 3.75096568075138e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714718271,
+      "carrier_peak": 0.2981213914794798
+    },
+    {
+      "time": 5.0,
+      "phi_distance": 3.093607619047214e-10,
+      "sigma_distance": 4.0395451847527903e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147170736,
+      "carrier_peak": 0.29812139147932054
+    },
+    {
+      "time": 5.5,
+      "phi_distance": 3.363767756518248e-10,
+      "sigma_distance": 4.338207964184041e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147172043,
+      "carrier_peak": 0.29812139147943273
+    },
+    {
+      "time": 6.0,
+      "phi_distance": 3.3838912999267326e-10,
+      "sigma_distance": 4.646286239736038e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147176162,
+      "carrier_peak": 0.2981213914795813
+    },
+    {
+      "time": 6.5,
+      "phi_distance": 3.653923379991449e-10,
+      "sigma_distance": 4.975073731794615e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147169245,
+      "carrier_peak": 0.298121391479321
+    },
+    {
+      "time": 7.0,
+      "phi_distance": 4.1190091334700976e-10,
+      "sigma_distance": 5.312261519833825e-10,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147159112,
+      "carrier_peak": 0.2981213914789631
+    },
+    {
+      "time": 7.5,
+      "phi_distance": 4.3224648659716126e-10,
+      "sigma_distance": 5.641840477120663e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714715933,
+      "carrier_peak": 0.298121391479038
+    },
+    {
+      "time": 8.0,
+      "phi_distance": 4.357846819890188e-10,
+      "sigma_distance": 5.959861705452185e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147164464,
+      "carrier_peak": 0.29812139147943467
+    },
+    {
+      "time": 8.5,
+      "phi_distance": 4.671091239749079e-10,
+      "sigma_distance": 6.255779680419461e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147160806,
+      "carrier_peak": 0.29812139147980915
+    },
+    {
+      "time": 9.0,
+      "phi_distance": 5.141955094633456e-10,
+      "sigma_distance": 6.524957265243803e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151988,
+      "carrier_peak": 0.2981213914799821
+    },
+    {
+      "time": 9.5,
+      "phi_distance": 5.35844830563881e-10,
+      "sigma_distance": 6.775402927187039e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147150923,
+      "carrier_peak": 0.2981213914800951
+    },
+    {
+      "time": 10.0,
+      "phi_distance": 5.438796389372457e-10,
+      "sigma_distance": 7.015925035263965e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714715585,
+      "carrier_peak": 0.2981213914801951
+    },
+    {
+      "time": 10.5,
+      "phi_distance": 5.77201762817675e-10,
+      "sigma_distance": 7.257798863341629e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147154704,
+      "carrier_peak": 0.2981213914799875
+    },
+    {
+      "time": 11.0,
+      "phi_distance": 6.203454971245557e-10,
+      "sigma_distance": 7.514755720213825e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148298,
+      "carrier_peak": 0.2981213914795642
+    },
+    {
+      "time": 11.5,
+      "phi_distance": 6.361869567738583e-10,
+      "sigma_distance": 7.794594384146981e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714714745,
+      "carrier_peak": 0.29812139147937927
+    },
+    {
+      "time": 12.0,
+      "phi_distance": 6.407678194137042e-10,
+      "sigma_distance": 8.096315793681053e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147152352,
+      "carrier_peak": 0.29812139147949573
+    },
+    {
+      "time": 12.5,
+      "phi_distance": 6.701554635714929e-10,
+      "sigma_distance": 8.414002869477728e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714715308,
+      "carrier_peak": 0.29812139147962
+    },
+    {
+      "time": 13.0,
+      "phi_distance": 7.057487435206044e-10,
+      "sigma_distance": 8.732120898734222e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148658,
+      "carrier_peak": 0.29812139147949623
+    },
+    {
+      "time": 13.5,
+      "phi_distance": 7.165629853584807e-10,
+      "sigma_distance": 9.032819729361053e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147461,
+      "carrier_peak": 0.29812139147927247
+    },
+    {
+      "time": 14.0,
+      "phi_distance": 7.231083714919705e-10,
+      "sigma_distance": 9.305118002411347e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147150578,
+      "carrier_peak": 0.2981213914793602
+    },
+    {
+      "time": 14.5,
+      "phi_distance": 7.536823593359476e-10,
+      "sigma_distance": 9.539555943516192e-10,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151035,
+      "carrier_peak": 0.2981213914798409
+    },
+    {
+      "time": 15.0,
+      "phi_distance": 7.853038029634279e-10,
+      "sigma_distance": 9.744566528442952e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147845,
+      "carrier_peak": 0.2981213914804069
+    },
+    {
+      "time": 15.5,
+      "phi_distance": 7.930768854998535e-10,
+      "sigma_distance": 9.957612939087841e-10,
+      "carrier_charge": 7.133494408795852,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147146721,
+      "carrier_peak": 0.2981213914806057
+    },
+    {
+      "time": 16.0,
+      "phi_distance": 7.9767218150051e-10,
+      "sigma_distance": 1.021450169853023e-09,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148053,
+      "carrier_peak": 0.29812139148011235
+    },
+    {
+      "time": 16.5,
+      "phi_distance": 8.194849828685908e-10,
+      "sigma_distance": 1.0518878494866808e-09,
+      "carrier_charge": 7.133494408795853,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147936,
+      "carrier_peak": 0.2981213914792321
+    },
+    {
+      "time": 17.0,
+      "phi_distance": 8.383898429080879e-10,
+      "sigma_distance": 1.084997638371584e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147006,
+      "carrier_peak": 0.2981213914786813
+    },
+    {
+      "time": 17.5,
+      "phi_distance": 8.406373206748202e-10,
+      "sigma_distance": 1.1181547309332352e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147605,
+      "carrier_peak": 0.29812139147881234
+    },
+    {
+      "time": 18.0,
+      "phi_distance": 8.469797435064219e-10,
+      "sigma_distance": 1.1490819897999231e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147683,
+      "carrier_peak": 0.29812139147937794
+    },
+    {
+      "time": 18.5,
+      "phi_distance": 8.68346091586147e-10,
+      "sigma_distance": 1.1771749297632241e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714714626,
+      "carrier_peak": 0.298121391479923
+    },
+    {
+      "time": 19.0,
+      "phi_distance": 8.855067311168618e-10,
+      "sigma_distance": 1.2029476645378045e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147145089,
+      "carrier_peak": 0.2981213914802108
+    },
+    {
+      "time": 19.5,
+      "phi_distance": 8.900798426817014e-10,
+      "sigma_distance": 1.2272738483935592e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147143288,
+      "carrier_peak": 0.298121391480254
+    },
+    {
+      "time": 20.0,
+      "phi_distance": 8.973127557203589e-10,
+      "sigma_distance": 1.251997824480121e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147139825,
+      "carrier_peak": 0.29812139148010314
+    },
+    {
+      "time": 20.5,
+      "phi_distance": 9.117565377468719e-10,
+      "sigma_distance": 1.2781203449734302e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147136535,
+      "carrier_peak": 0.2981213914798637
+    },
+    {
+      "time": 21.0,
+      "phi_distance": 9.195605330997795e-10,
+      "sigma_distance": 1.3053394977127827e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147134224,
+      "carrier_peak": 0.2981213914796382
+    },
+    {
+      "time": 21.5,
+      "phi_distance": 9.191287826251636e-10,
+      "sigma_distance": 1.3327845831770526e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147132335,
+      "carrier_peak": 0.2981213914794965
+    },
+    {
+      "time": 22.0,
+      "phi_distance": 9.250120212565538e-10,
+      "sigma_distance": 1.3596935380546314e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147130788,
+      "carrier_peak": 0.2981213914795504
+    },
+    {
+      "time": 22.5,
+      "phi_distance": 9.384933457072519e-10,
+      "sigma_distance": 1.3862147571519353e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147128539,
+      "carrier_peak": 0.2981213914797842
+    },
+    {
+      "time": 23.0,
+      "phi_distance": 9.46398456793842e-10,
+      "sigma_distance": 1.412201883761978e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147126404,
+      "carrier_peak": 0.2981213914799786
+    },
+    {
+      "time": 23.5,
+      "phi_distance": 9.495300571521917e-10,
+      "sigma_distance": 1.4369956332368455e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147127063,
+      "carrier_peak": 0.29812139148003475
+    },
+    {
+      "time": 24.0,
+      "phi_distance": 9.600162355273184e-10,
+      "sigma_distance": 1.4608144843946658e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147128527,
+      "carrier_peak": 0.2981213914799831
+    },
+    {
+      "time": 24.5,
+      "phi_distance": 9.732450821982963e-10,
+      "sigma_distance": 1.4848330092302937e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147125957,
+      "carrier_peak": 0.29812139147990685
+    },
+    {
+      "time": 25.0,
+      "phi_distance": 9.757272058606167e-10,
+      "sigma_distance": 1.509502803555051e-09,
+      "carrier_charge": 7.13349440879585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147122554,
+      "carrier_peak": 0.2981213914799048
+    },
+    {
+      "time": 25.5,
+      "phi_distance": 9.737253412043185e-10,
+      "sigma_distance": 1.5337382214495646e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147125412,
+      "carrier_peak": 0.298121391479989
+    },
+    {
+      "time": 26.0,
+      "phi_distance": 9.814318633977862e-10,
+      "sigma_distance": 1.5573082730679755e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147130468,
+      "carrier_peak": 0.2981213914800757
+    },
+    {
+      "time": 26.5,
+      "phi_distance": 9.914924331795993e-10,
+      "sigma_distance": 1.5814394935540872e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147129064,
+      "carrier_peak": 0.29812139147998473
+    },
+    {
+      "time": 27.0,
+      "phi_distance": 9.916702517462128e-10,
+      "sigma_distance": 1.6064096000300944e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147126361,
+      "carrier_peak": 0.2981213914796709
+    },
+    {
+      "time": 27.5,
+      "phi_distance": 9.920909788556224e-10,
+      "sigma_distance": 1.6311117065486434e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147132284,
+      "carrier_peak": 0.29812139147944144
+    },
+    {
+      "time": 28.0,
+      "phi_distance": 1.004560790057627e-09,
+      "sigma_distance": 1.6551994199849237e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147140342,
+      "carrier_peak": 0.2981213914796623
+    },
+    {
+      "time": 28.5,
+      "phi_distance": 1.0165935532940032e-09,
+      "sigma_distance": 1.679530322729314e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147139285,
+      "carrier_peak": 0.29812139148021705
+    },
+    {
+      "time": 29.0,
+      "phi_distance": 1.0162739592852323e-09,
+      "sigma_distance": 1.7043795231039667e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714713632,
+      "carrier_peak": 0.29812139148048783
+    },
+    {
+      "time": 29.5,
+      "phi_distance": 1.0163003737339376e-09,
+      "sigma_distance": 1.7295800879850264e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147143689,
+      "carrier_peak": 0.29812139148017086
+    },
+    {
+      "time": 30.0,
+      "phi_distance": 1.0282313713399077e-09,
+      "sigma_distance": 1.75569817284996e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147153809,
+      "carrier_peak": 0.29812139147957606
+    },
+    {
+      "time": 30.5,
+      "phi_distance": 1.0385095430541169e-09,
+      "sigma_distance": 1.783283428688658e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147153428,
+      "carrier_peak": 0.29812139147922706
+    },
+    {
+      "time": 31.0,
+      "phi_distance": 1.0363246093150705e-09,
+      "sigma_distance": 1.8113228637288527e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148913,
+      "carrier_peak": 0.2981213914793126
+    },
+    {
+      "time": 31.5,
+      "phi_distance": 1.0353110219544762e-09,
+      "sigma_distance": 1.8374100823818359e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147154238,
+      "carrier_peak": 0.29812139147964634
+    },
+    {
+      "time": 32.0,
+      "phi_distance": 1.0466586235301325e-09,
+      "sigma_distance": 1.8606164869109254e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147164345,
+      "carrier_peak": 0.29812139148002126
+    },
+    {
+      "time": 32.5,
+      "phi_distance": 1.058494403477674e-09,
+      "sigma_distance": 1.8825489084538156e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147163865,
+      "carrier_peak": 0.29812139148027283
+    },
+    {
+      "time": 33.0,
+      "phi_distance": 1.0616776106185786e-09,
+      "sigma_distance": 1.905336712920118e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147156284,
+      "carrier_peak": 0.2981213914802677
+    },
+    {
+      "time": 33.5,
+      "phi_distance": 1.0663671237749706e-09,
+      "sigma_distance": 1.930296202146986e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147158516,
+      "carrier_peak": 0.29812139147997446
+    },
+    {
+      "time": 34.0,
+      "phi_distance": 1.0800707601723491e-09,
+      "sigma_distance": 1.95817556790841e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147168268,
+      "carrier_peak": 0.29812139147951205
+    },
+    {
+      "time": 34.5,
+      "phi_distance": 1.0936084507369344e-09,
+      "sigma_distance": 1.9893260241900237e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147166912,
+      "carrier_peak": 0.29812139147915895
+    },
+    {
+      "time": 35.0,
+      "phi_distance": 1.0992939228953327e-09,
+      "sigma_distance": 2.022365173340808e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155927,
+      "carrier_peak": 0.298121391479091
+    },
+    {
+      "time": 35.5,
+      "phi_distance": 1.102698214419851e-09,
+      "sigma_distance": 2.054057822921694e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155061,
+      "carrier_peak": 0.2981213914792678
+    },
+    {
+      "time": 36.0,
+      "phi_distance": 1.1110734148398624e-09,
+      "sigma_distance": 2.0819732925893917e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147163952,
+      "carrier_peak": 0.29812139147969646
+    },
+    {
+      "time": 36.5,
+      "phi_distance": 1.1233476920922253e-09,
+      "sigma_distance": 2.105972434262481e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147162623,
+      "carrier_peak": 0.2981213914802305
+    },
+    {
+      "time": 37.0,
+      "phi_distance": 1.1341973269771946e-09,
+      "sigma_distance": 2.12740102582606e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147150968,
+      "carrier_peak": 0.29812139148048805
+    },
+    {
+      "time": 37.5,
+      "phi_distance": 1.1420100767574646e-09,
+      "sigma_distance": 2.1481680776898535e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147149138,
+      "carrier_peak": 0.29812139148030564
+    },
+    {
+      "time": 38.0,
+      "phi_distance": 1.1519428793296258e-09,
+      "sigma_distance": 2.170153784843396e-09,
+      "carrier_charge": 7.1334944087958485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147158271,
+      "carrier_peak": 0.29812139147993616
+    },
+    {
+      "time": 38.5,
+      "phi_distance": 1.1685002186138424e-09,
+      "sigma_distance": 2.1949368848741486e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147158444,
+      "carrier_peak": 0.29812139147970906
+    },
+    {
+      "time": 39.0,
+      "phi_distance": 1.1848826738869883e-09,
+      "sigma_distance": 2.2233159923736914e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147825,
+      "carrier_peak": 0.2981213914796336
+    },
+    {
+      "time": 39.5,
+      "phi_distance": 1.1920699441287464e-09,
+      "sigma_distance": 2.254595341741837e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147145374,
+      "carrier_peak": 0.298121391479463
+    },
+    {
+      "time": 40.0,
+      "phi_distance": 1.1958487796356442e-09,
+      "sigma_distance": 2.2866543895067113e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147153789,
+      "carrier_peak": 0.2981213914791368
+    },
+    {
+      "time": 40.5,
+      "phi_distance": 1.2075689816642793e-09,
+      "sigma_distance": 2.3167205078004666e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155064,
+      "carrier_peak": 0.29812139147891603
+    },
+    {
+      "time": 41.0,
+      "phi_distance": 1.2221277425911102e-09,
+      "sigma_distance": 2.3422700341185264e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147145586,
+      "carrier_peak": 0.2981213914793052
+    },
+    {
+      "time": 41.5,
+      "phi_distance": 1.2281005800841169e-09,
+      "sigma_distance": 2.362501807615165e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714714203,
+      "carrier_peak": 0.29812139148056105
+    },
+    {
+      "time": 42.0,
+      "phi_distance": 1.230964932637116e-09,
+      "sigma_distance": 2.379749083281041e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148977,
+      "carrier_peak": 0.29812139148188527
+    },
+    {
+      "time": 42.5,
+      "phi_distance": 1.2433841595195262e-09,
+      "sigma_distance": 2.398784815921626e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151974,
+      "carrier_peak": 0.29812139148180833
+    },
+    {
+      "time": 43.0,
+      "phi_distance": 1.2601932162976077e-09,
+      "sigma_distance": 2.42388767057212e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147146137,
+      "carrier_peak": 0.298121391479972
+    },
+    {
+      "time": 43.5,
+      "phi_distance": 1.267866658263302e-09,
+      "sigma_distance": 2.4558134339243717e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147143714,
+      "carrier_peak": 0.29812139147795397
+    },
+    {
+      "time": 44.0,
+      "phi_distance": 1.2692900841309044e-09,
+      "sigma_distance": 2.4907906726773327e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147149541,
+      "carrier_peak": 0.29812139147764644
+    },
+    {
+      "time": 44.5,
+      "phi_distance": 1.277458155141434e-09,
+      "sigma_distance": 2.5236147758626203e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147152572,
+      "carrier_peak": 0.29812139147909067
+    },
+    {
+      "time": 45.0,
+      "phi_distance": 1.290832410684193e-09,
+      "sigma_distance": 2.5520909889118494e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147146879,
+      "carrier_peak": 0.298121391480696
+    },
+    {
+      "time": 45.5,
+      "phi_distance": 1.2971367317190445e-09,
+      "sigma_distance": 2.5774858154296625e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147141704,
+      "carrier_peak": 0.29812139148116257
+    },
+    {
+      "time": 46.0,
+      "phi_distance": 1.296028073622334e-09,
+      "sigma_distance": 2.6021634746126296e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147144336,
+      "carrier_peak": 0.2981213914805099
+    },
+    {
+      "time": 46.5,
+      "phi_distance": 1.3001302732410217e-09,
+      "sigma_distance": 2.627555765427856e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148484,
+      "carrier_peak": 0.2981213914796211
+    },
+    {
+      "time": 47.0,
+      "phi_distance": 1.3131718408318631e-09,
+      "sigma_distance": 2.653389113434331e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147146881,
+      "carrier_peak": 0.2981213914793086
+    },
+    {
+      "time": 47.5,
+      "phi_distance": 1.3239191268178783e-09,
+      "sigma_distance": 2.678650663854816e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147144239,
+      "carrier_peak": 0.2981213914797135
+    },
+    {
+      "time": 48.0,
+      "phi_distance": 1.3261825528764751e-09,
+      "sigma_distance": 2.7033977194146533e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147295,
+      "carrier_peak": 0.29812139148031164
+    },
+    {
+      "time": 48.5,
+      "phi_distance": 1.3296383919092003e-09,
+      "sigma_distance": 2.7291084889191512e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151886,
+      "carrier_peak": 0.29812139148033423
+    },
+    {
+      "time": 49.0,
+      "phi_distance": 1.3419249208133037e-09,
+      "sigma_distance": 2.758060948815886e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714715242,
+      "carrier_peak": 0.2981213914795497
+    },
+    {
+      "time": 49.5,
+      "phi_distance": 1.3542079602479495e-09,
+      "sigma_distance": 2.7917403182022936e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151375,
+      "carrier_peak": 0.29812139147862454
+    },
+    {
+      "time": 50.0,
+      "phi_distance": 1.3570798596109137e-09,
+      "sigma_distance": 2.828296763350469e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151857,
+      "carrier_peak": 0.29812139147845995
+    },
+    {
+      "time": 50.5,
+      "phi_distance": 1.3581399425856032e-09,
+      "sigma_distance": 2.8633987326671365e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147153675,
+      "carrier_peak": 0.2981213914792649
+    },
+    {
+      "time": 51.0,
+      "phi_distance": 1.3689611098050986e-09,
+      "sigma_distance": 2.8937933279263764e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714715438,
+      "carrier_peak": 0.2981213914803077
+    },
+    {
+      "time": 51.5,
+      "phi_distance": 1.384456720124612e-09,
+      "sigma_distance": 2.918990994027232e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151498,
+      "carrier_peak": 0.2981213914807415
+    },
+    {
+      "time": 52.0,
+      "phi_distance": 1.3927011189611929e-09,
+      "sigma_distance": 2.9410398679092266e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147149287,
+      "carrier_peak": 0.2981213914805742
+    },
+    {
+      "time": 52.5,
+      "phi_distance": 1.397165315785505e-09,
+      "sigma_distance": 2.9636242357401237e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147150353,
+      "carrier_peak": 0.29812139148027483
+    },
+    {
+      "time": 53.0,
+      "phi_distance": 1.4094490792507013e-09,
+      "sigma_distance": 2.989901181365279e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147149355,
+      "carrier_peak": 0.29812139147987293
+    },
+    {
+      "time": 53.5,
+      "phi_distance": 1.4259996048464815e-09,
+      "sigma_distance": 3.0207525996918458e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147146535,
+      "carrier_peak": 0.29812139147908295
+    },
+    {
+      "time": 54.0,
+      "phi_distance": 1.4345255512134912e-09,
+      "sigma_distance": 3.0547528871603525e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147144687,
+      "carrier_peak": 0.298121391478279
+    },
+    {
+      "time": 54.5,
+      "phi_distance": 1.4377319895535679e-09,
+      "sigma_distance": 3.0886997643375846e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147142134,
+      "carrier_peak": 0.29812139147846833
+    },
+    {
+      "time": 55.0,
+      "phi_distance": 1.4485431735340482e-09,
+      "sigma_distance": 3.1194532741689695e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147140851,
+      "carrier_peak": 0.2981213914798491
+    },
+    {
+      "time": 55.5,
+      "phi_distance": 1.4663255766839357e-09,
+      "sigma_distance": 3.146237680693339e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147142019,
+      "carrier_peak": 0.298121391481064
+    },
+    {
+      "time": 56.0,
+      "phi_distance": 1.4796264118898547e-09,
+      "sigma_distance": 3.170734026452836e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147140948,
+      "carrier_peak": 0.2981213914808033
+    },
+    {
+      "time": 56.5,
+      "phi_distance": 1.4872874721189303e-09,
+      "sigma_distance": 3.1950285123855736e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147138146,
+      "carrier_peak": 0.2981213914797056
+    },
+    {
+      "time": 57.0,
+      "phi_distance": 1.4979175555633897e-09,
+      "sigma_distance": 3.2195321178783784e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147139976,
+      "carrier_peak": 0.298121391479332
+    },
+    {
+      "time": 57.5,
+      "phi_distance": 1.5133665323921598e-09,
+      "sigma_distance": 3.2439006025915045e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147144024,
+      "carrier_peak": 0.2981213914798984
+    },
+    {
+      "time": 58.0,
+      "phi_distance": 1.5272331741232424e-09,
+      "sigma_distance": 3.2690043490984918e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147143759,
+      "carrier_peak": 0.2981213914803495
+    },
+    {
+      "time": 58.5,
+      "phi_distance": 1.5371197124748881e-09,
+      "sigma_distance": 3.2963965908686875e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147143393,
+      "carrier_peak": 0.29812139148004396
+    },
+    {
+      "time": 59.0,
+      "phi_distance": 1.5477021478858713e-09,
+      "sigma_distance": 3.3269291650180728e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147352,
+      "carrier_peak": 0.298121391479281
+    },
+    {
+      "time": 59.5,
+      "phi_distance": 1.562365919736979e-09,
+      "sigma_distance": 3.3598641482215233e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151417,
+      "carrier_peak": 0.29812139147864924
+    },
+    {
+      "time": 60.0,
+      "phi_distance": 1.578776328153818e-09,
+      "sigma_distance": 3.392780327555186e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147152825,
+      "carrier_peak": 0.29812139147869865
+    },
+    {
+      "time": 60.5,
+      "phi_distance": 1.593147508584674e-09,
+      "sigma_distance": 3.4227060847953025e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147154857,
+      "carrier_peak": 0.29812139147954614
+    },
+    {
+      "time": 61.0,
+      "phi_distance": 1.6057748722668081e-09,
+      "sigma_distance": 3.4479527630057896e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147159167,
+      "carrier_peak": 0.29812139148055117
+    },
+    {
+      "time": 61.5,
+      "phi_distance": 1.6206631812451634e-09,
+      "sigma_distance": 3.4695071326099506e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147161931,
+      "carrier_peak": 0.2981213914808818
+    },
+    {
+      "time": 62.0,
+      "phi_distance": 1.6390761109342684e-09,
+      "sigma_distance": 3.4906506137681015e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147163198,
+      "carrier_peak": 0.298121391480275
+    },
+    {
+      "time": 62.5,
+      "phi_distance": 1.6556948299148013e-09,
+      "sigma_distance": 3.514777779346211e-09,
+      "carrier_charge": 7.133494408795848,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147166752,
+      "carrier_peak": 0.2981213914793638
+    },
+    {
+      "time": 63.0,
+      "phi_distance": 1.66615896254393e-09,
+      "sigma_distance": 3.5432874222301023e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147168931,
+      "carrier_peak": 0.29812139147905203
+    },
+    {
+      "time": 63.5,
+      "phi_distance": 1.6756332389712879e-09,
+      "sigma_distance": 3.575594914553413e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147167622,
+      "carrier_peak": 0.298121391479262
+    },
+    {
+      "time": 64.0,
+      "phi_distance": 1.6910486337864848e-09,
+      "sigma_distance": 3.6102362432688696e-09,
+      "carrier_charge": 7.133494408795846,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147170479,
+      "carrier_peak": 0.2981213914793134
+    },
+    {
+      "time": 64.5,
+      "phi_distance": 1.7084312668991347e-09,
+      "sigma_distance": 3.6454339371041396e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147175518,
+      "carrier_peak": 0.29812139147923555
+    },
+    {
+      "time": 65.0,
+      "phi_distance": 1.7202589171970366e-09,
+      "sigma_distance": 3.6792947229717166e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147172199,
+      "carrier_peak": 0.2981213914793907
+    },
+    {
+      "time": 65.5,
+      "phi_distance": 1.7308535920318529e-09,
+      "sigma_distance": 3.7102022397155664e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147167641,
+      "carrier_peak": 0.2981213914797391
+    },
+    {
+      "time": 66.0,
+      "phi_distance": 1.748693888016242e-09,
+      "sigma_distance": 3.737333561197841e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147172777,
+      "carrier_peak": 0.2981213914801071
+    },
+    {
+      "time": 66.5,
+      "phi_distance": 1.7689226963597917e-09,
+      "sigma_distance": 3.761284016051207e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147176785,
+      "carrier_peak": 0.2981213914803779
+    },
+    {
+      "time": 67.0,
+      "phi_distance": 1.7811262613811494e-09,
+      "sigma_distance": 3.784222503790969e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147170489,
+      "carrier_peak": 0.2981213914802838
+    },
+    {
+      "time": 67.5,
+      "phi_distance": 1.7885085731877497e-09,
+      "sigma_distance": 3.8084766587759676e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147166506,
+      "carrier_peak": 0.29812139147976113
+    },
+    {
+      "time": 68.0,
+      "phi_distance": 1.8018041386381058e-09,
+      "sigma_distance": 3.835194561027193e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147172585,
+      "carrier_peak": 0.29812139147925604
+    },
+    {
+      "time": 68.5,
+      "phi_distance": 1.8198398783149306e-09,
+      "sigma_distance": 3.864660325402453e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147175968,
+      "carrier_peak": 0.2981213914790909
+    },
+    {
+      "time": 69.0,
+      "phi_distance": 1.8334764926399523e-09,
+      "sigma_distance": 3.89616957180109e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147169734,
+      "carrier_peak": 0.2981213914790995
+    },
+    {
+      "time": 69.5,
+      "phi_distance": 1.8440951491951253e-09,
+      "sigma_distance": 3.9277417353844995e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147164334,
+      "carrier_peak": 0.2981213914792055
+    },
+    {
+      "time": 70.0,
+      "phi_distance": 1.8609318042718269e-09,
+      "sigma_distance": 3.957018880030663e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147166297,
+      "carrier_peak": 0.2981213914795459
+    },
+    {
+      "time": 70.5,
+      "phi_distance": 1.8836745662622523e-09,
+      "sigma_distance": 3.9828525810417385e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147167631,
+      "carrier_peak": 0.2981213914800519
+    },
+    {
+      "time": 71.0,
+      "phi_distance": 1.9025834303383467e-09,
+      "sigma_distance": 4.0062520031326485e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147160326,
+      "carrier_peak": 0.2981213914804008
+    },
+    {
+      "time": 71.5,
+      "phi_distance": 1.915027109115397e-09,
+      "sigma_distance": 4.0291061659348685e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151207,
+      "carrier_peak": 0.2981213914803145
+    },
+    {
+      "time": 72.0,
+      "phi_distance": 1.9286921022287895e-09,
+      "sigma_distance": 4.053072791503858e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151928,
+      "carrier_peak": 0.29812139147989497
+    },
+    {
+      "time": 72.5,
+      "phi_distance": 1.947777490137324e-09,
+      "sigma_distance": 4.079456241560876e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147156898,
+      "carrier_peak": 0.2981213914795063
+    },
+    {
+      "time": 73.0,
+      "phi_distance": 1.9666342484155425e-09,
+      "sigma_distance": 4.108525656902746e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151956,
+      "carrier_peak": 0.2981213914793364
+    },
+    {
+      "time": 73.5,
+      "phi_distance": 1.9806407500321423e-09,
+      "sigma_distance": 4.139396277152743e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147142952,
+      "carrier_peak": 0.2981213914794261
+    },
+    {
+      "time": 74.0,
+      "phi_distance": 1.994491580344764e-09,
+      "sigma_distance": 4.1704505007441465e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714714543,
+      "carrier_peak": 0.29812139147967676
+    },
+    {
+      "time": 74.5,
+      "phi_distance": 2.0142443685910534e-09,
+      "sigma_distance": 4.200025870779823e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147152472,
+      "carrier_peak": 0.29812139147979205
+    },
+    {
+      "time": 75.0,
+      "phi_distance": 2.0367219007185546e-09,
+      "sigma_distance": 4.227547045816492e-09,
+      "carrier_charge": 7.133494408795845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147148393,
+      "carrier_peak": 0.29812139147972155
+    },
+    {
+      "time": 75.5,
+      "phi_distance": 2.0549960168395762e-09,
+      "sigma_distance": 4.253291570262707e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147141064,
+      "carrier_peak": 0.29812139147981165
+    },
+    {
+      "time": 76.0,
+      "phi_distance": 2.0700576968029964e-09,
+      "sigma_distance": 4.277763203968506e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147145079,
+      "carrier_peak": 0.2981213914801599
+    },
+    {
+      "time": 76.5,
+      "phi_distance": 2.088477988284607e-09,
+      "sigma_distance": 4.302043595454331e-09,
+      "carrier_charge": 7.133494408795843,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147152875,
+      "carrier_peak": 0.2981213914802825
+    },
+    {
+      "time": 77.0,
+      "phi_distance": 2.110172936621189e-09,
+      "sigma_distance": 4.327483553860346e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147151593,
+      "carrier_peak": 0.298121391479771
+    },
+    {
+      "time": 77.5,
+      "phi_distance": 2.1278052021677625e-09,
+      "sigma_distance": 4.35469766230382e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147147205,
+      "carrier_peak": 0.29812139147901195
+    },
+    {
+      "time": 78.0,
+      "phi_distance": 2.1392524680584595e-09,
+      "sigma_distance": 4.382832705428081e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147149806,
+      "carrier_peak": 0.29812139147886924
+    },
+    {
+      "time": 78.5,
+      "phi_distance": 2.1518521286624555e-09,
+      "sigma_distance": 4.4104700974218886e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155742,
+      "carrier_peak": 0.29812139147954114
+    },
+    {
+      "time": 79.0,
+      "phi_distance": 2.170568455444825e-09,
+      "sigma_distance": 4.437299346013049e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147156979,
+      "carrier_peak": 0.2981213914801701
+    },
+    {
+      "time": 79.5,
+      "phi_distance": 2.190309123255151e-09,
+      "sigma_distance": 4.464269824478509e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714715484,
+      "carrier_peak": 0.29812139148005984
+    },
+    {
+      "time": 80.0,
+      "phi_distance": 2.2054911098222515e-09,
+      "sigma_distance": 4.492394523159684e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155489,
+      "carrier_peak": 0.2981213914795711
+    },
+    {
+      "time": 80.5,
+      "phi_distance": 2.2197147488057864e-09,
+      "sigma_distance": 4.521615531875524e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147159449,
+      "carrier_peak": 0.29812139147942973
+    },
+    {
+      "time": 81.0,
+      "phi_distance": 2.238379634248541e-09,
+      "sigma_distance": 4.5512063718482406e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147162372,
+      "carrier_peak": 0.29812139147966976
+    },
+    {
+      "time": 81.5,
+      "phi_distance": 2.2571812435505073e-09,
+      "sigma_distance": 4.581281487080123e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147160615,
+      "carrier_peak": 0.2981213914797918
+    },
+    {
+      "time": 82.0,
+      "phi_distance": 2.2685439234517335e-09,
+      "sigma_distance": 4.612594417363146e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147157457,
+      "carrier_peak": 0.2981213914795665
+    },
+    {
+      "time": 82.5,
+      "phi_distance": 2.275969675431836e-09,
+      "sigma_distance": 4.64481473756487e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147159491,
+      "carrier_peak": 0.29812139147924543
+    },
+    {
+      "time": 83.0,
+      "phi_distance": 2.2896882974953766e-09,
+      "sigma_distance": 4.676733919994026e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147164318,
+      "carrier_peak": 0.298121391479252
+    },
+    {
+      "time": 83.5,
+      "phi_distance": 2.3088941047412805e-09,
+      "sigma_distance": 4.707475444362198e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147162522,
+      "carrier_peak": 0.298121391479669
+    },
+    {
+      "time": 84.0,
+      "phi_distance": 2.322865012592872e-09,
+      "sigma_distance": 4.7366900485113935e-09,
+      "carrier_charge": 7.133494408795842,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147156364,
+      "carrier_peak": 0.29812139148002936
+    },
+    {
+      "time": 84.5,
+      "phi_distance": 2.3313043743958944e-09,
+      "sigma_distance": 4.764931206292668e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147157371,
+      "carrier_peak": 0.29812139147998423
+    },
+    {
+      "time": 85.0,
+      "phi_distance": 2.3462358807093126e-09,
+      "sigma_distance": 4.793704073714197e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714716368,
+      "carrier_peak": 0.29812139147973193
+    },
+    {
+      "time": 85.5,
+      "phi_distance": 2.3695257205048405e-09,
+      "sigma_distance": 4.824207776189064e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147162662,
+      "carrier_peak": 0.29812139147961897
+    },
+    {
+      "time": 86.0,
+      "phi_distance": 2.3879508854870604e-09,
+      "sigma_distance": 4.856461727825788e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155259,
+      "carrier_peak": 0.2981213914796074
+    },
+    {
+      "time": 86.5,
+      "phi_distance": 2.396663624530342e-09,
+      "sigma_distance": 4.889488436152999e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147155525,
+      "carrier_peak": 0.29812139147926253
+    },
+    {
+      "time": 87.0,
+      "phi_distance": 2.4076760363316e-09,
+      "sigma_distance": 4.9219334840389575e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147161985,
+      "carrier_peak": 0.2981213914786946
+    },
+    {
+      "time": 87.5,
+      "phi_distance": 2.4270503660549043e-09,
+      "sigma_distance": 4.952552827427727e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147160325,
+      "carrier_peak": 0.2981213914787977
+    },
+    {
+      "time": 88.0,
+      "phi_distance": 2.4438406750620376e-09,
+      "sigma_distance": 4.980631197036185e-09,
+      "carrier_charge": 7.133494408795836,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147153073,
+      "carrier_peak": 0.2981213914798386
+    },
+    {
+      "time": 88.5,
+      "phi_distance": 2.4524817951656256e-09,
+      "sigma_distance": 5.0064992468434074e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147154412,
+      "carrier_peak": 0.29812139148078337
+    },
+    {
+      "time": 89.0,
+      "phi_distance": 2.465065627798734e-09,
+      "sigma_distance": 5.0318061882849705e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147160934,
+      "carrier_peak": 0.2981213914806038
+    },
+    {
+      "time": 89.5,
+      "phi_distance": 2.488785144389113e-09,
+      "sigma_distance": 5.059233343801523e-09,
+      "carrier_charge": 7.133494408795836,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714716039,
+      "carrier_peak": 0.2981213914796009
+    },
+    {
+      "time": 90.0,
+      "phi_distance": 2.51208538695595e-09,
+      "sigma_distance": 5.090839278058929e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147156717,
+      "carrier_peak": 0.2981213914789737
+    },
+    {
+      "time": 90.5,
+      "phi_distance": 2.526052285508954e-09,
+      "sigma_distance": 5.126145106803129e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147159617,
+      "carrier_peak": 0.2981213914791784
+    },
+    {
+      "time": 91.0,
+      "phi_distance": 2.5394754403754357e-09,
+      "sigma_distance": 5.1630503416938435e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147165597,
+      "carrier_peak": 0.29812139147948397
+    },
+    {
+      "time": 91.5,
+      "phi_distance": 2.5602521643268385e-09,
+      "sigma_distance": 5.200071887386505e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147165854,
+      "carrier_peak": 0.2981213914793261
+    },
+    {
+      "time": 92.0,
+      "phi_distance": 2.580411888016562e-09,
+      "sigma_distance": 5.236228159528447e-09,
+      "carrier_charge": 7.133494408795836,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147163459,
+      "carrier_peak": 0.29812139147903083
+    },
+    {
+      "time": 92.5,
+      "phi_distance": 2.592976802174595e-09,
+      "sigma_distance": 5.2701151186298185e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147166727,
+      "carrier_peak": 0.29812139147912736
+    },
+    {
+      "time": 93.0,
+      "phi_distance": 2.606560951602782e-09,
+      "sigma_distance": 5.3003900581750224e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147173857,
+      "carrier_peak": 0.29812139147977046
+    },
+    {
+      "time": 93.5,
+      "phi_distance": 2.6297580818102955e-09,
+      "sigma_distance": 5.327142436378473e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147177489,
+      "carrier_peak": 0.2981213914806071
+    },
+    {
+      "time": 94.0,
+      "phi_distance": 2.655676726305939e-09,
+      "sigma_distance": 5.352814277905028e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147178515,
+      "carrier_peak": 0.2981213914808277
+    },
+    {
+      "time": 94.5,
+      "phi_distance": 2.674979325905564e-09,
+      "sigma_distance": 5.381314807198705e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147182757,
+      "carrier_peak": 0.2981213914798392
+    },
+    {
+      "time": 95.0,
+      "phi_distance": 2.691458465228305e-09,
+      "sigma_distance": 5.415617177208593e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147187774,
+      "carrier_peak": 0.2981213914782389
+    },
+    {
+      "time": 95.5,
+      "phi_distance": 2.7125062730062133e-09,
+      "sigma_distance": 5.455298819854257e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147188256,
+      "carrier_peak": 0.29812139147751116
+    },
+    {
+      "time": 96.0,
+      "phi_distance": 2.7351375616471247e-09,
+      "sigma_distance": 5.4963529622628956e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147187724,
+      "carrier_peak": 0.29812139147839506
+    },
+    {
+      "time": 96.5,
+      "phi_distance": 2.7529871935613402e-09,
+      "sigma_distance": 5.534460025717718e-09,
+      "carrier_charge": 7.1334944087958405,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147191593,
+      "carrier_peak": 0.29812139147995864
+    },
+    {
+      "time": 97.0,
+      "phi_distance": 2.7686057969791644e-09,
+      "sigma_distance": 5.568490404605105e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147196006,
+      "carrier_peak": 0.2981213914807979
+    },
+    {
+      "time": 97.5,
+      "phi_distance": 2.788197741566114e-09,
+      "sigma_distance": 5.600635723393931e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147197042,
+      "carrier_peak": 0.29812139148038413
+    },
+    {
+      "time": 98.0,
+      "phi_distance": 2.810549692618116e-09,
+      "sigma_distance": 5.633990180529126e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147198964,
+      "carrier_peak": 0.29812139147914424
+    },
+    {
+      "time": 98.5,
+      "phi_distance": 2.830402084403049e-09,
+      "sigma_distance": 5.670061127751045e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147204036,
+      "carrier_peak": 0.29812139147812944
+    },
+    {
+      "time": 99.0,
+      "phi_distance": 2.848161860136994e-09,
+      "sigma_distance": 5.707670471148977e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147207024,
+      "carrier_peak": 0.2981213914782749
+    },
+    {
+      "time": 99.5,
+      "phi_distance": 2.868202766869483e-09,
+      "sigma_distance": 5.744041125336889e-09,
+      "carrier_charge": 7.133494408795839,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.625974714720537,
+      "carrier_peak": 0.2981213914794584
+    },
+    {
+      "time": 100.0,
+      "phi_distance": 2.890672239598724e-09,
+      "sigma_distance": 5.777606543762192e-09,
+      "carrier_charge": 7.133494408795838,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6259747147205278,
+      "carrier_peak": 0.2981213914805074
+    }
+  ],
+  "scope": "One axisymmetric perturbation family; finite reflecting cylinder, fixed spatial grid and finite duration. No full stability proof."
+}

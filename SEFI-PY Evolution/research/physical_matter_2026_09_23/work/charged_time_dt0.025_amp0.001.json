@@ -1,0 +1,1838 @@
+{
+  "profile": "charged_ring_refined",
+  "dt": 0.025,
+  "duration": 100.0,
+  "amplitude": 0.001,
+  "background_acceleration_residual": 3.8628211740387997e-11,
+  "initial": {
+    "time": 0.0,
+    "phi_distance": 0.010283526945849329,
+    "sigma_distance": 0.01028352694584927,
+    "carrier_charge": 7.160335239845543,
+    "winding": 1.0,
+    "contour_min_amplitude": 0.6263086683417924,
+    "carrier_peak": 0.2991112762588068
+  },
+  "final": {
+    "time": 100.0,
+    "phi_distance": 0.026433505837474038,
+    "sigma_distance": 0.43265283055045695,
+    "carrier_charge": 7.160335239958503,
+    "winding": 1.0,
+    "contour_min_amplitude": 0.6262339779617907,
+    "carrier_peak": 0.29828429783515337
+  },
+  "max_relative_charge_drift": 1.5775825090713624e-11,
+  "history": [
+    {
+      "time": 0.0,
+      "phi_distance": 0.010283526945849329,
+      "sigma_distance": 0.01028352694584927,
+      "carrier_charge": 7.160335239845543,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6263086683417924,
+      "carrier_peak": 0.2991112762588068
+    },
+    {
+      "time": 0.5,
+      "phi_distance": 0.009571488389219023,
+      "sigma_distance": 0.0063510649331255,
+      "carrier_charge": 7.1603352398481706,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262610544800803,
+      "carrier_peak": 0.29851315984279503
+    },
+    {
+      "time": 1.0,
+      "phi_distance": 0.00957073545133027,
+      "sigma_distance": 0.005541502003658206,
+      "carrier_charge": 7.160335239848165,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262130013453806,
+      "carrier_peak": 0.2976231553654067
+    },
+    {
+      "time": 1.5,
+      "phi_distance": 0.010439687749859473,
+      "sigma_distance": 0.01024066950704077,
+      "carrier_charge": 7.160335239849222,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262791412167065,
+      "carrier_peak": 0.2975495322233528
+    },
+    {
+      "time": 2.0,
+      "phi_distance": 0.01030455236144221,
+      "sigma_distance": 0.012704191766061466,
+      "carrier_charge": 7.160335239851351,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6263507102502028,
+      "carrier_peak": 0.29803771999440504
+    },
+    {
+      "time": 2.5,
+      "phi_distance": 0.009694827314716924,
+      "sigma_distance": 0.015177687408848292,
+      "carrier_charge": 7.1603352398522455,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262778256873359,
+      "carrier_peak": 0.2983753523028292
+    },
+    {
+      "time": 3.0,
+      "phi_distance": 0.009836852561971992,
+      "sigma_distance": 0.017433070344955153,
+      "carrier_charge": 7.160335239853607,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261814565223324,
+      "carrier_peak": 0.2983723263800928
+    },
+    {
+      "time": 3.5,
+      "phi_distance": 0.010556240304102191,
+      "sigma_distance": 0.019068026169527387,
+      "carrier_charge": 7.160335239854897,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262119439945241,
+      "carrier_peak": 0.2982282157360909
+    },
+    {
+      "time": 4.0,
+      "phi_distance": 0.01109106801026938,
+      "sigma_distance": 0.020379987980556784,
+      "carrier_charge": 7.160335239855907,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262628562702178,
+      "carrier_peak": 0.2981341052474159
+    },
+    {
+      "time": 4.5,
+      "phi_distance": 0.011325659982648052,
+      "sigma_distance": 0.021729434714139174,
+      "carrier_charge": 7.160335239856696,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262104939905745,
+      "carrier_peak": 0.29812503434212856
+    },
+    {
+      "time": 5.0,
+      "phi_distance": 0.011442316844178029,
+      "sigma_distance": 0.02331476694850874,
+      "carrier_charge": 7.160335239857338,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261369075405647,
+      "carrier_peak": 0.2981587568137114
+    },
+    {
+      "time": 5.5,
+      "phi_distance": 0.011556907741297114,
+      "sigma_distance": 0.025102516021190843,
+      "carrier_charge": 7.16033523985791,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261481527347496,
+      "carrier_peak": 0.2981907350224374
+    },
+    {
+      "time": 6.0,
+      "phi_distance": 0.011890581532635067,
+      "sigma_distance": 0.02702995071715573,
+      "carrier_charge": 7.16033523985847,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261906396046764,
+      "carrier_peak": 0.2981924839125497
+    },
+    {
+      "time": 6.5,
+      "phi_distance": 0.012354490851684007,
+      "sigma_distance": 0.02921173075429608,
+      "carrier_charge": 7.160335239859091,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261718387254483,
+      "carrier_peak": 0.2981668670246518
+    },
+    {
+      "time": 7.0,
+      "phi_distance": 0.012491923317957376,
+      "sigma_distance": 0.03166812796816963,
+      "carrier_charge": 7.160335239859724,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261184533664007,
+      "carrier_peak": 0.29814087000620487
+    },
+    {
+      "time": 7.5,
+      "phi_distance": 0.012365452364631062,
+      "sigma_distance": 0.03420921943069336,
+      "carrier_charge": 7.160335239860333,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261141510651254,
+      "carrier_peak": 0.29814073126095836
+    },
+    {
+      "time": 8.0,
+      "phi_distance": 0.012653019465077495,
+      "sigma_distance": 0.036690721507484605,
+      "carrier_charge": 7.160335239860941,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261546401124894,
+      "carrier_peak": 0.29816297643801964
+    },
+    {
+      "time": 8.5,
+      "phi_distance": 0.013447634678995877,
+      "sigma_distance": 0.03899386961798137,
+      "carrier_charge": 7.1603352398615225,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261641126374164,
+      "carrier_peak": 0.2981817870564781
+    },
+    {
+      "time": 9.0,
+      "phi_distance": 0.013834895002602102,
+      "sigma_distance": 0.041112215266107616,
+      "carrier_charge": 7.160335239862105,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261250313876672,
+      "carrier_peak": 0.29819080378530843
+    },
+    {
+      "time": 9.5,
+      "phi_distance": 0.013503932212178304,
+      "sigma_distance": 0.043083425207116915,
+      "carrier_charge": 7.160335239862708,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261027421619417,
+      "carrier_peak": 0.2981987945831612
+    },
+    {
+      "time": 10.0,
+      "phi_distance": 0.01354556928393448,
+      "sigma_distance": 0.04491354087269852,
+      "carrier_charge": 7.160335239863307,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261310298815265,
+      "carrier_peak": 0.2982011109128441
+    },
+    {
+      "time": 10.5,
+      "phi_distance": 0.014438247753941506,
+      "sigma_distance": 0.046675581121943956,
+      "carrier_charge": 7.160335239863897,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261580442258149,
+      "carrier_peak": 0.29818637816485294
+    },
+    {
+      "time": 11.0,
+      "phi_distance": 0.01488859483613446,
+      "sigma_distance": 0.0484910345916504,
+      "carrier_charge": 7.1603352398644935,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261380291237993,
+      "carrier_peak": 0.29815777759879525
+    },
+    {
+      "time": 11.5,
+      "phi_distance": 0.014405927812705095,
+      "sigma_distance": 0.05043872189488259,
+      "carrier_charge": 7.160335239865072,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261089156968177,
+      "carrier_peak": 0.29814063514830946
+    },
+    {
+      "time": 12.0,
+      "phi_distance": 0.014256331769280962,
+      "sigma_distance": 0.052527948688830636,
+      "carrier_charge": 7.1603352398656535,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261246655812883,
+      "carrier_peak": 0.2981524343005807
+    },
+    {
+      "time": 12.5,
+      "phi_distance": 0.015096562692935994,
+      "sigma_distance": 0.054767507699207726,
+      "carrier_charge": 7.160335239866231,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261617116233372,
+      "carrier_peak": 0.2981719366185743
+    },
+    {
+      "time": 13.0,
+      "phi_distance": 0.015605067845777285,
+      "sigma_distance": 0.05711453547017645,
+      "carrier_charge": 7.160335239866795,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261604314688027,
+      "carrier_peak": 0.29816774627485787
+    },
+    {
+      "time": 13.5,
+      "phi_distance": 0.015099154663277683,
+      "sigma_distance": 0.059479277074179056,
+      "carrier_charge": 7.160335239867373,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261272542277946,
+      "carrier_peak": 0.29814056255204535
+    },
+    {
+      "time": 14.0,
+      "phi_distance": 0.01480247735212171,
+      "sigma_distance": 0.06179980426028422,
+      "carrier_charge": 7.160335239867896,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261224877949282,
+      "carrier_peak": 0.29812528305092323
+    },
+    {
+      "time": 14.5,
+      "phi_distance": 0.015611273191370694,
+      "sigma_distance": 0.06393031711959082,
+      "carrier_charge": 7.1603352398684255,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261566470453939,
+      "carrier_peak": 0.29815688671247415
+    },
+    {
+      "time": 15.0,
+      "phi_distance": 0.01630346932838515,
+      "sigma_distance": 0.06579142209717857,
+      "carrier_charge": 7.1603352398689655,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261732119051572,
+      "carrier_peak": 0.2982212113476643
+    },
+    {
+      "time": 15.5,
+      "phi_distance": 0.015926138759973826,
+      "sigma_distance": 0.06754581871420497,
+      "carrier_charge": 7.160335239869529,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261420856411061,
+      "carrier_peak": 0.29825513478315396
+    },
+    {
+      "time": 16.0,
+      "phi_distance": 0.015423380038047114,
+      "sigma_distance": 0.06942948368306778,
+      "carrier_charge": 7.160335239870127,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261104822332674,
+      "carrier_peak": 0.2982172962730876
+    },
+    {
+      "time": 16.5,
+      "phi_distance": 0.015888429994691446,
+      "sigma_distance": 0.07157900492472216,
+      "carrier_charge": 7.160335239870711,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261268816687675,
+      "carrier_peak": 0.2981432953894822
+    },
+    {
+      "time": 17.0,
+      "phi_distance": 0.016524727860390536,
+      "sigma_distance": 0.07398208461498235,
+      "carrier_charge": 7.1603352398713245,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261539575179137,
+      "carrier_peak": 0.2981058779028788
+    },
+    {
+      "time": 17.5,
+      "phi_distance": 0.01631065169362498,
+      "sigma_distance": 0.07653709984911776,
+      "carrier_charge": 7.160335239871938,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261261084482169,
+      "carrier_peak": 0.29812480209633546
+    },
+    {
+      "time": 18.0,
+      "phi_distance": 0.015871811357250413,
+      "sigma_distance": 0.07903112289453652,
+      "carrier_charge": 7.160335239872527,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260768675498026,
+      "carrier_peak": 0.2981600366747806
+    },
+    {
+      "time": 18.5,
+      "phi_distance": 0.01633429782382182,
+      "sigma_distance": 0.08130217908312938,
+      "carrier_charge": 7.160335239873123,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260871669746483,
+      "carrier_peak": 0.29818503416517067
+    },
+    {
+      "time": 19.0,
+      "phi_distance": 0.017133068323116337,
+      "sigma_distance": 0.08334010551461252,
+      "carrier_charge": 7.160335239873723,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261229181728677,
+      "carrier_peak": 0.2981994338784537
+    },
+    {
+      "time": 19.5,
+      "phi_distance": 0.01711475757176625,
+      "sigma_distance": 0.0851838693622859,
+      "carrier_charge": 7.1603352398743265,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261011972684998,
+      "carrier_peak": 0.29819803558797414
+    },
+    {
+      "time": 20.0,
+      "phi_distance": 0.016624967445638374,
+      "sigma_distance": 0.08698107399514055,
+      "carrier_charge": 7.160335239874947,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260615075090856,
+      "carrier_peak": 0.2981851418213478
+    },
+    {
+      "time": 20.5,
+      "phi_distance": 0.01677769683732882,
+      "sigma_distance": 0.0888162159043432,
+      "carrier_charge": 7.160335239875549,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260767359053347,
+      "carrier_peak": 0.298176410691823
+    },
+    {
+      "time": 21.0,
+      "phi_distance": 0.017364793540701737,
+      "sigma_distance": 0.09073450406684107,
+      "carrier_charge": 7.1603352398761375,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626112844196122,
+      "carrier_peak": 0.2981692011873095
+    },
+    {
+      "time": 21.5,
+      "phi_distance": 0.017439495521797622,
+      "sigma_distance": 0.09275955190638703,
+      "carrier_charge": 7.160335239876719,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261187924986698,
+      "carrier_peak": 0.2981556438857791
+    },
+    {
+      "time": 22.0,
+      "phi_distance": 0.01706297924641827,
+      "sigma_distance": 0.09487899653412821,
+      "carrier_charge": 7.1603352398773,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261062410566454,
+      "carrier_peak": 0.29814905183935714
+    },
+    {
+      "time": 22.5,
+      "phi_distance": 0.017060365876349577,
+      "sigma_distance": 0.09710307385860699,
+      "carrier_charge": 7.16033523987788,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261040508288174,
+      "carrier_peak": 0.2981604882275491
+    },
+    {
+      "time": 23.0,
+      "phi_distance": 0.017537391207884886,
+      "sigma_distance": 0.0993878188717777,
+      "carrier_charge": 7.160335239878472,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626129742983289,
+      "carrier_peak": 0.2981735822614764
+    },
+    {
+      "time": 23.5,
+      "phi_distance": 0.017735890315177662,
+      "sigma_distance": 0.10166222173101264,
+      "carrier_charge": 7.1603352398790845,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261637167006492,
+      "carrier_peak": 0.2981723858766081
+    },
+    {
+      "time": 24.0,
+      "phi_distance": 0.017377275040640953,
+      "sigma_distance": 0.1039007822675793,
+      "carrier_charge": 7.160335239879713,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261576263972499,
+      "carrier_peak": 0.29816670277789026
+    },
+    {
+      "time": 24.5,
+      "phi_distance": 0.01706635533977247,
+      "sigma_distance": 0.10609946800758749,
+      "carrier_charge": 7.160335239880307,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261229484865077,
+      "carrier_peak": 0.2981670300849276
+    },
+    {
+      "time": 25.0,
+      "phi_distance": 0.017171013813521038,
+      "sigma_distance": 0.10826648083752423,
+      "carrier_charge": 7.160335239880923,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261289711368465,
+      "carrier_peak": 0.29817196049113914
+    },
+    {
+      "time": 25.5,
+      "phi_distance": 0.017226514728221617,
+      "sigma_distance": 0.11033516501950673,
+      "carrier_charge": 7.16033523988147,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626175278003744,
+      "carrier_peak": 0.2981844565664221
+    },
+    {
+      "time": 26.0,
+      "phi_distance": 0.01689081179469527,
+      "sigma_distance": 0.11232157378105179,
+      "carrier_charge": 7.160335239882049,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626180563191339,
+      "carrier_peak": 0.29819693611621745
+    },
+    {
+      "time": 26.5,
+      "phi_distance": 0.016526929990468193,
+      "sigma_distance": 0.11436123570788172,
+      "carrier_charge": 7.160335239882638,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261360698604572,
+      "carrier_peak": 0.29818410545518254
+    },
+    {
+      "time": 27.0,
+      "phi_distance": 0.016555306080224128,
+      "sigma_distance": 0.11652881288513074,
+      "carrier_charge": 7.160335239883182,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261349679302767,
+      "carrier_peak": 0.2981437027461372
+    },
+    {
+      "time": 27.5,
+      "phi_distance": 0.016743752735705938,
+      "sigma_distance": 0.11875124992038064,
+      "carrier_charge": 7.160335239883778,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261946580837314,
+      "carrier_peak": 0.2981157284880226
+    },
+    {
+      "time": 28.0,
+      "phi_distance": 0.01665383686979382,
+      "sigma_distance": 0.1209454691056622,
+      "carrier_charge": 7.160335239884311,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262088227316562,
+      "carrier_peak": 0.29813844392898003
+    },
+    {
+      "time": 28.5,
+      "phi_distance": 0.016353977072169252,
+      "sigma_distance": 0.12312650504023505,
+      "carrier_charge": 7.160335239884878,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261483889783539,
+      "carrier_peak": 0.2981936733484355
+    },
+    {
+      "time": 29.0,
+      "phi_distance": 0.016237129117656766,
+      "sigma_distance": 0.12528735903792163,
+      "carrier_charge": 7.160335239885432,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261312310040236,
+      "carrier_peak": 0.2982204788334107
+    },
+    {
+      "time": 29.5,
+      "phi_distance": 0.016403789928782907,
+      "sigma_distance": 0.12740914393940111,
+      "carrier_charge": 7.160335239885985,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261952961504514,
+      "carrier_peak": 0.29818999665217955
+    },
+    {
+      "time": 30.0,
+      "phi_distance": 0.01653392982677228,
+      "sigma_distance": 0.1295542343606405,
+      "carrier_charge": 7.160335239886571,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262150119858667,
+      "carrier_peak": 0.29814154282460725
+    },
+    {
+      "time": 30.5,
+      "phi_distance": 0.01631873165304334,
+      "sigma_distance": 0.13178344820672525,
+      "carrier_charge": 7.1603352398871145,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261491682818819,
+      "carrier_peak": 0.29812634036711594
+    },
+    {
+      "time": 31.0,
+      "phi_distance": 0.01599105670481763,
+      "sigma_distance": 0.13408681792417101,
+      "carrier_charge": 7.16033523988767,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261204231884249,
+      "carrier_peak": 0.29814679600146826
+    },
+    {
+      "time": 31.5,
+      "phi_distance": 0.015982428008325382,
+      "sigma_distance": 0.1363061480204474,
+      "carrier_charge": 7.160335239888246,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261723607752813,
+      "carrier_peak": 0.29817568062349276
+    },
+    {
+      "time": 32.0,
+      "phi_distance": 0.016177294491899714,
+      "sigma_distance": 0.1383416276801273,
+      "carrier_charge": 7.160335239888796,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262005991241456,
+      "carrier_peak": 0.2981954139758119
+    },
+    {
+      "time": 32.5,
+      "phi_distance": 0.0161564433808342,
+      "sigma_distance": 0.14030315246423106,
+      "carrier_charge": 7.16033523988938,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626158827998637,
+      "carrier_peak": 0.29820168579851253
+    },
+    {
+      "time": 33.0,
+      "phi_distance": 0.015926912029523493,
+      "sigma_distance": 0.1423112282828987,
+      "carrier_charge": 7.160335239889955,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261298142565085,
+      "carrier_peak": 0.29819353082062733
+    },
+    {
+      "time": 33.5,
+      "phi_distance": 0.015866579722072026,
+      "sigma_distance": 0.14442485066590402,
+      "carrier_charge": 7.1603352398905145,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261697399772627,
+      "carrier_peak": 0.29817194813969417
+    },
+    {
+      "time": 34.0,
+      "phi_distance": 0.016120238267574853,
+      "sigma_distance": 0.14667094234735822,
+      "carrier_charge": 7.160335239891105,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262142166825334,
+      "carrier_peak": 0.2981461261004917
+    },
+    {
+      "time": 34.5,
+      "phi_distance": 0.01624997420183123,
+      "sigma_distance": 0.1490722050528377,
+      "carrier_charge": 7.160335239891699,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261913534588804,
+      "carrier_peak": 0.298130324392801
+    },
+    {
+      "time": 35.0,
+      "phi_distance": 0.01595597311816521,
+      "sigma_distance": 0.15155525600535732,
+      "carrier_charge": 7.160335239892278,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261469159039876,
+      "carrier_peak": 0.2981318284886035
+    },
+    {
+      "time": 35.5,
+      "phi_distance": 0.01567958395567981,
+      "sigma_distance": 0.15393334232497008,
+      "carrier_charge": 7.160335239892881,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261637127593344,
+      "carrier_peak": 0.29814923403799437
+    },
+    {
+      "time": 36.0,
+      "phi_distance": 0.01588386934534835,
+      "sigma_distance": 0.15610094732834126,
+      "carrier_charge": 7.160335239893452,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262129161314992,
+      "carrier_peak": 0.2981783433933224
+    },
+    {
+      "time": 36.5,
+      "phi_distance": 0.016199862661540755,
+      "sigma_distance": 0.15808400496076744,
+      "carrier_charge": 7.160335239894002,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262061858130306,
+      "carrier_peak": 0.2982076156216367
+    },
+    {
+      "time": 37.0,
+      "phi_distance": 0.01619319881666479,
+      "sigma_distance": 0.15998056985816556,
+      "carrier_charge": 7.160335239894576,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261581538267343,
+      "carrier_peak": 0.2982140451954478
+    },
+    {
+      "time": 37.5,
+      "phi_distance": 0.01605893713265035,
+      "sigma_distance": 0.16191990200828324,
+      "carrier_charge": 7.160335239895162,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261614804470668,
+      "carrier_peak": 0.2981865471377163
+    },
+    {
+      "time": 38.0,
+      "phi_distance": 0.016272305974942607,
+      "sigma_distance": 0.1639930951815722,
+      "carrier_charge": 7.160335239895738,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262143934480671,
+      "carrier_peak": 0.29814852102501693
+    },
+    {
+      "time": 38.5,
+      "phi_distance": 0.01681795964956677,
+      "sigma_distance": 0.16624018864842185,
+      "carrier_charge": 7.160335239896302,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262228117639336,
+      "carrier_peak": 0.29813488902156354
+    },
+    {
+      "time": 39.0,
+      "phi_distance": 0.01703043537239188,
+      "sigma_distance": 0.16865705078918097,
+      "carrier_charge": 7.160335239896849,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261753205813698,
+      "carrier_peak": 0.29815526762134587
+    },
+    {
+      "time": 39.5,
+      "phi_distance": 0.016710138989708082,
+      "sigma_distance": 0.17120969878197226,
+      "carrier_charge": 7.160335239897323,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261609394978528,
+      "carrier_peak": 0.2981799314163036
+    },
+    {
+      "time": 40.0,
+      "phi_distance": 0.016614475073512953,
+      "sigma_distance": 0.17381823354804626,
+      "carrier_charge": 7.160335239897793,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626202783586453,
+      "carrier_peak": 0.2981597147989792
+    },
+    {
+      "time": 40.5,
+      "phi_distance": 0.017114174934882036,
+      "sigma_distance": 0.17633990010259395,
+      "carrier_charge": 7.160335239898241,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262195143612782,
+      "carrier_peak": 0.29809479734016425
+    },
+    {
+      "time": 41.0,
+      "phi_distance": 0.017450780026685327,
+      "sigma_distance": 0.17859450350601583,
+      "carrier_charge": 7.160335239898585,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261771141704654,
+      "carrier_peak": 0.2980756258230162
+    },
+    {
+      "time": 41.5,
+      "phi_distance": 0.01718639111036375,
+      "sigma_distance": 0.180443001502917,
+      "carrier_charge": 7.160335239899015,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261452537771358,
+      "carrier_peak": 0.29818258104618933
+    },
+    {
+      "time": 42.0,
+      "phi_distance": 0.016999883478000875,
+      "sigma_distance": 0.18194739913325175,
+      "carrier_charge": 7.160335239899398,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261663135501507,
+      "carrier_peak": 0.29833683787048065
+    },
+    {
+      "time": 42.5,
+      "phi_distance": 0.017470282539377692,
+      "sigma_distance": 0.18344931757423172,
+      "carrier_charge": 7.160335239899734,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261879729853873,
+      "carrier_peak": 0.298347403563474
+    },
+    {
+      "time": 43.0,
+      "phi_distance": 0.0179333234126408,
+      "sigma_distance": 0.18538657488840318,
+      "carrier_charge": 7.160335239900227,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261661295601512,
+      "carrier_peak": 0.2981614758522727
+    },
+    {
+      "time": 43.5,
+      "phi_distance": 0.017658394450870134,
+      "sigma_distance": 0.18795314496984272,
+      "carrier_charge": 7.160335239900652,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626138783884632,
+      "carrier_peak": 0.29797004771375446
+    },
+    {
+      "time": 44.0,
+      "phi_distance": 0.01716933402960241,
+      "sigma_distance": 0.1908700920307912,
+      "carrier_charge": 7.1603352399011495,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261537869233735,
+      "carrier_peak": 0.29797629829091865
+    },
+    {
+      "time": 44.5,
+      "phi_distance": 0.017508785447214882,
+      "sigma_distance": 0.19362404091377017,
+      "carrier_charge": 7.160335239901748,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261846044319602,
+      "carrier_peak": 0.2981471039418708
+    },
+    {
+      "time": 45.0,
+      "phi_distance": 0.01817855097145326,
+      "sigma_distance": 0.19592245033561237,
+      "carrier_charge": 7.160335239902315,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261716776638652,
+      "carrier_peak": 0.2982895292202278
+    },
+    {
+      "time": 45.5,
+      "phi_distance": 0.017993222709753696,
+      "sigma_distance": 0.19784606592049747,
+      "carrier_charge": 7.160335239902955,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261267745092801,
+      "carrier_peak": 0.2982958266670477
+    },
+    {
+      "time": 46.0,
+      "phi_distance": 0.01733979405578715,
+      "sigma_distance": 0.1996666672982134,
+      "carrier_charge": 7.160335239903642,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261209908415359,
+      "carrier_peak": 0.29820943733006666
+    },
+    {
+      "time": 46.5,
+      "phi_distance": 0.017511259142514238,
+      "sigma_distance": 0.20162460369484336,
+      "carrier_charge": 7.160335239904254,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.62616001843815,
+      "carrier_peak": 0.2981168997615194
+    },
+    {
+      "time": 47.0,
+      "phi_distance": 0.01824234446051291,
+      "sigma_distance": 0.20376828469463346,
+      "carrier_charge": 7.160335239904812,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261763981241086,
+      "carrier_peak": 0.29808659979812757
+    },
+    {
+      "time": 47.5,
+      "phi_distance": 0.018257514180303115,
+      "sigma_distance": 0.2059333716091068,
+      "carrier_charge": 7.160335239905426,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261525293645517,
+      "carrier_peak": 0.29814824598082124
+    },
+    {
+      "time": 48.0,
+      "phi_distance": 0.01760746377147891,
+      "sigma_distance": 0.20799913219467173,
+      "carrier_charge": 7.160335239905945,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261386058082811,
+      "carrier_peak": 0.29823829197840174
+    },
+    {
+      "time": 48.5,
+      "phi_distance": 0.017565557805805033,
+      "sigma_distance": 0.20998296955657691,
+      "carrier_charge": 7.160335239906309,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261635000457498,
+      "carrier_peak": 0.2982446512477649
+    },
+    {
+      "time": 49.0,
+      "phi_distance": 0.018311028864899707,
+      "sigma_distance": 0.21204054635593622,
+      "carrier_charge": 7.160335239906841,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.62619919778488,
+      "carrier_peak": 0.29815635036256305
+    },
+    {
+      "time": 49.5,
+      "phi_distance": 0.018531438551849373,
+      "sigma_distance": 0.21438029047580714,
+      "carrier_charge": 7.160335239907306,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261964117639789,
+      "carrier_peak": 0.29807510975322954
+    },
+    {
+      "time": 50.0,
+      "phi_distance": 0.01779868097314015,
+      "sigma_distance": 0.2169599556882957,
+      "carrier_charge": 7.160335239907728,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261582982763035,
+      "carrier_peak": 0.29807655980098635
+    },
+    {
+      "time": 50.5,
+      "phi_distance": 0.017375465525669615,
+      "sigma_distance": 0.21946957224031707,
+      "carrier_charge": 7.160335239908212,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261540557951875,
+      "carrier_peak": 0.29814918543889607
+    },
+    {
+      "time": 51.0,
+      "phi_distance": 0.017988688493461313,
+      "sigma_distance": 0.22165307000246823,
+      "carrier_charge": 7.160335239908724,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261885904753829,
+      "carrier_peak": 0.29823093824850705
+    },
+    {
+      "time": 51.5,
+      "phi_distance": 0.01840415614228339,
+      "sigma_distance": 0.22345621655701975,
+      "carrier_charge": 7.160335239909239,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261726117979358,
+      "carrier_peak": 0.2982522703272441
+    },
+    {
+      "time": 52.0,
+      "phi_distance": 0.017828095296326268,
+      "sigma_distance": 0.22502474709993378,
+      "carrier_charge": 7.16033523990968,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261113935937028,
+      "carrier_peak": 0.29821121488082086
+    },
+    {
+      "time": 52.5,
+      "phi_distance": 0.017356008306628923,
+      "sigma_distance": 0.22666435877731933,
+      "carrier_charge": 7.160335239910127,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261063021096873,
+      "carrier_peak": 0.298187288470197
+    },
+    {
+      "time": 53.0,
+      "phi_distance": 0.017920665085350448,
+      "sigma_distance": 0.22864785834567533,
+      "carrier_charge": 7.160335239910613,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261500199776647,
+      "carrier_peak": 0.29819702038235835
+    },
+    {
+      "time": 53.5,
+      "phi_distance": 0.01840542612637443,
+      "sigma_distance": 0.23105863397817172,
+      "carrier_charge": 7.160335239911002,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261554416288798,
+      "carrier_peak": 0.2981482634841965
+    },
+    {
+      "time": 54.0,
+      "phi_distance": 0.017826618052190355,
+      "sigma_distance": 0.23379000858776525,
+      "carrier_charge": 7.160335239911444,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261147991936113,
+      "carrier_peak": 0.2980460882363573
+    },
+    {
+      "time": 54.5,
+      "phi_distance": 0.01716156034729838,
+      "sigma_distance": 0.2365479601217376,
+      "carrier_charge": 7.160335239911965,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260964632034564,
+      "carrier_peak": 0.29805022391741615
+    },
+    {
+      "time": 55.0,
+      "phi_distance": 0.01762438739331218,
+      "sigma_distance": 0.23901390783529952,
+      "carrier_charge": 7.160335239912481,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261320432786973,
+      "carrier_peak": 0.2981974295031396
+    },
+    {
+      "time": 55.5,
+      "phi_distance": 0.01834480346148143,
+      "sigma_distance": 0.24108823632008272,
+      "carrier_charge": 7.1603352399130396,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261591516326406,
+      "carrier_peak": 0.2983009355699912
+    },
+    {
+      "time": 56.0,
+      "phi_distance": 0.0181379553092039,
+      "sigma_distance": 0.24293142672551774,
+      "carrier_charge": 7.160335239913722,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261273800141169,
+      "carrier_peak": 0.29823889042299
+    },
+    {
+      "time": 56.5,
+      "phi_distance": 0.017598412789781637,
+      "sigma_distance": 0.24480167558295401,
+      "carrier_charge": 7.160335239914253,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260910031017087,
+      "carrier_peak": 0.2981227670965645
+    },
+    {
+      "time": 57.0,
+      "phi_distance": 0.01782103616244219,
+      "sigma_distance": 0.24677304084945276,
+      "carrier_charge": 7.160335239914829,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261139881732635,
+      "carrier_peak": 0.2981012191544108
+    },
+    {
+      "time": 57.5,
+      "phi_distance": 0.018368709596979237,
+      "sigma_distance": 0.24876452149002148,
+      "carrier_charge": 7.160335239915464,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261541166399018,
+      "carrier_peak": 0.2981696750030441
+    },
+    {
+      "time": 58.0,
+      "phi_distance": 0.01824138225118264,
+      "sigma_distance": 0.25077384579327233,
+      "carrier_charge": 7.160335239915953,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261354109059184,
+      "carrier_peak": 0.2982298236931099
+    },
+    {
+      "time": 58.5,
+      "phi_distance": 0.017694667856227118,
+      "sigma_distance": 0.25290195433119617,
+      "carrier_charge": 7.160335239916491,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260960587848778,
+      "carrier_peak": 0.29821641392522796
+    },
+    {
+      "time": 59.0,
+      "phi_distance": 0.01768107009265086,
+      "sigma_distance": 0.25525091389618326,
+      "carrier_charge": 7.160335239917049,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261187469404415,
+      "carrier_peak": 0.2981396178003599
+    },
+    {
+      "time": 59.5,
+      "phi_distance": 0.018061758466677992,
+      "sigma_distance": 0.25779456689055874,
+      "carrier_charge": 7.160335239917571,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261700953153041,
+      "carrier_peak": 0.2980745129617637
+    },
+    {
+      "time": 60.0,
+      "phi_distance": 0.018031730032069496,
+      "sigma_distance": 0.26036104045803055,
+      "carrier_charge": 7.160335239918048,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261633794344489,
+      "carrier_peak": 0.2980920598630391
+    },
+    {
+      "time": 60.5,
+      "phi_distance": 0.017693565956445695,
+      "sigma_distance": 0.26273815044647564,
+      "carrier_charge": 7.160335239918556,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261211790889423,
+      "carrier_peak": 0.2981778543980309
+    },
+    {
+      "time": 61.0,
+      "phi_distance": 0.017620300894431628,
+      "sigma_distance": 0.26479256828000836,
+      "carrier_charge": 7.160335239919101,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261286380793848,
+      "carrier_peak": 0.29825683098829214
+    },
+    {
+      "time": 61.5,
+      "phi_distance": 0.01785517463541908,
+      "sigma_distance": 0.26656487513067767,
+      "carrier_charge": 7.160335239919595,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261705525758547,
+      "carrier_peak": 0.2982681975860879
+    },
+    {
+      "time": 62.0,
+      "phi_distance": 0.018100801812471486,
+      "sigma_distance": 0.2682681607540011,
+      "carrier_charge": 7.160335239920135,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261737195298392,
+      "carrier_peak": 0.29820396526631887
+    },
+    {
+      "time": 62.5,
+      "phi_distance": 0.018051019200272193,
+      "sigma_distance": 0.27014656601873704,
+      "carrier_charge": 7.160335239920685,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261459898366326,
+      "carrier_peak": 0.2981303067500486
+    },
+    {
+      "time": 63.0,
+      "phi_distance": 0.01770178401710407,
+      "sigma_distance": 0.27227719745724877,
+      "carrier_charge": 7.160335239921247,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261555226846259,
+      "carrier_peak": 0.2981213301446786
+    },
+    {
+      "time": 63.5,
+      "phi_distance": 0.017653659662510254,
+      "sigma_distance": 0.2745837171220671,
+      "carrier_charge": 7.1603352399218005,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262076678416431,
+      "carrier_peak": 0.2981548774725617
+    },
+    {
+      "time": 64.0,
+      "phi_distance": 0.018065049478842528,
+      "sigma_distance": 0.27696920956055365,
+      "carrier_charge": 7.160335239922335,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262413819847993,
+      "carrier_peak": 0.298166642024848
+    },
+    {
+      "time": 64.5,
+      "phi_distance": 0.018175289065523976,
+      "sigma_distance": 0.2793654031271315,
+      "carrier_charge": 7.160335239922895,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262332399690458,
+      "carrier_peak": 0.2981508992809376
+    },
+    {
+      "time": 65.0,
+      "phi_distance": 0.017817018968770058,
+      "sigma_distance": 0.281705435718678,
+      "carrier_charge": 7.1603352399234135,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262214661802674,
+      "carrier_peak": 0.29813490452437375
+    },
+    {
+      "time": 65.5,
+      "phi_distance": 0.01787736173574349,
+      "sigma_distance": 0.28390018445994925,
+      "carrier_charge": 7.160335239923944,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262508934431993,
+      "carrier_peak": 0.2981418231623617
+    },
+    {
+      "time": 66.0,
+      "phi_distance": 0.018518445295471257,
+      "sigma_distance": 0.2858841655963151,
+      "carrier_charge": 7.160335239924479,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262897627277312,
+      "carrier_peak": 0.29818309445961655
+    },
+    {
+      "time": 66.5,
+      "phi_distance": 0.018830950034876674,
+      "sigma_distance": 0.28768668343677256,
+      "carrier_charge": 7.1603352399250015,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262740471820035,
+      "carrier_peak": 0.2982227879126249
+    },
+    {
+      "time": 67.0,
+      "phi_distance": 0.018523989503825,
+      "sigma_distance": 0.28945410430997254,
+      "carrier_charge": 7.1603352399255416,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262299745712409,
+      "carrier_peak": 0.29820903834526763
+    },
+    {
+      "time": 67.5,
+      "phi_distance": 0.018352098390350974,
+      "sigma_distance": 0.2913566097534838,
+      "carrier_charge": 7.1603352399260505,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262308325904383,
+      "carrier_peak": 0.29816441492250506
+    },
+    {
+      "time": 68.0,
+      "phi_distance": 0.01872332602782541,
+      "sigma_distance": 0.29346715438405285,
+      "carrier_charge": 7.160335239926572,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262593837771132,
+      "carrier_peak": 0.2981494887860416
+    },
+    {
+      "time": 68.5,
+      "phi_distance": 0.01903487769111604,
+      "sigma_distance": 0.2958053388949814,
+      "carrier_charge": 7.160335239927108,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262441900910911,
+      "carrier_peak": 0.29815616885445906
+    },
+    {
+      "time": 69.0,
+      "phi_distance": 0.018879727038734938,
+      "sigma_distance": 0.29832895536369236,
+      "carrier_charge": 7.16033523992762,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262029000036098,
+      "carrier_peak": 0.2981447489236143
+    },
+    {
+      "time": 69.5,
+      "phi_distance": 0.01877763628811157,
+      "sigma_distance": 0.30090073213292884,
+      "carrier_charge": 7.160335239928146,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261929832200618,
+      "carrier_peak": 0.29813074792658023
+    },
+    {
+      "time": 70.0,
+      "phi_distance": 0.019179765064489103,
+      "sigma_distance": 0.30333360842209584,
+      "carrier_charge": 7.160335239928663,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262130936599318,
+      "carrier_peak": 0.29815007207128374
+    },
+    {
+      "time": 70.5,
+      "phi_distance": 0.019724853200650046,
+      "sigma_distance": 0.3055033525704307,
+      "carrier_charge": 7.16033523992915,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262179813954498,
+      "carrier_peak": 0.29819485504830534
+    },
+    {
+      "time": 71.0,
+      "phi_distance": 0.019861907240131992,
+      "sigma_distance": 0.3074757287295912,
+      "carrier_charge": 7.16033523992966,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261824105447276,
+      "carrier_peak": 0.2982195152105738
+    },
+    {
+      "time": 71.5,
+      "phi_distance": 0.019643530045776774,
+      "sigma_distance": 0.3093685879942921,
+      "carrier_charge": 7.160335239930152,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261507780313641,
+      "carrier_peak": 0.29820230340217874
+    },
+    {
+      "time": 72.0,
+      "phi_distance": 0.019659889813920944,
+      "sigma_distance": 0.31126246670469976,
+      "carrier_charge": 7.160335239930656,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261783430284645,
+      "carrier_peak": 0.298172739134408
+    },
+    {
+      "time": 72.5,
+      "phi_distance": 0.02011554507740326,
+      "sigma_distance": 0.3132574849958881,
+      "carrier_charge": 7.160335239931176,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262135592134663,
+      "carrier_peak": 0.2981453666353664
+    },
+    {
+      "time": 73.0,
+      "phi_distance": 0.020441888831896838,
+      "sigma_distance": 0.31539907743035245,
+      "carrier_charge": 7.160335239931691,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261799363873882,
+      "carrier_peak": 0.2981219314325218
+    },
+    {
+      "time": 73.5,
+      "phi_distance": 0.02027518299474176,
+      "sigma_distance": 0.31765628003176183,
+      "carrier_charge": 7.160335239932222,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261388102149615,
+      "carrier_peak": 0.2981380720456586
+    },
+    {
+      "time": 74.0,
+      "phi_distance": 0.020164947691673804,
+      "sigma_distance": 0.3199523436687076,
+      "carrier_charge": 7.160335239932732,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261654737102186,
+      "carrier_peak": 0.29817870664824275
+    },
+    {
+      "time": 74.5,
+      "phi_distance": 0.02066933586050126,
+      "sigma_distance": 0.3222078072892287,
+      "carrier_charge": 7.160335239933255,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261957163088233,
+      "carrier_peak": 0.2981760512779733
+    },
+    {
+      "time": 75.0,
+      "phi_distance": 0.021308337203773415,
+      "sigma_distance": 0.3244200423803656,
+      "carrier_charge": 7.16033523993377,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261651278231745,
+      "carrier_peak": 0.2981398383885597
+    },
+    {
+      "time": 75.5,
+      "phi_distance": 0.021385241715612655,
+      "sigma_distance": 0.32660170142490147,
+      "carrier_charge": 7.160335239934273,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261303211480624,
+      "carrier_peak": 0.29814352249255993
+    },
+    {
+      "time": 76.0,
+      "phi_distance": 0.021253812289886785,
+      "sigma_distance": 0.3287283570635176,
+      "carrier_charge": 7.160335239934787,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261482309971054,
+      "carrier_peak": 0.29820027616823885
+    },
+    {
+      "time": 76.5,
+      "phi_distance": 0.02171979451929612,
+      "sigma_distance": 0.3308279832250217,
+      "carrier_charge": 7.160335239935316,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261801545108816,
+      "carrier_peak": 0.29822952040003986
+    },
+    {
+      "time": 77.0,
+      "phi_distance": 0.022517940194671977,
+      "sigma_distance": 0.3329732132912048,
+      "carrier_charge": 7.160335239935835,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261750262137729,
+      "carrier_peak": 0.29817604039683504
+    },
+    {
+      "time": 77.5,
+      "phi_distance": 0.02265335091465514,
+      "sigma_distance": 0.3352220159397762,
+      "carrier_charge": 7.160335239936366,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261442131640051,
+      "carrier_peak": 0.29810665250917917
+    },
+    {
+      "time": 78.0,
+      "phi_distance": 0.02224752901202979,
+      "sigma_distance": 0.33753417885081366,
+      "carrier_charge": 7.1603352399369316,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261318817670849,
+      "carrier_peak": 0.29811263195327753
+    },
+    {
+      "time": 78.5,
+      "phi_distance": 0.022449762556359488,
+      "sigma_distance": 0.3398015219686365,
+      "carrier_charge": 7.1603352399374485,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261467306912748,
+      "carrier_peak": 0.2981838392041943
+    },
+    {
+      "time": 79.0,
+      "phi_distance": 0.023296601403667034,
+      "sigma_distance": 0.3419804743580323,
+      "carrier_charge": 7.160335239937991,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261527074337582,
+      "carrier_peak": 0.2982287806244815
+    },
+    {
+      "time": 79.5,
+      "phi_distance": 0.023665633125801392,
+      "sigma_distance": 0.34411634169275307,
+      "carrier_charge": 7.1603352399385205,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261317430829925,
+      "carrier_peak": 0.2981957543884457
+    },
+    {
+      "time": 80.0,
+      "phi_distance": 0.02351253680405249,
+      "sigma_distance": 0.346282299508659,
+      "carrier_charge": 7.160335239939,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261064541686935,
+      "carrier_peak": 0.29813734803177216
+    },
+    {
+      "time": 80.5,
+      "phi_distance": 0.02384956656060484,
+      "sigma_distance": 0.3484856260040822,
+      "carrier_charge": 7.160335239939508,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261082824244443,
+      "carrier_peak": 0.2981296785589313
+    },
+    {
+      "time": 81.0,
+      "phi_distance": 0.024730663341618456,
+      "sigma_distance": 0.35064604194748633,
+      "carrier_charge": 7.1603352399400455,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261345475848961,
+      "carrier_peak": 0.2981734477618833
+    },
+    {
+      "time": 81.5,
+      "phi_distance": 0.025088542755339806,
+      "sigma_distance": 0.35273676730992004,
+      "carrier_charge": 7.160335239940542,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261343868088634,
+      "carrier_peak": 0.29820458709313385
+    },
+    {
+      "time": 82.0,
+      "phi_distance": 0.024744060853557147,
+      "sigma_distance": 0.3548379402333456,
+      "carrier_charge": 7.160335239941036,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626094589257894,
+      "carrier_peak": 0.29818276375861735
+    },
+    {
+      "time": 82.5,
+      "phi_distance": 0.02472384360942178,
+      "sigma_distance": 0.3569900593532487,
+      "carrier_charge": 7.160335239941541,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260974072121988,
+      "carrier_peak": 0.29813728370020187
+    },
+    {
+      "time": 83.0,
+      "phi_distance": 0.025377515728809794,
+      "sigma_distance": 0.359143553591731,
+      "carrier_charge": 7.160335239941977,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261567370174316,
+      "carrier_peak": 0.29812532567362404
+    },
+    {
+      "time": 83.5,
+      "phi_distance": 0.025769672723966422,
+      "sigma_distance": 0.36123511040478407,
+      "carrier_charge": 7.160335239942427,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261601546369006,
+      "carrier_peak": 0.2981707266836945
+    },
+    {
+      "time": 84.0,
+      "phi_distance": 0.02549184864658533,
+      "sigma_distance": 0.3632320757814372,
+      "carrier_charge": 7.160335239942887,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261007158010892,
+      "carrier_peak": 0.2982240426948411
+    },
+    {
+      "time": 84.5,
+      "phi_distance": 0.02537587429186262,
+      "sigma_distance": 0.3651845713785987,
+      "carrier_charge": 7.160335239943326,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261007814658965,
+      "carrier_peak": 0.2982079288706227
+    },
+    {
+      "time": 85.0,
+      "phi_distance": 0.025965966404736737,
+      "sigma_distance": 0.36721520103693095,
+      "carrier_charge": 7.16033523994384,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261634589382146,
+      "carrier_peak": 0.2981454354869916
+    },
+    {
+      "time": 85.5,
+      "phi_distance": 0.02650801756129002,
+      "sigma_distance": 0.36938789261332383,
+      "carrier_charge": 7.160335239944402,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261691689578927,
+      "carrier_peak": 0.2981396508620682
+    },
+    {
+      "time": 86.0,
+      "phi_distance": 0.026380402086562338,
+      "sigma_distance": 0.37168220980193006,
+      "carrier_charge": 7.160335239945005,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261134152576149,
+      "carrier_peak": 0.29818930516659287
+    },
+    {
+      "time": 86.5,
+      "phi_distance": 0.026115435745270674,
+      "sigma_distance": 0.3740505841831444,
+      "carrier_charge": 7.160335239945617,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261044766619293,
+      "carrier_peak": 0.298186246507149
+    },
+    {
+      "time": 87.0,
+      "phi_distance": 0.026313458104000678,
+      "sigma_distance": 0.37643008067704525,
+      "carrier_charge": 7.160335239946287,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626152691772356,
+      "carrier_peak": 0.29811337613917427
+    },
+    {
+      "time": 87.5,
+      "phi_distance": 0.026640910451697575,
+      "sigma_distance": 0.3787207519728657,
+      "carrier_charge": 7.160335239946833,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261563123421667,
+      "carrier_peak": 0.2980941056887225
+    },
+    {
+      "time": 88.0,
+      "phi_distance": 0.026584480425324537,
+      "sigma_distance": 0.3808284039905549,
+      "carrier_charge": 7.160335239947493,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261030163256096,
+      "carrier_peak": 0.29819863365412325
+    },
+    {
+      "time": 88.5,
+      "phi_distance": 0.026290951821298068,
+      "sigma_distance": 0.38273298306033127,
+      "carrier_charge": 7.1603352399479805,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260840029347476,
+      "carrier_peak": 0.2982957823481314
+    },
+    {
+      "time": 89.0,
+      "phi_distance": 0.02626423535856645,
+      "sigma_distance": 0.38452782859259343,
+      "carrier_charge": 7.160335239948546,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261118381964186,
+      "carrier_peak": 0.2982397545142122
+    },
+    {
+      "time": 89.5,
+      "phi_distance": 0.026606604546451914,
+      "sigma_distance": 0.3864049145061546,
+      "carrier_charge": 7.160335239949072,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261208654170172,
+      "carrier_peak": 0.2981164412389784
+    },
+    {
+      "time": 90.0,
+      "phi_distance": 0.026845512005731154,
+      "sigma_distance": 0.3885265423351003,
+      "carrier_charge": 7.160335239949493,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.62610084526569,
+      "carrier_peak": 0.2980959292890736
+    },
+    {
+      "time": 90.5,
+      "phi_distance": 0.026631183289082296,
+      "sigma_distance": 0.39086331555902915,
+      "carrier_charge": 7.160335239950047,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6260933128933458,
+      "carrier_peak": 0.29816561772502537
+    },
+    {
+      "time": 91.0,
+      "phi_distance": 0.026376668409779213,
+      "sigma_distance": 0.39326108657313685,
+      "carrier_charge": 7.160335239950439,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261152610362254,
+      "carrier_peak": 0.2981994097338827
+    },
+    {
+      "time": 91.5,
+      "phi_distance": 0.026591699804844948,
+      "sigma_distance": 0.39564047025876636,
+      "carrier_charge": 7.16033523995093,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261432241770888,
+      "carrier_peak": 0.2981660059742135
+    },
+    {
+      "time": 92.0,
+      "phi_distance": 0.02682100584311868,
+      "sigma_distance": 0.39797624191432635,
+      "carrier_charge": 7.160335239951399,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261426078258588,
+      "carrier_peak": 0.29812996815638354
+    },
+    {
+      "time": 92.5,
+      "phi_distance": 0.026468899706810805,
+      "sigma_distance": 0.40021112770452116,
+      "carrier_charge": 7.1603352399518,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261218435144275,
+      "carrier_peak": 0.29813211728793526
+    },
+    {
+      "time": 93.0,
+      "phi_distance": 0.026018141883201326,
+      "sigma_distance": 0.4022463633231011,
+      "carrier_charge": 7.160335239952215,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261342278851452,
+      "carrier_peak": 0.2981714789920721
+    },
+    {
+      "time": 93.5,
+      "phi_distance": 0.026200993272733165,
+      "sigma_distance": 0.4040367162767134,
+      "carrier_charge": 7.160335239952628,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261819177122884,
+      "carrier_peak": 0.2982434360862983
+    },
+    {
+      "time": 94.0,
+      "phi_distance": 0.026640487761365326,
+      "sigma_distance": 0.4057139978939537,
+      "carrier_charge": 7.160335239952964,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261947981833189,
+      "carrier_peak": 0.29828998496464304
+    },
+    {
+      "time": 94.5,
+      "phi_distance": 0.02650623925427948,
+      "sigma_distance": 0.4075777388957381,
+      "carrier_charge": 7.160335239953301,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261641056730985,
+      "carrier_peak": 0.29821282606010036
+    },
+    {
+      "time": 95.0,
+      "phi_distance": 0.02598164921682144,
+      "sigma_distance": 0.4098817596829484,
+      "carrier_charge": 7.1603352399537235,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261614163496872,
+      "carrier_peak": 0.29805360098652905
+    },
+    {
+      "time": 95.5,
+      "phi_distance": 0.025947240940720123,
+      "sigma_distance": 0.41257031609622186,
+      "carrier_charge": 7.160335239954117,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261919354953921,
+      "carrier_peak": 0.29799624899519345
+    },
+    {
+      "time": 96.0,
+      "phi_distance": 0.026359664669453765,
+      "sigma_distance": 0.41528675559854816,
+      "carrier_charge": 7.160335239954594,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261979150502203,
+      "carrier_peak": 0.29810565791410804
+    },
+    {
+      "time": 96.5,
+      "phi_distance": 0.026367964122433,
+      "sigma_distance": 0.41766964311377336,
+      "carrier_charge": 7.1603352399550975,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261809161680068,
+      "carrier_peak": 0.2982493008242356
+    },
+    {
+      "time": 97.0,
+      "phi_distance": 0.025914025134334377,
+      "sigma_distance": 0.41964265240033916,
+      "carrier_charge": 7.160335239955599,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6261823410692716,
+      "carrier_peak": 0.2983015532520304
+    },
+    {
+      "time": 97.5,
+      "phi_distance": 0.025849590741453966,
+      "sigma_distance": 0.4214277420697469,
+      "carrier_charge": 7.160335239956119,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262088713989543,
+      "carrier_peak": 0.29825152142640965
+    },
+    {
+      "time": 98.0,
+      "phi_distance": 0.02633198728254757,
+      "sigma_distance": 0.423350128996611,
+      "carrier_charge": 7.16033523995666,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262356901350508,
+      "carrier_peak": 0.29813729412478696
+    },
+    {
+      "time": 98.5,
+      "phi_distance": 0.026510832679355903,
+      "sigma_distance": 0.4255971135267314,
+      "carrier_charge": 7.160335239957089,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.626234519549913,
+      "carrier_peak": 0.2980380244897898
+    },
+    {
+      "time": 99.0,
+      "phi_distance": 0.026145935528821333,
+      "sigma_distance": 0.42807358891493413,
+      "carrier_charge": 7.160335239957532,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262115027542349,
+      "carrier_peak": 0.2980640512502472
+    },
+    {
+      "time": 99.5,
+      "phi_distance": 0.026009988895301712,
+      "sigma_distance": 0.4304908364299262,
+      "carrier_charge": 7.1603352399580595,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262114893934589,
+      "carrier_peak": 0.2982007130235315
+    },
+    {
+      "time": 100.0,
+      "phi_distance": 0.026433505837474038,
+      "sigma_distance": 0.43265283055045695,
+      "carrier_charge": 7.160335239958503,
+      "winding": 1.0,
+      "contour_min_amplitude": 0.6262339779617907,
+      "carrier_peak": 0.29828429783515337
+    }
+  ],
+  "scope": "One axisymmetric perturbation family; finite reflecting cylinder, fixed spatial grid and finite duration. No full stability proof."
+}
