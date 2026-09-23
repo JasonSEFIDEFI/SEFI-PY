@@ -1,0 +1,25 @@
+{
+  "model_version": "coupled-ring-axisymmetric-v0.1",
+  "files": {
+    ".gitignore": "b35c57d5726166d152d5a2cc2b86587ea55a014292518792985c07a92e3a429c",
+    "launch.ps1": "df7c42b68878400f86ace817e26804d97d6b89e7b16e7b7aa7a7a12e7907e112",
+    "MODEL_HISTORY.md": "af5347064ee57dc43784dd32dba297732d199a6a10e0662419c99d5e6ae6e247",
+    "physics.py": "25ed373dd448b5a300af9ab53e603318e34c193ebc0086b8644f21f81bb82062",
+    "README.md": "2296a480e073b27e9f29bd36a10c45d309b33a560281809053dea11fbfdfe37f",
+    "requirements.txt": "bb260e03cdea3a1ab25a889a9edc62ced108f38d1fc09ddc7a67c718b12e5958",
+    "REVIEWER_GUIDE.md": "45801ffebf06a73dcb38d08e8fb7ea00c122ac12f85b641da003ba9f3ec26584",
+    "ring_operator.py": "c1cae4c80789223867812613831a992cd79847e4fb359c5ebbb29119774567a0",
+    "server.py": "08169582bb389778d89fe4d4444c88e014322ead07b7e80f50c640d8779ec112",
+    "test_console.py": "d7daea600d0ad493f3c808bba1bd2ad8208f112e31fdbed307cfbad03d81f0ee",
+    "TEST_REPORT.md": "16e6e5fbd1168c8e89668afb5cfee30a4a8ea673ab37907dfd031c60cf58dcf9",
+    "data/charged_ring_refined.json": "e6d5248441fe42934f04aca6df00982385b00a50dd884517adb6ee1412ef2c32",
+    "data/charged_ring_refined.npz": "3b0b26216b3c994e868434642b9d66dba17d4ab42f33ee08d635f9cb8062d37d",
+    "data/charged_ring_trial.json": "f4964207f8f296d8bb11811b86541713f810e629945a2f69a7ce9b11bc6b4778",
+    "data/charged_ring_trial.npz": "36b3e44b29714feaecf27c4a0eb74d2acece8da34f6f0831c7ae379442462cf8",
+    "data/charged_ring_wide.json": "efd33b65e81a25e6ce174245c719084f598d45cd26adb9435b79c1bd8aa86439",
+    "data/charged_ring_wide.npz": "21c69e442dcffa2ee6956a5c50997174a608e079b7e2b0b63ecc22482c1d03e4",
+    "static/app.js": "f76b632dd3dfa16620c1ab72153cc49cffedc5b00815de00480a09c3dff95387",
+    "static/index.html": "563476f5649c19978a447ba13b9a37487b2eb6304f41e35a0dabc38add17c4ce",
+    "static/style.css": "9341d1ff97b28da2ddb56e7fddcd46127b13fedf46b89dc50a2916095740eff4"
+  }
+}

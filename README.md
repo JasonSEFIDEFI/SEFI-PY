@@ -1,4 +1,16 @@
 # SEFI-PY
+
+## Interactive vortex research console
+
+The [Vortex Research Console](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console) provides a locally run 3D view of computed field profiles, adjustable viewing angles, actual profile recalculation, axisymmetric evolution, saved-frame playback, independent parameter sweeps, and checkpoints. It has labels for general readers and specialists, plus mathematical explanations and explicit limits.
+
+- [Start and run the console](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/README.md)
+- [Reviewer questions and GitHub Copilot guide](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/REVIEWER_GUIDE.md)
+- [Executed tests and numerical evidence](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/TEST_REPORT.md)
+- [How future mathematical findings enter the model](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/MODEL_HISTORY.md)
+
+Reviewers can use their own GitHub Copilot access with the SEFI-PY repository as context, or read the same questions without Copilot. No personal chat history is shared. This is a classical field research prototype: physical matter and universal spacetime geometry remain open goals. Existing engine and QEC modules are unchanged.
+
 A modular scientific engine implementing the Single Entity Field Interpretation (SEFI), Dynamic Entity Field Integration (DEFI), and the Geometric Waveform Model (GWFM).  
 SEFI-PY provides a unified geometric framework for worldlines, warp modes, curvature, torsion, collapse behavior, and quantum error correction.
 
@@ -94,7 +106,7 @@ All tests pass at 100%.
 ```python
 from sefi_qec.runner import run_sefi_qec_demo
 run_sefi_qec_demo()
-
+```
 
 ## Isolated field research checkpoint
 
