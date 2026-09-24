@@ -1,0 +1,13 @@
+scenario,method,runs,vector_rmse,healthy_scan_false_alarm_rate,median_detection_delay_scans,missed_fault_runs,median_first_clear_delay_scans
+healthy,Independent fit,40,0.008903806926128723,0.011111111111111112,,,
+healthy,Conventional EWMA,40,0.0036861116858905047,0.009444444444444445,,,
+healthy,SEFI-inspired tangent EWMA,40,0.003616594476508454,0.012222222222222223,,,
+amplitude,Independent fit,40,0.008928279861571867,,2.0,0,0.0
+amplitude,Conventional EWMA,40,0.012348258898533892,,2.0,0,7.0
+amplitude,SEFI-inspired tangent EWMA,40,0.01232114802167561,,2.0,0,7.0
+detuning,Independent fit,40,0.009069460676306191,,2.0,0,0.0
+detuning,Conventional EWMA,40,0.01798703859188587,,2.0,0,7.0
+detuning,SEFI-inspired tangent EWMA,40,0.017928304017477834,,2.0,0,7.0
+mixed,Independent fit,40,0.009125609808991667,,1.0,0,0.0
+mixed,Conventional EWMA,40,0.021704520041976153,,1.0,0,8.0
+mixed,SEFI-inspired tangent EWMA,40,0.0221117426011609,,1.0,0,8.0

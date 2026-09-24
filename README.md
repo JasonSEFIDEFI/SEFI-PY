@@ -1,117 +1,57 @@
-# SEFI-PY
+# SEFI-PY — field engineering and reproducible research
 
-## Interactive vortex research console
+Python research software by **Jason Duran Dutton**, connecting geometric modeling with practical questions about measurement, drift, diagnosis, and recovery.
 
-The [Vortex Research Console](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console) provides a locally run 3D view of computed field profiles, adjustable viewing angles, actual profile recalculation, axisymmetric evolution, saved-frame playback, independent parameter sweeps, and checkpoints. It has labels for general readers and specialists, plus mathematical explanations and explicit limits.
+## For the meeting with Hillary — Friday, 25 September 2026
 
-- [Start and run the console](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/README.md)
-- [Reviewer questions and GitHub Copilot guide](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/REVIEWER_GUIDE.md)
-- [Executed tests and numerical evidence](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/TEST_REPORT.md)
-- [How future mathematical findings enter the model](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/SEFI-PY%20Evolution/sim/vortex_console/MODEL_HISTORY.md)
+The proposed contribution is a small, testable engineering workflow: turn calibration measurements into evidence of a change, identify the next useful check, and document whether the system has recovered. Jason brings field experience in electrical integration, controls, commissioning, maintenance, and fault isolation; this prototype demonstrates how that approach can be extended through software.
 
-Reviewers can use their own GitHub Copilot access with the SEFI-PY repository as context, or read the same questions without Copilot. No personal chat history is shared. This is a classical field research prototype: physical matter and universal spacetime geometry remain open goals. Existing engine and QEC modules are unchanged.
+### Start with the microwave calibration workbench
 
-A modular scientific engine implementing the Single Entity Field Interpretation (SEFI), Dynamic Entity Field Integration (DEFI), and the Geometric Waveform Model (GWFM).  
-SEFI-PY provides a unified geometric framework for worldlines, warp modes, curvature, torsion, collapse behavior, and quantum error correction.
+[**Open the prototype and reproduction guide**](SEFI-PY%20Evolution/research/calibration_workbench/README.md)
 
----
+| What to review | Evidence |
+|---|---|
+| What was built and how to run it | [Workbench README](SEFI-PY%20Evolution/research/calibration_workbench/README.md) |
+| What an engineer would receive | [Sample service report](SEFI-PY%20Evolution/research/calibration_workbench/sample_output/service_report.md) |
+| When the tool declines to infer a cause | [Ambiguous measurement example](SEFI-PY%20Evolution/research/calibration_workbench/sample_output/ambiguous_report.md) |
+| What the benchmark found | [Validation record](SEFI-PY%20Evolution/research/calibration_workbench/VALIDATION.md) and [metrics](SEFI-PY%20Evolution/research/calibration_workbench/sample_output/metrics.csv) |
+| Implementation and checks | [Python source](SEFI-PY%20Evolution/research/calibration_workbench/workbench.py) and [tests](SEFI-PY%20Evolution/research/calibration_workbench/test_workbench.py) |
 
-## Core Architecture
+For the visual demonstration, download the workbench folder and open `sample_output/index.html` locally. GitHub does not render that HTML as a hosted application.
 
-### SEFI (Single Entity Field Interpretation)
-A geometric field model describing:
-- Worldline stability
-- Field origin, authorship, and sovereignty layers
-- Warp modes (tangent, normal, binormal)
-- Collapse geometry and measurement behavior
+### The engineering question
 
-### DEFI (Dynamic Entity Field Integration)
-A dynamic realignment model used for:
-- Correction
-- Stabilization
-- Worldline restoration
-- Error integration and geometric consistency
+Can a reproducible diagnostic workflow distinguish microwave amplitude drift from detuning, recognize an inadequate measurement design, and verify restoration against explicit acceptance criteria?
 
-### GWFM (Geometric Waveform Model)
-A waveform interpretation built on geometric invariants.
+The motivation comes from [eleQtron researchers' public work on microwave-chain errors and coherent storage transfer](https://indico.fysik.su.se/event/9371/contributions/15175/) and the company's [RF/system-test responsibilities](https://eleqtron.com/en/jobs/rf-radio-frequency-test-engineer-f-m-d/). This is an independent proposal; it is not an eleQtron assignment or statement about an internal fault.
 
----
+### What has been demonstrated
 
-## SEFI-QEC: Quantum Error Correction Subsystem
+- A standard two-level quantum response generates synthetic calibration counts.
+- Conventional fitting, conventional temporal tracking, and SEFI-inspired tangent tracking receive identical measurements, without simulation truth labels.
+- Separate healthy calibration runs set alert thresholds. Held-out tests cover healthy operation and three drift scenarios.
+- The tool reports ambiguous evidence and requires repeated acceptable measurements for recovery verification.
+- Eleven tests pass for this addition, covering physical limits, input validation, observability, reproducibility, and recovery checks.
 
-SEFI-QEC integrates quantum error correction directly into the geometric field engine.  
-Logical qubits are represented as SEFI worldlines, and physical qubits are geometric samples of that worldline.
+**The benchmark does not establish an advantage over conventional tracking.** Observed healthy per-scan false alarms are 1.11% for independent fitting, 0.94% for conventional tracking, and 1.22% for the SEFI-inspired method. All three detect all 120 simulated fault runs at least once during the injected fault windows. Smoothed methods lag during recovery. These are small synthetic experiments, not hardware reliability guarantees.
 
-### Features
-- Real Pauli operations (X, Z, Y)
-- Stabilizer parity checks (Z1Z2, Z2Z3)
-- Syndrome extraction
-- DEFI-based correction
-- Warp-mode → error-mode mapping
-- Warp-residual geometric alignment
-- Pauli-frame consistency checking
-- Majority-vote logical consistency
-- Stabilizer-energy minimization decoder
-- Multi-angle QEC benchmarking
+### Where the research framework enters
 
-### QEC Checking Suite (5 independent decoders)
-1. **Stabilizer Parity Check**  
-   Classical repetition-code stabilizers.
+SEFI/DEFI motivates tracking deviations from a reference geometry. This prototype defines that geometry through a physical response model and measurable populations. Its weighted tangent projection and EWMA are established mathematical techniques; their inclusion does not establish a novel algorithm or validate the wider field theory. It neither implements quantum error correction nor controls equipment.
 
-2. **Majority Vote Check**  
-   Independent logical consistency decoder.
+### Proposed next step with eleQtron
 
-3. **Pauli-Frame Consistency**  
-   Frame-based mismatch detection.
+Identify one useful calibration workflow with an RF validation or operations engineer. Agree on the measurement format, relevant operating limits, and a success criterion. Evaluate approved anonymized data against the team's current method, keeping whichever method offers the strongest evidence. Potential measures include false alarms, time to diagnosis, recovery verification, and measurement burden.
 
-4. **Warp-Residual Geometric Check**  
-   SEFI-native geometric deviation analysis.
+## Broader research portfolio
 
-5. **Stabilizer-Energy Minimization**  
-   Physics-inspired energy-based decoder.
+The engineering prototype is separate from the foundational research below. Readers can evaluate its code and measurements without accepting the wider theoretical interpretation.
 
-These decoders run independently and can be cross-validated, providing a multi-angle correction suite.
+- [Vortex Research Console](SEFI-PY%20Evolution/sim/vortex_console/README.md): interactive views, profile recalculation, evolution, parameter sweeps, and saved checkpoints.
+- [Console reviewer guide](SEFI-PY%20Evolution/sim/vortex_console/REVIEWER_GUIDE.md), [test report](SEFI-PY%20Evolution/sim/vortex_console/TEST_REPORT.md), and [model history](SEFI-PY%20Evolution/sim/vortex_console/MODEL_HISTORY.md).
+- [23 September field research checkpoint](SEFI-PY%20Evolution/research/physical_matter_2026_09_23/README.md): coupled classical vortex/carrier calculations, limited perturbation tests, a rest-state obstruction, and unsuccessful revised searches.
+- [Earlier evolution engine](SEFI-PY%20Evolution/README.md) and [QEC research repository](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack).
+- [Professional portfolio and resume](https://github.com/JasonSEFIDEFI/CV-) and [doctoral research portfolio](https://github.com/JasonSEFIDEFI/PhD).
 
----
-
-## Benchmarking
-
-SEFI-QEC includes a benchmarking module that:
-- Injects random X/Z/Y errors
-- Runs all decoders
-- Applies DEFI correction
-- Measures recovery success rate
-
-The full suite currently passes at **100%**.
-
----
-
-## Project Status
-SEFI-PY remains fully green across all modules:
-- SEFI core
-- DEFI integration
-- GWFM
-- Warp simulation
-- Quantum warp simulation
-- SEFI-QEC subsystem
-- Multi-decoder QEC suite
-- Benchmarking
-
-All tests pass at 100%.
-
----
-
-## Running the QEC Demo
-
-```python
-from sefi_qec.runner import run_sefi_qec_demo
-run_sefi_qec_demo()
-```
-
-## Isolated field research checkpoint
-
-The [23 September 2026 research addition](SEFI-PY%20Evolution/research/physical_matter_2026_09_23/README.md) contains coupled vortex/carrier solvers, reference profiles, nonlinear and azimuthal perturbation probes, an analytical rest-state audit, and the research-direction note.
-
-It is opt-in and separate from the existing engine: no engine modules, entry points, configuration or dependency files are changed. The goal of deriving physical matter remains unachieved. Finite-domain classical candidates and limited disturbance tests must not be interpreted as observed particles or universal gravity. The two unsuccessful revised rest-loop searches are retained in the evidence.
-
-See the addition's README for reproduction commands, model restrictions and validation limits.
+The foundational work investigates SEFI, DEFI, and GWFM proposals. Finite-domain classical solutions and passing software checks do not establish observed matter, a continuum existence theorem, nonlinear stability, universal gravity, or hardware QEC performance. Validation statements apply only to the named experiment and revision; this README does not certify all legacy modules.

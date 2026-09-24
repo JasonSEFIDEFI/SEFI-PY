@@ -1,0 +1,142 @@
+{
+  "config": {
+    "seed": 20260925,
+    "evaluation_runs_per_scenario": 40,
+    "calibration_runs": 40,
+    "scans_per_run": 45,
+    "shots_per_setting": 1024,
+    "settings_per_scan": 12,
+    "alpha": 0.3,
+    "data": "synthetic",
+    "numpy_version": "2.3.5",
+    "readout_error": 0.02,
+    "thresholds": [
+      3.164281276323777,
+      1.2533768303108774,
+      1.2371680897677801
+    ],
+    "residual_limit": 23.019589229026913
+  },
+  "results": [
+    {
+      "scenario": "healthy",
+      "method": "Independent fit",
+      "runs": 40,
+      "vector_rmse": 0.008903806926128723,
+      "healthy_scan_false_alarm_rate": 0.011111111111111112,
+      "median_detection_delay_scans": null,
+      "missed_fault_runs": null,
+      "median_first_clear_delay_scans": null
+    },
+    {
+      "scenario": "healthy",
+      "method": "Conventional EWMA",
+      "runs": 40,
+      "vector_rmse": 0.0036861116858905047,
+      "healthy_scan_false_alarm_rate": 0.009444444444444445,
+      "median_detection_delay_scans": null,
+      "missed_fault_runs": null,
+      "median_first_clear_delay_scans": null
+    },
+    {
+      "scenario": "healthy",
+      "method": "SEFI-inspired tangent EWMA",
+      "runs": 40,
+      "vector_rmse": 0.003616594476508454,
+      "healthy_scan_false_alarm_rate": 0.012222222222222223,
+      "median_detection_delay_scans": null,
+      "missed_fault_runs": null,
+      "median_first_clear_delay_scans": null
+    },
+    {
+      "scenario": "amplitude",
+      "method": "Independent fit",
+      "runs": 40,
+      "vector_rmse": 0.008928279861571867,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 2.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 0.0
+    },
+    {
+      "scenario": "amplitude",
+      "method": "Conventional EWMA",
+      "runs": 40,
+      "vector_rmse": 0.012348258898533892,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 2.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 7.0
+    },
+    {
+      "scenario": "amplitude",
+      "method": "SEFI-inspired tangent EWMA",
+      "runs": 40,
+      "vector_rmse": 0.01232114802167561,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 2.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 7.0
+    },
+    {
+      "scenario": "detuning",
+      "method": "Independent fit",
+      "runs": 40,
+      "vector_rmse": 0.009069460676306191,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 2.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 0.0
+    },
+    {
+      "scenario": "detuning",
+      "method": "Conventional EWMA",
+      "runs": 40,
+      "vector_rmse": 0.01798703859188587,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 2.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 7.0
+    },
+    {
+      "scenario": "detuning",
+      "method": "SEFI-inspired tangent EWMA",
+      "runs": 40,
+      "vector_rmse": 0.017928304017477834,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 2.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 7.0
+    },
+    {
+      "scenario": "mixed",
+      "method": "Independent fit",
+      "runs": 40,
+      "vector_rmse": 0.009125609808991667,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 1.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 0.0
+    },
+    {
+      "scenario": "mixed",
+      "method": "Conventional EWMA",
+      "runs": 40,
+      "vector_rmse": 0.021704520041976153,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 1.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 8.0
+    },
+    {
+      "scenario": "mixed",
+      "method": "SEFI-inspired tangent EWMA",
+      "runs": 40,
+      "vector_rmse": 0.0221117426011609,
+      "healthy_scan_false_alarm_rate": null,
+      "median_detection_delay_scans": 1.0,
+      "missed_fault_runs": 0,
+      "median_first_clear_delay_scans": 8.0
+    }
+  ]
+}
