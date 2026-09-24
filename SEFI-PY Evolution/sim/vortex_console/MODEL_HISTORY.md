@@ -1,5 +1,9 @@
 # Model history and development contract
 
+## Console 0.2 — Fixed-charge research, 24 September 2026
+
+Adds `fixed-charge-rest-v0.1` as a separate model for fictitious relaxation, with its own parameter validation, data, run frames and checkpoints. The original `coupled-ring-axisymmetric-v0.1` equations and checkpoint compatibility remain intact. The new mode cannot be restored as a physical evolution. Includes the fixed-charge candidate, negative lower-charge searches, grid/domain evidence, and two-charge initial-data accounting. No physical-matter, stability or intrinsic-mass claim is added.
+
 ## 0.1 — Numerical checkpoint console, 23 September 2026
 
 Implements the saved coupled traveling-ring equations and an axisymmetric RK4 evolution for carrier self-coupling λ=25 and carrier azimuthal winding N=0. Other allowed λ and N values are nonlinear profile searches only. The saved refined, coarse, and wider-domain profiles remain immutable comparison evidence in `data/`.

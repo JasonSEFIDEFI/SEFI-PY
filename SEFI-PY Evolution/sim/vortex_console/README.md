@@ -1,6 +1,16 @@
 # Vortex Research Console
 
-An isolated local research instrument for inspecting the computed coupled vortex profiles and testing axisymmetric field evolution. **Research prototype, version 0.1.** The existing SEFI-PY engine and SEFI-QEC are unchanged. This is a locally run application, not a hosted online simulation.
+An isolated local research instrument for inspecting computed field profiles, testing axisymmetric field evolution, and exploring fixed-charge relaxation. **Research prototype, console version 0.2.** The existing SEFI-PY engine and SEFI-QEC are unchanged. This is a locally run application, not a hosted online simulation.
+
+## New in 0.2: fixed-charge research
+
+The **Charge** tab loads the new charged-torus candidate and failed lower-charge searches, or executes an energy-decreasing fixed-carrier-charge search. It displays relaxation iteration, constrained energy per charge, carrier frequency, original-field minimum amplitude and residual. It supports pause/resume/stop, saved frames, checkpoint download and deterministic checkpoint continuation. Its checkpoint format is separate from physical-evolution checkpoints.
+
+Run `python -m unittest test_console test_rest_console -v` to check both computational modes. The moving-ring equations and model version remain unchanged. The added `rest_search.py` supplies the research computation without modifying the established engine. Read [FIXED_CHARGE_RESEARCH.md](FIXED_CHARGE_RESEARCH.md) and [TWO_CHARGE_ACCOUNTING.md](TWO_CHARGE_ACCOUNTING.md) before interpreting the new branch.
+
+For independent command-line reproduction, run `python rest_search.py --Q 1000 --lam 12 --N 1 --L 24 --h .5 --steps 18000`. Use `--initial Q1000_wide --h .4` to start a refinement from the saved wider-domain candidate. Results are written into a new unique folder under `runs/`. Run `python two_charge_audit.py` to reproduce the compact-window charge-compensation calculation; its result is written to `runs/two_charge_torus_audit.json`.
+
+The Q=1000 candidate has a toroidal carrier but no original vortex zero. Its convergence does not establish stability. The Charge mode holds carrier charge fixed and original background frequency fixed; it does not conserve original-field excess charge during relaxation. Compensation tests account for both charges only in prepared initial data. They do not constitute a new physical evolution. The displayed energy is not particle mass. Current physical evolution remains restricted to the original lambda=25,N=0 moving-ring model.
 
 ## Open the console
 

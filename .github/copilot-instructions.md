@@ -13,3 +13,5 @@ Report negative evidence and failed searches. Respect the scope of the rest-stat
 Distinguish saved results from tests you personally executed. Never claim an unrun test passed. State finite-grid, finite-domain, axisymmetry, approximation, and perturbation limits when they affect a conclusion.
 
 When asked to review, provide constructive counterarguments, falsifiable next tests, and reproducible bug reports. Do not edit or publish files unless the reviewer asks for that action. Preserve the existing engine and SEFI-QEC when working on the isolated console.
+
+For console 0.2, distinguish the fixed-charge relaxation mode from physical evolution. The charged-torus candidate has no original-field vortex zero. Its constrained energy R_Q is not isolated mass. Read FIXED_CHARGE_RESEARCH.md and TWO_CHARGE_ACCOUNTING.md for both-charge accounting and compensation-volume dependence. A completed iteration-limited run is not necessarily a converged solution.

@@ -1,0 +1,9 @@
+{
+  "amplitude_deficit_integral": -4480.710655814664,
+  "excess_Phi_charge": -6336.681778522744,
+  "rotating_background_functional": 907.863919063137,
+  "physical_background_subtracted_energy": -8053.557392566192,
+  "minimum_original_amplitude": 0.20306092373672568,
+  "angular_momentum_magnitude": 1000.0,
+  "scope": "Stationary-ansatz diagnostic at current numerical tolerance, not isolated-particle mass"
+}

@@ -1,5 +1,11 @@
 # Local verification — 23 September 2026
 
+## Console 0.2 checks — 24 September 2026
+
+The six original numerical/API tests passed during the combined regression run. The new integer-grid test exposed integer truncation of the axis quadrature weight when Search was constructed directly with integer h=1. The constructor now makes grid coordinates floating point; all four fixed-charge tests subsequently passed in 7.216 seconds. The previously reported research runs used fractional h and were unaffected. The new tests check energy-gradient consistency, actual energy descent, input bounds, exact checkpoint continuation, model labeling, and the saved refined candidate. Existing physical-evolution equations are unchanged.
+
+The portable two-charge audit ran successfully and verified charge compensation and its energy identity for five support radii. The live API returned the expected refined candidate, and a short search was submitted through HTTP. JavaScript syntax checks passed. The updated browser could not be visually verified because browser automation timed out twice; visual QA for the Charge tab remains outstanding. The earlier browser checks below apply to console 0.1, not proof of the new tab's visual quality.
+
 Environment: Windows; Python 3.12.14; NumPy 2.3.5; BLAS thread count 2 for tests. Browser checks used the Codex in-app browser. Source version: coupled-ring-axisymmetric-v0.1.
 
 ## Numerical and API checks executed

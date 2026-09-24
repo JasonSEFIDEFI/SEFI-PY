@@ -1,0 +1,89 @@
+{
+  "source": "work\\fixed_charge_Q1000_refined.npz",
+  "ansatz": "d_T F = i deltaOmega f F; d_T s=0; f=max(1-(r^2+z^2)/R^2,0)^4",
+  "formula": "deltaOmega=-DeltaQ_Phi/A; susceptibility=A^2/D; E_matched=R_Q+(DeltaQ_Phi)^2/(2*susceptibility)",
+  "results": [
+    {
+      "support_radius": 20.0,
+      "L": 28,
+      "h": 0.4,
+      "background_charge_before": -6336.749423160042,
+      "background_charge_after": -3.126388037344441e-13,
+      "carrier_charge": 1000.0,
+      "phase_rate_peak": 3.682961688444032,
+      "susceptibility": 6395.569015239936,
+      "compensation_energy_cost": 3139.235395336649,
+      "rotating_functional": 907.9235788928818,
+      "charge_matched_relative_energy": 4047.158974229531,
+      "energy_per_carrier_charge": 4.047158974229531,
+      "below_dilute_carrier_threshold": false
+    },
+    {
+      "support_radius": 28.0,
+      "L": 32.0,
+      "h": 0.4,
+      "background_charge_before": -6336.749423160042,
+      "background_charge_after": 1.1368683772161603e-13,
+      "carrier_charge": 1000.0,
+      "phase_rate_peak": 0.8735845407531496,
+      "susceptibility": 22918.331631061243,
+      "compensation_energy_cost": 876.032206408468,
+      "rotating_functional": 907.9235788928818,
+      "charge_matched_relative_energy": 1783.9557853013503,
+      "energy_per_carrier_charge": 1.7839557853013503,
+      "below_dilute_carrier_threshold": false
+    },
+    {
+      "support_radius": 36.0,
+      "L": 40.0,
+      "h": 0.4,
+      "background_charge_before": -6336.749423160042,
+      "background_charge_after": 0.0,
+      "carrier_charge": 1000.0,
+      "phase_rate_peak": 0.3483038257704837,
+      "susceptibility": 50932.989995622724,
+      "compensation_energy_cost": 394.18845482436893,
+      "rotating_functional": 907.9235788928817,
+      "charge_matched_relative_energy": 1302.1120337172524,
+      "energy_per_carrier_charge": 1.3021120337172525,
+      "below_dilute_carrier_threshold": false
+    },
+    {
+      "support_radius": 48.0,
+      "L": 52.0,
+      "h": 0.4,
+      "background_charge_before": -6336.749423160042,
+      "background_charge_after": -1.0231815394945443e-12,
+      "carrier_charge": 1000.0,
+      "phase_rate_peak": 0.13351015937362526,
+      "susceptibility": 121564.01146487442,
+      "compensation_energy_cost": 165.15740459717236,
+      "rotating_functional": 907.9235788928818,
+      "charge_matched_relative_energy": 1073.0809834900556,
+      "energy_per_carrier_charge": 1.0730809834900557,
+      "below_dilute_carrier_threshold": false
+    },
+    {
+      "support_radius": 64.0,
+      "L": 68.0,
+      "h": 0.4,
+      "background_charge_before": -6336.749423160044,
+      "background_charge_after": 2.0463630789890885e-12,
+      "carrier_charge": 1000.0,
+      "phase_rate_peak": 0.053901156220796886,
+      "susceptibility": 287222.21491413395,
+      "compensation_energy_cost": 69.90126662717131,
+      "rotating_functional": 907.9235788928817,
+      "charge_matched_relative_energy": 977.8248455200519,
+      "energy_per_carrier_charge": 0.9778248455200519,
+      "below_dilute_carrier_threshold": true
+    }
+  ],
+  "limitations": [
+    "Charge-matched initial data, not stationary solutions or physical evolution.",
+    "Spatial fields are interpolated from a finite-domain candidate and extended by the homogeneous boundary values.",
+    "Both U(1) charges are matched; axial momentum and full constrained stability are not analyzed.",
+    "Angular momentum about the symmetry axis is unchanged by the axisymmetric original-field phase-rate correction.",
+    "Compensation support depends on the surrounding medium; this does not establish intrinsic particle mass."
+  ]
+}

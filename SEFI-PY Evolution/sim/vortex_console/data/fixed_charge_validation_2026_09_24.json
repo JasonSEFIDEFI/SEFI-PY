@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "name": "lambda12_Q100",
+      "monotone_recorded_energy": true,
+      "reloaded_energy_verified": true,
+      "Q_identity_verified": true,
+      "reason": "iteration limit"
+    },
+    {
+      "name": "lambda25_Q100",
+      "monotone_recorded_energy": true,
+      "reloaded_energy_verified": true,
+      "Q_identity_verified": true,
+      "reason": "iteration limit"
+    },
+    {
+      "name": "lambda12_Q1000",
+      "monotone_recorded_energy": true,
+      "reloaded_energy_verified": true,
+      "Q_identity_verified": true,
+      "reason": "iteration limit"
+    },
+    {
+      "name": "Q1000_continued",
+      "monotone_recorded_energy": true,
+      "reloaded_energy_verified": true,
+      "Q_identity_verified": true,
+      "reason": "residual tolerance"
+    },
+    {
+      "name": "Q1000_wide",
+      "monotone_recorded_energy": true,
+      "reloaded_energy_verified": true,
+      "Q_identity_verified": true,
+      "reason": "residual tolerance"
+    },
+    {
+      "name": "Q1000_refined",
+      "monotone_recorded_energy": true,
+      "reloaded_energy_verified": true,
+      "Q_identity_verified": true,
+      "reason": "residual tolerance"
+    }
+  ],
+  "background_energy_identity_error": 9.094947017729282e-13,
+  "scope": "Checks discrete descent bookkeeping, not dynamical stability or particle identity."
+}

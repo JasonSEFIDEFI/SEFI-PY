@@ -16,6 +16,10 @@ Use this repository as evidence. Cite file paths and relevant equations or tests
 
 ## Questions by reviewer perspective
 
+### New fixed-charge branch
+
+Read FIXED_CHARGE_RESEARCH.md, TWO_CHARGE_ACCOUNTING.md, rest_search.py and two_charge_audit.py. Does the new candidate retain an original-field vortex, or only a toroidal carrier with azimuthal winding? Distinguish constrained rotating-background energy from physical energy at matching conserved charges. Audit the compensation window and its medium dependence. Which full stability, momentum and particle-identity tests remain absent? Do not confuse fictitious relaxation with physical evolution.
+
 ### General reader or collaborator
 
 1. What does this model actually establish today? Explain it without specialist vocabulary, then give the mathematical version. What does the rendered surface represent?
