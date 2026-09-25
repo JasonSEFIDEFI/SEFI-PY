@@ -1,0 +1,3 @@
+import React from 'react';import ReactDOM from 'react-dom/client';import {MotionConfig} from 'framer-motion';import App from './pages/App';import './styles.css';
+class Boundary extends React.Component<React.PropsWithChildren,{failed:boolean}>{state={failed:false};static getDerivedStateFromError(){return {failed:true};}render(){return this.state.failed?<main className="error-page"><h1>Let’s restart the explorer.</h1><p>The interactive view could not finish loading.</p><button onClick={()=>location.reload()}>Reload</button></main>:this.props.children;}}
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><Boundary><MotionConfig reducedMotion="user"><App/></MotionConfig></Boundary></React.StrictMode>);

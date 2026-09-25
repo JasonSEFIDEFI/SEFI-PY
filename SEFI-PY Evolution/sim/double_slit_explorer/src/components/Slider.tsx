@@ -1,0 +1,2 @@
+import {useId} from 'react';
+export default function Slider({label,value,min,max,step=1,unit='',onChange,help}:{label:string;value:number;min:number;max:number;step?:number;unit?:string;onChange:(v:number)=>void;help?:string}){const id=useId();return <div className="slider"><label htmlFor={id}>{label}<output>{value}{unit}</output></label><input id={id} type="range" min={min} max={max} step={step} value={value} onChange={e=>onChange(Number(e.target.value))} aria-describedby={help?id+'-help':undefined}/>{help&&<small id={id+'-help'}>{help}</small>}</div>;}

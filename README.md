@@ -1,5 +1,11 @@
 # SEFI-PY — field engineering and reproducible research
 
+## Double Slit Explorer — educational demo
+
+[Open the Double Slit Explorer project](SEFI-PY%20Evolution/sim/double_slit_explorer) for a five-chapter introduction to quantum interference, QFT, and the proposed GWFM, SEFI and DEFI interpretations. Includes interactive detection patterns, observation controls, identity cards and a geometry–identity illustration. Run `npm install` then `npm run dev` inside that folder. [Installation guide](SEFI-PY%20Evolution/sim/double_slit_explorer/INSTALL.md) · [Validation](SEFI-PY%20Evolution/sim/double_slit_explorer/docs/VALIDATION.md).
+
+This is an educational app separate from the Vortex Research Console. All detector probabilities use the same standard quantum reference; the proposed geometry does not independently derive matter or interference. Production build and seven numerical tests passed; browser coverage is partial and documented.
+
 Python research software by **Jason Duran Dutton**, connecting geometric modeling with practical questions about measurement, drift, diagnosis, and recovery.
 
 ## For the meeting with Hillary — Friday, 25 September 2026
