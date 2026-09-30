@@ -14,6 +14,14 @@ candidates above the 1e-6 screening threshold: **0**.
 The positive m=0 pair is the previously calibrated translation splitting.
 No genuine unstable mode survived the acceptance gates.
 
+## Current evidence and limits
+
+The [23 September 2026 mathematical checkpoint](https://github.com/JasonSEFIDEFI/PhD/blob/main/10_DISSERTATION/research_direction_2026_09_23/research_direction_2026_09_23.md) records finite-domain traveling vortex-ring solutions, continuous global Noether charge, limited evolution and perturbation checks, preliminary non-axisymmetric probes, and a low-energy phase-sector effective metric. It also retains a Derrick-type obstruction under specified rest-state assumptions and unsuccessful alternative rest-loop searches.
+
+The present 30 September 2026 work strengthens only the **linearized numerical stability evidence for the validated N=0 traveling branch at c=0.6, nu=0.3, lambda=25**. It adds a full-Z Bogoliubov solver, symmetry-null calibration, translation-mode convergence checks, and a broader finite spectral search across m=0–4. No accepted unstable mode was found within the searched targets and acceptance gates.
+
+These results do **not** establish observed matter, spin or quantum statistics, electromagnetic charge, universal coupling, Einstein gravity, continuum existence, nonlinear stability, or general spectral stability. They also do not exclude unstable modes outside the finite target set, below the screening threshold, or beyond the tested azimuthal sectors and discretizations. Software verification is computational evidence, not experimental validation.
+
 ## Completed scope
 
 | L | h | m sectors | Complete / recorded targets | Returned pairs |
