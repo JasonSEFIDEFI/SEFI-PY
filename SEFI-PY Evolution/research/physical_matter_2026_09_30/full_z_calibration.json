@@ -1,0 +1,373 @@
+[
+  {
+    "run": "L16_h040",
+    "m": 0,
+    "L": 16.0,
+    "h": 0.4,
+    "stationary_residual": 8.155143227384087e-13,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          6.199767668647535e-12,
+          -1.0552120152875327e-06
+        ],
+        "abs_sigma": 1.0552120153057456e-06,
+        "weighted_overlap": 0.9999999999996475,
+        "overlap_modulo_carrier_phase": 0.9999999999996475,
+        "boundary_norm_fraction": 7.587849175550538e-08,
+        "interior_tangent_residual": 1.7526129257881598e-12
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          -0.0026958354906787504,
+          5.796822755294091e-11
+        ],
+        "abs_sigma": 0.0026958354906787513,
+        "weighted_overlap": 0.8306312264262554,
+        "overlap_modulo_carrier_phase": 0.9894625416788799,
+        "boundary_norm_fraction": 0.00011961641259587202,
+        "interior_tangent_residual": 0.024127264794442646
+      }
+    },
+    "max_eigenpair_residual": 5.875701719959961e-08
+  },
+  {
+    "run": "L16_h040",
+    "m": 1,
+    "L": 16.0,
+    "h": 0.4,
+    "stationary_residual": 8.155143227384087e-13,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          2.8280058416568776e-16,
+          0.00468127335917501
+        ],
+        "abs_sigma": 0.00468127335917501,
+        "weighted_overlap": 0.9866196880951091,
+        "overlap_modulo_carrier_phase": 0.9866196880951091,
+        "boundary_norm_fraction": 0.0002930978626939355,
+        "interior_tangent_residual": 0.016740316452389995
+      }
+    },
+    "max_eigenpair_residual": 6.251073106754715e-13
+  },
+  {
+    "run": "L16_h050",
+    "m": 0,
+    "L": 16.0,
+    "h": 0.5,
+    "stationary_residual": 7.396860901565105e-15,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          7.242988489791075e-13,
+          6.364092889108092e-08
+        ],
+        "abs_sigma": 6.364092889520256e-08,
+        "weighted_overlap": 0.9999999999999989,
+        "overlap_modulo_carrier_phase": 0.9999999999999989,
+        "boundary_norm_fraction": 1.8398710644830043e-07,
+        "interior_tangent_residual": 1.8681812770952115e-15
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          0.0027068654289494893,
+          2.4175167328852556e-12
+        ],
+        "abs_sigma": 0.0027068654289494893,
+        "weighted_overlap": 0.8309988208582648,
+        "overlap_modulo_carrier_phase": 0.9892408161648425,
+        "boundary_norm_fraction": 0.0002380842646623726,
+        "interior_tangent_residual": 0.03741718232127342
+      }
+    },
+    "max_eigenpair_residual": 2.762011126610419e-08
+  },
+  {
+    "run": "L16_h050",
+    "m": 1,
+    "L": 16.0,
+    "h": 0.5,
+    "stationary_residual": 7.396860901565105e-15,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          2.156207070530547e-17,
+          0.004828315582719068
+        ],
+        "abs_sigma": 0.004828315582719068,
+        "weighted_overlap": 0.9860745264047024,
+        "overlap_modulo_carrier_phase": 0.9860745264047024,
+        "boundary_norm_fraction": 0.0005816787544397812,
+        "interior_tangent_residual": 0.02612048857148685
+      }
+    },
+    "max_eigenpair_residual": 4.3414230735201816e-13
+  },
+  {
+    "run": "L24_h040",
+    "m": 0,
+    "L": 24.0,
+    "h": 0.4,
+    "stationary_residual": 1.623874645861889e-14,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          8.164769207952283e-12,
+          -8.177928136628131e-08
+        ],
+        "abs_sigma": 8.177928177386289e-08,
+        "weighted_overlap": 0.9999999999999982,
+        "overlap_modulo_carrier_phase": 0.9999999999999982,
+        "boundary_norm_fraction": 8.836365286631489e-14,
+        "interior_tangent_residual": 3.009379976924793e-15
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          0.001046668019152425,
+          -1.5958416404737431e-15
+        ],
+        "abs_sigma": 0.001046668019152425,
+        "weighted_overlap": 0.8514284118917494,
+        "overlap_modulo_carrier_phase": 0.9977140545686528,
+        "boundary_norm_fraction": 3.672065839776529e-05,
+        "interior_tangent_residual": 0.024673200639189628
+      }
+    },
+    "max_eigenpair_residual": 3.775796127064949e-12
+  },
+  {
+    "run": "L24_h040",
+    "m": 1,
+    "L": 24.0,
+    "h": 0.4,
+    "stationary_residual": 1.623874645861889e-14,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          9.003214840319629e-16,
+          -0.00214632944732154
+        ],
+        "abs_sigma": 0.00214632944732154,
+        "weighted_overlap": 0.9967055734015831,
+        "overlap_modulo_carrier_phase": 0.9967055734015831,
+        "boundary_norm_fraction": 8.1205031136519e-05,
+        "interior_tangent_residual": 0.016374760142407907
+      }
+    },
+    "max_eigenpair_residual": 2.5524969892593463e-12
+  },
+  {
+    "run": "L24_h050",
+    "m": 0,
+    "L": 24.0,
+    "h": 0.5,
+    "stationary_residual": 4.907897005468342e-13,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          1.6152511728324825e-13,
+          -6.754278653347525e-07
+        ],
+        "abs_sigma": 6.754278653347718e-07,
+        "weighted_overlap": 0.9999999999998576,
+        "overlap_modulo_carrier_phase": 0.9999999999998576,
+        "boundary_norm_fraction": 1.0399039763784007e-13,
+        "interior_tangent_residual": 7.247364922734549e-13
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          -0.0010507330206576703,
+          -3.2505783221467555e-13
+        ],
+        "abs_sigma": 0.0010507330206576703,
+        "weighted_overlap": 0.8519397634465242,
+        "overlap_modulo_carrier_phase": 0.9975969120481183,
+        "boundary_norm_fraction": 3.942689485324795e-05,
+        "interior_tangent_residual": 0.03825899288497616
+      }
+    },
+    "max_eigenpair_residual": 2.0405437753938574e-08
+  },
+  {
+    "run": "L24_h050",
+    "m": 1,
+    "L": 24.0,
+    "h": 0.5,
+    "stationary_residual": 4.907897005468342e-13,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          -9.028287015558356e-16,
+          0.0024583711217538635
+        ],
+        "abs_sigma": 0.0024583711217538635,
+        "weighted_overlap": 0.9960631795471292,
+        "overlap_modulo_carrier_phase": 0.9960631795471292,
+        "boundary_norm_fraction": 8.748249481332997e-05,
+        "interior_tangent_residual": 0.025534864210434306
+      }
+    },
+    "max_eigenpair_residual": 5.585570323032396e-11
+  },
+  {
+    "run": "L24_h050_shift001",
+    "m": 0,
+    "L": 24.0,
+    "h": 0.5,
+    "stationary_residual": 9.237402509576498e-15,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          -1.571766501673455e-11,
+          5.1282304901533826e-08
+        ],
+        "abs_sigma": 5.128230731021054e-08,
+        "weighted_overlap": 0.9999999999999992,
+        "overlap_modulo_carrier_phase": 0.9999999999999992,
+        "boundary_norm_fraction": 1.0396893787687273e-13,
+        "interior_tangent_residual": 1.8868654604807396e-15
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          0.0010507330176261105,
+          -5.532462945235906e-15
+        ],
+        "abs_sigma": 0.0010507330176261105,
+        "weighted_overlap": 0.8519396658301879,
+        "overlap_modulo_carrier_phase": 0.9975969120487842,
+        "boundary_norm_fraction": 3.942688539445905e-05,
+        "interior_tangent_residual": 0.03825899288509021
+      }
+    },
+    "max_eigenpair_residual": 8.961128494318391e-12
+  },
+  {
+    "run": "L24_h050_shift001",
+    "m": 1,
+    "L": 24.0,
+    "h": 0.5,
+    "stationary_residual": 9.237402509576498e-15,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          1.1449174941446927e-16,
+          -0.0024583711213018913
+        ],
+        "abs_sigma": 0.0024583711213018913,
+        "weighted_overlap": 0.9960631795480837,
+        "overlap_modulo_carrier_phase": 0.9960631795480837,
+        "boundary_norm_fraction": 8.748249481240896e-05,
+        "interior_tangent_residual": 0.025534864210720362
+      }
+    },
+    "max_eigenpair_residual": 2.592785922933927e-13
+  },
+  {
+    "run": "L24_h0667",
+    "m": 0,
+    "L": 24.00000000000001,
+    "h": 0.666666666666667,
+    "stationary_residual": 6.550107678471306e-13,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          -1.9258959661414e-13,
+          -8.046969025156147e-07
+        ],
+        "abs_sigma": 8.046969025156377e-07,
+        "weighted_overlap": 0.9999999999997958,
+        "overlap_modulo_carrier_phase": 0.9999999999997958,
+        "boundary_norm_fraction": 1.3939107869556933e-13,
+        "interior_tangent_residual": 1.0296422215629477e-12
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          -0.0010589915828231366,
+          5.900491161337598e-14
+        ],
+        "abs_sigma": 0.0010589915828231366,
+        "weighted_overlap": 0.8529600606804427,
+        "overlap_modulo_carrier_phase": 0.9972172851658886,
+        "boundary_norm_fraction": 4.432424168724607e-05,
+        "interior_tangent_residual": 0.0669234567292309
+      }
+    },
+    "max_eigenpair_residual": 9.220224940367092e-09
+  },
+  {
+    "run": "L24_h0667",
+    "m": 1,
+    "L": 24.00000000000001,
+    "h": 0.666666666666667,
+    "stationary_residual": 6.550107678471306e-13,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          1.296841323564224e-16,
+          0.00302848710499515
+        ],
+        "abs_sigma": 0.00302848710499515,
+        "weighted_overlap": 0.9946080282543178,
+        "overlap_modulo_carrier_phase": 0.9946080282543178,
+        "boundary_norm_fraction": 9.904573976843276e-05,
+        "interior_tangent_residual": 0.04520286740307221
+      }
+    },
+    "max_eigenpair_residual": 2.5616236848302195e-13
+  },
+  {
+    "run": "L32_h050",
+    "m": 0,
+    "L": 32.0,
+    "h": 0.5,
+    "stationary_residual": 7.920313710441107e-15,
+    "neutral_modes": {
+      "carrier_phase": {
+        "sigma": [
+          -2.954681177459381e-12,
+          6.460848257874288e-08
+        ],
+        "abs_sigma": 6.460848264630475e-08,
+        "weighted_overlap": 0.9999999999999987,
+        "overlap_modulo_carrier_phase": 0.9999999999999987,
+        "boundary_norm_fraction": 3.584587717081924e-19,
+        "interior_tangent_residual": 1.875121991816997e-15
+      },
+      "longitudinal_translation": {
+        "sigma": [
+          0.0005199132719917826,
+          -1.5554824971759527e-14
+        ],
+        "abs_sigma": 0.0005199132719917826,
+        "weighted_overlap": 0.85595353922799,
+        "overlap_modulo_carrier_phase": 0.9990376969159553,
+        "boundary_norm_fraction": 2.093941091754526e-05,
+        "interior_tangent_residual": 0.038449046174581565
+      }
+    },
+    "max_eigenpair_residual": 5.178822999371238e-09
+  },
+  {
+    "run": "L32_h050",
+    "m": 1,
+    "L": 32.0,
+    "h": 0.5,
+    "stationary_residual": 7.920313710441107e-15,
+    "neutral_modes": {
+      "transverse_translation": {
+        "sigma": [
+          -3.6248944384337234e-16,
+          -0.0021156918926298254
+        ],
+        "abs_sigma": 0.0021156918926298254,
+        "weighted_overlap": 0.9973774876902403,
+        "overlap_modulo_carrier_phase": 0.9973774876902403,
+        "boundary_norm_fraction": 4.588433895977157e-05,
+        "interior_tangent_residual": 0.02540859571834969
+      }
+    },
+    "max_eigenpair_residual": 1.2587000282885362e-12
+  }
+]
