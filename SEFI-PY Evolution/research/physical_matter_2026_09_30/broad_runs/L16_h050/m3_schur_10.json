@@ -1,0 +1,266 @@
+{
+  "m": 3,
+  "strategy": "schur",
+  "shift": [
+    0.15,
+    0.25
+  ],
+  "k_requested": 12,
+  "status": "complete",
+  "error": null,
+  "seconds": 7.400055699999939,
+  "eigenvalues": [
+    {
+      "real": 1.6653345369377348e-16,
+      "imag": 0.2071272331099472,
+      "first_order_residual": 8.943636084453534e-15,
+      "quadratic_absolute_residual": 8.97249437112188e-15,
+      "quadratic_scaled_residual": 7.069799460492779e-15,
+      "velocity_consistency": 5.269395192962393e-16,
+      "boundary_norm_fraction": 0.22608471312921385,
+      "peak_r_z": [
+        11.5,
+        0.0
+      ],
+      "rms_r_z": [
+        10.971580446420374,
+        8.473067663808441
+      ],
+      "neighbor_variation": 0.060144369926974674,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -2.7755575615628914e-17,
+      "imag": 0.18357310333995353,
+      "first_order_residual": 9.477486786635927e-15,
+      "quadratic_absolute_residual": 9.522029836943797e-15,
+      "quadratic_scaled_residual": 8.564743986002647e-15,
+      "velocity_consistency": 4.225599654215826e-16,
+      "boundary_norm_fraction": 0.2018641936160874,
+      "peak_r_z": [
+        11.0,
+        7.5
+      ],
+      "rms_r_z": [
+        10.94119125600891,
+        8.195135730631504
+      ],
+      "neighbor_variation": 0.037048598025594306,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 3.0531133177191805e-16,
+      "imag": 0.1757356391448794,
+      "first_order_residual": 9.360065590365515e-15,
+      "quadratic_absolute_residual": 9.648496708619146e-15,
+      "quadratic_scaled_residual": 9.097414990072542e-15,
+      "velocity_consistency": 7.170953703155979e-16,
+      "boundary_norm_fraction": 0.1963338820091058,
+      "peak_r_z": [
+        5.5,
+        0.0
+      ],
+      "rms_r_z": [
+        10.870561211529255,
+        6.421072972289821
+      ],
+      "neighbor_variation": 0.05045181450444898,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 3.608224830031759e-16,
+      "imag": 0.22985897040732467,
+      "first_order_residual": 1.1207898720239181e-14,
+      "quadratic_absolute_residual": 1.1330082701339795e-14,
+      "quadratic_scaled_residual": 7.957074858650391e-15,
+      "velocity_consistency": 6.414728738167515e-16,
+      "boundary_norm_fraction": 0.23678101166646645,
+      "peak_r_z": [
+        11.0,
+        -12.0
+      ],
+      "rms_r_z": [
+        10.73631359469521,
+        8.9241959113612
+      ],
+      "neighbor_variation": 0.06473697688656412,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 0.0,
+      "imag": 0.2646326866855813,
+      "first_order_residual": 1.1372190124369636e-14,
+      "quadratic_absolute_residual": 1.1573209692308087e-14,
+      "quadratic_scaled_residual": 6.948680387962163e-15,
+      "velocity_consistency": 5.237508770393133e-16,
+      "boundary_norm_fraction": 0.26320883020618785,
+      "peak_r_z": [
+        12.0,
+        0.0
+      ],
+      "rms_r_z": [
+        10.6970252413235,
+        8.7870049989675
+      ],
+      "neighbor_variation": 0.08354015691026254,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 2.498001805406602e-16,
+      "imag": 0.26904181510277997,
+      "first_order_residual": 1.1177288826036957e-14,
+      "quadratic_absolute_residual": 1.2034221744766167e-14,
+      "quadratic_scaled_residual": 7.131904927485274e-15,
+      "velocity_consistency": 6.743578085982502e-16,
+      "boundary_norm_fraction": 0.2605349595880024,
+      "peak_r_z": [
+        13.0,
+        -6.0
+      ],
+      "rms_r_z": [
+        9.984262440514966,
+        6.731883095298043
+      ],
+      "neighbor_variation": 0.0950958879001373,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 3.3306690738754696e-16,
+      "imag": 0.27938651164535255,
+      "first_order_residual": 9.732707574968812e-15,
+      "quadratic_absolute_residual": 1.050680282655281e-14,
+      "quadratic_scaled_residual": 5.957611542286091e-15,
+      "velocity_consistency": 7.628196484065201e-16,
+      "boundary_norm_fraction": 0.28163985579519174,
+      "peak_r_z": [
+        13.5,
+        -7.5
+      ],
+      "rms_r_z": [
+        10.10491866067253,
+        8.201294002585119
+      ],
+      "neighbor_variation": 0.0845977278801892,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 2.7755575615628914e-16,
+      "imag": 0.29602005582058893,
+      "first_order_residual": 1.1264993915550751e-14,
+      "quadratic_absolute_residual": 1.2165155294767784e-14,
+      "quadratic_scaled_residual": 6.477681943509582e-15,
+      "velocity_consistency": 6.134441953505939e-16,
+      "boundary_norm_fraction": 0.2841664730501288,
+      "peak_r_z": [
+        13.0,
+        12.5
+      ],
+      "rms_r_z": [
+        10.00866046095878,
+        9.267528456534265
+      ],
+      "neighbor_variation": 0.11075301988629437,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 0.0,
+      "imag": 0.30278411282282086,
+      "first_order_residual": 1.1035216386797204e-14,
+      "quadratic_absolute_residual": 1.1668769746498732e-14,
+      "quadratic_scaled_residual": 6.027424062126952e-15,
+      "velocity_consistency": 6.162617553624498e-16,
+      "boundary_norm_fraction": 0.297766712445372,
+      "peak_r_z": [
+        5.0,
+        0.0
+      ],
+      "rms_r_z": [
+        10.495723291269494,
+        8.029279317947514
+      ],
+      "neighbor_variation": 0.12387029708513089,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 5.551115123125783e-17,
+      "imag": 0.3123232232061058,
+      "first_order_residual": 1.0961623368436954e-14,
+      "quadratic_absolute_residual": 1.1756810759083473e-14,
+      "quadratic_scaled_residual": 5.868163375069399e-15,
+      "velocity_consistency": 5.563774419869467e-16,
+      "boundary_norm_fraction": 0.3066168251367057,
+      "peak_r_z": [
+        13.0,
+        -3.0
+      ],
+      "rms_r_z": [
+        10.326484582450279,
+        8.650774916894997
+      ],
+      "neighbor_variation": 0.1100378106896705,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -2.220446049250313e-16,
+      "imag": 0.3377620564216773,
+      "first_order_residual": 1.1362491797091196e-14,
+      "quadratic_absolute_residual": 1.2383982217464772e-14,
+      "quadratic_scaled_residual": 5.668315535902891e-15,
+      "velocity_consistency": 5.820912325853189e-16,
+      "boundary_norm_fraction": 0.3026765070788978,
+      "peak_r_z": [
+        8.0,
+        0.0
+      ],
+      "rms_r_z": [
+        9.984887210047281,
+        8.74288739581052
+      ],
+      "neighbor_variation": 0.13281866917268298,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 2.220446049250313e-16,
+      "imag": 0.3482741938781525,
+      "first_order_residual": 1.15276817890722e-14,
+      "quadratic_absolute_residual": 1.206114982716059e-14,
+      "quadratic_scaled_residual": 5.3172521697019516e-15,
+      "velocity_consistency": 7.887477190701508e-16,
+      "boundary_norm_fraction": 0.3292743959546026,
+      "peak_r_z": [
+        12.5,
+        0.0
+      ],
+      "rms_r_z": [
+        10.588396799546496,
+        9.105412951885624
+      ],
+      "neighbor_variation": 0.13534825194598707,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    }
+  ]
+}
