@@ -133,6 +133,18 @@ The gapless branch has \(c_s^2=1/5\) at small k, while both branches tend
 to front speed one at high k. The Sigma field has laboratory dispersion
 \(\omega_\Sigma^2=k^2+1\); its phase is undefined on the zero-condensate
 background. It is not another massless field in the Phi phase metric.
+Specifically, amplitude elimination on the single-condensate branch \(X>1\)
+gives \(P(X)=(X-1)^2/4\) and
+\[
+K^{\mu\nu}=(X-1)\eta^{\mu\nu}+2w^\mu w^\nu,\qquad
+g_{\mu\nu}=\sqrt{(X-1)(3X-1)}
+\left(\eta_{\mu\nu}-\frac{2w_\mu w_\nu}{3X-1}\right).
+\]
+Its null cone is the infrared phase cone, not the exact microscopic cone.
+At X=2, the carrier's exact coefficient of \(k^2\) is one, whereas the
+phase metric would give one fifth after normalizing time. This comparison
+uses dispersion coefficients, not merely different group speeds of massive
+and massless excitations.
 
 For a homogeneous two-condensate branch, neglecting amplitude gradients gives
 \[
@@ -172,3 +184,7 @@ microscopic Minkowski cone is present by assumption, not dynamically emerged.
 No gravitational field equation, universal coupling, or matter identification
 has been derived. This is a negative result for interpreting this model's
 phase metric as universal geometry, not a theorem about other models.
+It does not exclude every restricted infrared universality regime after
+integrating out gapped sectors. The response of localized loops to a slowly
+varying phase background and their putative metric coupling has not been
+computed here.

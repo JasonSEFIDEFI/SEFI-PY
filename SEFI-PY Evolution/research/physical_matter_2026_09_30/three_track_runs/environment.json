@@ -1,0 +1,9 @@
+{
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

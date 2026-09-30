@@ -18,7 +18,7 @@ def solve(source,n,h,c,nu,lam,out,fields=None):
     out.mkdir(parents=True,exist_ok=True)
     if (out/'diagnostics.json').exists():
         row=json.loads((out/'diagnostics.json').read_text())
-        if (row['n'],row['h'],row['c'],row['nu'])!=(n,h,c,nu):raise ValueError('Restart settings mismatch')
+        if (row['n'],row['h'],row['c'],row['nu'],row['lambda'],row['source_sha256'])!=(n,h,c,nu,lam,hashlib.sha256(source.read_bytes()).hexdigest()):raise ValueError('Restart source/settings mismatch')
         with np.load(out/'profile.npz') as d:f=[d[k] for k in ('u','w','s')]
         return f,row
     if fields is None:_,_,fields,_,_,_,N=load_profile(source,n,h)
