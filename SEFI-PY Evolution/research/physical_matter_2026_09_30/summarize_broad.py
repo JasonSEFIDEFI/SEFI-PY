@@ -18,6 +18,13 @@ def summarize(root):
              'stationary_residual':meta['stationary_history'][-1],'sectors':{},'calibration':{}}
         d=np.load(folder/'profile.npz')
         fields=[d[key] for key in ('u','w','s')]
+        n,h=meta['n'],meta['h']
+        carrier=fields[2][:n,1:-1]
+        peak=np.unravel_index(np.argmax(carrier),carrier.shape)
+        run['background']={'carrier_max':float(carrier.max()),
+            'carrier_peak_r_z':[float(peak[0]*h),float((peak[1]-n+1)*h)],
+            'carrier_cylindrical_norm_squared_without_2pi':float(np.sum(weights(n,h,0)[:carrier.size]*carrier.ravel()**2)),
+            'parity_defects':{key:float(abs(f-sign*f[:,::-1]).max()) for key,f,sign in zip(('u','w','s'),fields,(1,-1,1))}}
         for m in sorted(map(int,meta['sectors'])):
             reports=[json.loads(p.read_text()) for p in sorted(folder.glob(f'm{m}_*.json'))]
             records=[r for report in reports for r in report['eigenvalues']]
@@ -54,9 +61,41 @@ def summarize(root):
                         'interior_tangent_residual':float(np.sqrt(np.vdot(by,ww*by).real/np.vdot(y,ww*y).real)),
                         'direct_null_relative_l2':meta['sectors'][str(m)]['neutral_residuals'][name]['relative_l2']}
         out['runs'].append(run)
+    out['independent_strategy_agreement']={}
+    for m,folder in ((0,'L16_h050_independent'),(2,'L16_h050_independent_m23'),(3,'L16_h050_independent_m23')):
+        reference=root/'L16_h050'/f'm{m}_schur_00.json'
+        independent=root/folder/f'm{m}_full_00.json'
+        if reference.exists() and independent.exists():
+            values=lambda path:np.array([complex(r['real'],r['imag']) for r in json.loads(path.read_text())['eigenvalues']])
+            a,b=values(reference),values(independent)
+            if len(a) and len(b):
+                distances=abs(a[:,None]-b[None,:])
+                out['independent_strategy_agreement'][str(m)]={
+                    'symmetric_max_nearest_eigenvalue_distance':float(max(distances.min(axis=0).max(),distances.min(axis=1).max())),
+                    'matching':'Nearest eigenvalue in same sector; no algebraic multiplicity certification',
+                    'reference':str(reference.relative_to(root)), 'independent':str(independent.relative_to(root))}
+    baseline=root.parent/'full_z_calibration.json'
+    out['baseline_calibration_reproduction']=[]
+    if baseline.exists():
+        old=json.loads(baseline.read_text())
+        runs={r['run']:r for r in out['runs']}
+        for record in old:
+            if record['run'] not in runs:
+                continue
+            for name,mode in record['neutral_modes'].items():
+                new=runs[record['run']]['calibration'].get(name)
+                if new:
+                    out['baseline_calibration_reproduction'].append({'run':record['run'],'mode':name,
+                        'old_abs_sigma':mode['abs_sigma'], 'new_abs_sigma':abs(complex(*new['sigma'])),
+                        'absolute_magnitude_difference':abs(abs(complex(*new['sigma']))-mode['abs_sigma']),
+                        'phase_direct_null_is_primary_gate':name=='carrier_phase'})
     for p in sorted(root.rglob('*')):
         if p.is_file() and p.name!='convergence.json':
-            out['files_sha256'][p.relative_to(root).as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+            payload=p.read_bytes()
+            if p.suffix in ('.json','.md','.py','.txt'):
+                payload=payload.replace(b'\r\n',b'\n')
+            out['files_sha256'][p.relative_to(root).as_posix()]=hashlib.sha256(payload).hexdigest()
+    out['sha256_scheme']='Text (.json/.md/.py/.txt) normalized CRLF to LF; binary files hashed as raw bytes, so Git line-ending conversion does not invalidate text hashes.'
     out['total_targets']=sum(s['targets'] for r in out['runs'] for s in r['sectors'].values())
     out['total_returned_pairs']=sum(s['returned_pairs'] for r in out['runs'] for s in r['sectors'].values())
     out['nonsymmetry_candidate_count']=sum(len(s['nonsymmetry_candidates']) for r in out['runs'] for s in r['sectors'].values())

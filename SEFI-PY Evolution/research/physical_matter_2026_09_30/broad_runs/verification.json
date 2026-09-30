@@ -1,0 +1,156 @@
+{
+  "base_commit": "bc68d639fe9b175f2e7c4fade05f991c0276157b",
+  "all_existing_tracked_files_unchanged": true,
+  "preservation_method": "git diff from exact starting commit contains additions only",
+  "validated_target_artifacts": 202,
+  "saved_vector_residuals_recomputed_against_saved_background": {
+    "L16_h040/m0": {
+      "max_first_order_residual": 2.5460384965022166e-08,
+      "max_quadratic_absolute_residual": 3.008529613670506e-08,
+      "vectors": 12
+    },
+    "L16_h040/m1": {
+      "max_first_order_residual": 6.160787780388499e-13,
+      "max_quadratic_absolute_residual": 8.847312454182914e-13,
+      "vectors": 12
+    },
+    "L16_h040/m2": {
+      "max_first_order_residual": 2.161338205674002e-14,
+      "max_quadratic_absolute_residual": 2.377714439275228e-14,
+      "vectors": 12
+    },
+    "L16_h040/m3": {
+      "max_first_order_residual": 2.3870307715024397e-14,
+      "max_quadratic_absolute_residual": 2.8303885314990763e-14,
+      "vectors": 12
+    },
+    "L16_h040/m4": {
+      "max_first_order_residual": 1.915449881470691e-14,
+      "max_quadratic_absolute_residual": 2.135996827589712e-14,
+      "vectors": 12
+    },
+    "L16_h050/m0": {
+      "max_first_order_residual": 1.6637660311462062e-08,
+      "max_quadratic_absolute_residual": 1.92689355849135e-08,
+      "vectors": 12
+    },
+    "L16_h050/m1": {
+      "max_first_order_residual": 1.0128449419347428e-12,
+      "max_quadratic_absolute_residual": 1.3465575773835495e-12,
+      "vectors": 12
+    },
+    "L16_h050/m2": {
+      "max_first_order_residual": 1.4133122377006178e-14,
+      "max_quadratic_absolute_residual": 1.5928189011956347e-14,
+      "vectors": 12
+    },
+    "L16_h050/m3": {
+      "max_first_order_residual": 4.7374395093667964e-14,
+      "max_quadratic_absolute_residual": 5.046997554529309e-14,
+      "vectors": 12
+    },
+    "L16_h050/m4": {
+      "max_first_order_residual": 1.9676679608780084e-14,
+      "max_quadratic_absolute_residual": 2.5378755112820402e-14,
+      "vectors": 12
+    },
+    "L16_h050_independent/m0": {
+      "max_first_order_residual": 2.557054665511949e-12,
+      "max_quadratic_absolute_residual": 3.088494694293692e-12,
+      "vectors": 12
+    },
+    "L16_h050_independent_m23/m2": {
+      "max_first_order_residual": 1.3532890628351133e-14,
+      "max_quadratic_absolute_residual": 2.067855596651833e-14,
+      "vectors": 12
+    },
+    "L16_h050_independent_m23/m3": {
+      "max_first_order_residual": 4.813693140271304e-14,
+      "max_quadratic_absolute_residual": 5.422368483421406e-14,
+      "vectors": 12
+    },
+    "L24_h040/m0": {
+      "max_first_order_residual": 1.2124086516993948e-12,
+      "max_quadratic_absolute_residual": 1.2188501374827547e-12,
+      "vectors": 12
+    },
+    "L24_h040/m1": {
+      "max_first_order_residual": 4.065393158899952e-12,
+      "max_quadratic_absolute_residual": 7.741395139522528e-12,
+      "vectors": 12
+    },
+    "L24_h040/m2": {
+      "max_first_order_residual": 2.2305605212389254e-14,
+      "max_quadratic_absolute_residual": 2.4402917689047576e-14,
+      "vectors": 12
+    },
+    "L24_h040/m3": {
+      "max_first_order_residual": 3.1137755134845014e-13,
+      "max_quadratic_absolute_residual": 3.811927107077178e-13,
+      "vectors": 12
+    },
+    "L24_h050/m0": {
+      "max_first_order_residual": 1.4838607212320182e-08,
+      "max_quadratic_absolute_residual": 1.517769602308831e-08,
+      "vectors": 12
+    },
+    "L24_h050/m1": {
+      "max_first_order_residual": 4.6470455569365326e-12,
+      "max_quadratic_absolute_residual": 6.468168575413611e-12,
+      "vectors": 12
+    },
+    "L24_h050/m2": {
+      "max_first_order_residual": 1.534827125664585e-14,
+      "max_quadratic_absolute_residual": 1.7148084053968388e-14,
+      "vectors": 12
+    },
+    "L24_h050/m3": {
+      "max_first_order_residual": 1.0382791989638504e-13,
+      "max_quadratic_absolute_residual": 1.3888855497217496e-13,
+      "vectors": 12
+    },
+    "L24_h050/m4": {
+      "max_first_order_residual": 1.9203957362441156e-14,
+      "max_quadratic_absolute_residual": 2.5081830002365523e-14,
+      "vectors": 12
+    },
+    "L32_h050/m0": {
+      "max_first_order_residual": 5.838066517304539e-13,
+      "max_quadratic_absolute_residual": 5.146121325339464e-13,
+      "vectors": 12
+    },
+    "L32_h050/m1": {
+      "max_first_order_residual": 1.0266928339796065e-12,
+      "max_quadratic_absolute_residual": 1.5078185016794334e-12,
+      "vectors": 12
+    },
+    "L32_h050/m2": {
+      "max_first_order_residual": 1.6756497550257504e-14,
+      "max_quadratic_absolute_residual": 1.8361604725449106e-14,
+      "vectors": 12
+    },
+    "L32_h050/m3": {
+      "max_first_order_residual": 6.309838971297521e-14,
+      "max_quadratic_absolute_residual": 7.947527900115928e-14,
+      "vectors": 12
+    }
+  },
+  "tests": {
+    "passed": 6,
+    "command": "python -m unittest test_full_z_spectral test_broad_scan -v",
+    "note": "Executed successfully during campaign; this finalizer does not re-run tests"
+  },
+  "source_hash_scheme": "SHA256 after CRLF-to-LF normalization",
+  "source_hashes": {
+    "broad_scan.py": "89fed3c0e3a09d6ecb4d7da8d497af52a991714a0d66914e6ee1fe278f305e35",
+    "compact_broad_vectors.py": "5a557497904ea5613a5ce7efb910cf821cb0be2862e2f379486f9753b4adaa0e",
+    "finalize_broad.py": "428eb980c8f775f701f57d53ca0ef457a3011ae5c91ba8e617ff2bf9166936b2",
+    "full_z_spectral.py": "36b4eb790e7e02a2ccda49c40e64bed91fd8f484ae0bfa2db6988e78deb99ef5",
+    "run_broad_suite.py": "80a37cef46462a7d32ab407e54663cb0ee4e9d54b9b2375d24939c2245a55f18",
+    "run_full_z_suite.py": "9ae6abc255c8fa2801a08753798965006b55f27e7dba0a5182dbc05978ac71f7",
+    "summarize_broad.py": "f6516c46edfccc1b6fcd6226b0db607a29834a7df0f03d4591f04cef7495a969",
+    "test_broad_scan.py": "670caf682f593c4a802246395695093d1b06a5a03ebf362384293403800493af",
+    "test_full_z_spectral.py": "3fc50a7d8ec9061d3e89ae494cd7972cb09b9f84438d4aacc98589434e5ba789",
+    "write_broad_report.py": "11efc1b3ffa2f3ec52f33fa89ab46a4aeed6ca07dc267555e09d2497d7f2f6a2"
+  }
+}

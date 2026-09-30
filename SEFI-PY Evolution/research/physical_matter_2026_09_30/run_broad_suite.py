@@ -17,9 +17,12 @@ def main():
           'L32_h050':(64,.5,'charged_ring_wide')}
     for name in args.jobs:
         n,h,source=jobs[name]
+        extra = ['--m','0','1','2','3','4']
+        if name in ('L24_h040','L32_h050'):
+            extra = ['--m','0','1','2','3','--shifts','.01','.12+.12j','.12-.12j']
         subprocess.run([sys.executable,str(Path(__file__).with_name('broad_scan.py')),
             str(args.data/(source+'.npz')),'--output',str(args.output/name),
-            '--n',str(n),'--h',str(h),'--m','0','1','2','3','4','--k','12'],check=True)
+            '--n',str(n),'--h',str(h),'--k','12',*extra],check=True)
 
 
 if __name__=='__main__':

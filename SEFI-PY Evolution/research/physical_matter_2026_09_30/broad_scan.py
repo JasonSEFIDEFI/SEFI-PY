@@ -37,10 +37,12 @@ def structure_bound(b, g, w):
     skew = float(abs(gh+gh.getH()).max())
     if max(herm, skew) > 1e-10:
         raise RuntimeError('Energy bound requires weighted Hermitian B and skew-Hermitian G')
-    vals, vec = eigsh(bh, k=1, which='LA', tol=1e-10)
+    vals, vec = eigsh(bh, k=1, which='LA', tol=1e-10,
+        v0=np.random.default_rng(20260930).standard_normal(bh.shape[0]))
     residual = float(np.linalg.norm(bh@vec[:, 0]-vals[0]*vec[:, 0]))
     return {'B_hermitian_defect': herm, 'G_skew_defect': skew,
             'lambda_max_B_estimate': float(vals[0]), 'bound_eigenpair_residual': residual,
+            'bound_start_seed':20260930,
             'growth_disk_radius_estimate': float(np.sqrt(max(0, vals[0]))),
             'certified': False,
             'meaning': 'All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound.'}
@@ -116,6 +118,12 @@ def main():
     ap.add_argument('--maxiter', type=int, default=1200)
     args = ap.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
+    source_hash = hashlib.sha256(args.profile.read_bytes()).hexdigest()
+    previous_meta = args.output/'metadata.json'
+    if previous_meta.exists():
+        previous = json.loads(previous_meta.read_text())
+        if (previous['source_sha256'],previous['n'],previous['h']) != (source_hash,args.n,args.h):
+            raise ValueError('Existing output has a different source/grid; use a new directory')
     n,h,fields,c,nu,lam,N = load_profile(args.profile, args.n, args.h)
     if N != 0 or n < 4 or h <= 0 or any(m < 0 for m in args.m):
         raise ValueError('Only N=0, n>=4, h>0, m>=0 supported')
@@ -124,7 +132,7 @@ def main():
         raise RuntimeError('Stationary profile convergence/nontriviality gate failed')
     np.savez_compressed(args.output/'profile.npz', r=np.arange(n+1)*h,
         z=np.arange(-n,n+1)*h, u=fields[0], w=fields[1], s=fields[2], c=c, nu=nu, lambda_sigma=lam)
-    meta = {'source_sha256': hashlib.sha256(args.profile.read_bytes()).hexdigest(),
+    meta = {'source_sha256': source_hash,
         'n':n, 'h':h, 'L':n*h, 'N':N, 'c':c, 'nu':nu, 'lambda_sigma':lam,
         'stationary_history':hist, 'python':platform.python_version(),
         'numpy':np.__version__, 'scipy':scipy.__version__,
@@ -143,6 +151,10 @@ def main():
                 stem = f'm{m}_{strategy}_{idx:02d}'
                 dest = args.output/(stem+'.json')
                 if dest.exists():
+                    previous = json.loads(dest.read_text())
+                    requested_shift = None if shift is None else [shift.real,shift.imag]
+                    if previous['shift'] != requested_shift or previous['k_requested'] != args.k:
+                        raise ValueError(f'{dest}: existing target/k differ; use a new output directory')
                     continue
                 start = time.perf_counter()
                 status, error = 'complete', None
@@ -169,7 +181,9 @@ def main():
                 np.savez_compressed(args.output/(stem+'.npz'),eigenvalues=ev,
                     saved_indices=np.array(keep,dtype=int),eigenvectors=vec[:,keep])
                 report = {'m':m,'strategy':strategy,'shift':None if shift is None else [shift.real,shift.imag],
-                    'k_requested':args.k,'status':status,'error':error,'seconds':time.perf_counter()-start,
+                    'k_requested':args.k,'maxiter':args.maxiter,'ncv':max(2*args.k+1,40),
+                    'tol':1e-10,'seed':20260930+idx,
+                    'status':status,'error':error,'seconds':time.perf_counter()-start,
                     'eigenvalues':records}
                 dest.write_text(json.dumps(report,indent=2))
                 print(json.dumps({'run':str(args.output),'target':stem,'status':status,

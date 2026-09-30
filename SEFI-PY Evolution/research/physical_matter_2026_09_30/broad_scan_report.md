@@ -1,99 +1,87 @@
 # N=0 full-Z falsification campaign — 30 September 2026
 
-Starting commit: `bc68d639fe9b175f2e7c4fade05f991c0276157b` on
-`research/action-audit-2026-09-30`. All existing tracked files, analytical
-checkpoints, retained backgrounds, and v0.1 remain unchanged. This extension
-imports the committed operator rather than changing it.
+Starting commit: `bc68d639fe9b175f2e7c4fade05f991c0276157b`, branch
+`research/action-audit-2026-09-30`. Existing tracked files, v0.1, retained
+backgrounds, and analytical checkpoints remain unchanged. The committed
+operator and results were audited before extending the search.
 
-**Checkpoint result:** no accepted instability and no stability claim. The
-completed L=16, h=0.5 campaign comprises 55 complex shift targets, 12 returned
-pairs per target, and m=0–4 (660 returned pairs, including repeated modes).
-The only positive-real values above the 1e-6 screening threshold belong to the
-previous longitudinal translation splitting, approximately 0.00270686543,
-with tangent overlap 0.98924 after removing carrier phase. Refinement and
-independent targeting runs are in progress; this report will be updated.
+Parameters: N=0, c=0.6, nu=0.3, lambda=25. Full Z domain; no perturbation parity restriction.
 
-## Audit and broader strategy
+**Result: no accepted instability; no stability claim.**
+The campaign retained 2412 returned eigenpairs (including repeats)
+from 202 recorded target calculations. Nonsymmetry positive-real
+candidates above the 1e-6 screening threshold: **0**.
+The positive m=0 pair is the previously calibrated translation splitting.
+No genuine unstable mode survived the acceptance gates.
 
-The committed B and G match the retained full-Z quadratic formulation,
-including conjugate couplings, gyroscopic terms, time/axial advection, and
-regular cylindrical axis spaces. No perturbation Z parity is imposed. N!=0
-remains rejected. The original three operator tests pass.
+## Completed scope
 
-A single shift-invert target returns eigenvalues near that target, not the
-eigenvalues with largest real part. With a complex matrix the transformed
-values are 1/(sigma-target); largest transformed magnitude therefore selects
-nearest original eigenvalues. See the primary [SciPy eigs documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.eigs.html).
-The new adversarial test explicitly constructs an unstable oscillatory pair
-missed by a near-zero search and recovered by broader targets and unshifted LR.
+| L | h | m sectors | Complete / recorded targets | Returned pairs |
+|---:|---:|:---|---:|---:|
+| 16 | 0.4 | 0, 1, 2, 3, 4 | 55 / 55 | 660 |
+| 16 | 0.5 | 0, 1, 2, 3, 4 | 67 / 68 | 804 |
+| 24 | 0.4 | 0, 1, 2, 3 | 12 / 12 | 144 |
+| 24 | 0.5 | 0, 1, 2, 3, 4 | 55 / 55 | 660 |
+| 32 | 0.5 | 0, 1, 2, 3 | 12 / 12 | 144 |
 
-`broad_scan.py` uses 11 targets per sector: 0.0001 plus two positive real
-offsets and five imaginary offsets. With extent E=max(0.25,1.1 R), targets
-are (0.15 or 0.6) E + i(-1,-0.5,0,0.5,1) E. Additional explicit targets extend
-the independent factorization search to imaginary offsets +/-1 and +/-2.
-The Schur implementation factors B+target G-target^2 I, then reconstructs the
-first-order inverse by exact block elimination. The independent `full`
-strategy factors the original first-order matrix. Both are ARPACK methods;
-they are independent factorizations, not independent eigensolver libraries.
-An unshifted largest-real-part option is implemented, with nonconvergence
-recorded rather than interpreted as absence of growth.
+The main scans use eleven complex targets per sector, with imaginary
+offsets through +/-0.25 and positive real offsets 0.0375 and 0.15, plus
+0.0001. The L24 h=0.4 and L32 refinements use 0.01 and 0.12 +/-0.12i.
+Independent full-matrix targeting adds m=0 offsets through -1 and +2,
+and separately reproduces the m=2,3 near-zero/complex-target calculations.
+One unshifted largest-real-part attempt returned no converged eigenpairs.
+The -2 offset was interrupted without results; it is excluded from scope.
 
-## Energy structure and search bound
+Actual returned imaginary ranges (these are not exclusion regions):
 
-Cylindrical discrete weights are proportional to i h^2 at r=i h; the m=0
-axis weight is h^2/8. These satisfy the axis detailed-balance identity
-w0*4=w1/2. In this inner product B is Hermitian and G is skew-Hermitian;
-the measured defects at L=16, h=0.5 are at most 2.7e-15.
+| m | Smallest Im(sigma) | Largest Im(sigma) |
+|---:|---:|---:|
+| 0 | -1.02005157 | 2.0071191 |
+| 1 | -0.319647823 | 0.319647823 |
+| 2 | -0.334722819 | 0.334722819 |
+| 3 | -0.348274194 | 0.348274194 |
+| 4 | -0.368174767 | 0.368174767 |
 
-Taking the weighted inner product of sigma^2 y=B y+sigma G y, write
-beta=<y,B y>/<y,y> real and <y,G y>/<y,y>=i g with g real. If sigma=a+i b
-and a!=0, its imaginary part gives g=2b. Its real part then gives
-|sigma|^2=beta<=lambda_max(B). Thus all nonimaginary eigenvalues of the exact
-finite discretization lie inside this disk when its upper endpoint is known.
+## Symmetry calibration
 
-The code estimates lambda_max(B) with an extremal Hermitian solve and records
-its residual. This is **not a certified upper bound**: a small residual does
-not prove the Ritz value is the largest eigenvalue. It informs target placement
-only. The L=16, h=0.5 m=0 estimate is 0.04196872147, giving R≈0.2048626893.
-The estimate is negative for m=1 and higher in the runs completed so far;
-this is not promoted to a stability conclusion. Neither the finite target
-mesh nor ARPACK convergence certifies completeness, multiplicities, or absence
-of unreturned right-half-plane eigenvalues.
+| L | h | Longitudinal splitting magnitude | Transverse splitting magnitude |
+|---:|---:|---:|---:|
+| 16 | 0.4 | 0.00269583551 | 0.00468127336 |
+| 16 | 0.5 | 0.00270686543 | 0.00482831558 |
+| 24 | 0.4 | 0.00104666802 | 0.00214632945 |
+| 24 | 0.5 | 0.00105073302 | 0.00245837112 |
+| 32 | 0.5 | 0.000519913272 | 0.00211569189 |
 
-## Acceptance gates and artifacts
+The largest direct carrier-phase null residual is 2.99e-15. Translation
+splittings shrink with increasing L and show the independent h trend.
+Cylindrical overlaps, boundary fractions, interior tangent residuals, and
+background checks are saved in convergence.json. Exact infinite-domain
+translation zero modes remain unresolved.
 
-Every returned pair records first-order, quadratic absolute/scaled, and
-velocity-consistency residuals; cylindrical boundary norm fraction; peak and
-RMS location; neighboring-node variation; and weighted symmetry overlaps.
-The carrier phase is removed before measuring longitudinal translation overlap.
-Representative target-00 eigenvectors and every nonsymmetry growing candidate
-are retained; all eigenvalues and diagnostics are retained at every target.
-`saved_indices` maps each saved vector column to its diagnostic record.
+The symmetric nearest-eigenvalue disagreement between Schur and independent
+full-matrix targeting at L16 h=0.5 is m=0: 3.29e-08, m=2: 2.54e-15, m=3: 3.32e-15.
+Both use ARPACK; this verifies different factorizations rather than different
+eigensolver libraries.
 
-No candidate is automatically accepted. Acceptance requires small first-order
-and quadratic residuals, independent h refinement, increasing L, a resolved
-interior-localized eigenfunction, exclusion of symmetry/finite-box splitting,
-and repeated targeting. Growth below the 1e-6 reporting threshold remains an
-unresolved possibility; raw eigenvalues are retained. Carrier phase direct-null
-checks and translation grid/domain calibration remain mandatory.
+## Limits and reproducibility
 
-The broad-search tests additionally compare the Schur inverse to a dense block
-solve and test weighted structure and the growth-disk identity against complete
-dense spectra in m=0–4 on a tiny grid. All six tests pass. The tiny-grid oracle
-tests numerical machinery; it does not represent the physical profile.
+Every returned pair has first-order/quadratic residuals and eigenfunction
+diagnostics. Representative vectors and every nonsymmetry growing candidate
+are retained. No candidate is accepted automatically; all six requested
+residual, refinement, localization, symmetry, and reproduction gates remain.
+Growth below the screening threshold and modes missed by finite targeting
+remain possible. No continuum, nonlinear, or general spectral stability
+claim follows from this finite search.
 
-Reproduce from this directory with Python and `requirements-spectral.txt`:
+Six tests pass, including an unstable pair missed by near-zero targeting,
+a dense block-inverse oracle, and a dense-spectrum check of the weighted
+energy identity. That identity supplies a disk bound when the largest B
+eigenvalue is known; the numerical estimate used here is not certified.
+A certified bound/inertia or contour count is a useful next completeness
+check. Continue simultaneous box/grid refinement before accepting growth.
 
-```text
-python -m unittest test_full_z_spectral test_broad_scan -v
-python broad_scan.py ../../sim/vortex_console/data/charged_ring_refined.npz --output broad_runs/L16_h050 --n 32 --h .5 --m 0 1 2 3 4 --k 12
-python broad_scan.py ../../sim/vortex_console/data/charged_ring_refined.npz --output broad_runs/L16_h050_independent --n 32 --h .5 --m 0 2 3 --k 12 --shifts .01 .12+.12j .12-.12j .1+1j .1-1j .2+2j .2-2j --strategies full
-python run_broad_suite.py
-python compact_broad_vectors.py broad_runs
-python summarize_broad.py broad_runs
-```
-
-`broad_runs/` contains backgrounds, per-target machine-readable spectra,
-selected eigenvectors, and run metadata. `convergence.json` summarizes scope,
-residual maxima, candidates, symmetry trends, and artifact hashes. Original
-full-Z calibration and v0.1 artifacts are not overwritten.
+[Method, targeting limits, and reproduction commands](broad_scan_strategy.md).
+[Machine-readable convergence](broad_runs/convergence.json) and
+[preservation/artifact verification](broad_runs/verification.json).
+Per-target spectra, retained vectors, backgrounds, and environment/settings
+are in broad_runs/. All changes are separate research additions.

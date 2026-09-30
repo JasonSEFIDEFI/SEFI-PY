@@ -1,0 +1,15 @@
+{
+  "m": 0,
+  "strategy": "LR",
+  "shift": null,
+  "k_requested": 8,
+  "status": "partial",
+  "error": "ARPACK error -1: No convergence (201 iterations, 0/8 eigenvectors converged)",
+  "seconds": 194.69292859999769,
+  "eigenvalues": [],
+  "maxiter": 200,
+  "ncv": 40,
+  "tol": 1e-10,
+  "seed": 20260930,
+  "settings_reconstructed_from_execution_log": true
+}

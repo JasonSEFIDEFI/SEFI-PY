@@ -1,0 +1,270 @@
+{
+  "m": 3,
+  "strategy": "schur",
+  "shift": [
+    0.12,
+    0.12
+  ],
+  "k_requested": 12,
+  "maxiter": 1200,
+  "ncv": 40,
+  "tol": 1e-10,
+  "seed": 20260931,
+  "status": "complete",
+  "error": null,
+  "seconds": 19.00440449999951,
+  "eigenvalues": [
+    {
+      "real": 1.8041124150158794e-16,
+      "imag": 0.0878893756516877,
+      "first_order_residual": 1.0304682349590408e-14,
+      "quadratic_absolute_residual": 1.0180210959178077e-14,
+      "quadratic_scaled_residual": 1.9947686095900397e-14,
+      "velocity_consistency": 3.536395038222655e-16,
+      "boundary_norm_fraction": 0.18050451298897793,
+      "peak_r_z": [
+        22.0,
+        -16.0
+      ],
+      "rms_r_z": [
+        21.81681675091811,
+        16.88390000956283
+      ],
+      "neighbor_variation": 0.008848525065720786,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 2.914335439641036e-16,
+      "imag": 0.09687565362749465,
+      "first_order_residual": 1.0945703402265264e-14,
+      "quadratic_absolute_residual": 1.0952693727634568e-14,
+      "quadratic_scaled_residual": 1.9390767278495286e-14,
+      "velocity_consistency": 4.849864626560253e-16,
+      "boundary_norm_fraction": 0.19794079712986334,
+      "peak_r_z": [
+        22.0,
+        21.0
+      ],
+      "rms_r_z": [
+        21.70303091436378,
+        17.881534260211048
+      ],
+      "neighbor_variation": 0.012624315168962424,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -2.7755575615628914e-17,
+      "imag": 0.10896521176161407,
+      "first_order_residual": 1.181793475507906e-14,
+      "quadratic_absolute_residual": 1.178800461481613e-14,
+      "quadratic_scaled_residual": 1.844491904391573e-14,
+      "velocity_consistency": 4.648540605032998e-16,
+      "boundary_norm_fraction": 0.2217342597788162,
+      "peak_r_z": [
+        22.0,
+        -24.0
+      ],
+      "rms_r_z": [
+        21.776722271479894,
+        18.039777056679995
+      ],
+      "neighbor_variation": 0.01741232090928483,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 1.1102230246251565e-16,
+      "imag": 0.11685056720627711,
+      "first_order_residual": 1.080813174279864e-14,
+      "quadratic_absolute_residual": 1.4139244233871263e-14,
+      "quadratic_scaled_residual": 2.0489151627149652e-14,
+      "velocity_consistency": 7.587795875193814e-16,
+      "boundary_norm_fraction": 0.16259400976034108,
+      "peak_r_z": [
+        6.0,
+        0.0
+      ],
+      "rms_r_z": [
+        15.457747026293713,
+        7.368658231646555
+      ],
+      "neighbor_variation": 0.05386183197054721,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 3.3306690738754696e-16,
+      "imag": 0.12317553376805494,
+      "first_order_residual": 1.2637919074963399e-14,
+      "quadratic_absolute_residual": 1.2455821880974576e-14,
+      "quadratic_scaled_residual": 1.7124119924076786e-14,
+      "velocity_consistency": 4.510645458053814e-16,
+      "boundary_norm_fraction": 0.2459824068180619,
+      "peak_r_z": [
+        24.0,
+        0.0
+      ],
+      "rms_r_z": [
+        21.735810815003077,
+        17.787600602796438
+      ],
+      "neighbor_variation": 0.023705751317359035,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -1.942890293094024e-16,
+      "imag": 0.12867414458183876,
+      "first_order_residual": 1.1871566918770232e-14,
+      "quadratic_absolute_residual": 1.3373783207932116e-14,
+      "quadratic_scaled_residual": 1.7575684073002394e-14,
+      "velocity_consistency": 7.817470199312677e-16,
+      "boundary_norm_fraction": 0.2387983666217474,
+      "peak_r_z": [
+        6.0,
+        0.0
+      ],
+      "rms_r_z": [
+        19.323407984670393,
+        14.691105967685651
+      ],
+      "neighbor_variation": 0.04031937963745886,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": 8.326672684688674e-17,
+      "imag": 0.12980990719763563,
+      "first_order_residual": 1.0647201343819765e-14,
+      "quadratic_absolute_residual": 1.1600539808376841e-14,
+      "quadratic_scaled_residual": 1.512535243053693e-14,
+      "velocity_consistency": 4.4290863852717034e-16,
+      "boundary_norm_fraction": 0.24751347347308902,
+      "peak_r_z": [
+        6.0,
+        0.0
+      ],
+      "rms_r_z": [
+        19.822708997268556,
+        16.785758702767218
+      ],
+      "neighbor_variation": 0.02569579364224214,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -4.163336342344337e-17,
+      "imag": 0.13814886434926152,
+      "first_order_residual": 1.1836543082643814e-14,
+      "quadratic_absolute_residual": 1.2911886709130219e-14,
+      "quadratic_scaled_residual": 1.5742221135145226e-14,
+      "velocity_consistency": 5.656670571920766e-16,
+      "boundary_norm_fraction": 0.2641781693412303,
+      "peak_r_z": [
+        5.5,
+        0.0
+      ],
+      "rms_r_z": [
+        19.98171109799367,
+        16.689924768007348
+      ],
+      "neighbor_variation": 0.03962473017333952,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -9.71445146547012e-17,
+      "imag": 0.1387440661298589,
+      "first_order_residual": 1.2302441085495394e-14,
+      "quadratic_absolute_residual": 1.208578781086421e-14,
+      "quadratic_scaled_residual": 1.4637943873562323e-14,
+      "velocity_consistency": 5.571349991262431e-16,
+      "boundary_norm_fraction": 0.2710753547898565,
+      "peak_r_z": [
+        22.5,
+        -5.5
+      ],
+      "rms_r_z": [
+        21.690022550304967,
+        18.101650293216068
+      ],
+      "neighbor_variation": 0.03213673437717495,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -3.7470027081099033e-16,
+      "imag": 0.14568712847979576,
+      "first_order_residual": 1.4244466253691487e-14,
+      "quadratic_absolute_residual": 1.5211433796502474e-14,
+      "quadratic_scaled_residual": 1.753786163955508e-14,
+      "velocity_consistency": 5.960921717615396e-16,
+      "boundary_norm_fraction": 0.2794421891960083,
+      "peak_r_z": [
+        14.5,
+        24.0
+      ],
+      "rms_r_z": [
+        19.98140787507161,
+        18.011934384432397
+      ],
+      "neighbor_variation": 0.02789621757052254,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -6.938893903907228e-17,
+      "imag": 0.1558269956408909,
+      "first_order_residual": 2.3836314962614254e-14,
+      "quadratic_absolute_residual": 2.4499130448623902e-14,
+      "quadratic_scaled_residual": 2.61961198360434e-14,
+      "velocity_consistency": 5.64448442042079e-15,
+      "boundary_norm_fraction": 0.2949269525646958,
+      "peak_r_z": [
+        21.5,
+        0.0
+      ],
+      "rms_r_z": [
+        21.82013244329563,
+        18.306485000139546
+      ],
+      "neighbor_variation": 0.03959784422691561,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    },
+    {
+      "real": -2.7755575615628914e-16,
+      "imag": 0.15752459364619154,
+      "first_order_residual": 3.107378401537217e-13,
+      "quadratic_absolute_residual": 3.7913160039207946e-13,
+      "quadratic_scaled_residual": 4.0181349673734105e-13,
+      "velocity_consistency": 1.0933180379019603e-13,
+      "boundary_norm_fraction": 0.29992795802539274,
+      "peak_r_z": [
+        15.5,
+        0.0
+      ],
+      "rms_r_z": [
+        20.042847330695157,
+        17.971973122783062
+      ],
+      "neighbor_variation": 0.03627937742674949,
+      "weighted_symmetry_overlaps": {},
+      "candidate": false,
+      "accepted_instability": false
+    }
+  ]
+}

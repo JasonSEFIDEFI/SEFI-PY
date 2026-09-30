@@ -1,0 +1,32 @@
+{
+  "starting_commit": "bc68d639fe9b175f2e7c4fade05f991c0276157b",
+  "date": "2026-09-30",
+  "N": 0,
+  "real_part_reporting_threshold": 0.000001,
+  "threshold_is_not_a_stability_exclusion": true,
+  "acceptance": "No automatic acceptance; all six requested falsification gates required",
+  "unreturned_attempts": [
+    {
+      "run": "L16_h050_independent",
+      "target": "m0_full_06",
+      "shift": [0.2, -2.0],
+      "maxiter": 1200,
+      "status": "interrupted_without_returned_eigenpairs",
+      "reason": "Prioritize box/grid calibration over expensive bulk-spectrum targeting"
+    },
+    {
+      "run": "L16_h050_independent",
+      "target": "m0_full_06",
+      "shift": [0.2, -2.0],
+      "maxiter": 200,
+      "status": "interrupted_without_returned_eigenpairs",
+      "reason": "Reduced-iteration restart remained expensive; independent m=2,3 targets prioritized"
+    }
+  ],
+  "resumed_run": {
+    "run": "L24_h050",
+    "note": "Interrupted after completed m=1 target 06, then resumed with completed target records preserved"
+  },
+  "bound_estimate_starting_vector": "Early jobs used ARPACK defaults; final solver fixes the seed. Bounds are not certified.",
+  "archived_scope": "Only targets with returned records count toward the report; interrupted -2 attempts do not establish searched-region exclusion."
+}

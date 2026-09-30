@@ -286,5 +286,10 @@
       "candidate": false,
       "accepted_instability": false
     }
-  ]
+  ],
+  "maxiter": 1200,
+  "ncv": 40,
+  "tol": 1e-10,
+  "seed": 20260940,
+  "settings_reconstructed_from_execution_log": true
 }
