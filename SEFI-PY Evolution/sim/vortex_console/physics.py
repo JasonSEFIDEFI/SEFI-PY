@@ -1,4 +1,4 @@
-"""Research equations, independent of SEFI-PY engine. NumPy only.
+"""Research equations, independent of SEFI-PY engine. Optional SciPy acceleration.
 
 Coordinates T=t, Z=gamma(z-vt). Phi=exp(i Omega t)p(T,r,Z),
 Sigma=exp(i nu gamma(t-vz))s(T,r,Z). Speed of the underlying
@@ -6,6 +6,8 @@ Minkowski metric is 1. The evolution implemented here is axisymmetric
 and restricted to lambda=25 and carrier azimuthal winding N=0.
 """
 import math
+import time
+import warnings
 import numpy as np
 import ring_operator as ring
 
@@ -55,10 +57,27 @@ def roots(f):
         if u[i]*u[i+1]<0:out.append(float(r[i]-u[i]*(r[i+1]-r[i])/(u[i+1]-u[i])))
     return out
 
-def solve(p, reference, callback=lambda *x:None, cancelled=lambda:False):
+def solve(p, reference, callback=lambda *x:None, cancelled=lambda:False, backend="auto"):
+    started=time.perf_counter()
+    if backend not in ('auto','dense','sparse'):
+        raise ValueError('backend must be auto, dense, or sparse')
+    sp=None
+    if backend!='dense':
+        try:
+            import scipy.sparse as sp
+            from scipy.sparse.linalg import spsolve, MatrixRankWarning
+        except ImportError:
+            sp=None
+            if backend=='sparse':raise ImportError('Sparse solver requires scipy; install requirements-fast.txt')
+    use_sparse=sp is not None
     n=p['n'];h=p['L']/n;nu0=n*n;nphi=n*n+n*(n-1);size=nphi+nu0
-    A,b,iu,iw=ring.setup(n,h,p['c']);D,_,_,_=ring.setup(n,h,0)
-    op=np.zeros((size,size));op[:nphi,:nphi]=A;op[nphi:,nphi:]=D[:nu0,:nu0];bb=np.r_[b,np.zeros(nu0)]
+    A,b,iu,iw=ring.setup(n,h,p['c'],sparse=use_sparse)
+    D,_,_,_=ring.setup(n,h,0,sparse=use_sparse)
+    if use_sparse:
+        op=sp.block_diag((A,D[:nu0,:nu0]),format='csr')
+    else:
+        op=np.zeros((size,size));op[:nphi,:nphi]=A;op[nphi:,nphi:]=D[:nu0,:nu0]
+    bb=np.r_[b,np.zeros(nu0)]
     r=np.arange(n+1)*h;rr,zz=np.meshgrid(r,r,indexing='ij')
     # User-selected seed radius scales only the initial guess, never the result.
     source_radius=roots(reference)[0];scale=p['seed']/source_radius
@@ -69,8 +88,11 @@ def solve(p, reference, callback=lambda *x:None, cancelled=lambda:False):
     u[-1,:]=u[:,-1]=1;w[-1,:]=w[:,-1]=w[:,0]=0;s[-1,:]=s[:,-1]=0
     if p['N']:
         s[0,:]=0
+        centrifugal=np.zeros(size)
         for i in range(1,n):
-            idx=nphi+i*n+np.arange(n);op[idx,idx]-=p['N']**2/(i*h)**2
+            idx=nphi+i*n+np.arange(n);centrifugal[idx]=-p['N']**2/(i*h)**2
+        if use_sparse:op=op+sp.diags(centrifugal,format='csr')
+        else:op[np.diag_indices(size)]+=centrifugal
     x=np.r_[ring.pack(u,w,n),s[:n,:n].ravel()]
     def unpack(x):
         u,w=ring.unpack(x[:nphi],n);s=np.zeros_like(u);s[:n,:n]=x[nphi:].reshape(n,n);return u,w,s
@@ -84,13 +106,33 @@ def solve(p, reference, callback=lambda *x:None, cancelled=lambda:False):
         if cancelled():raise InterruptedError('Stopped during profile solve')
         F=residual(x);err=float(abs(F).max());hist.append(err);callback(iteration,err)
         if err<1e-9:reason='converged';break
-        u,w,s=unpack(x);J=op.copy();ii=np.diag_indices(size)
-        J[ii]+=np.r_[(1-3*u*u-w*w-4*s*s)[:n,:n].ravel(),(1-u*u-3*w*w-4*s*s)[:n,1:n].ravel(),(3+p['nu']**2-4*(u*u+w*w)-3*p['lam']*s*s)[:n,:n].ravel()]
-        cross=(-2*u*w)[:n,1:n].ravel();J[iu,iw]+=cross;J[iw,iu]+=cross
-        ids=nphi+np.arange(nu0);cross=(-8*u*s)[:n,:n].ravel();J[np.arange(nu0),ids]+=cross;J[ids,np.arange(nu0)]+=cross
-        ids=nphi+iu;cross=(-8*w*s)[:n,1:n].ravel();J[iw,ids]+=cross;J[ids,iw]+=cross
-        if p['N']:J[nphi:nphi+n,:]=0;ids=nphi+np.arange(n);J[ids,ids]=1
-        dx=np.linalg.solve(J,-F);step=1
+        u,w,s=unpack(x)
+        diag=np.r_[(1-3*u*u-w*w-4*s*s)[:n,:n].ravel(),(1-u*u-3*w*w-4*s*s)[:n,1:n].ravel(),(3+p['nu']**2-4*(u*u+w*w)-3*p['lam']*s*s)[:n,:n].ravel()]
+        us=np.arange(nu0);ss=nphi+us;ws=nphi+iu
+        uw=(-2*u*w)[:n,1:n].ravel()
+        cross_us=(-8*u*s)[:n,:n].ravel()
+        cross_ws=(-8*w*s)[:n,1:n].ravel()
+        if use_sparse:
+            rows=np.r_[np.arange(size),iu,iw,us,ss,iw,ws]
+            cols=np.r_[np.arange(size),iw,iu,ss,us,ws,iw]
+            values=np.r_[diag,uw,uw,cross_us,cross_us,cross_ws,cross_ws]
+            J=op+sp.coo_matrix((values,(rows,cols)),shape=(size,size)).tocsr()
+            if p['N']:
+                mask=np.ones(size);mask[nphi:nphi+n]=0
+                J=sp.diags(mask)@J+sp.diags(1-mask)
+            with warnings.catch_warnings():
+                warnings.simplefilter('error',MatrixRankWarning)
+                try:dx=spsolve(J.tocsc(),-F)
+                except MatrixRankWarning as exc:raise np.linalg.LinAlgError('Singular Newton Jacobian') from exc
+        else:
+            J=op.copy();J[np.diag_indices(size)]+=diag
+            J[iu,iw]+=uw;J[iw,iu]+=uw
+            J[us,ss]+=cross_us;J[ss,us]+=cross_us
+            J[iw,ws]+=cross_ws;J[ws,iw]+=cross_ws
+            if p['N']:J[nphi:nphi+n,:]=0;ids=nphi+np.arange(n);J[ids,ids]=1
+            dx=np.linalg.solve(J,-F)
+        if not np.isfinite(dx).all():raise np.linalg.LinAlgError('Nonfinite Newton step')
+        step=1
         while step>1/4096:
             test=x+step*dx
             if np.linalg.norm(residual(test))<np.linalg.norm(F)*(1-1e-4*step):break
@@ -100,7 +142,10 @@ def solve(p, reference, callback=lambda *x:None, cancelled=lambda:False):
     u,w,s=unpack(x);f=dict(r=r,z=r.copy(),u=u,w=w,s=s)
     err=float(abs(residual(x)).max());rs=roots(f)
     return f,dict(residual=err,converged=err<1e-8,has_ring=bool(rs),radius=rs[0] if rs else None,
-                  carrier_peak=float(abs(s).max()),history=hist,reason=reason)
+                  carrier_peak=float(abs(s).max()),history=hist,reason=reason,
+                  solver_backend='sparse' if use_sparse else 'dense',
+                  solve_seconds=time.perf_counter()-started,
+                  operator_bytes=int(op.data.nbytes+op.indices.nbytes+op.indptr.nbytes) if use_sparse else int(op.nbytes))
 
 def full_fields(f):
     p=np.concatenate([f['u'][:,1:][:,::-1]-1j*f['w'][:,1:][:,::-1],f['u']+1j*f['w']],axis=1)

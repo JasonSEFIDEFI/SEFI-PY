@@ -5,9 +5,10 @@ import numpy as np
 
 ROOT=Path(__file__).resolve().parents[1]
 
-def setup(n,h,c):
+def setup(n,h,c,sparse=False):
     nu=n*n; nw=n*(n-1); size=nu+nw
-    A=np.zeros((size,size)); b=np.zeros(size)
+    A=None if sparse else np.zeros((size,size)); b=np.zeros(size)
+    rows=[];cols=[];values=[]
     def idx(i,j,imag):
         if i==n or j==n or (imag and j==0):return None
         return nu+i*(n-1)+j-1 if imag else i*n+j
@@ -15,6 +16,8 @@ def setup(n,h,c):
         k=idx(i,j,imag)
         if k is None:
             if not imag:b[row]+=coef
+        elif sparse:
+            rows.append(row);cols.append(k);values.append(coef)
         else:A[row,k]+=coef
     for imag in [False,True]:
         for i in range(n):
@@ -38,6 +41,10 @@ def setup(n,h,c):
                     put(row,i,j+1,True,-c/(2*h));put(row,i,j-1,True,c/(2*h))
     iu=np.array([i*n+j for i in range(n) for j in range(1,n)])
     iw=np.arange(nu,size)
+    if sparse:
+        from scipy.sparse import coo_matrix
+        A=coo_matrix((values,(rows,cols)),shape=(size,size)).tocsr()
+        A.eliminate_zeros()
     return A,b,iu,iw
 
 def unpack(x,n):
