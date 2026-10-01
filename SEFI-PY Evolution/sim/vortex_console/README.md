@@ -2,6 +2,12 @@
 
 An isolated local research instrument for inspecting computed field profiles, testing axisymmetric field evolution, and exploring fixed-charge relaxation. **Research prototype, console version 0.2.** The existing SEFI-PY engine and SEFI-QEC are unchanged. This is a locally run application, not a hosted online simulation.
 
+## Faster moving-profile solves
+
+Install `python -m pip install -r requirements-fast.txt` using the same Python interpreter that runs the console. Moving-profile searches automatically use SciPy's sparse Newton solver when available; the original NumPy dense solver remains the fallback. The status line and API result report the selected backend and profile solve time. The finite-difference equations, boundaries, convergence tolerances, line search, evolution, and checkpoint model version are unchanged.
+
+For controlled comparisons, `physics.solve(..., backend="dense")` and `backend="sparse"` select a solver explicitly. Run `python -m unittest test_sparse_solver -v` to check matrix, field, winding-boundary, fallback, and cancellation equivalence. Run `python benchmark_profile_solver.py` to reproduce the timing comparison. See [SPARSE_SOLVER_REPORT.md](SPARSE_SOLVER_REPORT.md) for measured results and their limits. This acceleration applies to moving-profile Newton searches, not fixed-charge relaxation or time evolution.
+
 ## New in 0.2: fixed-charge research
 
 The **Charge** tab loads the new charged-torus candidate and failed lower-charge searches, or executes an energy-decreasing fixed-carrier-charge search. It displays relaxation iteration, constrained energy per charge, carrier frequency, original-field minimum amplitude and residual. It supports pause/resume/stop, saved frames, checkpoint download and deterministic checkpoint continuation. Its checkpoint format is separate from physical-evolution checkpoints.
