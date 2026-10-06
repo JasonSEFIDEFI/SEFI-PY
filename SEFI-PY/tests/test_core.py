@@ -1,7 +1,7 @@
 from core.field_origin import FieldOrigin
 from core.field_authorship import FieldAuthorship
 from core.field_sovereignty import FieldSovereignty
-from core.warp_expression import  WarpEngine
+from core.warp_expression import WarpExpression
 from core.warp_defi import WarpDEFI
 
 def test_core_pipeline_values():

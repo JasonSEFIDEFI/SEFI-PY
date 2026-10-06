@@ -2,6 +2,12 @@
 
 SEFI‑PY is a geometric field engine that models a single entity’s identity, autonomy, and dynamic behavior as a layered field. It is the Python implementation of SEFI (Single Entity Field Interpretation), designed to be structurally parallel to SEFI‑JS and suitable for research, simulation, and extension.
 
+## Time manuscript dynamics — Jason D. Dutton
+
+The [Time dynamics module](core/time_dynamics.py) adds the classical identity equations, directed clock phase, linear and nonlinear stability calculations, exact recurrence certificates, Floquet analysis, and the DNA penalty energy distinction from the submitted Time manuscript. See the [mathematical scope and reproduction guide](docs/TIME_DYNAMICS.md). These are conditional model results, not empirical validation.
+
+Run `python demo_time_dynamics.py` for the manuscript examples and `python -m pytest tests/test_time_dynamics.py` for verification. The new module requires only the Python standard library.
+
 ---
 
 ## Core Concept
@@ -36,6 +42,8 @@ SEFI-PY/
         stability.py
     tests/
         test_core.py
+```
+
 # SEFI-PY Engine
 
 SEFI-PY is the Python implementation of the Single Entity Field Interpretation (SEFI) engine.
