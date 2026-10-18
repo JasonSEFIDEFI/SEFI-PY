@@ -1,0 +1,257 @@
+path,lines,bytes,matches_pinned_blob,match_after_crlf_normalization,syntax,definitions
+SEFI QEC Stack/Logging/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/Logging/geolog.py,9,259,True,True,parses,log_event
+SEFI QEC Stack/SEFI QEC Stack/Logging/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/Logging/geolog.py,9,259,True,True,parses,log_event
+SEFI QEC Stack/SEFI QEC Stack/codec/__init__.py,1,2,True,True,parses,
+SEFI QEC Stack/SEFI QEC Stack/codec/compress.py,55,1341,True,True,parses,to_binary; compress; decompress; parse
+SEFI QEC Stack/SEFI QEC Stack/codec/sefi_codec.py,17,438,True,True,parses,encode; decode
+SEFI QEC Stack/SEFI QEC Stack/core/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/core/geometry.py,13,179,True,True,parses,GeometricState
+SEFI QEC Stack/SEFI QEC Stack/core/identity_types.py,62,1290,True,True,parses,Phi; __init__; __repr__
+SEFI QEC Stack/SEFI QEC Stack/fidelity/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/fidelity/fidelity.py,31,764,True,True,parses,fidelity
+SEFI QEC Stack/SEFI QEC Stack/pyproject.toml,11,344,True,True,not Python,
+SEFI QEC Stack/SEFI QEC Stack/qec/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/qec/authorship.py,12,334,True,True,parses,check_authorship
+SEFI QEC Stack/SEFI QEC Stack/qec/collapse.py,6,216,True,True,parses,predict_collapse
+SEFI QEC Stack/SEFI QEC Stack/qec/metric.py,8,230,True,True,parses,check_metric
+SEFI QEC Stack/SEFI QEC Stack/qec/origin.py,12,313,True,True,parses,check_origin
+SEFI QEC Stack/SEFI QEC Stack/qec/sovereignty.py,13,278,True,True,parses,check_sovereignty
+SEFI QEC Stack/SEFI QEC Stack/qec/stabilizer.py,72,1701,True,True,parses,correct; syndrome
+SEFI QEC Stack/SEFI QEC Stack/qec/syndrome.py,11,252,True,True,parses,geometric_syndrome
+SEFI QEC Stack/SEFI QEC Stack/qec/warp_metric.py,14,445,True,True,parses,WarpMetricTensor; __init__; curvature_energy
+SEFI QEC Stack/SEFI QEC Stack/quantum/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/quantum/azure_bridge.py,31,502,True,True,parses,AzureBridge; __init__; connect; status
+SEFI QEC Stack/SEFI QEC Stack/quantum/azure_job.py,28,520,True,True,SyntaxError line 28: invalid syntax,
+SEFI QEC Stack/SEFI QEC Stack/quantum/circuits.py,61,1411,True,True,parses,SEFICircuit; build_circuit; __init__; syndrome; parity; register_view
+SEFI QEC Stack/SEFI QEC Stack/quantum/decoder.py,31,729,True,True,parses,SEFIDecoder; decode; decode_field
+SEFI QEC Stack/SEFI QEC Stack/quantum/encoder.py,8,136,True,True,parses,SEFIEncoder; encode
+SEFI QEC Stack/SEFI QEC Stack/quantum/geometric_stabilizer.py,24,540,True,True,parses,GeometricStabilizer; evaluate; valid
+SEFI QEC Stack/SEFI QEC Stack/quantum/geometry_syndrome.py,14,305,True,True,parses,geometry_syndrome
+SEFI QEC Stack/SEFI QEC Stack/quantum/logical_error_rate.py,12,224,True,True,parses,LogicalErrorRate; calculate
+SEFI QEC Stack/SEFI QEC Stack/quantum/logical_lattice.py,33,722,True,True,parses,LogicalLattice; __init__; logical_distance; weight; density; snapshot
+SEFI QEC Stack/SEFI QEC Stack/quantum/logical_register.py,27,452,True,True,SyntaxError line 27: invalid syntax,
+SEFI QEC Stack/SEFI QEC Stack/quantum/noise.py,40,645,True,True,parses,bit_flip; phase_flip; depolarizing
+SEFI QEC Stack/SEFI QEC Stack/quantum/phi_state.py,13,251,True,True,parses,phi_to_bitlist
+SEFI QEC Stack/SEFI QEC Stack/quantum/qec_pipeline.py,46,860,True,True,parses,build_quantum_pipeline
+SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp/sefi_encoder.qs,27,508,True,True,not Python,
+SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp/sefi_stabilizer.qs,39,1040,True,True,not Python,
+SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp/sefi_syndrome.qs,16,319,True,True,not Python,
+SEFI QEC Stack/SEFI QEC Stack/quantum/recovery.py,18,386,True,True,parses,recover
+SEFI QEC Stack/SEFI QEC Stack/quantum/registers.py,8,165,True,True,SyntaxError line 8: '(' was never closed,
+SEFI QEC Stack/SEFI QEC Stack/quantum/resource_estimator.py,31,733,True,True,parses,ResourceEstimate; estimate_sefi; __init__; summary
+SEFI QEC Stack/SEFI QEC Stack/quantum/resource_model.py,29,685,True,True,parses,SEFIResourceModel; __init__; total_qubits; report
+SEFI QEC Stack/SEFI QEC Stack/quantum/sefi_code.py,28,582,True,True,parses,SEFICode; __init__; encode; decode; syndrome_extract
+SEFI QEC Stack/SEFI QEC Stack/quantum/self_stabilizers.py,23,411,True,True,parses,origin_stabilizer; authorship_stabilizer; sovereignty_stabilizer; warp_stabilizer; metric_stabilizer
+SEFI QEC Stack/SEFI QEC Stack/quantum/sovereignty_surface.py,18,244,True,True,SyntaxError line 13: expected '(',
+SEFI QEC Stack/SEFI QEC Stack/quantum/stabilizer_code.py,26,493,True,True,parses,SEFIStabilizerCode; __init__; add; evaluate
+SEFI QEC Stack/SEFI QEC Stack/quantum/syndrome.py,25,490,True,True,parses,SEFISyndrome; detect; __init__; weight; has_error
+SEFI QEC Stack/SEFI QEC Stack/quantum/syndrome_extractor.py,15,267,True,True,SyntaxError line 13: expected ':',
+SEFI QEC Stack/SEFI QEC Stack/quantum/worldline_register.py,38,681,True,True,parses,WorldlineRegister; __init__; position; velocity; state
+SEFI QEC Stack/SEFI QEC Stack/reconstruct/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/reconstruct/consistency.py,10,348,True,True,parses,check_consistency
+SEFI QEC Stack/SEFI QEC Stack/stabilizer/stabilizer.py,37,1206,True,True,parses,StabilizerGenerator; StabilizerModel; __init__; __init__; check_constraints; syndrome
+SEFI QEC Stack/SEFI QEC Stack/stack.py,140,4600,True,True,parses,build_identity; encode; decode; correct; fidelity; transmit; sefi_qec_pipeline
+SEFI QEC Stack/SEFI QEC Stack/tests/test_geometric_qec.py,66,1219,True,True,parses,test_worldline_register; test_logical_lattice; test_geometric_stabilizer
+SEFI QEC Stack/SEFI QEC Stack/tests/test_logical_qec.py,20,375,True,True,parses,test_quantum_pipeline
+SEFI QEC Stack/SEFI QEC Stack/tests/test_quantum.py,55,834,True,True,parses,test_build_quantum_circuit; test_register_view; test_parity
+SEFI QEC Stack/SEFI QEC Stack/tests/test_quantum_noise.py,38,596,True,True,parses,test_syndrome_detection; test_recovery; test_bit_flip_preserves_length
+SEFI QEC Stack/SEFI QEC Stack/tests/test_sefi_code.py,43,706,True,True,parses,test_sefi_code_roundtrip; test_syndrome_detection
+SEFI QEC Stack/SEFI QEC Stack/tests/test_stack.py,197,5668,True,True,parses,test_build_identity_creates_phi; test_codec_round_trip_preserves_phi; test_sefi_qec_pipeline_returns_result_mapping; test_predict_collapse_threshold_logic; test_channel_models_noop_and_single_bit_flip; test_channel_models_corruption_regressions; test_decode_handles_non_pipe_bitstrings_gracefully; test_decode_handles_malformed_bit_lengths_gracefully; test_decode_handles_invalid_field_values_gracefully; test_pipeline_handles_channel_corruption_and_keeps_result_shape; test_worldline_propagation
+SEFI QEC Stack/SEFI QEC Stack/transport/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/SEFI QEC Stack/transport/channel_models.py,38,984,True,True,parses,no_noise; flip_warp; break_sovereignty; corrupt_authorship; corrupt_origin; corrupt_metric
+SEFI QEC Stack/SEFI QEC Stack/transport/curvature.py,48,1118,True,True,parses,apply_curvature; calculate_curvature
+SEFI QEC Stack/SEFI QEC Stack/transport/worldline.py,10,178,True,True,parses,propagate
+SEFI QEC Stack/codec/__init__.py,1,2,True,True,parses,
+SEFI QEC Stack/codec/compress.py,55,1341,True,True,parses,to_binary; compress; decompress; parse
+SEFI QEC Stack/codec/sefi_codec.py,17,438,True,True,parses,encode; decode
+SEFI QEC Stack/core/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/core/identity_types.py,14,527,True,True,parses,Phi; __init__; __repr__
+SEFI QEC Stack/fidelity/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/fidelity/fidelity.py,31,764,True,True,parses,fidelity
+SEFI QEC Stack/pyproject.toml,11,344,True,True,not Python,
+SEFI QEC Stack/qec/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/qec/authorship.py,12,334,True,True,parses,check_authorship
+SEFI QEC Stack/qec/collapse.py,6,216,True,True,parses,predict_collapse
+SEFI QEC Stack/qec/metric.py,8,230,True,True,parses,check_metric
+SEFI QEC Stack/qec/origin.py,12,313,True,True,parses,check_origin
+SEFI QEC Stack/qec/sovreignty.py,11,338,True,True,parses,check_sovereignty
+SEFI QEC Stack/qec/stabilizer.py,44,1171,True,True,parses,correct
+SEFI QEC Stack/qec/warp_metric.py,14,445,True,True,parses,WarpMetricTensor; __init__; curvature_energy
+SEFI QEC Stack/reconstruct/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/reconstruct/consistency.py,10,348,True,True,parses,check_consistency
+SEFI QEC Stack/stabilizer/stabilizer.py,37,1206,True,True,parses,StabilizerGenerator; StabilizerModel; __init__; __init__; check_constraints; syndrome
+SEFI QEC Stack/stack.py,140,4601,True,True,parses,build_identity; encode; decode; correct; fidelity; transmit; sefi_qec_pipeline
+SEFI QEC Stack/tests/test_stack.py,177,5355,True,True,parses,test_build_identity_creates_phi; test_codec_round_trip_preserves_phi; test_sefi_qec_pipeline_returns_result_mapping; test_predict_collapse_threshold_logic; test_channel_models_noop_and_single_bit_flip; test_channel_models_corruption_regressions; test_decode_handles_non_pipe_bitstrings_gracefully; test_decode_handles_malformed_bit_lengths_gracefully; test_decode_handles_invalid_field_values_gracefully; test_pipeline_handles_channel_corruption_and_keeps_result_shape
+SEFI QEC Stack/transport/__init__.py,0,0,True,False,parses,
+SEFI QEC Stack/transport/channel_models.py,38,984,True,True,parses,no_noise; flip_warp; break_sovereignty; corrupt_authorship; corrupt_origin; corrupt_metric
+SEFI QEC Stack/transport/curvature.py,21,691,True,True,parses,apply_curvature
+SEFI QEC Stack/transport/worldline.py,8,221,True,True,parses,propagate
+SEFI-PY Evolution/benchmark.py,18,611,True,True,parses,run_benchmark
+SEFI-PY Evolution/cli/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/cli/main_cli.py,17,597,True,True,parses,run_cli
+SEFI-PY Evolution/cli/sefi-cli.js,16,401,True,True,not Python,
+SEFI-PY Evolution/config.py,5,118,True,True,parses,
+SEFI-PY Evolution/core/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/core/constants.py,9,234,True,True,parses,
+SEFI-PY Evolution/core/identity.py,12,296,True,True,parses,SEFIState; to_vector
+SEFI-PY Evolution/core/sefi_space.py,23,974,True,True,parses,SEFISpace; __init__; layer_field; metric_distance
+SEFI-PY Evolution/dna/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/dna/encoder.py,14,443,True,True,parses,DNAEncoder; encode_sequence
+SEFI-PY Evolution/dna/mapping.py,11,330,True,True,parses,sequence_to_curvature
+SEFI-PY Evolution/geometry/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/geometry/curves.py,19,597,True,True,parses,generate_helix; calculate_curvature_torsion
+SEFI-PY Evolution/geometry/frenet.py,29,931,True,True,parses,FrenetFrame; __init__; derivatives; step
+SEFI-PY Evolution/geometry/transforms.py,10,395,True,True,parses,rotate_vector
+SEFI-PY Evolution/main.py,49,1986,True,True,parses,main
+SEFI-PY Evolution/qec/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/qec/displacements.py,11,439,True,True,parses,calculate_displacement
+SEFI-PY Evolution/qec/projection.py,8,312,True,True,parses,project_to_manifold
+SEFI-PY Evolution/qec/syndrome.py,15,611,True,True,parses,detect_syndrome
+SEFI-PY Evolution/research/calibration_workbench/test_workbench.py,101,4809,True,True,parses,WorkbenchTests; setUpClass; test_resonant_pi_pulse_and_zero_drive; test_probabilities_bounded; test_signed_detuning_observable_with_offset_scan; test_resonant_only_scan_abstains; test_tangent_matches_small_physical_perturbation; test_recovery_requires_three_complete_acceptable_scans; test_mismatch_is_not_confident_diagnosis; test_replay_roundtrip_has_no_truth_columns; test_bad_replay_rejected; test_invalid_probabilities_and_config_rejected; test_reproducibility_and_heldout_seed_independence
+SEFI-PY Evolution/research/calibration_workbench/workbench.py,319,20143,True,True,parses,response; design; smooth; Diagnostics; truth_for; simulate; benchmark; write_csv; save_observations; load_observations; service_report; chart_svg; write_html; main; __init__; estimate; calibrate; diagnose
+SEFI-PY Evolution/research/physical_matter_2026_09_23/prepare_data.py,15,786,True,True,parses,
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_azimuthal_probe.py,45,3502,True,True,parses,dz; lap; rhs; norm
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_time_probe.py,53,4195,True,True,parses,dz; lap; rhs; integ; norm; charge; winding
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_carrier_linear_probe.py,37,2677,True,True,parses,
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/export_charged_ring.py,20,1634,True,True,parses,sample
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/export_core_carrier.py,11,1120,True,True,parses,
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/rest_branch_audit.py,12,1470,True,True,parses,
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/solve_charged_ring.py,50,3644,True,True,parses,unpack; residual
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/solve_core_condensate.py,56,3007,True,True,parses,unpack; residual
+SEFI-PY Evolution/research/physical_matter_2026_09_23/work/solve_traveling_ring.py,123,5594,True,True,parses,setup; unpack; pack; initial; diagnostics; main; idx; put; integral; residual; interp
+SEFI-PY Evolution/sim/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/sim/defi_integrator.py,28,1149,True,True,parses,DEFIIntegrator; __init__; step
+SEFI-PY Evolution/sim/double_slit_explorer/src/components/AdvancedGeometry.tsx,8,2525,True,False,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/components/Concepts.tsx,19,4075,True,False,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/components/Slider.tsx,2,563,True,True,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/content.ts,10,6057,True,True,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/main.tsx,3,741,True,True,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/pages/App.tsx,80,15782,True,True,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/simulations/ExperimentCanvas.tsx,45,6812,True,True,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/simulations/physics.test.ts,47,3042,True,False,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/src/simulations/physics.ts,14,1745,True,True,not Python,
+SEFI-PY Evolution/sim/double_slit_explorer/vite.config.ts,4,295,True,True,not Python,
+SEFI-PY Evolution/sim/environment.py,11,374,True,True,parses,SimulationEnvironment; __init__; apply_field_noise
+SEFI-PY Evolution/sim/solver.py,17,601,True,True,parses,DEFISolver; __init__; solve
+SEFI-PY Evolution/sim/vortex_console/physics.py,159,9424,True,True,parses,validate; load_profile; roots; solve; full_fields; Evolution; frame; interp; unpack; residual; __init__; dz; lap; rhs; step; integ; norm; charge; diagnostics
+SEFI-PY Evolution/sim/vortex_console/rest_search.py,128,8188,True,True,parses,validate; load_initial; Search; __init__; boundary; integral; lap; terms; force; diagnostics; descent_step; gradient_check; run
+SEFI-PY Evolution/sim/vortex_console/ring_operator.py,123,5594,True,True,parses,setup; unpack; pack; initial; diagnostics; main; idx; put; integral; residual; interp
+SEFI-PY Evolution/sim/vortex_console/server.py,273,20144,True,True,parses,dump; safe_id; Job; rest_frame; RestJob; new_rest_job; new_job; Handler; main; __init__; elapsed; guard; cancelled; status; save_frame; save_checkpoint; tick; get_profile; run; save_checkpoint; run; log_message; respond; check_host; do_GET; file; do_POST
+SEFI-PY Evolution/sim/vortex_console/static/app.js,60,24432,True,True,not Python,
+SEFI-PY Evolution/sim/vortex_console/static/rest.js,23,9817,True,True,not Python,
+SEFI-PY Evolution/sim/vortex_console/test_console.py,94,6431,True,True,parses,NumericalTests; APITests; setUpClass; test_validation; test_stationary_control_and_perturbation; test_changed_parameter_solve; setUpClass; tearDownClass; request; wait; test_api_and_checkpoint; test_failed_profile_blocks_evolution; test_checkpoint_version_guard
+SEFI-PY Evolution/sim/vortex_console/test_rest_console.py,34,2459,True,True,parses,FixedChargeTests; setUp; tearDown; test_energy_gradient_and_descent; test_guardrails; test_checkpoint_and_deterministic_resume; test_saved_reference
+SEFI-PY Evolution/sim/vortex_console/test_warp_vortex.py,65,3428,True,False,parses,WarpTests; setUp; status; test_rotation_and_integral; test_hessian_nonuniform; test_envelope_and_sigma; test_empty_and_invalid; test_worldline
+SEFI-PY Evolution/sim/vortex_console/two_charge_audit.py,28,2423,True,True,parses,
+SEFI-PY Evolution/sim/vortex_console/warp_vortex.py,194,9044,True,False,parses,_finite; _parameters; _axis; _field; displacement_components; displacement_derivatives; curl_displacement; compute_warp_envelope; check_stability_manifold; cartesian_volume_weights; stability_weighted_vortex; warp_vortex_status; worldline_warp_vortex_profile; main
+SEFI-PY Evolution/tests/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/tests/test_core.py,8,243,True,True,parses,test_sefi_metric_distance
+SEFI-PY Evolution/tests/test_geometry.py,6,232,True,True,parses,test_frenet_orthonormality
+SEFI-PY Evolution/tests/test_qec.py,10,337,True,True,parses,test_qec_displacement
+SEFI-PY Evolution/tests/test_sim.py,9,365,True,True,parses,test_integrator_step
+SEFI-PY Evolution/voxel/__init__.py,0,0,True,False,parses,
+SEFI-PY Evolution/voxel/grid.py,20,764,True,True,parses,VoxelGrid; __init__; map_point_to_index; add_trajectory
+SEFI-PY Evolution/voxel/render.py,15,555,True,True,parses,render_ascii_projection
+SEFI-PY/SEFI-QEC/__init__.py,11,351,True,True,parses,
+SEFI-PY/SEFI-QEC/correction.py,25,764,True,True,parses,Corrector; __init__; apply
+SEFI-PY/SEFI-QEC/logical_worldline.py,28,761,True,True,parses,LogicalWorldline; __init__; as_vector; describe
+SEFI-PY/SEFI-QEC/majority_check.py,49,1297,True,True,parses,majority_vote_syndrome
+SEFI-PY/SEFI-QEC/pauli_frame_check.py,52,1675,True,True,parses,pauli_frame_consistency
+SEFI-PY/SEFI-QEC/pauli_ops.py,22,447,True,True,parses,pauli_x; pauli_z; pauli_y
+SEFI-PY/SEFI-QEC/physical_qubits.py,33,1128,True,True,parses,PhysicalQubits; __init__; inject_error; get_state
+SEFI-PY/SEFI-QEC/runner.py,93,3162,True,True,parses,run_sefi_qec_demo
+SEFI-PY/SEFI-QEC/stabilizer_energy.py,76,2131,True,True,parses,apply_pauli; stabilizer_energy; stabilizer_energy_minimization
+SEFI-PY/SEFI-QEC/stabilizers.py,37,954,True,True,parses,z_parity; StabilizerSet; __init__; check; check_states
+SEFI-PY/SEFI-QEC/syndrome.py,34,1075,True,True,parses,SyndromeExtractor; __init__; extract
+SEFI-PY/SEFI-QEC/warp_mapping.py,17,365,True,True,parses,warp_to_error_mode
+SEFI-PY/SEFI-QEC/warp_residual_check.py,47,1321,True,True,parses,vector_distance; warp_residual_check
+SEFI-PY/benchmark.py,67,2272,True,True,parses,run_qec_benchmark
+SEFI-PY/config.py,26,561,True,True,parses,
+SEFI-PY/core/__init__.py,0,0,True,False,parses,
+SEFI-PY/core/animations/defi_flow.py,27,896,True,True,parses,DEFILayerFlow; construct
+SEFI-PY/core/animations/defi_layer.py,30,1018,True,True,parses,DEFILayer; DEFILayer; construct; construct
+SEFI-PY/core/animations/gwfm_intro.py,28,921,True,True,parses,GWFMIntro; construct
+SEFI-PY/core/animations/intro_card.py,12,435,True,True,parses,SEFIUnifiedIntro; construct
+SEFI-PY/core/animations/outro_card.py,12,409,True,True,parses,SEFIUnifiedOutro; construct
+SEFI-PY/core/animations/overlay_labels.py,14,595,True,True,parses,OverlayLabels; construct
+SEFI-PY/core/animations/sefi_codec.py,25,1026,True,True,parses,SEFIPhotonCodec; construct
+SEFI-PY/core/animations/sefi_core.py,29,850,True,True,parses,SEFICore; construct
+SEFI-PY/core/animations/sefi_intro.py,38,1103,True,True,parses,SEFIIntro; GWFMIntro; construct; construct
+SEFI-PY/core/animations/sefi_ontology.py,120,4771,True,True,parses,SEFIOntologyJourney; construct
+SEFI-PY/core/animations/sefi_photonics.py,27,909,True,True,parses,SEFIPhotonics; construct
+SEFI-PY/core/animations/sefi_sovereignty.py,38,1135,True,True,parses,SEFISovereigntyMorph; construct
+SEFI-PY/core/animations/transition_fade.py,7,250,True,True,parses,FadeTransition; construct
+SEFI-PY/core/animations/transition_warp.py,27,787,True,True,parses,WarpExpressionBridge; construct
+SEFI-PY/core/animations/worldline_demo.py,28,725,True,True,parses,WorldlineCurvature; construct
+SEFI-PY/core/field_authorship.py,49,1810,True,True,parses,FieldAuthorship; __init__; authored_direction; authored_intensity; authored_alignment
+SEFI-PY/core/field_origin.py,48,1556,True,True,parses,FieldOrigin; __init__; origin_strength; origin_direction; origin_alignment; origin_ratio
+SEFI-PY/core/field_sovereignty.py,94,3293,True,True,parses,FieldSovereignty; test_core_pipeline; __init__; sovereignty_vector; sovereignty_strength; sovereignty_alignment; sovereignty_ratio
+SEFI-PY/core/quantum.py,116,3372,True,True,parses,QuantumState; QuantumOperator; QuantumEvolution; WarpConfig; QuantumState; QuantumOperator; QuantumEvolution; warp_hamiltonian; collapse_to_classical; __init__; normalize; __init__; apply; __init__; propagate; __init__; __init__; normalize; __init__; apply; __init__; step
+SEFI-PY/core/time_dynamics.py,326,13345,True,False,parses,_finite; IdentityMetric; Coupling; _state; IdentityModel; origin_energy; clock_phase; phase_history; relational_derivative; linear_parameters; linear_spectrum; linear_modes; linear_solution; recurrence_cycles; exact_linear_ratios; locking_residual; periodic_descent_residual; rk4_step; floquet_monodromy; floquet_diagnostics; dna_origin_energies; dna_ratio_mismatch; dna_linear_spectrum; __post_init__; diagonal; __post_init__; linear; quadratic; rhs; energy; prescribed_power; effective_potential; effective_derivatives; equilibrium; equilibrium_spectrum; evaluate; rhs
+SEFI-PY/core/warp_defi.py,60,2191,True,True,parses,WarpDEFI; __init__; defi_vector; defi_intensity; defi_alignment; defi_ratio
+SEFI-PY/core/warp_expression.py,160,5436,True,True,parses,WarpExpression; WarpProfile; WarpEngine; __init__; expression_vector; expression_intensity; expression_alignment; expression_ratio; __init__; u; __init__; r_lambda; _wl_lambda; curvature_lambda; torsion_lambda; response
+SEFI-PY/demo_core.py,23,857,True,True,parses,demo_core
+SEFI-PY/demo_quantum.py,34,949,True,True,parses,helix; demo_quantum
+SEFI-PY/demo_sim.py,9,120,True,True,parses,demo_sim
+SEFI-PY/demo_time_dynamics.py,25,991,True,False,parses,main
+SEFI-PY/demo_warp.py,16,383,True,True,parses,helix; demo_warp
+SEFI-PY/main.py,43,886,True,True,parses,main
+SEFI-PY/pytest.ini,2,26,True,True,not Python,
+SEFI-PY/sim/__init__.py,0,0,True,False,parses,
+SEFI-PY/sim/behavior.py,44,1221,True,True,parses,compute_drive; compute_orientation; apply_behavior
+SEFI-PY/sim/dna.py,16,477,True,True,parses,run_sim
+SEFI-PY/sim/entity.py,45,1476,True,True,parses,Entity; __init__; step
+SEFI-PY/sim/environment.py,55,1750,True,True,parses,Environment; __init__; apply_global_field; apply_boundary
+SEFI-PY/sim/evolution.py,31,845,True,True,parses,evolve_position; evolve_momentum
+SEFI-PY/sim/interaction.py,29,902,True,True,parses,apply_interaction
+SEFI-PY/sim/sim_engine.py,116,3624,True,True,parses,run_sim; TorsionWaveform; run_torsion_sim; __init__; phi
+SEFI-PY/sim/world.py,121,3571,True,True,parses,World; Worldline; __init__; add; step; __init__; _derivative; v; a; j; curvature; torsion; frenet_frame
+SEFI-PY/test.py,2,42,True,True,parses,
+SEFI-PY/tests/__init__.py,0,0,True,False,parses,
+SEFI-PY/tests/test_core.py,18,727,True,False,parses,test_core_pipeline_values
+SEFI-PY/tests/test_geometry.py,103,3638,True,True,parses,test_normalize_vector; test_dot_product; test_magnitude; helix; test_tangent_warp_preserves_curvature; test_tangent_warp_modulates_torsion; test_normal_warp_changes_curvature; test_binormal_warp_changes_torsion; test_lambda_controls_warp_strength
+SEFI-PY/tests/test_pipeline_consistency.py,24,814,True,True,parses,test_pipeline_consistency
+SEFI-PY/tests/test_qec_consistency.py,15,502,True,True,parses,test_qec_runner_imports_and_executes
+SEFI-PY/tests/test_quantum.py,27,966,True,True,parses,helix; test_quantum_warp_evolution
+SEFI-PY/tests/test_sovereignty.py,28,900,True,True,parses,test_sovereignty_vector_alignment; test_sovereignty_ratio
+SEFI-PY/tests/test_stability.py,20,443,True,True,parses,test_blend; test_stable_ratio
+SEFI-PY/tests/test_time_dynamics.py,130,6353,True,False,parses,model; test_base_energy_derivative_and_driven_work; test_completed_square_and_nonlinear_saddle; test_eigenbasis_and_exact_solution_against_integrator; test_clock_record_multiple_cycles_and_alias_rejection; test_recurrence_is_exact_certificate_not_float_fit; test_floquet_counterexample_and_convergence; test_dna_modified_energy_derivatives_and_static_threshold; test_invalid_metrics; test_metric_normalization; test_integrator_rejects_malformed_and_nonfinite_derivatives; rhs
+SEFI-PY/tests/test_world.py,98,2473,True,True,parses,test_world_initialization; test_world_add_entity; test_world_step_updates_entity; test_world_boundary_pushes_entity_back; test_sefi_layers_rebuild_each_step
+SEFI-PY/utils/__init__.py,0,0,True,False,parses,
+SEFI-PY/utils/draw.py,32,767,True,True,parses,draw_1d
+SEFI-PY/utils/draw3d.py,49,1086,True,True,parses,draw_3d
+SEFI-PY/utils/geometry.py,67,1443,True,True,parses,magnitude; normalize; dot; project; frenet_frame
+SEFI-PY/utils/plot.py,46,1131,True,True,parses,plot_response
+SEFI-PY/utils/sefi_visualizer/sefi.js,186,4557,True,True,not Python,
+SEFI-PY/utils/sefi_visualizer/sefi3d.js,34,879,True,True,not Python,
+SEFI-PY/utils/stability.py,59,1503,True,True,parses,clamp; stable_ratio; blend; acceleration_norm; warp_stability
+examples/demo_sefi_worldline.py,30,901,True,True,parses,main
+examples/demo_worldline.py,22,713,True,True,parses,main
+sefi-cli.js,81,2093,True,True,not Python,
+sefi-cli/index.js,57,1368,True,True,not Python,
+sefi-config/index.js,166,3460,True,True,not Python,
+sefi-core/curvature.py,17,477,True,True,parses,curvature_from_worldline
+sefi-core/index.js,53,1147,True,True,not Python,
+sefi-core/layers.py,17,616,True,True,parses,generate_layered_worldlines
+sefi-core/trajectory_generator.py,16,507,True,True,parses,generate_trajectory
+sefi-core/worldline.py,38,1304,True,True,parses,SEFIWorldline; __init__; r
+sefi-dna/index.js,115,3006,True,True,not Python,
+sefi-geometry/index.js,91,2191,True,True,not Python,
+sefi-geometry/trajectory_generator.py,31,1017,True,True,parses,generate_sefi_trajectory
+sefi-sim/canvas.js,7,237,True,True,not Python,
+sefi-sim/dna-test.js,61,1845,True,True,not Python,
+sefi-sim/field-visualizer.js,22,498,True,True,not Python,
+sefi-sim/geometry-test.js,56,1643,True,True,not Python,
+sefi-sim/index.js,62,1625,True,True,not Python,
+sefi-sim/loop.js,37,940,True,True,not Python,
+sefi-sim/origin.js,57,1644,True,True,not Python,
+sefi-sim/renderer.js,31,825,True,True,not Python,
+sefi-sim/slit.js,58,1886,True,True,not Python,
+sefi-sim/warp-engine.js,34,966,True,True,not Python,
+sefi-sim/warp-test.js,59,1815,True,True,not Python,
+sefi-voxel/device_interface.py,19,580,True,True,parses,send_phase_sequence
+sefi-voxel/phase_compiler.py,12,362,True,True,parses,compile_phase_pattern
+sefi/index.js,53,1050,True,True,not Python,
+sefi/loop.js,6,154,True,True,not Python,

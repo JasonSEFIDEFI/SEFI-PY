@@ -1,0 +1,150 @@
+{
+  "microscopic_principal_symbol": "eta^{mu nu} k_mu k_nu times I_4 in Cartesian real fields",
+  "microscopic_characteristic_determinant": "(eta^{mu nu} k_mu k_nu)^4",
+  "microscopic_front_speed": 1.0,
+  "homogeneous_asymptotic_phi_phase_sound_speed_squared": 0.2,
+  "carrier_mass_squared_at_asymptotic_background": 1.0,
+  "two_condensate_example": {
+    "A": 1.0,
+    "B": 0.1,
+    "X": 2.4,
+    "Y": 3.5,
+    "lambda": 25,
+    "phase_speeds_squared": [
+      0.0495960343412014,
+      0.3391890123877707
+    ],
+    "temporal_matrix": [
+      [
+        14.333333333333334,
+        -2.576244754878122
+      ],
+      [
+        -2.576244754878122,
+        0.8777777777777777
+      ]
+    ],
+    "spatial_matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1
+      ]
+    ],
+    "is_the_localized_branch_asymptotic_background": false
+  },
+  "dispersion": [
+    {
+      "k": 0.001,
+      "single_phi_gapless_frequency": 0.00044721366705411606,
+      "single_phi_gapped_frequency": 3.162277944773346,
+      "carrier_lab_frequency": 1.000000499999875,
+      "two_condensate_exact_frequencies": [
+        0.0002227018505977816,
+        0.0005823993783539298,
+        3.2890446875516823,
+        4.447717240844219
+      ]
+    },
+    {
+      "k": 0.003,
+      "single_phi_gapless_frequency": 0.0013416427184584332,
+      "single_phi_gapped_frequency": 3.1622802216114274,
+      "carrier_lab_frequency": 1.000004499989875,
+      "two_condensate_exact_frequencies": [
+        0.0006681098573690163,
+        0.0017471986263555464,
+        3.2890470261195435,
+        4.447718759195594
+      ]
+    },
+    {
+      "k": 0.01,
+      "single_phi_gapless_frequency": 0.0044722075074576095,
+      "single_phi_gapped_frequency": 3.1623061204380596,
+      "carrier_lab_frequency": 1.0000499987500624,
+      "two_condensate_exact_frequencies": [
+        0.002227196104010424,
+        0.005824014022945609,
+        3.2890736271020264,
+        4.447736030382203
+      ]
+    },
+    {
+      "k": 0.1,
+      "single_phi_gapless_frequency": 0.04479274249735369,
+      "single_phi_gapped_frequency": 3.1651214210863325,
+      "carrier_lab_frequency": 1.004987562112089,
+      "two_condensate_exact_frequencies": [
+        0.02244854485767617,
+        0.05826035990939178,
+        3.2919650935539564,
+        4.449614322176613
+      ]
+    },
+    {
+      "k": 1.0,
+      "single_phi_gapless_frequency": 0.5054081058530535,
+      "single_phi_gapped_frequency": 3.427034088908079,
+      "carrier_lab_frequency": 1.4142135623730951,
+      "two_condensate_exact_frequencies": [
+        0.34359702601539427,
+        0.601256046296335,
+        3.5597709251127423,
+        4.631248558566836
+      ]
+    },
+    {
+      "k": 10.0,
+      "single_phi_gapless_frequency": 8.733681169318574,
+      "single_phi_gapped_frequency": 11.563858060037322,
+      "carrier_lab_frequency": 10.04987562112089,
+      "two_condensate_exact_frequencies": [
+        8.402680969503146,
+        8.632821880707557,
+        11.710206557408112,
+        12.179507431894056
+      ]
+    },
+    {
+      "k": 100.0,
+      "single_phi_gapless_frequency": 98.60077634990348,
+      "single_phi_gapped_frequency": 101.42922115049643,
+      "carrier_lab_frequency": 100.00499987500625,
+      "two_condensate_exact_frequencies": [
+        98.15898401596388,
+        98.46791310851275,
+        101.56609054262717,
+        101.90099703582415
+      ]
+    },
+    {
+      "k": 1000.0,
+      "single_phi_gapless_frequency": 998.5872863479887,
+      "single_phi_gapped_frequency": 1001.4157136495113,
+      "carrier_lab_frequency": 1000.000499999875,
+      "two_condensate_exact_frequencies": [
+        998.1321695189346,
+        998.4525077093475,
+        1001.5508922943101,
+        1001.8738304621057
+      ]
+    },
+    {
+      "k": 10000.0,
+      "single_phi_gapless_frequency": 9998.585936436742,
+      "single_phi_gapped_frequency": 10001.414363563255,
+      "carrier_lab_frequency": 10000.00005,
+      "two_condensate_exact_frequencies": [
+        9998.129471288823,
+        9998.450976671982,
+        10001.549363328026,
+        10001.871128711167
+      ]
+    }
+  ],
+  "conclusion": "Canonical microscopic cones are universally the already-assumed Minkowski cone. The infrared Phi phase cone differs; carrier/amplitude dispersion and coupled two-phase cones do not share that infrared metric. No universal emergent geometry or gravitational field equation is established."
+}

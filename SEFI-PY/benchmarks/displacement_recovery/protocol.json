@@ -1,0 +1,19 @@
+{
+  "version": "1.0", "author": "Jason D. Dutton", "date": "2026-10-06",
+  "repository_base": "5b9ce48af8ed9f3a493bb6cf03c7227b194c02d6",
+  "primary_metric": "unconditional encoded-qubit entanglement fidelity",
+  "primary_noise_sigma": 0.2,
+  "noise_sigmas": [0.0, 0.05, 0.1, 0.2, 0.4, 0.8, 1.2],
+  "seeds": 20, "first_seed": 610600,
+  "trials_per_seed_per_noise": 4000, "calibration_per_seed_per_noise": 2000,
+  "pilot_modes_per_trial": 16, "pilot_alpha": 1.0,
+  "noise_axis_ratio": 0.5, "noise_angle_radians": 0.45,
+  "accuracy_residual_radius": 0.25,
+  "bootstrap_replicates": 10000, "bootstrap_seed": 927123,
+  "runtime_repeats": 51, "runtime_batch": 4096,
+  "coordinate_matrix": [[1.7, 0.4], [-0.3, 0.65]],
+  "stress_mean_shift": [0.75, -0.4], "stress_sigma": 0.2,
+  "cutoffs": [8, 16, 32, 48], "cutoff_residual_max": 3.0,
+  "decision_rule": "Report gain versus ML only with paired seed bootstrap CI excluding zero at the primary noise; report no geometry-specific advantage when conventional posterior estimates coincide. Secondary comparisons exploratory; no familywise significance claims.",
+  "scope": "One pilot-assisted displacement recovery simulation; not a stabilizer QEC code, threshold study, hardware experiment, or foundational-theory validation."
+}

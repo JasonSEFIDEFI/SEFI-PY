@@ -1,0 +1,31 @@
+{
+  "pinned_commit": "5b9ce48af8ed9f3a493bb6cf03c7227b194c02d6",
+  "remote_tree_entries": 5352,
+  "read_source_files": 256,
+  "line_count": 9866,
+  "matching_source_files": 256,
+  "syntax_errors": [
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/azure_job.py",
+      "error": "SyntaxError line 28: invalid syntax"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/logical_register.py",
+      "error": "SyntaxError line 27: invalid syntax"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/registers.py",
+      "error": "SyntaxError line 8: '(' was never closed"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/sovereignty_surface.py",
+      "error": "SyntaxError line 13: expected '('"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/syndrome_extractor.py",
+      "error": "SyntaxError line 13: expected ':'"
+    }
+  ],
+  "missing_local_sources": [],
+  "scope": "Every owned source file in recursively enumerated tree; dependencies, caches, videos excluded. Static syntax parsing is not runtime verification. Binary assets enumerated, not scientifically validated."
+}

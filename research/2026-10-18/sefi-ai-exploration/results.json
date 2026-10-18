@@ -1,0 +1,54 @@
+[
+  {
+    "events": 100,
+    "queries": 1000,
+    "entity_count": 100,
+    "live_attributes": 100,
+    "latest_query_agreement": 1.0,
+    "reverse_scan_record_reads": 51477,
+    "indexed_value_reads": 1000,
+    "identity_value_reads": 1000,
+    "all_methods_ingestion_event_reads": 100,
+    "superseded_events_not_reconstructible_from_current_state": 0,
+    "history_events_if_preserved": 100
+  },
+  {
+    "events": 1000,
+    "queries": 1000,
+    "entity_count": 100,
+    "live_attributes": 400,
+    "latest_query_agreement": 1.0,
+    "reverse_scan_record_reads": 197447,
+    "indexed_value_reads": 1000,
+    "identity_value_reads": 1000,
+    "all_methods_ingestion_event_reads": 1000,
+    "superseded_events_not_reconstructible_from_current_state": 600,
+    "history_events_if_preserved": 1000
+  },
+  {
+    "events": 10000,
+    "queries": 1000,
+    "entity_count": 100,
+    "live_attributes": 400,
+    "latest_query_agreement": 1.0,
+    "reverse_scan_record_reads": 187608,
+    "indexed_value_reads": 1000,
+    "identity_value_reads": 1000,
+    "all_methods_ingestion_event_reads": 10000,
+    "superseded_events_not_reconstructible_from_current_state": 9600,
+    "history_events_if_preserved": 10000
+  },
+  {
+    "events": 100000,
+    "queries": 1000,
+    "entity_count": 100,
+    "live_attributes": 400,
+    "latest_query_agreement": 1.0,
+    "reverse_scan_record_reads": 199110,
+    "indexed_value_reads": 1000,
+    "identity_value_reads": 1000,
+    "all_methods_ingestion_event_reads": 100000,
+    "superseded_events_not_reconstructible_from_current_state": 99600,
+    "history_events_if_preserved": 100000
+  }
+]

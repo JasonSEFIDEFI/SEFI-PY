@@ -1,0 +1,9 @@
+{
+  "raw_saved_array_evaluation_pass": true,
+  "maximum_seed_metric_discrepancy": 0.0,
+  "seed_method_rows": 1400,
+  "aggregate_noise_method_rows": 70,
+  "primary_decoder_trials_rechecked": 560000,
+  "author": "Jason D. Dutton",
+  "date": "2026-10-06"
+}

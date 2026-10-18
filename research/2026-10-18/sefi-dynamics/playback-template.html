@@ -1,0 +1,87 @@
+<div id="sefi-recoil-lab">
+  <h3>Field pulses and vehicle recoil</h3>
+  <div class="text-small">Hypothetical scalar coupling · 1D · Dimensionless units</div>
+  <div class="viz-controls">
+    <label class="form-label">Run
+      <select class="form-select" id="sefi-run">
+        <option value="off">Sources off</option>
+        <option value="symmetric">Symmetric pulse</option>
+        <option value="phased" selected>Phased pulse</option>
+        <option value="reversed">Reversed phase</option>
+      </select>
+    </label>
+    <label class="form-label">Time <output id="sefi-time-label"></output>
+      <input class="form-range" id="sefi-time" type="range" min="0" max="65" value="65" step="1" aria-label="Simulation time">
+    </label>
+  </div>
+  <svg id="sefi-field-chart" role="img" aria-label="Scalar field versus position, with vehicle center marked"></svg>
+  <div class="viz-row text-small"><span>— Vehicle momentum</span><span>⋯ Field momentum</span><span>Thin line: total</span></div>
+  <svg id="sefi-momentum-chart" role="img" aria-label="Vehicle, field, and total momentum over time"></svg>
+  <div class="text-small tabular-nums" id="sefi-detail" aria-live="polite"></div>
+</div>
+<style>
+#sefi-recoil-lab svg {display:block;width:100%;height:235px;overflow:visible}
+#sefi-recoil-lab svg text {fill:var(--foreground);font-size:12px}
+#sefi-recoil-lab .domain,#sefi-recoil-lab .tick line {stroke:var(--border)}
+#sefi-recoil-lab .viz-controls {margin-block:12px}
+#sefi-recoil-lab .axis-title {font-weight:400}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>
+(() => {
+  const data=__SIMULATION_DATA__;
+  const root=document.getElementById('sefi-recoil-lab');
+  const select=root.querySelector('#sefi-run'),slider=root.querySelector('#sefi-time');
+  let chosen='phased';
+  function restore(state){
+    const s=state?.modelContent;
+    if(s&&data[s.run]){chosen=s.run;select.value=chosen;}
+    if(Number.isFinite(s?.frame))slider.value=Math.max(0,Math.min(Number(slider.max),s.frame));
+  }
+  restore(window.openai?.widgetState);
+  function save(){window.openai?.setWidgetState?.({modelContent:{run:chosen,frame:Number(slider.value)},privateContent:null}).catch(()=>{});}
+  function base(id,xDomain,yDomain,xTitle,yTitle){
+    const svg=d3.select(root.querySelector(id));svg.selectAll('*').remove();
+    const width=Math.max(280,root.getBoundingClientRect().width),height=235;
+    svg.attr('viewBox',`0 0 ${width} ${height}`);
+    const margin={left:72,right:22,top:25,bottom:44};
+    const x=d3.scaleLinear().domain(xDomain).range([margin.left,width-margin.right]);
+    const y=d3.scaleLinear().domain(yDomain).nice().range([height-margin.bottom,margin.top]);
+    svg.append('rect').attr('data-chart-frame','').attr('x',margin.left).attr('y',margin.top)
+      .attr('width',width-margin.left-margin.right).attr('height',height-margin.top-margin.bottom)
+      .attr('fill','none').attr('stroke','var(--border)');
+    svg.append('g').attr('transform',`translate(0,${height-margin.bottom})`).call(d3.axisBottom(x).ticks(width<400?3:6));
+    svg.append('g').attr('transform',`translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d3.format('.2~g')));
+    svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',(margin.left+width-margin.right)/2).attr('y',height-6).attr('text-anchor','middle').text(xTitle);
+    svg.append('text').attr('class','axis-title').attr('data-axis','y').attr('x',margin.left).attr('y',14).text(yTitle);
+    return {svg,x,y};
+  }
+  const allFields=Object.values(data).flatMap(r=>r.frames.flatMap(f=>f.field));
+  const allP=Object.values(data).flatMap(r=>r.history.flatMap(h=>[h.vehicle_p,h.field_p,h.total_p]));
+  function domain(values){const ext=d3.extent(values),pad=(ext[1]-ext[0])*.08||.01;return [ext[0]-pad,ext[1]+pad];}
+  const fieldDomain=domain(allFields),momentumDomain=domain(allP);
+  function redraw(){
+    const run=data[chosen];slider.max=run.frames.length-1;
+    const index=Math.min(Number(slider.value),run.frames.length-1),frame=run.frames[index];
+    root.querySelector('#sefi-time-label').textContent=frame.t.toFixed(1);
+    const near=run.history.reduce((a,b)=>Math.abs(a.t-frame.t)<Math.abs(b.t-frame.t)?a:b);
+    const length=run.summary.parameters.length;
+    const points=frame.field.map((value,i)=>({x:-length/2+i*length/frame.field.length,y:value}));
+    const field=base('#sefi-field-chart',[-length/2,length/2],fieldDomain,'Position (normalized)','Field amplitude (normalized)');
+    field.svg.append('path').datum(points).attr('fill','none').attr('stroke','var(--viz-series-1)').attr('stroke-width',1.7)
+      .attr('d',d3.line().x(d=>field.x(d.x)).y(d=>field.y(d.y)));
+    field.svg.append('line').attr('x1',field.x(frame.x)).attr('x2',field.x(frame.x)).attr('y1',field.y(fieldDomain[0])).attr('y2',field.y(fieldDomain[1])).attr('stroke','var(--foreground)').attr('stroke-dasharray','3 4');
+    const plot=base('#sefi-momentum-chart',[0,run.summary.parameters.duration],momentumDomain,'Time (normalized)','Momentum (normalized)');
+    for(const [key,color,dash,thickness] of [['vehicle_p','var(--viz-series-1)',null,1.8],['field_p','var(--viz-series-2)','4 3',1.8],['total_p','var(--foreground)',null,1]]){
+      plot.svg.append('path').datum(run.history).attr('fill','none').attr('stroke',color).attr('stroke-width',thickness).attr('stroke-dasharray',dash)
+        .attr('d',d3.line().x(d=>plot.x(d.t)).y(d=>plot.y(d[key])));
+    }
+    plot.svg.append('line').attr('x1',plot.x(frame.t)).attr('x2',plot.x(frame.t)).attr('y1',25).attr('y2',191).attr('stroke','var(--border)').attr('stroke-dasharray','3 3');
+    root.querySelector('#sefi-detail').textContent=`Vehicle ${near.vehicle_p.toFixed(4)} · Field ${near.field_p.toFixed(4)} · Total ${near.total_p.toExponential(1)}`;
+  }
+  select.addEventListener('change',()=>{chosen=select.value;redraw();save();});
+  slider.addEventListener('input',redraw);slider.addEventListener('change',save);
+  window.addEventListener('openai:set_globals',event=>{restore(event.detail?.globals?.widgetState);redraw();});
+  new ResizeObserver(redraw).observe(root);redraw();
+})();
+</script>

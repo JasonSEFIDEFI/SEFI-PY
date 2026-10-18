@@ -1,0 +1,42 @@
+{
+  "source_sha256": "3b0b26216b3c994e868434642b9d66dba17d4ab42f33ee08d635f9cb8062d37d",
+  "n": 32,
+  "h": 0.5,
+  "L": 16.0,
+  "N": 0,
+  "c": 0.6,
+  "nu": 0.3,
+  "lambda_sigma": 25.0,
+  "stationary_history": [
+    3.862848929614415e-11,
+    7.396860901565105e-15
+  ],
+  "python": "3.14.7",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "acceptance": "No candidate accepted automatically; all six user gates required",
+  "sectors": {
+    "0": {
+      "dimension": 16128,
+      "bound": {
+        "B_hermitian_defect": 2.6645352591003757e-15,
+        "G_skew_defect": 0.0,
+        "lambda_max_B_estimate": 0.04196872147167416,
+        "bound_eigenpair_residual": 2.061273090544333e-12,
+        "growth_disk_radius_estimate": 0.20486268931085075,
+        "certified": false,
+        "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+      },
+      "neutral_residuals": {
+        "carrier_phase": {
+          "relative_l2": 1.8522744071114908e-15,
+          "relative_max": 4.0964699682319325e-15
+        },
+        "longitudinal_translation": {
+          "relative_l2": 0.12455195115224796,
+          "relative_max": 0.25005121836485067
+        }
+      }
+    }
+  }
+}

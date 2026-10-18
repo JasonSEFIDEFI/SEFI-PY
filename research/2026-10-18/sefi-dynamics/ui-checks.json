@@ -1,0 +1,8 @@
+{
+  "initial": "Vehicle -0.2613 · Field 0.2613 · Total 8.3e-16",
+  "reversed": "Vehicle 0.2613 · Field -0.2613 · Total -8.3e-16",
+  "phaseSwitch": true,
+  "timeScrub": true,
+  "narrowNoOverflow": true,
+  "pageErrors": []
+}

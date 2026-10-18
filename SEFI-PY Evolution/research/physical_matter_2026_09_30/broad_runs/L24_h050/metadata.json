@@ -1,0 +1,103 @@
+{
+  "source_sha256": "3b0b26216b3c994e868434642b9d66dba17d4ab42f33ee08d635f9cb8062d37d",
+  "n": 48,
+  "h": 0.5,
+  "L": 24.0,
+  "N": 0,
+  "c": 0.6,
+  "nu": 0.3,
+  "lambda_sigma": 25.0,
+  "stationary_history": [
+    0.07553514224818934,
+    0.018717276594618668,
+    0.00018464380649171885,
+    3.739785116273209e-07,
+    4.907897005468342e-13,
+    9.237402509576498e-15
+  ],
+  "python": "3.14.7",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "acceptance": "No candidate accepted automatically; all six user gates required",
+  "sectors": {
+    "0": {
+      "dimension": 36480,
+      "bound": {
+        "B_hermitian_defect": 2.6645352591003757e-15,
+        "G_skew_defect": 0.0,
+        "lambda_max_B_estimate": 0.04613920076280379,
+        "bound_eigenpair_residual": 3.698771057107628e-12,
+        "growth_disk_radius_estimate": 0.21480037421476667,
+        "certified": false,
+        "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+      },
+      "neutral_residuals": {
+        "carrier_phase": {
+          "relative_l2": 1.894943691246325e-15,
+          "relative_max": 4.8171076672849864e-15
+        },
+        "longitudinal_translation": {
+          "relative_l2": 0.05512121589532306,
+          "relative_max": 0.07433219028622769
+        }
+      }
+    },
+    "1": {
+      "dimension": 35720,
+      "bound": {
+        "B_hermitian_defect": 2.6645352591003757e-15,
+        "G_skew_defect": 0.0,
+        "lambda_max_B_estimate": -0.000341696126204791,
+        "bound_eigenpair_residual": 4.3241558895082564e-14,
+        "growth_disk_radius_estimate": 0.0,
+        "certified": false,
+        "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+      },
+      "neutral_residuals": {
+        "transverse_translation": {
+          "relative_l2": 0.04626489423093079,
+          "relative_max": 0.04596605846503324
+        }
+      }
+    },
+    "2": {
+      "dimension": 35720,
+      "bound": {
+        "B_hermitian_defect": 2.6645352591003757e-15,
+        "G_skew_defect": 0.0,
+        "lambda_max_B_estimate": -0.04822425691276375,
+        "bound_eigenpair_residual": 4.809706421750358e-12,
+        "growth_disk_radius_estimate": 0.0,
+        "certified": false,
+        "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+      },
+      "neutral_residuals": {}
+    },
+    "3": {
+      "dimension": 35720,
+      "bound": {
+        "B_hermitian_defect": 2.6645352591003757e-15,
+        "G_skew_defect": 0.0,
+        "lambda_max_B_estimate": -0.07377878873916605,
+        "bound_eigenpair_residual": 6.769484791216433e-12,
+        "growth_disk_radius_estimate": 0.0,
+        "certified": false,
+        "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+      },
+      "neutral_residuals": {}
+    },
+    "4": {
+      "dimension": 35720,
+      "bound": {
+        "B_hermitian_defect": 2.6645352591003757e-15,
+        "G_skew_defect": 0.0,
+        "lambda_max_B_estimate": -0.10331793521017216,
+        "bound_eigenpair_residual": 9.734135340600677e-12,
+        "growth_disk_radius_estimate": 0.0,
+        "certified": false,
+        "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+      },
+      "neutral_residuals": {}
+    }
+  }
+}

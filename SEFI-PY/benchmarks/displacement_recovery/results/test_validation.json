@@ -1,0 +1,10 @@
+{
+  "author": "Jason D. Dutton",
+  "date": "2026-10-06",
+  "command": "python -m unittest -v test_benchmark",
+  "executed_tests": 19,
+  "passed_tests": 19,
+  "failed_tests": 0,
+  "observed_duration_seconds": 2.816,
+  "scope": "New benchmark physical and inference checks only; no certification of legacy QEC Stack."
+}

@@ -1,0 +1,4026 @@
+{
+  "accepted_instabilities": [],
+  "stability_claim": false,
+  "runs": [
+    {
+      "run": "L16_h040",
+      "L": 16.0,
+      "h": 0.4,
+      "stationary_residual": 9.735268147181841e-15,
+      "sectors": {
+        "0": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 39,
+          "max_real": 0.002695835511409584,
+          "returned_real_range": [
+            -0.0026958355114486145,
+            0.002695835511409584
+          ],
+          "returned_imag_range": [
+            -0.3125186779027267,
+            0.31251867790272386
+          ],
+          "max_first_order_residual": 2.5460384965022117e-08,
+          "max_quadratic_scaled_residual": 6.761863641457254e-07,
+          "max_quadratic_absolute_residual": 3.008529613670506e-08,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.04213438398937171,
+            "bound_eigenpair_residual": 3.4746993321023268e-12,
+            "growth_disk_radius_estimate": 0.2052666168410531,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [
+            {
+              "real": 0.002695835511409584,
+              "imag": -1.6904091283495085e-12,
+              "first_order_residual": 6.881330047305215e-10,
+              "quadratic_absolute_residual": 8.764149198125043e-10,
+              "quadratic_scaled_residual": 6.481088243091821e-08,
+              "velocity_consistency": 3.62972068839801e-15,
+              "boundary_norm_fraction": 0.01612721875474261,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.118772886764058,
+                2.272810599053111
+              ],
+              "neighbor_variation": 0.054807529745728764,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5601513174481434,
+                "longitudinal_translation": 0.9894625417238464
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ]
+            },
+            {
+              "real": 0.0026958355108627277,
+              "imag": -3.0531133177191805e-16,
+              "first_order_residual": 2.1744950742779472e-14,
+              "quadratic_absolute_residual": 2.5558485545126667e-14,
+              "quadratic_scaled_residual": 1.890049980294914e-12,
+              "velocity_consistency": 7.509613656425891e-16,
+              "boundary_norm_fraction": 0.016127218752155323,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.11877288680373,
+                2.2728105989639222
+              ],
+              "neighbor_variation": 0.05480752974620231,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5601513175610048,
+                "longitudinal_translation": 0.9894625417224446
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ]
+            },
+            {
+              "real": 0.0026958355108624363,
+              "imag": -5.142465994934332e-17,
+              "first_order_residual": 1.486311661391262e-14,
+              "quadratic_absolute_residual": 1.685949406346078e-14,
+              "quadratic_scaled_residual": 1.2467595690226646e-12,
+              "velocity_consistency": 4.248702433099838e-16,
+              "boundary_norm_fraction": 0.01612721875178195,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.118772886834072,
+                2.27281059892383
+              ],
+              "neighbor_variation": 0.05480752974627127,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5601513175893713,
+                "longitudinal_translation": 0.9894625417224403
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ]
+            },
+            {
+              "real": 0.002695835510864747,
+              "imag": 4.163336342344337e-16,
+              "first_order_residual": 2.09548188316678e-14,
+              "quadratic_absolute_residual": 2.4743284180206656e-14,
+              "quadratic_scaled_residual": 1.8297658401491128e-12,
+              "velocity_consistency": 6.768592336360127e-16,
+              "boundary_norm_fraction": 0.016127218752446125,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.118772886780059,
+                2.272810598995201
+              ],
+              "neighbor_variation": 0.05480752974614846,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5601513175388799,
+                "longitudinal_translation": 0.9894625417224435
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ]
+            },
+            {
+              "real": 0.0026958355109105714,
+              "imag": -2.556288514199423e-14,
+              "first_order_residual": 2.581681089344765e-13,
+              "quadratic_absolute_residual": 4.955507615936746e-13,
+              "quadratic_scaled_residual": 3.664597831500529e-11,
+              "velocity_consistency": 1.2034058164953016e-13,
+              "boundary_norm_fraction": 0.01612721875434875,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.118772886622801,
+                2.272810599204882
+              ],
+              "neighbor_variation": 0.0548075297457839,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5601513173921474,
+                "longitudinal_translation": 0.9894625417223015
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ]
+            },
+            {
+              "real": 0.0026958355108735454,
+              "imag": -1.7615012634244766e-16,
+              "first_order_residual": 1.5229215850388617e-14,
+              "quadratic_absolute_residual": 1.642655521080362e-14,
+              "quadratic_scaled_residual": 1.214743741203601e-12,
+              "velocity_consistency": 7.13520135266591e-16,
+              "boundary_norm_fraction": 0.016127218753157212,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.118772886722462,
+                2.27281059907146
+              ],
+              "neighbor_variation": 0.0548075297460167,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5601513174849585,
+                "longitudinal_translation": 0.9894625417224153
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ]
+            },
+            {
+              "real": 0.002695835510923894,
+              "imag": 2.5396351688300456e-15,
+              "first_order_residual": 2.5907227133018355e-13,
+              "quadratic_absolute_residual": 5.475066285706237e-13,
+              "quadratic_scaled_residual": 4.0488114625773576e-11,
+              "velocity_consistency": 1.5477401218604124e-13,
+              "boundary_norm_fraction": 0.016127218753900434,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.118772886657551,
+                2.272810599157259
+              ],
+              "neighbor_variation": 0.05480752974586326,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.560151317424582,
+                "longitudinal_translation": 0.9894625417222209
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ]
+            }
+          ],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "1": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 36,
+          "max_real": 1.9234613901630837e-14,
+          "returned_real_range": [
+            -6.428191312579656e-14,
+            1.9234613901630837e-14
+          ],
+          "returned_imag_range": [
+            -0.31964782313037715,
+            0.31964782313037704
+          ],
+          "max_first_order_residual": 1.5827388003470853e-10,
+          "max_quadratic_scaled_residual": 1.1782890991865095e-10,
+          "max_quadratic_absolute_residual": 2.420686433788396e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.0012740976773810472,
+            "bound_eigenpair_residual": 5.21247394879584e-14,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "2": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 30,
+          "max_real": 1.2175677133186014e-13,
+          "returned_real_range": [
+            -4.8183679268731794e-14,
+            1.2175677133186014e-13
+          ],
+          "returned_imag_range": [
+            -0.3347228185673853,
+            0.33472281856739305
+          ],
+          "max_first_order_residual": 3.053992223160588e-11,
+          "max_quadratic_scaled_residual": 2.3501001176816928e-11,
+          "max_quadratic_absolute_residual": 4.2997240390396785e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.09504611613860488,
+            "bound_eigenpair_residual": 4.350121556589503e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "3": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 26,
+          "max_real": 3.1202818107090025e-13,
+          "returned_real_range": [
+            -5.448419493347956e-14,
+            3.1202818107090025e-13
+          ],
+          "returned_imag_range": [
+            -0.3480725660188678,
+            0.34807256601886816
+          ],
+          "max_first_order_residual": 6.377136308647585e-11,
+          "max_quadratic_scaled_residual": 2.982998267803849e-11,
+          "max_quadratic_absolute_residual": 4.967412064808203e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.1598792250330905,
+            "bound_eigenpair_residual": 1.0467814229241817e-11,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "4": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 24,
+          "max_real": 5.717648576819556e-15,
+          "returned_real_range": [
+            -2.1649348980190553e-15,
+            5.717648576819556e-15
+          ],
+          "returned_imag_range": [
+            -0.3679414575104056,
+            0.3679414575104009
+          ],
+          "max_first_order_residual": 6.069749340085841e-12,
+          "max_quadratic_scaled_residual": 1.5475621713512752e-12,
+          "max_quadratic_absolute_residual": 2.8746140824611307e-12,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.22808349699653793,
+            "bound_eigenpair_residual": 1.9270305128115294e-11,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {
+        "carrier_phase": {
+          "sigma": [
+            -7.533512487065911e-11,
+            1.9477334637216666e-08
+          ],
+          "overlap": 1.000000000000002,
+          "boundary_norm_fraction": 0.00045313024169656385,
+          "interior_tangent_residual": 2.5655348337995296e-15,
+          "direct_null_relative_l2": 2.6038616598742743e-15
+        },
+        "longitudinal_translation": {
+          "sigma": [
+            -0.0026958355114486145,
+            2.6637215293326056e-12
+          ],
+          "overlap": 0.9894625417271912,
+          "boundary_norm_fraction": 0.016127218752239533,
+          "interior_tangent_residual": 0.024127264794663712,
+          "direct_null_relative_l2": 0.16792716833726443
+        },
+        "transverse_translation": {
+          "sigma": [
+            -6.245004513516506e-17,
+            -0.004681273358572847
+          ],
+          "overlap": 0.9866196880971386,
+          "boundary_norm_fraction": 0.02523520765144603,
+          "interior_tangent_residual": 0.016740316453072432,
+          "direct_null_relative_l2": 0.16373219250713403
+        }
+      },
+      "background": {
+        "carrier_max": 0.2987948189817997,
+        "carrier_peak_r_z": [
+          5.2,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 9.48918791329859,
+        "parity_defects": {
+          "u": 2.794431352981519e-13,
+          "w": 4.4188580626963787e-13,
+          "s": 7.849276784099857e-14
+        }
+      }
+    },
+    {
+      "run": "L16_h050",
+      "L": 16.0,
+      "h": 0.5,
+      "stationary_residual": 7.396860901565105e-15,
+      "sectors": {
+        "0": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 39,
+          "max_real": 0.002706865426937294,
+          "returned_real_range": [
+            -0.0027068654269372106,
+            0.002706865426937294
+          ],
+          "returned_imag_range": [
+            -0.3125215260615677,
+            0.3125215260615618
+          ],
+          "max_first_order_residual": 1.6637660311462046e-08,
+          "max_quadratic_scaled_residual": 2.8335636975159126e-07,
+          "max_quadratic_absolute_residual": 1.9268935584913504e-08,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.041968721471672236,
+            "bound_eigenpair_residual": 2.4029097882260616e-12,
+            "growth_disk_radius_estimate": 0.20486268931084606,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [
+            {
+              "real": 0.0027068654264869297,
+              "imag": 5.467506339208845e-13,
+              "first_order_residual": 4.1759417433125765e-10,
+              "quadratic_absolute_residual": 5.160532100589703e-10,
+              "quadratic_scaled_residual": 3.800980650735783e-08,
+              "velocity_consistency": 2.2455144241488006e-15,
+              "boundary_norm_fraction": 0.015429979410350141,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616328853,
+                2.2757399826391427
+              ],
+              "neighbor_variation": 0.08502438357792703,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501807621173,
+                "longitudinal_translation": 0.9892408161573463
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ]
+            },
+            {
+              "real": 0.0027068654269268647,
+              "imag": -5.273559366969494e-16,
+              "first_order_residual": 1.3054008172590223e-14,
+              "quadratic_absolute_residual": 1.5417952464279105e-14,
+              "quadratic_scaled_residual": 1.1356065201561859e-12,
+              "velocity_consistency": 6.242277421725399e-16,
+              "boundary_norm_fraction": 0.015429979404861438,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616772977,
+                2.2757399820410518
+              ],
+              "neighbor_variation": 0.08502438357957352,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501811841262,
+                "longitudinal_translation": 0.9892408161601176
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ]
+            },
+            {
+              "real": 0.0027068654269256226,
+              "imag": -3.083082029732004e-18,
+              "first_order_residual": 1.4174924898509933e-14,
+              "quadratic_absolute_residual": 1.6515670020314505e-14,
+              "quadratic_scaled_residual": 1.2164587096544408e-12,
+              "velocity_consistency": 6.512312536853599e-16,
+              "boundary_norm_fraction": 0.01542997940452047,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.1209836168019045,
+                2.2757399820026483
+              ],
+              "neighbor_variation": 0.08502438357969101,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.559350181211283,
+                "longitudinal_translation": 0.9892408161601166
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ]
+            },
+            {
+              "real": 0.0027068654269276904,
+              "imag": 2.7755575615628914e-16,
+              "first_order_residual": 1.4764101118211354e-14,
+              "quadratic_absolute_residual": 1.7043539857920234e-14,
+              "quadratic_scaled_residual": 1.2553388677139368e-12,
+              "velocity_consistency": 7.797477847781753e-16,
+              "boundary_norm_fraction": 0.015429979405048333,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616757084,
+                2.275739982062127
+              ],
+              "neighbor_variation": 0.08502438357950913,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501811692252,
+                "longitudinal_translation": 0.9892408161601209
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ]
+            },
+            {
+              "real": 0.002706865426774119,
+              "imag": 8.215650382226158e-14,
+              "first_order_residual": 9.313374503591905e-13,
+              "quadratic_absolute_residual": 1.676229116083939e-12,
+              "quadratic_scaled_residual": 1.2346235455971042e-10,
+              "velocity_consistency": 4.3442576465036594e-13,
+              "boundary_norm_fraction": 0.015429979403662008,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616868803,
+                2.2757399819109394
+              ],
+              "neighbor_variation": 0.08502438357999749,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501812759298,
+                "longitudinal_translation": 0.9892408161608358
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ]
+            },
+            {
+              "real": 0.002706865426937294,
+              "imag": 4.67434710155982e-16,
+              "first_order_residual": 9.864402133356451e-15,
+              "quadratic_absolute_residual": 1.1186527419815034e-14,
+              "quadratic_scaled_residual": 8.239416682717679e-13,
+              "velocity_consistency": 5.515666609861698e-16,
+              "boundary_norm_fraction": 0.01542997940623427,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616656624,
+                2.2757399821955726
+              ],
+              "neighbor_variation": 0.08502438357910047,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501810748585,
+                "longitudinal_translation": 0.9892408161600927
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ]
+            },
+            {
+              "real": 0.002706865426773092,
+              "imag": 1.223882106771157e-13,
+              "first_order_residual": 6.56961160645259e-13,
+              "quadratic_absolute_residual": 1.322905746838908e-12,
+              "quadratic_scaled_residual": 9.743838524236318e-11,
+              "velocity_consistency": 3.723328682889368e-13,
+              "boundary_norm_fraction": 0.015429979403665504,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616886844,
+                2.275739981884864
+              ],
+              "neighbor_variation": 0.08502438358007297,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501812899262,
+                "longitudinal_translation": 0.9892408161607039
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ]
+            }
+          ],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "1": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 36,
+          "max_real": 1.1102230246251565e-15,
+          "returned_real_range": [
+            -9.439671266875393e-14,
+            1.1102230246251565e-15
+          ],
+          "returned_imag_range": [
+            -0.3194120340548765,
+            0.3194120340548776
+          ],
+          "max_first_order_residual": 6.83730816917403e-11,
+          "max_quadratic_scaled_residual": 4.48883707555814e-11,
+          "max_quadratic_absolute_residual": 9.210389106157699e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.0013547353764635649,
+            "bound_eigenpair_residual": 8.080105616392336e-14,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "2": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 30,
+          "max_real": 1.3326145742453832e-13,
+          "returned_real_range": [
+            -1.554312234475219e-14,
+            1.3326145742453832e-13
+          ],
+          "returned_imag_range": [
+            -0.3344086842830752,
+            0.3344086842830752
+          ],
+          "max_first_order_residual": 6.584660894733355e-11,
+          "max_quadratic_scaled_residual": 6.354704154454601e-11,
+          "max_quadratic_absolute_residual": 1.1608712974316623e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.09498097517926385,
+            "bound_eigenpair_residual": 2.535931065873402e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "3": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 26,
+          "max_real": 1.1934897514720433e-15,
+          "returned_real_range": [
+            -3.3748004391043196e-13,
+            1.1934897514720433e-15
+          ],
+          "returned_imag_range": [
+            -0.34827419387815234,
+            0.3482741938781525
+          ],
+          "max_first_order_residual": 1.4427885214756465e-10,
+          "max_quadratic_scaled_residual": 8.738426803691346e-11,
+          "max_quadratic_absolute_residual": 1.4554079355092944e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.15981861678061363,
+            "bound_eigenpair_residual": 8.368541063017133e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "4": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 24,
+          "max_real": 2.6895152771544417e-14,
+          "returned_real_range": [
+            -1.3461454173580023e-14,
+            2.6895152771544417e-14
+          ],
+          "returned_imag_range": [
+            -0.36817476681881733,
+            0.3681747668188169
+          ],
+          "max_first_order_residual": 1.8400993254652257e-11,
+          "max_quadratic_scaled_residual": 5.008871201191806e-12,
+          "max_quadratic_absolute_residual": 9.305946649746283e-12,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.22799759491949087,
+            "bound_eigenpair_residual": 1.7939121298626465e-11,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {
+        "carrier_phase": {
+          "sigma": [
+            3.021748399867656e-10,
+            2.655016135644637e-08
+          ],
+          "overlap": 1.0000000000000002,
+          "boundary_norm_fraction": 0.0004289371824029341,
+          "interior_tangent_residual": 1.86818127709521e-15,
+          "direct_null_relative_l2": 1.8522744071114908e-15
+        },
+        "longitudinal_translation": {
+          "sigma": [
+            0.002706865426774119,
+            8.215650382226158e-14
+          ],
+          "overlap": 0.9892408161608358,
+          "boundary_norm_fraction": 0.015429979403662008,
+          "interior_tangent_residual": 0.03741718232127339,
+          "direct_null_relative_l2": 0.12455195115224796
+        },
+        "transverse_translation": {
+          "sigma": [
+            -3.95516952522712e-16,
+            -0.004828315582711018
+          ],
+          "overlap": 0.9860745264047321,
+          "boundary_norm_fraction": 0.02411801721617693,
+          "interior_tangent_residual": 0.026120488571486813,
+          "direct_null_relative_l2": 0.12044299498257098
+        }
+      },
+      "background": {
+        "carrier_max": 0.29812139148057054,
+        "carrier_peak_r_z": [
+          5.5,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 7.568872644262317,
+        "parity_defects": {
+          "u": 1.4288570326925765e-13,
+          "w": 2.271775552895511e-13,
+          "s": 4.038436252074007e-14
+        }
+      }
+    },
+    {
+      "run": "L16_h050_independent",
+      "L": 16.0,
+      "h": 0.5,
+      "stationary_residual": 7.396860901565105e-15,
+      "sectors": {
+        "0": {
+          "targets": 6,
+          "complete_targets": 6,
+          "returned_pairs": 72,
+          "unique_eigenvalues_tolerance_1e-7": 60,
+          "max_real": 0.002706865426946193,
+          "returned_real_range": [
+            -0.002706865426944755,
+            0.002706865426946193
+          ],
+          "returned_imag_range": [
+            -1.0200515689046916,
+            2.007119103317572
+          ],
+          "max_first_order_residual": 1.0859324318706977e-10,
+          "max_quadratic_scaled_residual": 2.852596946591746e-07,
+          "max_quadratic_absolute_residual": 3.3150844282895966e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.04196872147167416,
+            "bound_eigenpair_residual": 2.061273090544333e-12,
+            "growth_disk_radius_estimate": 0.20486268931085075,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [
+            {
+              "real": 0.002706865426946193,
+              "imag": -2.5424700599056866e-15,
+              "first_order_residual": 1.2741621158027216e-13,
+              "quadratic_absolute_residual": 1.6370251052928782e-13,
+              "quadratic_scaled_residual": 1.2057479014577789e-11,
+              "velocity_consistency": 8.137023856878742e-15,
+              "boundary_norm_fraction": 0.015429979408078609,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616500104,
+                2.275739982403308
+              ],
+              "neighbor_variation": 0.08502438357846473,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501809279523,
+                "longitudinal_translation": 0.9892408161600873
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "full",
+              "shift": [
+                0.01,
+                0.0
+              ]
+            },
+            {
+              "real": 0.0027068654269376824,
+              "imag": 5.134781488891349e-16,
+              "first_order_residual": 1.2352192478671204e-14,
+              "quadratic_absolute_residual": 1.735744762028564e-14,
+              "quadratic_scaled_residual": 1.2784596874077653e-12,
+              "velocity_consistency": 3.9234248077436094e-15,
+              "boundary_norm_fraction": 0.015429979407259915,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616569484,
+                2.2757399823111437
+              ],
+              "neighbor_variation": 0.0850243835787473,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501809931182,
+                "longitudinal_translation": 0.9892408161601133
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "full",
+              "shift": [
+                0.12,
+                0.12
+              ]
+            },
+            {
+              "real": 0.0027068654269362113,
+              "imag": 6.938893903907228e-17,
+              "first_order_residual": 1.2834186689443344e-14,
+              "quadratic_absolute_residual": 1.7239130261160427e-14,
+              "quadratic_scaled_residual": 1.269745043580759e-12,
+              "velocity_consistency": 3.520143875418838e-15,
+              "boundary_norm_fraction": 0.01542997940711257,
+              "peak_r_z": [
+                5.5,
+                0.0
+              ],
+              "rms_r_z": [
+                5.120983616581931,
+                2.2757399822945716
+              ],
+              "neighbor_variation": 0.08502438357879824,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5593501810048122,
+                "longitudinal_translation": 0.9892408161601142
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "full",
+              "shift": [
+                0.12,
+                -0.12
+              ]
+            }
+          ],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "full",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.1,
+                1.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.1,
+                -1.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.2,
+                2.0
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {
+        "carrier_phase": {
+          "sigma": [
+            -1.4027705386165934e-10,
+            -4.465513321616488e-08
+          ],
+          "overlap": 0.9999999999999997,
+          "boundary_norm_fraction": 0.0004289371824031696,
+          "interior_tangent_residual": 1.86818127709521e-15,
+          "direct_null_relative_l2": 1.8522744071114908e-15
+        },
+        "longitudinal_translation": {
+          "sigma": [
+            0.0027068654269362113,
+            6.938893903907228e-17
+          ],
+          "overlap": 0.9892408161601142,
+          "boundary_norm_fraction": 0.01542997940711257,
+          "interior_tangent_residual": 0.03741718232127339,
+          "direct_null_relative_l2": 0.12455195115224796
+        }
+      },
+      "background": {
+        "carrier_max": 0.29812139148057054,
+        "carrier_peak_r_z": [
+          5.5,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 7.568872644262317,
+        "parity_defects": {
+          "u": 1.4288570326925765e-13,
+          "w": 2.271775552895511e-13,
+          "s": 4.038436252074007e-14
+        }
+      }
+    },
+    {
+      "run": "L16_h050_independent_m23",
+      "L": 16.0,
+      "h": 0.5,
+      "stationary_residual": 7.396860901565105e-15,
+      "sectors": {
+        "2": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 22,
+          "max_real": 4.85722573273506e-16,
+          "returned_real_range": [
+            -7.632783294297951e-16,
+            4.85722573273506e-16
+          ],
+          "returned_imag_range": [
+            -0.28331191112840837,
+            0.2833119111284089
+          ],
+          "max_first_order_residual": 1.3532890628351133e-14,
+          "max_quadratic_scaled_residual": 4.522100702968952e-14,
+          "max_quadratic_absolute_residual": 2.067855596651833e-14,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.0949809751792592,
+            "bound_eigenpair_residual": 8.129292846419391e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "full",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "3": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 24,
+          "max_real": 2.1094237467877974e-15,
+          "returned_real_range": [
+            -3.972516759986888e-16,
+            2.1094237467877974e-15
+          ],
+          "returned_imag_range": [
+            -0.33776205642168033,
+            0.3377620564216772
+          ],
+          "max_first_order_residual": 3.764267415638316e-13,
+          "max_quadratic_scaled_residual": 2.738503480455629e-13,
+          "max_quadratic_absolute_residual": 5.983008212866877e-13,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.15981861678063083,
+            "bound_eigenpair_residual": 7.080945949848516e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "full",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "full",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {},
+      "background": {
+        "carrier_max": 0.29812139148057054,
+        "carrier_peak_r_z": [
+          5.5,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 7.568872644262317,
+        "parity_defects": {
+          "u": 1.4288570326925765e-13,
+          "w": 2.271775552895511e-13,
+          "s": 4.038436252074007e-14
+        }
+      }
+    },
+    {
+      "run": "L16_h050_LR",
+      "L": 16.0,
+      "h": 0.5,
+      "stationary_residual": 7.396860901565105e-15,
+      "sectors": {
+        "0": {
+          "targets": 1,
+          "complete_targets": 0,
+          "returned_pairs": 0,
+          "unique_eigenvalues_tolerance_1e-7": 0,
+          "max_real": null,
+          "returned_real_range": [
+            null,
+            null
+          ],
+          "returned_imag_range": [
+            null,
+            null
+          ],
+          "max_first_order_residual": null,
+          "max_quadratic_scaled_residual": null,
+          "max_quadratic_absolute_residual": null,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.041968721471674235,
+            "bound_eigenpair_residual": 2.1619996600871086e-12,
+            "growth_disk_radius_estimate": 0.20486268931085092,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "LR",
+              "shift": null,
+              "status": "partial"
+            }
+          ]
+        }
+      },
+      "calibration": {},
+      "background": {
+        "carrier_max": 0.29812139148057054,
+        "carrier_peak_r_z": [
+          5.5,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 7.568872644262317,
+        "parity_defects": {
+          "u": 1.4288570326925765e-13,
+          "w": 2.271775552895511e-13,
+          "s": 4.038436252074007e-14
+        }
+      }
+    },
+    {
+      "run": "L24_h040",
+      "L": 24.0,
+      "h": 0.4,
+      "stationary_residual": 1.623874645861889e-14,
+      "sectors": {
+        "0": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 31,
+          "max_real": 0.0010466680190061375,
+          "returned_real_range": [
+            -0.0010466680190047758,
+            0.0010466680190061375
+          ],
+          "returned_imag_range": [
+            -0.16998963437611314,
+            0.1699896343759085
+          ],
+          "max_first_order_residual": 6.890221451984836e-12,
+          "max_quadratic_scaled_residual": 7.938676101571616e-07,
+          "max_quadratic_absolute_residual": 1.2125503972105715e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.046293806744568455,
+            "bound_eigenpair_residual": 4.621953495038944e-12,
+            "growth_disk_radius_estimate": 0.2151599561827629,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [
+            {
+              "real": 0.0010466680190061375,
+              "imag": 2.401398605158256e-15,
+              "first_order_residual": 1.1079034863138028e-13,
+              "quadratic_absolute_residual": 1.3874656560628903e-13,
+              "quadratic_scaled_residual": 2.6052100927242183e-11,
+              "velocity_consistency": 3.7435283691040486e-16,
+              "boundary_norm_fraction": 0.007839166862664677,
+              "peak_r_z": [
+                5.2,
+                0.0
+              ],
+              "rms_r_z": [
+                5.087441209140812,
+                2.4637668347526405
+              ],
+              "neighbor_variation": 0.055116803876779245,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.538612034134179,
+                "longitudinal_translation": 0.9977140545688259
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ]
+            }
+          ],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "1": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 26,
+          "max_real": 3.1509517217642724e-13,
+          "returned_real_range": [
+            -4.0972433779096207e-14,
+            3.1509517217642724e-13
+          ],
+          "returned_imag_range": [
+            -0.17539750855797548,
+            0.1753975085578788
+          ],
+          "max_first_order_residual": 1.77990966266132e-10,
+          "max_quadratic_scaled_residual": 2.564643169024459e-10,
+          "max_quadratic_absolute_residual": 2.653187454296572e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.00026067874112080115,
+            "bound_eigenpair_residual": 4.654473971167509e-14,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "2": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 24,
+          "max_real": 6.245004513516506e-16,
+          "returned_real_range": [
+            -2.4673318943513323e-13,
+            6.245004513516506e-16
+          ],
+          "returned_imag_range": [
+            -0.1957326392877465,
+            0.19573263928718015
+          ],
+          "max_first_order_residual": 1.549507417082934e-10,
+          "max_quadratic_scaled_residual": 1.678996527004811e-10,
+          "max_quadratic_absolute_residual": 2.0043155239738487e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.04823095398411734,
+            "bound_eigenpair_residual": 4.38559126337446e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "3": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 24,
+          "max_real": 5.184463969243325e-13,
+          "returned_real_range": [
+            -9.697104230710352e-16,
+            5.184463969243325e-13
+          ],
+          "returned_imag_range": [
+            -0.21503643808745962,
+            0.21503643808629758
+          ],
+          "max_first_order_residual": 8.074345435731898e-11,
+          "max_quadratic_scaled_residual": 7.166876339285728e-11,
+          "max_quadratic_absolute_residual": 9.506527499722392e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.07378895946134073,
+            "bound_eigenpair_residual": 7.359638625430152e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {
+        "carrier_phase": {
+          "sigma": [
+            1.783337321738243e-08,
+            -3.15875435882697e-11
+          ],
+          "overlap": 1.0000000000000022,
+          "boundary_norm_fraction": 4.508305495526228e-07,
+          "interior_tangent_residual": 3.0093799769247985e-15,
+          "direct_null_relative_l2": 2.9875244017010047e-15
+        },
+        "longitudinal_translation": {
+          "sigma": [
+            -0.0010466680190047758,
+            -3.320326935474936e-15
+          ],
+          "overlap": 0.9977140545688313,
+          "boundary_norm_fraction": 0.007839166862655839,
+          "interior_tangent_residual": 0.024673200639189694,
+          "direct_null_relative_l2": 0.0647583096107316
+        },
+        "transverse_translation": {
+          "sigma": [
+            8.673617379884035e-17,
+            -0.002146329447273827
+          ],
+          "overlap": 0.9967055734016792,
+          "boundary_norm_fraction": 0.011647581926393192,
+          "interior_tangent_residual": 0.01637476014240799,
+          "direct_null_relative_l2": 0.0552956816133607
+        }
+      },
+      "background": {
+        "carrier_max": 0.2997484826698412,
+        "carrier_peak_r_z": [
+          5.2,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 9.273293233381251,
+        "parity_defects": {
+          "u": 2.6191271373932068e-12,
+          "w": 4.14771294720853e-12,
+          "s": 7.358003095703225e-13
+        }
+      }
+    },
+    {
+      "run": "L24_h050",
+      "L": 24.0,
+      "h": 0.5,
+      "stationary_residual": 9.237402509576498e-15,
+      "sectors": {
+        "0": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 55,
+          "max_real": 0.0010507330175992813,
+          "returned_real_range": [
+            -0.0010507330175995033,
+            0.0010507330175992813
+          ],
+          "returned_imag_range": [
+            -0.2775212339194922,
+            0.2775212339196289
+          ],
+          "max_first_order_residual": 1.4838607212320182e-08,
+          "max_quadratic_scaled_residual": 4.289437395994213e-07,
+          "max_quadratic_absolute_residual": 1.517769602308831e-08,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.04613920076280379,
+            "bound_eigenpair_residual": 3.698771057107628e-12,
+            "growth_disk_radius_estimate": 0.21480037421476667,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [
+            {
+              "real": 0.0010507330167993734,
+              "imag": 1.751685383959738e-12,
+              "first_order_residual": 1.3671400838407102e-10,
+              "quadratic_absolute_residual": 1.7213642484362534e-10,
+              "quadratic_scaled_residual": 3.2197684215754664e-08,
+              "velocity_consistency": 6.443386028467415e-16,
+              "boundary_norm_fraction": 0.006279083151379453,
+              "peak_r_z": [
+                5.0,
+                0.0
+              ],
+              "rms_r_z": [
+                5.089331155576732,
+                2.4679457024465634
+              ],
+              "neighbor_variation": 0.08549444594931518,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5376753254465333,
+                "longitudinal_translation": 0.9975969120478109
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ]
+            },
+            {
+              "real": 0.0010507330175677926,
+              "imag": 1.8996106302255728e-16,
+              "first_order_residual": 2.1886854879663352e-14,
+              "quadratic_absolute_residual": 2.713373221549481e-14,
+              "quadratic_scaled_residual": 5.075296182175722e-12,
+              "velocity_consistency": 5.259479027456231e-16,
+              "boundary_norm_fraction": 0.006279083158822685,
+              "peak_r_z": [
+                5.0,
+                0.0
+              ],
+              "rms_r_z": [
+                5.089331154627873,
+                2.467945704532563
+              ],
+              "neighbor_variation": 0.0854944459456147,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5376753240174591,
+                "longitudinal_translation": 0.9975969120488459
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ]
+            },
+            {
+              "real": 0.0010507330175992813,
+              "imag": -1.4752939700106027e-15,
+              "first_order_residual": 1.2466323694281033e-14,
+              "quadratic_absolute_residual": 1.5123498807225768e-14,
+              "quadratic_scaled_residual": 2.8288123105278827e-12,
+              "velocity_consistency": 8.738955815443049e-16,
+              "boundary_norm_fraction": 0.006279083161767948,
+              "peak_r_z": [
+                5.0,
+                0.0
+              ],
+              "rms_r_z": [
+                5.089331154171163,
+                2.467945705456357
+              ],
+              "neighbor_variation": 0.08549444594429863,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5376753233976138,
+                "longitudinal_translation": 0.9975969120488133
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ]
+            }
+          ],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "1": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 50,
+          "max_real": 2.327929515821836e-13,
+          "returned_real_range": [
+            -2.2249563302878528e-13,
+            2.327929515821836e-13
+          ],
+          "returned_imag_range": [
+            -0.2781323074188502,
+            0.27813230741889355
+          ],
+          "max_first_order_residual": 5.146193978609053e-11,
+          "max_quadratic_scaled_residual": 7.177412977646728e-11,
+          "max_quadratic_absolute_residual": 1.2488423762559318e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.000341696126204791,
+            "bound_eigenpair_residual": 4.3241558895082564e-14,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "2": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 48,
+          "max_real": 5.2541304640385533e-14,
+          "returned_real_range": [
+            -3.1635805086693836e-13,
+            5.2541304640385533e-14
+          ],
+          "returned_imag_range": [
+            -0.28101149919277507,
+            0.28101149919278323
+          ],
+          "max_first_order_residual": 5.330059136475747e-11,
+          "max_quadratic_scaled_residual": 4.671450140810107e-11,
+          "max_quadratic_absolute_residual": 8.036889993802989e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.04822425691276375,
+            "bound_eigenpair_residual": 4.809706421750358e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "3": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 46,
+          "max_real": 2.5712765250318625e-13,
+          "returned_real_range": [
+            -1.0186296250935811e-14,
+            2.5712765250318625e-13
+          ],
+          "returned_imag_range": [
+            -0.27815449197897724,
+            0.2781544919789782
+          ],
+          "max_first_order_residual": 3.830914215810043e-11,
+          "max_quadratic_scaled_residual": 2.9056778476807044e-11,
+          "max_quadratic_absolute_residual": 5.113151778890804e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.07377878873916605,
+            "bound_eigenpair_residual": 6.769484791216433e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "4": {
+          "targets": 11,
+          "complete_targets": 11,
+          "returned_pairs": 132,
+          "unique_eigenvalues_tolerance_1e-7": 42,
+          "max_real": 6.669664820435628e-14,
+          "returned_real_range": [
+            -1.2737033650012108e-13,
+            6.669664820435628e-14
+          ],
+          "returned_imag_range": [
+            -0.2822174333497859,
+            0.2822174333493963
+          ],
+          "max_first_order_residual": 3.8804525227864754e-11,
+          "max_quadratic_scaled_residual": 3.134839256040386e-11,
+          "max_quadratic_absolute_residual": 5.553141458652196e-11,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.10331793521017216,
+            "bound_eigenpair_residual": 9.734135340600677e-12,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0001,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.0375,
+                0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.25
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                -0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.125
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.15,
+                0.25
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {
+        "carrier_phase": {
+          "sigma": [
+            -9.666078268068213e-10,
+            2.4014497221714426e-08
+          ],
+          "overlap": 1.0000000000000002,
+          "boundary_norm_fraction": 3.224419960117055e-07,
+          "interior_tangent_residual": 1.8868654604807376e-15,
+          "direct_null_relative_l2": 1.894943691246325e-15
+        },
+        "longitudinal_translation": {
+          "sigma": [
+            -0.0010507330175677301,
+            -1.5359103823861752e-16
+          ],
+          "overlap": 0.9975969120488499,
+          "boundary_norm_fraction": 0.0062790831588252745,
+          "interior_tangent_residual": 0.03825899288509038,
+          "direct_null_relative_l2": 0.05512121589532306
+        },
+        "transverse_translation": {
+          "sigma": [
+            -1.1796119636642288e-16,
+            0.0024583711212908493
+          ],
+          "overlap": 0.996063179548108,
+          "boundary_norm_fraction": 0.009353207728498302,
+          "interior_tangent_residual": 0.025534864210720383,
+          "direct_null_relative_l2": 0.04626489423093079
+        }
+      },
+      "background": {
+        "carrier_max": 0.29961753643471484,
+        "carrier_peak_r_z": [
+          5.0,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 7.3955010531592675,
+        "parity_defects": {
+          "u": 1.1817768985622479e-12,
+          "w": 1.8754703313904013e-12,
+          "s": 3.3495428652940973e-13
+        }
+      }
+    },
+    {
+      "run": "L32_h050",
+      "L": 32.0,
+      "h": 0.5,
+      "stationary_residual": 7.920313710441107e-15,
+      "sectors": {
+        "0": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 35,
+          "max_real": 0.0005199132718508807,
+          "returned_real_range": [
+            -0.0005199132718522025,
+            0.0005199132718508807
+          ],
+          "returned_imag_range": [
+            -0.14754392952331313,
+            0.14754392952291323
+          ],
+          "max_first_order_residual": 7.392062875524453e-11,
+          "max_quadratic_scaled_residual": 9.885286008110037e-07,
+          "max_quadratic_absolute_residual": 1.3812300657905373e-10,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": 0.047008187170865114,
+            "bound_eigenpair_residual": 2.762855538942999e-12,
+            "bound_start_seed": 20260930,
+            "growth_disk_radius_estimate": 0.21681371536612973,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [
+            {
+              "real": 0.0005199132718508807,
+              "imag": -1.6456365749208165e-16,
+              "first_order_residual": 4.1338051560536616e-14,
+              "quadratic_absolute_residual": 5.20741315823952e-14,
+              "quadratic_scaled_residual": 1.963234531287581e-11,
+              "velocity_consistency": 2.459479238795188e-16,
+              "boundary_norm_fraction": 0.004575960088444448,
+              "peak_r_z": [
+                5.0,
+                0.0
+              ],
+              "rms_r_z": [
+                5.128601638634124,
+                2.570265038243084
+              ],
+              "neighbor_variation": 0.08563099148241048,
+              "weighted_symmetry_overlaps": {
+                "carrier_phase": 0.5332068024479388,
+                "longitudinal_translation": 0.9990376969160274
+              },
+              "candidate": true,
+              "accepted_instability": false,
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ]
+            }
+          ],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "1": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 34,
+          "max_real": 3.588622454753221e-14,
+          "returned_real_range": [
+            -8.604228440844963e-16,
+            3.588622454753221e-14
+          ],
+          "returned_imag_range": [
+            -0.14499661139956443,
+            0.1449966113995644
+          ],
+          "max_first_order_residual": 1.0266928339796065e-12,
+          "max_quadratic_scaled_residual": 2.8484207242386963e-12,
+          "max_quadratic_absolute_residual": 1.5078185016794334e-12,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.00025137578573892246,
+            "bound_eigenpair_residual": 3.3556437345147777e-14,
+            "bound_start_seed": 20260930,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "2": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 30,
+          "max_real": 3.733124920302089e-15,
+          "returned_real_range": [
+            -9.020562075079397e-15,
+            3.733124920302089e-15
+          ],
+          "returned_imag_range": [
+            -0.15400816503842624,
+            0.15400816503850545
+          ],
+          "max_first_order_residual": 8.63114273829595e-12,
+          "max_quadratic_scaled_residual": 1.0718430466552175e-11,
+          "max_quadratic_absolute_residual": 9.850786144304902e-12,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.027557968134411373,
+            "bound_eigenpair_residual": 2.219594577614032e-12,
+            "bound_start_seed": 20260930,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        },
+        "3": {
+          "targets": 3,
+          "complete_targets": 3,
+          "returned_pairs": 36,
+          "unique_eigenvalues_tolerance_1e-7": 26,
+          "max_real": 8.090750291955828e-15,
+          "returned_real_range": [
+            -5.186823193170653e-16,
+            8.090750291955828e-15
+          ],
+          "returned_imag_range": [
+            -0.15752459364618943,
+            0.15752459364619154
+          ],
+          "max_first_order_residual": 8.882872161448778e-13,
+          "max_quadratic_scaled_residual": 1.4781110334650007e-12,
+          "max_quadratic_absolute_residual": 1.3946734149677923e-12,
+          "bound": {
+            "B_hermitian_defect": 2.6645352591003757e-15,
+            "G_skew_defect": 0.0,
+            "lambda_max_B_estimate": -0.041692968245877614,
+            "bound_eigenpair_residual": 4.00022785804681e-12,
+            "bound_start_seed": 20260930,
+            "growth_disk_radius_estimate": 0.0,
+            "certified": false,
+            "meaning": "All nonimaginary eigenvalues obey |sigma|^2 <= lambda_max(B); numerical extremal estimate is not a certified upper bound."
+          },
+          "positive_candidates": [],
+          "nonsymmetry_candidates": [],
+          "shift_targets": [
+            {
+              "strategy": "schur",
+              "shift": [
+                0.01,
+                0.0
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                0.12
+              ],
+              "status": "complete"
+            },
+            {
+              "strategy": "schur",
+              "shift": [
+                0.12,
+                -0.12
+              ],
+              "status": "complete"
+            }
+          ]
+        }
+      },
+      "calibration": {
+        "carrier_phase": {
+          "sigma": [
+            -9.433052644558515e-09,
+            -6.509879900649641e-10
+          ],
+          "overlap": 0.9999999999999997,
+          "boundary_norm_fraction": 4.276562027673495e-10,
+          "interior_tangent_residual": 1.875121991816995e-15,
+          "direct_null_relative_l2": 1.8706369468136596e-15
+        },
+        "longitudinal_translation": {
+          "sigma": [
+            0.0005199132718508807,
+            -1.6456365749208165e-16
+          ],
+          "overlap": 0.9990376969160274,
+          "boundary_norm_fraction": 0.004575960088444448,
+          "interior_tangent_residual": 0.03844904617458158,
+          "direct_null_relative_l2": 0.039746393846281744
+        },
+        "transverse_translation": {
+          "sigma": [
+            2.949029909160572e-17,
+            0.002115691892608496
+          ],
+          "overlap": 0.9973774876902838,
+          "boundary_norm_fraction": 0.006773797971580411,
+          "interior_tangent_residual": 0.025408595718349636,
+          "direct_null_relative_l2": 0.031943625958661764
+        }
+      },
+      "background": {
+        "carrier_max": 0.3002002892087384,
+        "carrier_peak_r_z": [
+          5.0,
+          0.0
+        ],
+        "carrier_cylindrical_norm_squared_without_2pi": 7.359449087507944,
+        "parity_defects": {
+          "u": 2.7751134723530413e-12,
+          "w": 4.4039016127175715e-12,
+          "s": 7.864542350688453e-13
+        }
+      }
+    }
+  ],
+  "files_sha256": {
+    "campaign.json": "f8d0fae15344b7956cfac56143431e0d41e97c44cef22123789fe7f0c843a92c",
+    "L16_h040/m0_schur_00.json": "f321a086c93b447d07b83ad0b04b3b34e39701d344c142a6416ab8e60aba5f43",
+    "L16_h040/m0_schur_00.npz": "684862a8d7d4a0d9fbcd78d941500ab25cc3c8f9e15b6d19bc863d5525cdbafc",
+    "L16_h040/m0_schur_01.json": "2aa1b328cf223cd09e2956c801a1e469dfdc8ef9bfd3e67862b260317a5cbf9b",
+    "L16_h040/m0_schur_01.npz": "53f4a8f8b1300fbb9ac737fb2ad3dd41569b301196b8e17812b4b51d5fb16192",
+    "L16_h040/m0_schur_02.json": "f8be8ed1ead8a02be98e89ca2f0c0dde70e1f4d8f58e25239f47265713227498",
+    "L16_h040/m0_schur_02.npz": "c503a3ff780f06323c1fa2ac62aaefed33006675a63720dfe669194a5f9ad719",
+    "L16_h040/m0_schur_03.json": "e1df3c53c5e44459f0acc444028f1d77f8c7086b05ff013674288c8cb32a8ec3",
+    "L16_h040/m0_schur_03.npz": "28dcfa4a10506b519fb8399d7c2a61a6eccd80a5e06b80dcb95379160f0b11ad",
+    "L16_h040/m0_schur_04.json": "d7625a0dc5ab6a8c43fa573fdac1ccf1268d394e1188ba55dcb37f0a1a1b46a4",
+    "L16_h040/m0_schur_04.npz": "17e4ae1353517cc63c43b02b2952b51d32670678f29c9c8059de7858c0c452a6",
+    "L16_h040/m0_schur_05.json": "a2b1b76bc6dda776caf5753f8b8a14a42116d3653624f3e0bd7fcc71db35bfb8",
+    "L16_h040/m0_schur_05.npz": "96f45b09d7905077503d5f159c946e13a3f88667703e8ec7543218f9fcbf00bf",
+    "L16_h040/m0_schur_06.json": "0619880923d5c2971bbc67813dbeab24de9ed14fd5814cad88c21e95c7597e08",
+    "L16_h040/m0_schur_06.npz": "c2f72dc38a5ff0988314229318ed5c27dea7139d959aeef7a74c4cd5f74947f9",
+    "L16_h040/m0_schur_07.json": "c9af793f74f20593427b0cc80c20193c9b28432ce5b3956f5ea169d46597635b",
+    "L16_h040/m0_schur_07.npz": "2878e2c54999ed73f2ba731a5acf9273f76979f4dac5dbbce7a7d854c0303f84",
+    "L16_h040/m0_schur_08.json": "9bc7ba21c71aefc19a2e2fd9140b601d78e29b641cc6a684bdd95a3c3be5d347",
+    "L16_h040/m0_schur_08.npz": "1800012359319148ed336383b984c0e96be8e6c396ac036773e9c2ca967c20bd",
+    "L16_h040/m0_schur_09.json": "a4d7f34755e6643c4db593fd50e992972707f01bab8bc43ceac1830283aac9df",
+    "L16_h040/m0_schur_09.npz": "5311f733a88e494313198ca0d90c84e516b2d54be71c5e89530be700d4196ae1",
+    "L16_h040/m0_schur_10.json": "6fb524742015f5cecf5c25ee10ecd4c95b1ec1dbc50edafc28cd812922d52f43",
+    "L16_h040/m0_schur_10.npz": "32d87cf0bd57d580d015fcc941d86a0527b1c781aa6931678fa3b58323329cb4",
+    "L16_h040/m1_schur_00.json": "41e6456b4fd03918d87745fd0750723fabdc7a4791cff659ced26ef91ca40727",
+    "L16_h040/m1_schur_00.npz": "c6e6c78137d6af02daa906df5ba3a00f0f7df16550319dc80b8dc8d250212f71",
+    "L16_h040/m1_schur_01.json": "450c4d046a1e91bc4a8aac1c154cbdb021b048c2441ffa8d54dedf3643eb92be",
+    "L16_h040/m1_schur_01.npz": "95faf39e717ed250290bc5d9db311ca0344603dc75967972fd90643127a71eba",
+    "L16_h040/m1_schur_02.json": "beaa22ad26c5fb8002e6ba310d57e332a36f521d9ff05c776b5d43b933851b48",
+    "L16_h040/m1_schur_02.npz": "93caf98b96ac856ac459f9429e16b8b3ff09664b1629f0567e2cb4fca25399ef",
+    "L16_h040/m1_schur_03.json": "908d88d0b322b4b77f96acc3100c6154e49072c844e4bb16c51f60a0d7099225",
+    "L16_h040/m1_schur_03.npz": "e0dd124b771077dbce79796e9cdf09b208160268853e1a44b2f7c590795d593d",
+    "L16_h040/m1_schur_04.json": "41b46dcfb335779fc5175ed5a7199413fc2f1f6151cb5279a19b042fab45622f",
+    "L16_h040/m1_schur_04.npz": "31061814459a51ccdd6bafb9465f66890d030cab74d1986e9d78fe053dfb0e79",
+    "L16_h040/m1_schur_05.json": "bf7065746cabbc5e99cb30bb362a9e3dc63d2b2898acd0ada3eabb3afaf2f2b2",
+    "L16_h040/m1_schur_05.npz": "99077605e0c56480d34b988805d378c24f7625e4ab6b3721d04817098c799aca",
+    "L16_h040/m1_schur_06.json": "6550a5c81fdbaf758e737fe5397729f5c69002349f3cf1daa410e021a4e7b64f",
+    "L16_h040/m1_schur_06.npz": "bd08425fdd177b14baf8e621b7f374c4a70e411e06e4b34fd15d39870a76e31c",
+    "L16_h040/m1_schur_07.json": "059df948d638998fb2b58d7fd6a8ce3eb36393bac4a3624d391158d7d30e5ffa",
+    "L16_h040/m1_schur_07.npz": "2549fa5267698c0efd40ddfa05b1b53dc0086cfc7be8cd15b63337a6edd6f29b",
+    "L16_h040/m1_schur_08.json": "a51e77b4b2d21340095f1c9478cc104e0424ef6d41e6058df220e0d59f5c47a0",
+    "L16_h040/m1_schur_08.npz": "fa6d4a60e0d3536440ec246fde668dc8f613544c35c0593e24008884de299289",
+    "L16_h040/m1_schur_09.json": "a275c9243ef8ca42647d8050ad19132caa6564314d480d47ac684288f2c8c9a2",
+    "L16_h040/m1_schur_09.npz": "969d639bfc9b944844a1a247c7eae0ec9c1aa0dac50bd3ae98c41336cc5f060d",
+    "L16_h040/m1_schur_10.json": "a88ece33e3ff205e9c81e07b98bb43569bb863686c04e22dc816331cd146c4ba",
+    "L16_h040/m1_schur_10.npz": "e0ed9a8258af415d0acb29c1d8c63b810f73841992feed877ab1d1999d5b4996",
+    "L16_h040/m2_schur_00.json": "b81fdea6639354254f41e614a55b0b57cbfbf043ab9e978f45ad5a5d3106b2fd",
+    "L16_h040/m2_schur_00.npz": "2c7388a84cb9db867b4dd959f1555ddda5237f0acac84de9bc6c9db7ad2e0ff8",
+    "L16_h040/m2_schur_01.json": "0fd13d433a2e2c37108710ecc026f37c00785bb3a2699c1c881fba5e038a8b5d",
+    "L16_h040/m2_schur_01.npz": "34eeeaeca283484935a74e870144aa59bb403a8ffe8082a4840e4d05d55557ed",
+    "L16_h040/m2_schur_02.json": "0b394073dadad78cd9f46d17f71e38dae0a23a5ff6ecd4d5f52ea6283cef914b",
+    "L16_h040/m2_schur_02.npz": "37777026f14460a3402f31f7467a013f54782f27efa3f61e396d5750ab14ea16",
+    "L16_h040/m2_schur_03.json": "61ba127812a750abd7c9b8d6adba83df42b6bc72ac68af102317490a669e9e83",
+    "L16_h040/m2_schur_03.npz": "4b4ae06182704f386d69e2f87777f68a07f8df9f03800109ad03dc251e928d63",
+    "L16_h040/m2_schur_04.json": "13ad53a9f9cf4a58a4dd008d349d1b924cbb94400fdb0d2ceb1841374ba8aad9",
+    "L16_h040/m2_schur_04.npz": "1347e0ee39a0609f722767ef4c926dbfd31fad143024bef9f1f34ce3fb984fc9",
+    "L16_h040/m2_schur_05.json": "a365d431505b733c7c2ad31e684c5cad0f9bfa4e767e7a1b585bcaa8bf75c95c",
+    "L16_h040/m2_schur_05.npz": "01bd536eb41c62e617d1f67f1d1f05ffced5129a5a66fac6e1ffdee007e104b5",
+    "L16_h040/m2_schur_06.json": "a6fe59d373815e30908791e88e20a8cbd4fd60dd09316e7db4de7d31f256e17a",
+    "L16_h040/m2_schur_06.npz": "8166d14c23ca8fc28afb770290c9468b4453a66a173da5376a7770f1f87614e1",
+    "L16_h040/m2_schur_07.json": "dc4f5b06b349830df32d994a30ccefc0b202b2dea61e9d748c41f69ffbb64625",
+    "L16_h040/m2_schur_07.npz": "a908e0ea9ed717087719f6f62e4ce4f903a280bf1af4ad8fc30182336141973a",
+    "L16_h040/m2_schur_08.json": "4d9e459dbc0861eed0e0b145b7c8429671e6d1c7367618c1cc6ce1cdb56eb772",
+    "L16_h040/m2_schur_08.npz": "6debf3e9e91af90df668b263fadd901ee42ff197cc701a4079f703109a6458ff",
+    "L16_h040/m2_schur_09.json": "860e7df3140829c69d9d99e6a029630364fb724f5de2aa96e4aed09dbadad600",
+    "L16_h040/m2_schur_09.npz": "4bad8295415c2526796116aecdc4f9df44c9cae164aae4273b190d8fbe659f14",
+    "L16_h040/m2_schur_10.json": "6cef3506bf4dea5f136bae9231c3c448d68d5db08c63177992d701aa15bde3d8",
+    "L16_h040/m2_schur_10.npz": "9c4099635eb132b4649334d6741a5aafda3134b6a5418bd3713d500e44da7c54",
+    "L16_h040/m3_schur_00.json": "e309820b363ca5cc7a00f79247eea4d3f1731f09000a171267ee65293a1d724d",
+    "L16_h040/m3_schur_00.npz": "c8bd51dc9998d9b127e58b3c798a6313a1c36731d387488ce7725faf07219087",
+    "L16_h040/m3_schur_01.json": "069b57ff1c709da34b2ad503a754e0b00380e7a96ca80d86706e86ba2f6049f8",
+    "L16_h040/m3_schur_01.npz": "084b557542afef53b7e7576941813a174573f33dce156d134a8a4e2f3205f859",
+    "L16_h040/m3_schur_02.json": "82ba4e4b90cb3d920a4d17d9233dbb3a92b07e19854395e0d7eb90fb6f449a26",
+    "L16_h040/m3_schur_02.npz": "c39aeb79953db34f0961dd2a33669ed472f58c0b4099b7a1330b8ea69bdb3c91",
+    "L16_h040/m3_schur_03.json": "23743f8cc64ac4f3c63771f9b89085ed064d81a16008bc0ac6b114f16f6248ab",
+    "L16_h040/m3_schur_03.npz": "1071cfa55258aab7a2117221c0f8cc84b7c4ce025752b4ccf372384d63773e56",
+    "L16_h040/m3_schur_04.json": "98b6e3eb2189cf387ba76fd1d9e39ebaf9cd4344ac2fecda5e9222536d2f809c",
+    "L16_h040/m3_schur_04.npz": "a93a88ca8c96aec12aeb7778c0ee3a0cbbf255a1ea2a2b570cac7a12dbe9141a",
+    "L16_h040/m3_schur_05.json": "9b1b2be0787c0e71146339fbd0f58c58868bbf0e2e34f66ebbd3a777a2037fda",
+    "L16_h040/m3_schur_05.npz": "8dcb1787347a7ae5f65c80b1aad2eeadc5b76978989e6d4e2decec71c041fda9",
+    "L16_h040/m3_schur_06.json": "ba1239546ed1053da959816c6b47175e7272191fb3cc6283efbe204d58999e90",
+    "L16_h040/m3_schur_06.npz": "2df4aee1cf7aa8e0416bebb4091e51e46948cdec46bde43c0b197b9d17e99385",
+    "L16_h040/m3_schur_07.json": "fcf0fbf681979532701e3f345f263adaa6f70594adcb3e7d662b5ca4a1843aa7",
+    "L16_h040/m3_schur_07.npz": "ca24b8de957ce55cdf23056cbbff0ab780597fcf9424b7f1fcc536ac855a71ed",
+    "L16_h040/m3_schur_08.json": "fcaf6060d351624ce312e38eae6fb91ea44fc3ac86b29faf891a86d8613fabc1",
+    "L16_h040/m3_schur_08.npz": "e22b62e2d8d776c50d38ad19ef1d31af9011ad7406843e9d3c0aa64aa2fe9a9a",
+    "L16_h040/m3_schur_09.json": "4f06e92a65e79fcee80016081de142aa0179428dc90c48b96abb74ac65aa07ca",
+    "L16_h040/m3_schur_09.npz": "bff21db8a2d3f7ca2e08500fbeeedb8a9ca27f16f2877898bd1e48b08f8214b7",
+    "L16_h040/m3_schur_10.json": "8b7319246557b3a8890b72bb0dfb27b01877af09e3b905f3c0865ba27ec143f9",
+    "L16_h040/m3_schur_10.npz": "fdaa122a755a7733617164fbf0f5936cb5160d1653d3e8a0b24bb9cd576433c0",
+    "L16_h040/m4_schur_00.json": "d627cfbcf6d20ac9cc44d7c77512d67311fef216d3e143f854acf44fe52e8655",
+    "L16_h040/m4_schur_00.npz": "8c847801c714d1397d5148851317dd690257f80a600195c037e96c93334c1fae",
+    "L16_h040/m4_schur_01.json": "335689d37118e26b1f68baa6d61d2bb22650525104c6c88fff46d5b75f1eb996",
+    "L16_h040/m4_schur_01.npz": "64a9a5b1fdccba66e255b5223d845a9d749e72d6a7abd657d013f8a55b4b6dc2",
+    "L16_h040/m4_schur_02.json": "dd62a4f4a02589123492077668d2aea614b45738568e18aa4df48ffc63121220",
+    "L16_h040/m4_schur_02.npz": "b10ff1ca8d18b940ba71b8e5f3a20b8af76bed9197c3a8339264f6f4d33d7708",
+    "L16_h040/m4_schur_03.json": "e202747bd806bfbd71271bba0c093682fdce3fdb41ec66f04d418e46c6f85ad0",
+    "L16_h040/m4_schur_03.npz": "caa0c0ccbd8528ec9eb0679daf770cbd2f7213a83b9995584096e961a7d3953e",
+    "L16_h040/m4_schur_04.json": "6138a6f91da13671c829f856d59a94b83ba998d1203b712305ce4c3ea62a9855",
+    "L16_h040/m4_schur_04.npz": "42c1d984992b1d8727afb39fceb6c79c3e1f7646990ff762ee4f654228aa1a63",
+    "L16_h040/m4_schur_05.json": "d2fa378c999f013bdd6baab78ac1dbc7c7093a4f2d10451d990d3a602f3e8951",
+    "L16_h040/m4_schur_05.npz": "93a082b9720d8351300626e5ab86baf25073acfe699bb2cfeeb63b4490ef409f",
+    "L16_h040/m4_schur_06.json": "79c31bb1bf3268320b02eff8d70860027602f223e09a72d46e4d9b35b6538828",
+    "L16_h040/m4_schur_06.npz": "8d58ee7ec5951e33c77261e6546107eded59477025406dfe40925ce2ee61a60a",
+    "L16_h040/m4_schur_07.json": "c9917570ad8260bc33aea1e8274e660b05892208eb1315415222ded10efc75b7",
+    "L16_h040/m4_schur_07.npz": "3ccc72c9b12f62c70afeea33157397e51f6c8932ec00e494383dbb4fc6c136c6",
+    "L16_h040/m4_schur_08.json": "113a3887ffb623d7f3980016f7aa573a7aa9fbc18fd1011b308f1e19cbbd54bb",
+    "L16_h040/m4_schur_08.npz": "13dc245646e0549020eb5400c0e9ea6c47a9ec4ebcc87b8193c6818e8c421321",
+    "L16_h040/m4_schur_09.json": "c1d0f013e08f12836aeb80ca3ecaaad8fa217bd8b81873e499d1f6f3373be31b",
+    "L16_h040/m4_schur_09.npz": "1044f2fa4597b32fa5573f11f67f8004f516dedf41d656aa5ae04436daa6c503",
+    "L16_h040/m4_schur_10.json": "54d558eabcf5ed6028c289285c2b488949e5da8924eaeabac678e807be03fed2",
+    "L16_h040/m4_schur_10.npz": "3ebe7cbcac4ac797e024cc15c4cc0332018e31b355ad685b956b2c493b225d8b",
+    "L16_h040/metadata.json": "c3bd304410fc86effd1b7a4b5d38593572beeeb03f808773e17fc1cdbb9daae1",
+    "L16_h040/profile.npz": "40202a188b0fb12d97e90cb25fb854e7bcaa9882665ba8ea8f8e6a5bf2e36681",
+    "L16_h050/m0_schur_00.json": "b8e501fd5fb7172492d4be41b19da891a3d3e9858054c6e61e95949b77aeff56",
+    "L16_h050/m0_schur_00.npz": "ec403e776285336cf08122e56614fcfe2d3c051295e110ec5e266f04d849ab0c",
+    "L16_h050/m0_schur_01.json": "b9b7fdaad016fb313827ad1484f344e4c1ea87da1ce02be3a006419a0787fd48",
+    "L16_h050/m0_schur_01.npz": "72c84bd2ac10e2081364ea80586fa80eb4d13c17bedf5bb8722a6a816034b4cc",
+    "L16_h050/m0_schur_02.json": "a929c93c0040a3fa9d973c2c2644e1a312675618c9ba44f82cc671af19ba2de8",
+    "L16_h050/m0_schur_02.npz": "8a4ca9fb5b8522e1d65036320a51a2f040e76c40a756a5f3370701d1c45d9fb8",
+    "L16_h050/m0_schur_03.json": "388cbefc2870403b08a120acc1ac14d21dfe29563ee840a2211d51ae280e15ce",
+    "L16_h050/m0_schur_03.npz": "ff5f31b34184884882a2eb60659d3ba97828f6b74b8aeb4a122cab163a9609a2",
+    "L16_h050/m0_schur_04.json": "9055ed94585476d0f58d40ffd4166761419ba9ad66c8eed59ca912d947b70b40",
+    "L16_h050/m0_schur_04.npz": "ef61b123dbf50c6a8aa958641d47bd31de0e83870935dd0b27befb356bec0073",
+    "L16_h050/m0_schur_05.json": "ccfe32fc793d287e440aeb2dad9def3044c0ecf3d05eead681845f16f605a76d",
+    "L16_h050/m0_schur_05.npz": "b92abe5cfc8d7732372f2c95f1bcb5517a9049c6e218ce384a20ba27b6f4326c",
+    "L16_h050/m0_schur_06.json": "09d32f1873c4ea78d9ccb2147bbc1641d95fd81f0f4cfed6377031de59d8e0e6",
+    "L16_h050/m0_schur_06.npz": "e5c7ebad145257e39649b03a73633d029db33b73c7aa18867b276b75f1b0935e",
+    "L16_h050/m0_schur_07.json": "09cb13f7f7c7433edc109c3699de5c5c55f634335b71a795f80ded8dea860e14",
+    "L16_h050/m0_schur_07.npz": "0afeafa5a6151655337e14041ba93390653c4726030847b1bc82597b386747d6",
+    "L16_h050/m0_schur_08.json": "2cca58aff387af438a7999a786d768bef47b4290e0bb36ee3b12377bc1cab2c8",
+    "L16_h050/m0_schur_08.npz": "42fa85be3c41a7563ae818f83740c932512b356174092880ae568069b19ec6af",
+    "L16_h050/m0_schur_09.json": "87423f12fc23b526b1e2a49f239b1c6816a53acd1ee85a922d813fdfa08ddc1c",
+    "L16_h050/m0_schur_09.npz": "ea264ae0f94954eec7a120b5dab52e0a9071b6022c0731b848890131ecfb2dfa",
+    "L16_h050/m0_schur_10.json": "9a7849c284f3bb89e7c2c1cbce64f1de172d9b131486c63407a8501d724594c3",
+    "L16_h050/m0_schur_10.npz": "31e8cb05d074f3abe11a38a71b41fc62fab0d2c0f1ba247a02822af6865f0e6a",
+    "L16_h050/m1_schur_00.json": "90f836fc683810649863cb5d5483486204ace8aea433d3f5e1d28e1e4e42655e",
+    "L16_h050/m1_schur_00.npz": "83ddd0342feb6c526e1023674186b6bf0e4bd630407e7bb7d909c7c69927a269",
+    "L16_h050/m1_schur_01.json": "06310b230175650496e9d613620990a4920a980d0b5e482dd88645db38323284",
+    "L16_h050/m1_schur_01.npz": "d629c9c1be524d4f74ebec11ef3c8ab4aedb8d24baca55a74da4dde13168e5a7",
+    "L16_h050/m1_schur_02.json": "45adc4c48c0308398e8524f49fe239c3bc4e26cbbd04e73078590311cb783670",
+    "L16_h050/m1_schur_02.npz": "80b6eb5c9c73c5d80ffbef756f1265d411be1714770f9d009f405a9cb6987d76",
+    "L16_h050/m1_schur_03.json": "c489f826d8f1cbf066bcce76be38a2ecd91afe688faa272c430851ecc25a6876",
+    "L16_h050/m1_schur_03.npz": "0caa5badf8faba389ec8c48c5f7f17a001e71af5f8612cce88f14169c4c1e331",
+    "L16_h050/m1_schur_04.json": "618e6f5922a72914a0a906fa8c2ea1b9005eda8a543254852e9793006e6bb4f7",
+    "L16_h050/m1_schur_04.npz": "819c959d5ed983e758a86cd9c1017e3ac8a2c1b7c1ecf422085795fd61554239",
+    "L16_h050/m1_schur_05.json": "ba925cbfdd07c1dd554a3701e743ae5efd3a2e97bd81da2a172a217fb79fde41",
+    "L16_h050/m1_schur_05.npz": "0c0fe2b7c982c133b4aef881d4bf04bd4dc15d62e4f0d5ea90974d04b703d44a",
+    "L16_h050/m1_schur_06.json": "b2d35a2363957c8870897823048fd4a611611c84fdfa3c83c3b1209486194fcc",
+    "L16_h050/m1_schur_06.npz": "b1dd21949071c03e9a917781326daf3b723b734988b48477743a4148b23c445f",
+    "L16_h050/m1_schur_07.json": "c763abed53c5c368c817b431efedcff77096a01229df9e1b01b9740292a8820e",
+    "L16_h050/m1_schur_07.npz": "424cbc58822ffa1836c1d4651428eb566888331e366c2057c4315566da3a2cb2",
+    "L16_h050/m1_schur_08.json": "b7c6b30d727432420b413461ed9a45e6c4a7b51967b91975563bbc09fc33f2a7",
+    "L16_h050/m1_schur_08.npz": "afe30396c2f905bb7692132243e9a044e1b4c003b61c0e42f1f9eff13d702f64",
+    "L16_h050/m1_schur_09.json": "34d637beb2fdd7321d5359ae7b5051154bebd32240f0caff19f24697b5a929dd",
+    "L16_h050/m1_schur_09.npz": "8fcbc57e1dca85d5345e782c09ebc46274fbb5233fe2f1a4ff9c85f4fc2cb770",
+    "L16_h050/m1_schur_10.json": "dcbcfb54ef517745b4500226c53db19d94ab6051febdd37bfc31e85dc8b2ee81",
+    "L16_h050/m1_schur_10.npz": "f2a4a8fee5c089dd5dc4da7da184209bf1c98a933040a9e7f0db95721d4b364c",
+    "L16_h050/m2_schur_00.json": "f89212e9750aed7bca3e303e2ac7c566056f8cb59acba4bf8f77f1af7fff9ce2",
+    "L16_h050/m2_schur_00.npz": "5f4dfda9b9321a432e25faa7da334792875513af1c4b1c1208a459278ac506ad",
+    "L16_h050/m2_schur_01.json": "60d3e82b9cffbde2eba137d5c39d61703f3580776dc043f0e406d46ea8c33cc9",
+    "L16_h050/m2_schur_01.npz": "ce14884ab11f06232effb7080abd2fb8f5dcb567676cb5c2d789cabec67d9175",
+    "L16_h050/m2_schur_02.json": "d9815c6441027c2cc8964cbc738c7db27edb7e01fdee867ef3e8ec37d2665e96",
+    "L16_h050/m2_schur_02.npz": "3920091125fc59aa1de86b022db1cca32ef213699a500efce5652b35f48a18d0",
+    "L16_h050/m2_schur_03.json": "a9561bfaaa44a1e062c57b42a9242fc9fce7e5cb4b3e918ea24cb1f72411b13b",
+    "L16_h050/m2_schur_03.npz": "c3cc180938626a93ecf960f7a12511e9d5160c7ff0f3ead5037082e6457c38a9",
+    "L16_h050/m2_schur_04.json": "efe736ed845be59a6407fd4ab2f0177f7f27ec8102dcb86850460fd5d9b973b0",
+    "L16_h050/m2_schur_04.npz": "f6f3e4247739efcd59f070fa973df34b2ea689856f9ba532b5adc143eca1c381",
+    "L16_h050/m2_schur_05.json": "7406d43c28c7bd5f1a221ac68b1b6d7d6a1cd34d7198944d0230c929748a7f4d",
+    "L16_h050/m2_schur_05.npz": "a109d5d66424adfb0c4dd3c6bf451c7cb0f168612cd843efbc8ddc9d7c995a7d",
+    "L16_h050/m2_schur_06.json": "68512f14b958e3fb913153f4dc2b4bb11fe6ac2d18cdb6136f9043808e0cba9d",
+    "L16_h050/m2_schur_06.npz": "f8465f1ea5036b29a5356d8a138050e695238c64f0956465fe35544ee4fa50fa",
+    "L16_h050/m2_schur_07.json": "ef9d1160dbc971eab708f46b6924a3d47cc7b765754d721882443c7f429acedf",
+    "L16_h050/m2_schur_07.npz": "b1ef5444c882d9dec8e56514bb13407bf5ad5f725a9bda0d37e7975e72deaa74",
+    "L16_h050/m2_schur_08.json": "9c1f39e369815816d16702c55ccedceb9fdf19e6d9396e6e4fdea8a05ae236a6",
+    "L16_h050/m2_schur_08.npz": "099cf8971dc9ee923d0c22aab0a5581a73da1a590e8b89bb40ba89058b433f02",
+    "L16_h050/m2_schur_09.json": "969a11bb4146eb8b75516febc1ea699f1b2d0e0f6be8665492f2ccbfb7534517",
+    "L16_h050/m2_schur_09.npz": "e394ee248bff1a72c3b519a2bb2f5d2e2eb9dd506c1b47ecc61f1948bda82be7",
+    "L16_h050/m2_schur_10.json": "f7a50a625c1b70846bd086213873dbf78391a9729b4cd985b11503d28151173b",
+    "L16_h050/m2_schur_10.npz": "deeb0fc48dfd39489dbe0d8f8f4c2fd29125c03f2ebedee515951d9259067209",
+    "L16_h050/m3_schur_00.json": "57b5e9943443c762352fcef9f9d17a2e701738238b04ff5ac9f6340ad28f6649",
+    "L16_h050/m3_schur_00.npz": "d7b0adf10980b1715465cc2b6b71dc4c465ff24f88c4832df3b967297955fd5f",
+    "L16_h050/m3_schur_01.json": "f7ca514b12e91171e0032b3e744d2df9ba50228c4608366fd976d879b44af3a2",
+    "L16_h050/m3_schur_01.npz": "6e0a9a3b597ade2c787fadfc0d490ae517741a0525d8fced9cabe24ef5674b9b",
+    "L16_h050/m3_schur_02.json": "118e5f9484f2a6032c7e852234e31dfd9525c91f66081938abc1428a3d1945ca",
+    "L16_h050/m3_schur_02.npz": "72533d17f47057b31939da6edee8623f70c5d8083e1fc12d6788104e98812481",
+    "L16_h050/m3_schur_03.json": "fe6cbcb225c53b5865cbf00b8551b01beb4caaca7f013ebede3f601bccba2d71",
+    "L16_h050/m3_schur_03.npz": "f2622ba6c6470230e52a75a6b20ed1fd49c7c850143e101c2a90dad777d31149",
+    "L16_h050/m3_schur_04.json": "ee955695f5cbb0c45ba001e17d82e4d770d96f445b061f9c82948ae0eb0ec2d7",
+    "L16_h050/m3_schur_04.npz": "f43f5f835e21865754c2e86798eb2d57dae133af4e5ea56cbbdab781b9b11727",
+    "L16_h050/m3_schur_05.json": "6c61daa496ed4257f2faece5610fda325ed23cf24ce4acccc10e7effe448e91e",
+    "L16_h050/m3_schur_05.npz": "e5a9ca4be56f6af1034e39f1ee346136794e773374a970744ae9efe1e36c010b",
+    "L16_h050/m3_schur_06.json": "4137db64ba2c2e157200ccd3f2e3193dfd40f9c4bd78f917741e730325c43f16",
+    "L16_h050/m3_schur_06.npz": "af31adecbdebab60a1e9d8facba014155b76f59e0a44da8f1b9c5f05dff63f87",
+    "L16_h050/m3_schur_07.json": "c5357814c6637875b35c53c9fc30c3acf36dbf9e76b83156ce6a38f38258cf13",
+    "L16_h050/m3_schur_07.npz": "58927952a4af0d32b58926192f14514ea9fcaf64a88add6e674de869d81bad0a",
+    "L16_h050/m3_schur_08.json": "52e2fbea9982de1700e7dec17b37b8dd82dd021a7c05afa89454db9beb3f3b05",
+    "L16_h050/m3_schur_08.npz": "348f6193f8a4642b6e0fbababd7df090d94d7c70cbd1129da91c2d6bba050c55",
+    "L16_h050/m3_schur_09.json": "0c958ceea0fb9885e631cd0bdc4cc350248cbf5b2ae6e4df25af131bc005d38e",
+    "L16_h050/m3_schur_09.npz": "e56ab529facb908a47cbfa73102c48218230c2214d0823e300e65afdaa884753",
+    "L16_h050/m3_schur_10.json": "1e404871aa051ddc87cb7bc50fcfd3878c425e71e8b101990ac0a79a6d8b146c",
+    "L16_h050/m3_schur_10.npz": "a860fa211ef9c0ce0a9d1d3465668b3bf927a27de0a971d27645ca9b6957f5db",
+    "L16_h050/m4_schur_00.json": "bc063e85a525b357c15e88d37c54a908e1bbca62c0730c0952c50cddd32727a1",
+    "L16_h050/m4_schur_00.npz": "a12e44a0494ff4e57361c6e97c9529f39961ece979b3796c95ec80d534e31b51",
+    "L16_h050/m4_schur_01.json": "aedd2275363ae1029c071ab49a3519ab871b701d6700d38f8aa424aceecdd808",
+    "L16_h050/m4_schur_01.npz": "37b7b7deeaa18d66afd9b880d0b4d8eb984179a37e3f9d22b46b379f51d1e6a4",
+    "L16_h050/m4_schur_02.json": "2bade26d0a4b1a8ef6330ed88a68f0dc161ac6d75cf99b26cbba6a3331e9292a",
+    "L16_h050/m4_schur_02.npz": "6419f6376d5099af9e404d1e49caa247ecb07a8e2a7a2e91cd7ef6a49cabe9e1",
+    "L16_h050/m4_schur_03.json": "95b1e5fd7359f7d3111a45a4100a2feb2cdeb95c19e18e4532f3483f8442f207",
+    "L16_h050/m4_schur_03.npz": "fae521033c3b4a20d6a4bfd766fb0f894a073602a5071748ddefd93d5ca6c4dd",
+    "L16_h050/m4_schur_04.json": "f5cc83a780b68e7d27ec37582b7a0983db882c20d85e87c1075f98ef96cde5e0",
+    "L16_h050/m4_schur_04.npz": "e8a8e8b2725f7f22d6a23f9657ce307329a33c901951063853fe46c407ebeea6",
+    "L16_h050/m4_schur_05.json": "9105d005547d41987d3623a1d646565ce1ef19ba35c631c122ede100d57cbba7",
+    "L16_h050/m4_schur_05.npz": "b34e7c0069a76c158e25df18ef58a8f540bae9ffbc933f07ad459dedea88687f",
+    "L16_h050/m4_schur_06.json": "5cf8230d78e4a192b4c14b344363cb461d20f6f5ce7df7ffd768cfec47dd4841",
+    "L16_h050/m4_schur_06.npz": "3d968006e4080ee60057bd8995a2dffe175703a15923368e2c5fbe612beb983c",
+    "L16_h050/m4_schur_07.json": "7e8e257e22e6a0de0dd40d9508c20a3d372d242073c2a9c026214a3769f5a9f1",
+    "L16_h050/m4_schur_07.npz": "e052e535a18080975249c0b57ba9083efe73601f4a1074277071d62dff18814b",
+    "L16_h050/m4_schur_08.json": "62170434c5b5ff75ff8f588d77ce4d1eed9a95ff0f6ef583236c5c2f05760a39",
+    "L16_h050/m4_schur_08.npz": "fcb2a5d598f769186f0eb292396c1e60e3cc37538546253c9771162f78572653",
+    "L16_h050/m4_schur_09.json": "87d7c0e0fdb85fcb536c2f5d40d83f244df0c7310eb77d616c2c31acaf7ef4a8",
+    "L16_h050/m4_schur_09.npz": "5d578d7093b6b9a1f1677642560b44264a5b221d2acda6b7b92502f42c847f22",
+    "L16_h050/m4_schur_10.json": "2de197da9c7172427487c715abe0a487e619b73ef6d41ffd38664f5cae95f0d2",
+    "L16_h050/m4_schur_10.npz": "f0c34eba8a200f4d7d8c67fd3abe648d3b8b48471bb050ef5a5026fa4a82e21a",
+    "L16_h050/metadata.json": "a700f3b347521cbab5b88e37303882d61750ff7adbe7612dfe9e842ad29d6d3c",
+    "L16_h050/profile.npz": "43357b81de0eb6bda9d5c3a57205148d21086b63d8f2594d7ad281d6c9521e8a",
+    "L16_h050_independent/m0_full_00.json": "378811c23002d3501ea9b90535fe1f6670aa960a0b9fa84d2bea4a5b727f0269",
+    "L16_h050_independent/m0_full_00.npz": "81427af48c495a4a907e896bacef2675b6eb70f453fb5d7c5b1941d6aa68716d",
+    "L16_h050_independent/m0_full_01.json": "f7ee0d1ac74c5f62823098c1a376b5f6f971438150ae7fbcc01c0bf648a1b09f",
+    "L16_h050_independent/m0_full_01.npz": "2ae3a5505b216636d42fcc423bb1d708f56a878ba8d64af852f14b534543a503",
+    "L16_h050_independent/m0_full_02.json": "197b737c3b37b6314f67924a04fd47e276a2284c1375dd8d4973596d5af3f144",
+    "L16_h050_independent/m0_full_02.npz": "2dd465fe43e11a172af46ede7bbd24f30301e582bd412087c9b737b77acee26c",
+    "L16_h050_independent/m0_full_03.json": "2bffe2e7902ee0732b94073622f80e0d06df4022cbbeebeab17878e7b98e8c44",
+    "L16_h050_independent/m0_full_03.npz": "c192f30ed1cb1d92bb1d669627d786f3324306e49e548284f71930f6b0969fba",
+    "L16_h050_independent/m0_full_04.json": "af85ea8857d1b4d6762b2e0c9fdc4ee8a10314935de227127a0d7f94e1ff7630",
+    "L16_h050_independent/m0_full_04.npz": "6391837afdc902ef13da8332f7b1dec75e8f983977e15af4a807aaa7d697f9f5",
+    "L16_h050_independent/m0_full_05.json": "2843a9c70260b1611402211942b053b5f1ab99c06d9170e677b20e33f28abe58",
+    "L16_h050_independent/m0_full_05.npz": "1c44dee41eb2b8efdfca69b63c3a52075c178e44abd368af8d7d5be340c25f4c",
+    "L16_h050_independent/metadata.json": "16afc0579f74bda0e8424d7daf10474aaf517ef3829a184ea397803b5ce6f0d0",
+    "L16_h050_independent/profile.npz": "43357b81de0eb6bda9d5c3a57205148d21086b63d8f2594d7ad281d6c9521e8a",
+    "L16_h050_independent_m23/m2_full_00.json": "cf699eed273e916048481da4369e54f91ad9929637a8cef1ceb0b51378117c64",
+    "L16_h050_independent_m23/m2_full_00.npz": "07963990a5c02712a90c077f4dd9b9a969cb6767e44c3e8da4a9c319fe72d58e",
+    "L16_h050_independent_m23/m2_full_01.json": "44056d8f0734f6cce554e1f78590bc6c38fa25bac1a2e3d31fe6e1d66ac5a9b6",
+    "L16_h050_independent_m23/m2_full_01.npz": "5a9dd5d70d7b85ff797b711fa89e5f703f96d86e17c82cfcce63cd1cd3436492",
+    "L16_h050_independent_m23/m2_full_02.json": "9b55f542f52ce88e784390464af9a61e18a82f8d1c7e32784dbc1f9512cfa819",
+    "L16_h050_independent_m23/m2_full_02.npz": "795bb99b7ecf4f8e3dbc7420cddf5039cd2064655496c652089094384221f0ce",
+    "L16_h050_independent_m23/m3_full_00.json": "b2005d681a36af3ed2f1d9c1bf613775c7b6ae42cbcc5499c0b1ac073b7b8455",
+    "L16_h050_independent_m23/m3_full_00.npz": "0d704dcb8e10d1122b59f30ca98c1b69d528121a892b5f9aac825dc08712c734",
+    "L16_h050_independent_m23/m3_full_01.json": "6e6a1fcbe247c42c147032ab2dff01c500023c5cbc8f14f488e487f6ac33924a",
+    "L16_h050_independent_m23/m3_full_01.npz": "5cb1c70b4b505c0f75f22eaff723feeabe9ea0b05a3b10b32d81b1db16b3b8b8",
+    "L16_h050_independent_m23/m3_full_02.json": "b0c30c1d6a5cf091bdc2a7730fec10c4ba61be1581b3a73d43b5a0a91cb1f6ad",
+    "L16_h050_independent_m23/m3_full_02.npz": "ad2cc25a8625e968e2427bc6b22fbce74dbb0516c103784a9295c9eab0a8388f",
+    "L16_h050_independent_m23/metadata.json": "f5a3cab2ca2004b42f0aeeae142809a39455aefe3fa0d4bea1a4dac0bdb949b0",
+    "L16_h050_independent_m23/profile.npz": "43357b81de0eb6bda9d5c3a57205148d21086b63d8f2594d7ad281d6c9521e8a",
+    "L16_h050_LR/m0_LR_00.json": "e8925e4af60413da11583248068a2d545593fec920db6be6949e1b8706d75c5e",
+    "L16_h050_LR/m0_LR_00.npz": "0689c6ddd7e0c1f1f4615442a33285e93a78d47428843d28431c205cc44aa78d",
+    "L16_h050_LR/metadata.json": "4f363ada60ee8210db5e5cbaafcb16353790421931aa43892bbce46665f367d6",
+    "L16_h050_LR/profile.npz": "43357b81de0eb6bda9d5c3a57205148d21086b63d8f2594d7ad281d6c9521e8a",
+    "L24_h040/m0_schur_00.json": "af6e0f2931e2181196ff8f283d3bc2fb592b4136aefcadf3d01d703c2de62808",
+    "L24_h040/m0_schur_00.npz": "2721db4913be08b8d4098d3abfdd7734c9fd92266ec916d85051dfff2c19b2a5",
+    "L24_h040/m0_schur_01.json": "4ec3522986ec6ca4a02459f6da84b974254c19331f92af791c5d808eb54b2a8a",
+    "L24_h040/m0_schur_01.npz": "85392491aec6fedf41dee80b1a67051bd0112af48c2fc52afcc1ac9f150592d7",
+    "L24_h040/m0_schur_02.json": "da34efac5a13552463356ff172b78907f062e2213827ada101b48761de46ec23",
+    "L24_h040/m0_schur_02.npz": "5006c04c112500e118a50c03f02af76501b033dcce6529b95f249112b12378a5",
+    "L24_h040/m1_schur_00.json": "e4d148dc38cfdaff82bf844be7004851419be5c5f846ede2e9344fba1acd5b58",
+    "L24_h040/m1_schur_00.npz": "fd79fe60db9f63d78d14456127c12e5498352a0f4be9c53499acbd2968e882ce",
+    "L24_h040/m1_schur_01.json": "1bff590fc2095ca10a6e1c9d9772cd6adde9860d715db8a3013292903e0827a9",
+    "L24_h040/m1_schur_01.npz": "7e33e07be41ffab385ffe4674cfdfb962e6a677ee076398dcc40751ef0521e70",
+    "L24_h040/m1_schur_02.json": "e2c520971517295398cbc19448589b4065ca9c9ac074640c105018be1d64e693",
+    "L24_h040/m1_schur_02.npz": "a36107d8a40dedcd59c8432d74e726e87c32b8f8131d3039a42a301ce5bda393",
+    "L24_h040/m2_schur_00.json": "5f2f19815417d5a3fd6702405cfea60019bee22a74b0ef2f61e05f692ae5b032",
+    "L24_h040/m2_schur_00.npz": "c8b0d1de92e6b8f5997ab4d17c59344abc08dd1620d2789805dfa8e30bdb9525",
+    "L24_h040/m2_schur_01.json": "b8cf1e66220b30c273878543749cdfd8bbdaaed9c591c4ee1f1c80949ca30de5",
+    "L24_h040/m2_schur_01.npz": "942c309aed060d495f1202770567747ca6c6d75949665e77d7ce5551c7b94310",
+    "L24_h040/m2_schur_02.json": "77ef89de3d2e07f001214d0bd5d6a970b8985ab0cdd27eaf42ef559284d4b48b",
+    "L24_h040/m2_schur_02.npz": "37648ee6ea754681e5acb5138f7591bde8b3a28436ee1f99e8b174d656eacb82",
+    "L24_h040/m3_schur_00.json": "b2ced5660e825e4b527c3e63293be2b826934acd23a95d96b67f5e3ab6a951c4",
+    "L24_h040/m3_schur_00.npz": "758bf890ff68e1ebe2d6c297de1f6d706111bccd200e889156d3faf634e63711",
+    "L24_h040/m3_schur_01.json": "f43cafbd5aed1c5c3397d1aff4431934204fcf9458b396403e9c1d9d97c78a66",
+    "L24_h040/m3_schur_01.npz": "b5e288227f3bf7aa4e2cd6e559db48dd5e7c5701c3e2205673ee09b1235955cc",
+    "L24_h040/m3_schur_02.json": "1bce7c8b8614ba46583d72b7650dc5c8e21b07b16f2dfc46cfb5dc8fb1def051",
+    "L24_h040/m3_schur_02.npz": "03ab89dd567fad5c2f61bee430355e75f075edb09fb221ee7457de711c726176",
+    "L24_h040/metadata.json": "d88fc739f2507585a55cf9759c69ce390febd70f63b60a8602af9d21bfbeaca7",
+    "L24_h040/profile.npz": "e9bd46e7623e45533d05d88d846fadcfe3f91a63667f692748caf5ab91666f8c",
+    "L24_h050/m0_schur_00.json": "f25829779d1f809fde7404c75f935f56cc3691b22109b94d59016a69d37ae900",
+    "L24_h050/m0_schur_00.npz": "7abce6c0e7ee3aee7de28c360bafdc2959f6bf59ce809fc75788890e16021ca0",
+    "L24_h050/m0_schur_01.json": "a8d43dcb3ec5b5dffd7a4d552f549527c413a0d6d09e5bea00ab4193b66dd4ef",
+    "L24_h050/m0_schur_01.npz": "5bc9ac14836aac71a6fad5a2b849ed72cb6f7eeeddc723e3305d845e913477ad",
+    "L24_h050/m0_schur_02.json": "defc85b53767c0eabbd5918fc7b13384819fa9b33aca25b68414482f8c86dce1",
+    "L24_h050/m0_schur_02.npz": "b39db5f2c40f07a67264e0c6d50ad7ca4d1af00eb7680d5f34b9fa151231cd1a",
+    "L24_h050/m0_schur_03.json": "5aa96d34746959b90a9e8eb3715c4710226609285d77c9ee830c5b965cf9b6f4",
+    "L24_h050/m0_schur_03.npz": "e04b288ee14364efef0c7114d73ca5014c66432179da16a4561b512c9fda9826",
+    "L24_h050/m0_schur_04.json": "fdc4a04d103004eec03be419094b6154243943bad74f0e46904fb33e8ba958f0",
+    "L24_h050/m0_schur_04.npz": "7485ce38f1270701ef441d52185ed09c8b83686889de931bad28ccf20650aa76",
+    "L24_h050/m0_schur_05.json": "2ae4034c9e0bc055eaa929ccbc2a0ede9f345f78df9c9e8a076d73d2388f666b",
+    "L24_h050/m0_schur_05.npz": "9b9ff0c16fb8bf407bb7c34304d65143a2d6e59d9da24155297a5c5dd6f96556",
+    "L24_h050/m0_schur_06.json": "9b6c37ce35ffa7f3fabe9ab50aabf42f299601f1da8fa3ca8c6f5f4138397f67",
+    "L24_h050/m0_schur_06.npz": "d00b8ef5b6f80742c120449b79dbd28a699b5fc64ed5e33818ed402a4d152164",
+    "L24_h050/m0_schur_07.json": "f5abc9b8e109ec16d8335d050e5c1ab62e91f161759e349d0b084506ca4d8581",
+    "L24_h050/m0_schur_07.npz": "2e853baf3d886059be01033f955e426c39bf201fd52064115be6133b4d709efe",
+    "L24_h050/m0_schur_08.json": "b46f5039c6be6888c627f68f279946c55788beab555bbd28c38be05fa4229259",
+    "L24_h050/m0_schur_08.npz": "50eb3bb3b87ab8f6c137ab6fd575e54c0208f82963736a58921e187fbf976166",
+    "L24_h050/m0_schur_09.json": "45e20ba62c0b968d85cf248eb8110ca4f4d748dcf397d605fe73a8354c24f784",
+    "L24_h050/m0_schur_09.npz": "1ec174b7874bb9838a3550689d9bea2be36f049fb33c222563e5f54187782de6",
+    "L24_h050/m0_schur_10.json": "d54eaa8ca5b987099aa0d7b6ea8e085dc01637b9e8288de402c3d5511bce9a8d",
+    "L24_h050/m0_schur_10.npz": "051a338615948829671589dce506b0f71ccd707023f3472cab64600f30255b0e",
+    "L24_h050/m1_schur_00.json": "8996370e53b5164261a879088fb32fdb51b5a192ce20bb4cd9b2ac2138e255f8",
+    "L24_h050/m1_schur_00.npz": "de5df1876d5cd61fbc58fb5d6a9d21821fe3267bfd34432bd083052308349328",
+    "L24_h050/m1_schur_01.json": "a2ec2d4a70e93270810dd124e024cd48b50934bb69b682e7030c8c022fa4d0df",
+    "L24_h050/m1_schur_01.npz": "b6f906dda3533b7a309c257769798f29d8d8b966e7f88a4395ebf50dc3a0bb3e",
+    "L24_h050/m1_schur_02.json": "68ddf87e31638c0c8e28eb874acb05c4a6fd49cea5a4b872f27c32e688753362",
+    "L24_h050/m1_schur_02.npz": "70ddbc7f7596fa3527f3fff2a00a1e1f25db66aa5954cce19bfa3476ed57820a",
+    "L24_h050/m1_schur_03.json": "09b02da0e16f75e5e5496143b56c1d1706bb4a7335c2be9f38b58683e7b7f73d",
+    "L24_h050/m1_schur_03.npz": "175665367d1944695d158c4a9af9616b26ecc1e848c4febf8d80290825aec410",
+    "L24_h050/m1_schur_04.json": "b86e644c609b00031d13aace50ea58d01bb4ae28095a6690345c8259f85c2fbd",
+    "L24_h050/m1_schur_04.npz": "6d7f5ae86fb06ddb0f89d8b98b3c0160ec9681e2fa2603bc6b53df3da201d542",
+    "L24_h050/m1_schur_05.json": "7a2649f6c1f27c89487a8456b53829636feb18bd678ecd2f49034934233b8453",
+    "L24_h050/m1_schur_05.npz": "100a44f56f75c5c348f969f2b8214f09cfc154774d0c5baac295f711beedc356",
+    "L24_h050/m1_schur_06.json": "c99e2b638c7e33964a0221017c56d5a2123684a9c787935e5bcd52ab16f3754e",
+    "L24_h050/m1_schur_06.npz": "6f3bbffe3c4efb6377eede70dead965e0efdc4ac646fffbba38a2534ca316df0",
+    "L24_h050/m1_schur_07.json": "f3d582a00fd35e49cfdccdbd5997ebc35e774bee34b824ec2218906fe9452369",
+    "L24_h050/m1_schur_07.npz": "375d58a9656c28005ceb2539dc5fdff793aee01e5beccd4d0c62700a0f93a22d",
+    "L24_h050/m1_schur_08.json": "5333a5f4ab2f8bc67f1501b6aec53973077b39aa5068c8432d0b025dde959c65",
+    "L24_h050/m1_schur_08.npz": "0807d27b18e877462d0d984e2a04cd963a5aaeb443bd0f018e2b6b4f8287dc77",
+    "L24_h050/m1_schur_09.json": "ac56d19633791101f9587a55b6522b87ffcd78ab47ec410a3f9d9fdc4d453998",
+    "L24_h050/m1_schur_09.npz": "938f76c4d28560285326ca5b21edea5debf85aa0eaec9e756a082d6cf25cb6a8",
+    "L24_h050/m1_schur_10.json": "d8bce02fa8758c506ad052dcf0ce8d738754ba649e440a96098c9519953c25b5",
+    "L24_h050/m1_schur_10.npz": "9f9014daa0e3d5c750ba0080b1bc6f280f127faf6d6093088fb5aa71bbfa4469",
+    "L24_h050/m2_schur_00.json": "70955f6b08256f711c313b2eae60fdd6540882b39d0d1ee1ecb8112cc412dfd2",
+    "L24_h050/m2_schur_00.npz": "63b3ee7430f53d09dd6ab222c9d842584019fb92ed23a2033c1b32ecc095fe6f",
+    "L24_h050/m2_schur_01.json": "93db8f7ef5adc835a2b6d7b15289f347d6b8d30365209e96432eddb69a4e88f0",
+    "L24_h050/m2_schur_01.npz": "1f831f46aa1b8472c96d8a893dabb84829281a2e78e76a719278618f235d342b",
+    "L24_h050/m2_schur_02.json": "939214adeb3ae9db156a66fb47970c302cf09c87e84eeb828493e0069923ab06",
+    "L24_h050/m2_schur_02.npz": "6ba7ebd3ba08cfc5bce5cd25bd124f5c0a84f540c3028ca586a97985c75de6a6",
+    "L24_h050/m2_schur_03.json": "1b0d02124fc634dc1fb5fcf99d9e70b542dc6c8c9afaeb2aeda67178d19fb6ac",
+    "L24_h050/m2_schur_03.npz": "61629604c2382250171ca3df7048fbd68b22b1c451c23e6306ca11915413e707",
+    "L24_h050/m2_schur_04.json": "ba7ed11191ac7047eefab3ac9bc72e04b713c75d826de44bbd58dd3cebbfca14",
+    "L24_h050/m2_schur_04.npz": "bf16566c739907069ed2524f2b80ba337599f714bc676715bce98ba09bcbe2f5",
+    "L24_h050/m2_schur_05.json": "9b1c85d5133093591fc942a8d6617cfa659802c6c227f550f9bd4c55b2a747d8",
+    "L24_h050/m2_schur_05.npz": "d9fffbf089939a7e2a9a3dbebdbc484c1c35e2f08c68aead90071f461fbca039",
+    "L24_h050/m2_schur_06.json": "c2d5fb5e62610519ddbde5020106b9fac825c0caa8412ea2b9dd8aa1f29317f0",
+    "L24_h050/m2_schur_06.npz": "acab6343b2e2f65e711772fbd0e1f3ae1c7921633d8a34b0289f04c818b1e9ed",
+    "L24_h050/m2_schur_07.json": "b1d7648300683aa3e88e23eb96cf80c61549e9e77d3dcca091997054bf2ec192",
+    "L24_h050/m2_schur_07.npz": "6ce82a30987c2b9f26d373c0abf3cd315c30eaad37a45c8c83f8687286c0bc61",
+    "L24_h050/m2_schur_08.json": "a22b5a7890b12eaedbd6cabe240f519080b7f2321f57a206f852b77a52af0c28",
+    "L24_h050/m2_schur_08.npz": "68ef45a67ab8ee9986d395c3b8c429ee9191e07d612ed8c293d669a9d9036938",
+    "L24_h050/m2_schur_09.json": "339e894ccdeb12270350dd6695af049e567f03841e068ddc0b1a9f90c19b2bd4",
+    "L24_h050/m2_schur_09.npz": "336d3c4217c28e23fd3481c5e257ad1143a66228036a11b81b31d9824c273bce",
+    "L24_h050/m2_schur_10.json": "90f17a991fbc3f659359e0933abe587b0631d10202266cb7d4196ce08262a8b1",
+    "L24_h050/m2_schur_10.npz": "bf49e26631d75a6015d24b0924c9c89e6528fdde1e00f6dd9366725cc782ce8a",
+    "L24_h050/m3_schur_00.json": "3eb96638fe78fc2948785f16024452b7558ec9a28f7148c74cba94e23c44f83c",
+    "L24_h050/m3_schur_00.npz": "f2952da8470b38d172b0f04a2370cd8a1a5080d53d8673c246b9a9c67d54b1e9",
+    "L24_h050/m3_schur_01.json": "53c96bcb0e6eda7853c61464287eeb81873b95759d71d4e4d68c33c277fb389e",
+    "L24_h050/m3_schur_01.npz": "664772fe79e97ec003b33cd2c0037567a945f3e04822ea7bfcd30e5d68a9b37f",
+    "L24_h050/m3_schur_02.json": "4bcfb865f92b5a04bea6db0e8e149efe756d8b1d70a511e9ae4456bb22ad5640",
+    "L24_h050/m3_schur_02.npz": "c344f562dca71f34e805a1a3246473c1a2df0203efb8ed8b438699e4a88043b1",
+    "L24_h050/m3_schur_03.json": "dd2a508ee3a136d1d5334788a452cf6884727d31755382b117d38d744f79a600",
+    "L24_h050/m3_schur_03.npz": "9213b53821af542c1ce3a7ebce84fba1533ba98f9861a84af037ea45a57cd538",
+    "L24_h050/m3_schur_04.json": "6fdb324bc0ed82f90aa2667d4614c7565b1b042253f3c1e03bdfb2d5bcba641c",
+    "L24_h050/m3_schur_04.npz": "98b7d276d434c40fade9bb035022c9032639bedd002e31df980a1b562438c68e",
+    "L24_h050/m3_schur_05.json": "f84465e2730756b24943111ca0682e9b1ec209ab719feea60e4b381fa7882064",
+    "L24_h050/m3_schur_05.npz": "6bb53cb77d981854da6699aa09f202cc9b1f5cd8ef83d1e46f25f0d61762a1f6",
+    "L24_h050/m3_schur_06.json": "585b83e578c0611c15e91de979313127b9ff638e23aaa890968e80ec42ba68c1",
+    "L24_h050/m3_schur_06.npz": "95cd9bfa0bd2c027f754c1865b071fa77168aa566352282d40b37c8df89c47c4",
+    "L24_h050/m3_schur_07.json": "8bab33d5b45d3e703ae0f603a2bbed92ad3bb1a8e4271b044a74657dfea12258",
+    "L24_h050/m3_schur_07.npz": "d56231135ac8a73e8bcd0f2c189376bc19a2f79a11ed0a9b6375b53a21ac7e9e",
+    "L24_h050/m3_schur_08.json": "7a7d61c909c9bd612a27d13db1d66b49a8ffb8e3de937f0dad379aab080e943f",
+    "L24_h050/m3_schur_08.npz": "2491d8482d0ce99f1f8469148474c8336a35214a2aec3fe12f1db53e3ba27025",
+    "L24_h050/m3_schur_09.json": "8fce38f7b1028c2bfed5f4fea2fac2a8c387a59b356a270a8a2e208712f6b72e",
+    "L24_h050/m3_schur_09.npz": "e017f59a9ffcde2d774e59f4df30b9aa62379e8b69ef7d0d44a19d251362795f",
+    "L24_h050/m3_schur_10.json": "ca08c5141f5e7174212ae149f8356cac6e4f4fd39bce6756ba56a4aa7c5b7c04",
+    "L24_h050/m3_schur_10.npz": "abdcff276d28d10303c98407dc01005e25cc272938c611a5d0358c5e1555974c",
+    "L24_h050/m4_schur_00.json": "c6bb50debbedb4bae4f74b90f878440b091347512358d2b14e146c8537a36933",
+    "L24_h050/m4_schur_00.npz": "386f0fec41cabbb12a3467e7b7d2c17073c63779aa1eef316636c7e87115ecb6",
+    "L24_h050/m4_schur_01.json": "2c41ecb35699cf29c93b940f95ebad6769e5f76f80397e4ab12b2434dbd65683",
+    "L24_h050/m4_schur_01.npz": "4f5bd7fb0768ad33368001315126434123cf4b3ea870fffcbe1d898bff6c683c",
+    "L24_h050/m4_schur_02.json": "59cb1b07a4487d1dbcbb70184fc757c76e9627fc41534278abaf64475930b79f",
+    "L24_h050/m4_schur_02.npz": "9ada116e56d27d20442ae4abf0d6fc5df977ed3a9c51292176a8748022fa1b00",
+    "L24_h050/m4_schur_03.json": "5303b500b4780af3b71a6b0098ab3a43f34887adb4c342104c72464fff42e66c",
+    "L24_h050/m4_schur_03.npz": "9dc0a3e480bbf937ae6bff2fc6bff0f22f98c1039f9e5c7020f3415a96184d94",
+    "L24_h050/m4_schur_04.json": "9712e871ef3fbe9f1f93ffacb3610113b9f98b7d23050c84ede97fc708d668f3",
+    "L24_h050/m4_schur_04.npz": "6de9803392b990b0a1abbdabf84401fae7c91c57a7fd08a6afb766ab6a3bbf23",
+    "L24_h050/m4_schur_05.json": "e7750e4e8a0b0c2daccea58584c2567208671465827786601d8a588aeb2d3ee9",
+    "L24_h050/m4_schur_05.npz": "cef669d412184db76c9ecca85cacb9a69f7374be6a90d1193eb4d5026645b74d",
+    "L24_h050/m4_schur_06.json": "c4763423e9693608ecf6ce0c85ef5289c3a7fa94ba01153125484faf1012d97b",
+    "L24_h050/m4_schur_06.npz": "5aecefa7a71f47d59e285b7189e42cb0d4b66205eb27fc7be4571e94412e88dc",
+    "L24_h050/m4_schur_07.json": "27b01368684c40c6e12bddc9754dc07a894778e24cee9e15a13664a61bd88d5b",
+    "L24_h050/m4_schur_07.npz": "80eba2690dffac302a131a00877b8ee1d16acaaff20f6a8d3d5fe6db58be3075",
+    "L24_h050/m4_schur_08.json": "7202aa180ca678157fe52f7beea28c10fa15aec1729aca6f8d2fe7d92567fc0f",
+    "L24_h050/m4_schur_08.npz": "e2ecfc882f39d88ea25e9d3b204112a2a50c8922f5476183cf4005a9eee0b55d",
+    "L24_h050/m4_schur_09.json": "d509e59bd788fcfae6d0b16cac96be4fa07d19c2bdcb175cb4abf3939e9f4279",
+    "L24_h050/m4_schur_09.npz": "eefa09f3c86c4ca6a2e8ce1a4c1e9d51b4834845b3feb397329fee643e543d51",
+    "L24_h050/m4_schur_10.json": "53577abad57fa6d21533979dabc41345710765a645b35c6a7fc5bd20963800ca",
+    "L24_h050/m4_schur_10.npz": "a211079657f4bda82abe2c5229367e753f7a2ec707d39c06bdae8741d3f1c614",
+    "L24_h050/metadata.json": "7dd5e96bc334df49910b37549f11362222fc1de321586478ac0cf25870c6b344",
+    "L24_h050/profile.npz": "2d8bf6a443ac39d1c60c1bec4912fa8044bdc3ea211466c085a4a10492df8b6b",
+    "L32_h050/m0_schur_00.json": "c6d91510db208fc08109558013191b74c541f3dad1dec8221a3b8a6ff15e3a8e",
+    "L32_h050/m0_schur_00.npz": "09c0ebf82e7651cb11c8855eb85d3cd8d600b3f08d31053950edfad49e2830cb",
+    "L32_h050/m0_schur_01.json": "92d696d388eeee37bafb9127595ac548bd8cac477311eb50f371bfe89867f1f7",
+    "L32_h050/m0_schur_01.npz": "24ba9e4906ba804d468b3a668b3576758cd81d034d866c2ffac9d1f99a45110c",
+    "L32_h050/m0_schur_02.json": "af69be19999d69f1fb8825e965a7cc21f83bcf9e1b359ab6a3b03c9f1d06292d",
+    "L32_h050/m0_schur_02.npz": "d774856063bcbe9699ecd39f05ea9a6eff88ade6dce1238a5963aeaa18797caa",
+    "L32_h050/m1_schur_00.json": "512bdff49b656d1a3017b5d1875de96109c90632fdfd57b0a4663b15d10dbde5",
+    "L32_h050/m1_schur_00.npz": "58225ad8088461855bb07a88deb68f4abef15d808f41f87e3b08b0e7875ae0c3",
+    "L32_h050/m1_schur_01.json": "fbffd55d5053c2a09f1920a23b4761f3ee092f928475afab5887fe07c496a1e4",
+    "L32_h050/m1_schur_01.npz": "66e9633b219a7bd49bd85e8d8a53fc743be4f626aecc2029ed6fa39c64a83943",
+    "L32_h050/m1_schur_02.json": "f1eafefeb4abd6cbfc1d46c3fec4880719fa7e1901387a4586afa8308f3eeca5",
+    "L32_h050/m1_schur_02.npz": "1e8bfe5d3c5e1a99a3630f07cd2c1ebb7a872822e02e0aef8cb2f69f6d950603",
+    "L32_h050/m2_schur_00.json": "107c49df1d9a7a5efbc8443e32a20e9fa00e683600eaae47237b5aec0a95e934",
+    "L32_h050/m2_schur_00.npz": "62ea2357ac2464a500d1807832bb0735f954f794a234569e8267b3a576a0e6bc",
+    "L32_h050/m2_schur_01.json": "82f2e20cbb1e91f8b9257f569f9a5ebe441fcce18bb148db6196292e12076b63",
+    "L32_h050/m2_schur_01.npz": "14a05f59f4a637a0c18d85957224d768030a641749a305a741482d86c4347075",
+    "L32_h050/m2_schur_02.json": "7858b7128cb561511ead921124cd40ff98da11bc5997bfaf1b51e8b0ffa365a2",
+    "L32_h050/m2_schur_02.npz": "f0b96852aeed34a954a46010c4d637141d790e93482f0bfaf6b8f74bfa8c115b",
+    "L32_h050/m3_schur_00.json": "1dddc720677556512727ef2cb4a655230f8727463af65be20d8849b65d0f93c6",
+    "L32_h050/m3_schur_00.npz": "25c256fbf78c344f2814b204fc59e2e2e4cc9bfb342b73ec97a92dc1df2af7fc",
+    "L32_h050/m3_schur_01.json": "980d52e9355c5df56f815e923ad7f75b7eb1cb606261458d1856da423806cb51",
+    "L32_h050/m3_schur_01.npz": "64837d51c77e705b5e55524b762139edd0edfd0199ec604af2e33e720fd146ab",
+    "L32_h050/m3_schur_02.json": "1b1826f3d75a9183cb0611dd04102776332518980822de9b90b25b7023babde6",
+    "L32_h050/m3_schur_02.npz": "a7fc316d4cac3c4d319b29b286bd9c816d27b20612a4af6190b0b117ed86fe96",
+    "L32_h050/metadata.json": "29441de4194b67f25d9f0313be6b7159e89ef7b3bc2b6480a8f78ec121095af0",
+    "L32_h050/profile.npz": "040246038b43baaa87fb9c1ab52a1233cfe53f8bc25f4448b3375f71582a521c",
+    "verification.json": "46473a46759a970a9a921d858fc7b42271fe0fcef6c17e3e549e66e86c73f74b"
+  },
+  "independent_strategy_agreement": {
+    "0": {
+      "symmetric_max_nearest_eigenvalue_distance": 3.2888352857926224e-08,
+      "matching": "Nearest eigenvalue in same sector; no algebraic multiplicity certification",
+      "reference": "L16_h050\\m0_schur_00.json",
+      "independent": "L16_h050_independent\\m0_full_00.json"
+    },
+    "2": {
+      "symmetric_max_nearest_eigenvalue_distance": 2.53877651213486e-15,
+      "matching": "Nearest eigenvalue in same sector; no algebraic multiplicity certification",
+      "reference": "L16_h050\\m2_schur_00.json",
+      "independent": "L16_h050_independent_m23\\m2_full_00.json"
+    },
+    "3": {
+      "symmetric_max_nearest_eigenvalue_distance": 3.324125004316895e-15,
+      "matching": "Nearest eigenvalue in same sector; no algebraic multiplicity certification",
+      "reference": "L16_h050\\m3_schur_00.json",
+      "independent": "L16_h050_independent_m23\\m3_full_00.json"
+    }
+  },
+  "baseline_calibration_reproduction": [
+    {
+      "run": "L16_h040",
+      "mode": "carrier_phase",
+      "old_abs_sigma": 1.0552120153057456e-06,
+      "new_abs_sigma": 1.947748032860409e-08,
+      "absolute_magnitude_difference": 1.0357345349771414e-06,
+      "phase_direct_null_is_primary_gate": true
+    },
+    {
+      "run": "L16_h040",
+      "mode": "longitudinal_translation",
+      "old_abs_sigma": 0.0026958354906787513,
+      "new_abs_sigma": 0.0026958355114486145,
+      "absolute_magnitude_difference": 2.0769863259828547e-11,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L16_h040",
+      "mode": "transverse_translation",
+      "old_abs_sigma": 0.00468127335917501,
+      "new_abs_sigma": 0.004681273358572847,
+      "absolute_magnitude_difference": 6.021624171514972e-13,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L16_h050",
+      "mode": "carrier_phase",
+      "old_abs_sigma": 6.364092889520256e-08,
+      "new_abs_sigma": 2.655188086910717e-08,
+      "absolute_magnitude_difference": 3.708904802609539e-08,
+      "phase_direct_null_is_primary_gate": true
+    },
+    {
+      "run": "L16_h050",
+      "mode": "longitudinal_translation",
+      "old_abs_sigma": 0.0027068654289494893,
+      "new_abs_sigma": 0.002706865426774119,
+      "absolute_magnitude_difference": 2.1753705607696627e-12,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L16_h050",
+      "mode": "transverse_translation",
+      "old_abs_sigma": 0.004828315582719068,
+      "new_abs_sigma": 0.004828315582711018,
+      "absolute_magnitude_difference": 8.049984290270373e-15,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L24_h040",
+      "mode": "carrier_phase",
+      "old_abs_sigma": 8.177928177386289e-08,
+      "new_abs_sigma": 1.7833401192239326e-08,
+      "absolute_magnitude_difference": 6.394588058162356e-08,
+      "phase_direct_null_is_primary_gate": true
+    },
+    {
+      "run": "L24_h040",
+      "mode": "longitudinal_translation",
+      "old_abs_sigma": 0.001046668019152425,
+      "new_abs_sigma": 0.0010466680190047758,
+      "absolute_magnitude_difference": 1.4764925393428996e-13,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L24_h040",
+      "mode": "transverse_translation",
+      "old_abs_sigma": 0.00214632944732154,
+      "new_abs_sigma": 0.002146329447273827,
+      "absolute_magnitude_difference": 4.771270184500409e-14,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L24_h050",
+      "mode": "carrier_phase",
+      "old_abs_sigma": 6.754278653347718e-07,
+      "new_abs_sigma": 2.4033942820573034e-08,
+      "absolute_magnitude_difference": 6.513939225141988e-07,
+      "phase_direct_null_is_primary_gate": true
+    },
+    {
+      "run": "L24_h050",
+      "mode": "longitudinal_translation",
+      "old_abs_sigma": 0.0010507330206576703,
+      "new_abs_sigma": 0.0010507330175677301,
+      "absolute_magnitude_difference": 3.089940196071561e-12,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L24_h050",
+      "mode": "transverse_translation",
+      "old_abs_sigma": 0.0024583711217538635,
+      "new_abs_sigma": 0.0024583711212908493,
+      "absolute_magnitude_difference": 4.630141756112316e-13,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L32_h050",
+      "mode": "carrier_phase",
+      "old_abs_sigma": 6.460848264630475e-08,
+      "new_abs_sigma": 9.455488753005907e-09,
+      "absolute_magnitude_difference": 5.5152993893298845e-08,
+      "phase_direct_null_is_primary_gate": true
+    },
+    {
+      "run": "L32_h050",
+      "mode": "longitudinal_translation",
+      "old_abs_sigma": 0.0005199132719917826,
+      "new_abs_sigma": 0.0005199132718508807,
+      "absolute_magnitude_difference": 1.4090193855426092e-13,
+      "phase_direct_null_is_primary_gate": false
+    },
+    {
+      "run": "L32_h050",
+      "mode": "transverse_translation",
+      "old_abs_sigma": 0.0021156918926298254,
+      "new_abs_sigma": 0.002115691892608496,
+      "absolute_magnitude_difference": 2.1329292498872832e-14,
+      "phase_direct_null_is_primary_gate": false
+    }
+  ],
+  "sha256_scheme": "Text (.json/.md/.py/.txt) normalized CRLF to LF; binary files hashed as raw bytes, so Git line-ending conversion does not invalidate text hashes.",
+  "total_targets": 202,
+  "total_returned_pairs": 2412,
+  "nonsymmetry_candidate_count": 0
+}

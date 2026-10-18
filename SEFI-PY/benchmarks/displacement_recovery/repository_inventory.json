@@ -1,0 +1,2867 @@
+{
+  "sha": "5b9ce48af8ed9f3a493bb6cf03c7227b194c02d6",
+  "truncated": false,
+  "entry_count": 5352,
+  "entries": [
+    {
+      "path": ".github",
+      "type": "tree",
+      "sha": "a1de9ec4c57ec53e51e8c7ae200538442c900098"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "type": "blob",
+      "sha": "cfc71c96c7cb10d1471e6ca8ec3e5ee30f824050",
+      "size": 2043
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "sha": "872d5f6c6f29794f4d9c1f40acd6a65fb9c39d6d",
+      "size": 2165
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "sha": "af0b49b92857304f403e456d58188a798020edfd",
+      "size": 1900
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "sha": "8d180a0ed628d279a81b5137e28bb8499e8bef57",
+      "size": 6918
+    },
+    {
+      "path": "SEFI QEC Stack",
+      "type": "tree",
+      "sha": "2b5ea9ddd02b0abd8a55cb761d048581582c9da2"
+    },
+    {
+      "path": "SEFI QEC Stack/.gitignore",
+      "type": "blob",
+      "sha": "3d230749797d6fc4608a0b534ea116aae5fdee5e",
+      "size": 77
+    },
+    {
+      "path": "SEFI QEC Stack/CHANGELOG.md",
+      "type": "blob",
+      "sha": "b32e9997ca9e5af27f698634d6c16040f59807a4",
+      "size": 250
+    },
+    {
+      "path": "SEFI QEC Stack/CODE_OF_CONDUCT.md",
+      "type": "blob",
+      "sha": "307e42d64b6ec1bab9cb3fadce8dbe026748689e",
+      "size": 243
+    },
+    {
+      "path": "SEFI QEC Stack/CONTRIBUTING.md",
+      "type": "blob",
+      "sha": "ccd344686dc188f6938d289a575a113b0f6209ca",
+      "size": 499
+    },
+    {
+      "path": "SEFI QEC Stack/LICENSE.txt",
+      "type": "blob",
+      "sha": "d8dd627f4f1712def758d54fe705a5c12af8d902",
+      "size": 515
+    },
+    {
+      "path": "SEFI QEC Stack/Logging",
+      "type": "tree",
+      "sha": "433c440b059611f4ca236cb8d2925697573cd24a"
+    },
+    {
+      "path": "SEFI QEC Stack/Logging/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/Logging/geolog.py",
+      "type": "blob",
+      "sha": "3a0acd650e6295d283b7a8cfa7243b02114c4e6f",
+      "size": 250
+    },
+    {
+      "path": "SEFI QEC Stack/README.md",
+      "type": "blob",
+      "sha": "2cc7f54c3604c2012810050b1eadae30834be2b2",
+      "size": 2097
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack",
+      "type": "tree",
+      "sha": "e8b6683e4e583178c05e44a01ef58f97f5ea7cd8"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/.gitignore",
+      "type": "blob",
+      "sha": "3d230749797d6fc4608a0b534ea116aae5fdee5e",
+      "size": 77
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/CHANGELOG.md",
+      "type": "blob",
+      "sha": "b32e9997ca9e5af27f698634d6c16040f59807a4",
+      "size": 250
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/CODE_OF_CONDUCT.md",
+      "type": "blob",
+      "sha": "307e42d64b6ec1bab9cb3fadce8dbe026748689e",
+      "size": 243
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/CONTRIBUTING.md",
+      "type": "blob",
+      "sha": "ccd344686dc188f6938d289a575a113b0f6209ca",
+      "size": 499
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/LICENSE.txt",
+      "type": "blob",
+      "sha": "d8dd627f4f1712def758d54fe705a5c12af8d902",
+      "size": 515
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/Logging",
+      "type": "tree",
+      "sha": "433c440b059611f4ca236cb8d2925697573cd24a"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/Logging/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/Logging/geolog.py",
+      "type": "blob",
+      "sha": "3a0acd650e6295d283b7a8cfa7243b02114c4e6f",
+      "size": 250
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/README.md",
+      "type": "blob",
+      "sha": "2cc7f54c3604c2012810050b1eadae30834be2b2",
+      "size": 2097
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/codec",
+      "type": "tree",
+      "sha": "615a63683a6faf74958084ca097c34ef7e902b6e"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/codec/__init__.py",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/codec/compress.py",
+      "type": "blob",
+      "sha": "7c72758bef8f76ded02ac74abe47677e64a6276d",
+      "size": 1286
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/codec/sefi_codec.py",
+      "type": "blob",
+      "sha": "b817823873cb361b16a5e6c926836f5e1c4ccb97",
+      "size": 421
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/core",
+      "type": "tree",
+      "sha": "14a7eeda67f267728fbe0af2a6c5b7c03926da6b"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/core/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/core/geometry.py",
+      "type": "blob",
+      "sha": "627f64e9738ccdce03a4dd25b6ae4e240b343735",
+      "size": 167
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/core/identity_types.py",
+      "type": "blob",
+      "sha": "92107fdee7832fc83aea00bdf3b71e66afc3bdd2",
+      "size": 1229
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/fidelity",
+      "type": "tree",
+      "sha": "a58c564f25a07c76c51fcb5c4f66d41acee85c0b"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/fidelity/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/fidelity/fidelity.py",
+      "type": "blob",
+      "sha": "ae4a9961f053775d13fafaaff9efcc50221563d6",
+      "size": 733
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/pyproject.toml",
+      "type": "blob",
+      "sha": "058500f12123cec54b5ef47fbe73ed83e47717dd",
+      "size": 333
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec",
+      "type": "tree",
+      "sha": "75e5ef74a031be408bae58fa4d72101184d1cc14"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/authorship.py",
+      "type": "blob",
+      "sha": "e5bc2df235f596c37a5bb7f63c56ea8e6aa7e1b3",
+      "size": 322
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/collapse.py",
+      "type": "blob",
+      "sha": "27a6ea93e216821a8b17f6d1bc8b155a6366cca7",
+      "size": 210
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/metric.py",
+      "type": "blob",
+      "sha": "3c83090cc96cf03b9250f7910c1a45ab1808e656",
+      "size": 222
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/origin.py",
+      "type": "blob",
+      "sha": "87c65cdf2643346c25d7c38f8a6204d41950cb7a",
+      "size": 301
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/sovereignty.py",
+      "type": "blob",
+      "sha": "0fca17e053d61e4ef0f83f6730a117a7796571fc",
+      "size": 266
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/stabilizer.py",
+      "type": "blob",
+      "sha": "a37c0d4f7c3a6d2bb3456016c302fb9386b7a9ad",
+      "size": 1629
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/syndrome.py",
+      "type": "blob",
+      "sha": "a25ba76da8a47fa63a4050430c057541c281fad5",
+      "size": 242
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/qec/warp_metric.py",
+      "type": "blob",
+      "sha": "9a6b43d4c9666e4a7e31e7abad881faf928101ac",
+      "size": 431
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum",
+      "type": "tree",
+      "sha": "3c39b0c9e5980dcaff60453cdca510f5ebbe6ba2"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/azure_bridge.py",
+      "type": "blob",
+      "sha": "2d694f82fd34a93de0283e1a11834248ecbce7cb",
+      "size": 472
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/azure_job.py",
+      "type": "blob",
+      "sha": "4a2823c327bd331046e0a6c9001919e6c4d86e9d",
+      "size": 493
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/circuits.py",
+      "type": "blob",
+      "sha": "c38654200128a9ccb06cb4a1c541bafa3c457790",
+      "size": 1351
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/decoder.py",
+      "type": "blob",
+      "sha": "439edd202814ea7c5902effb0e04ce109fcad281",
+      "size": 699
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/encoder.py",
+      "type": "blob",
+      "sha": "b949a4925945dd4c4e55bf21f6974fd98ffe2795",
+      "size": 129
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/geometric_stabilizer.py",
+      "type": "blob",
+      "sha": "7e903ffc96f49e378840d995af086aa287e9aa61",
+      "size": 517
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/geometry_syndrome.py",
+      "type": "blob",
+      "sha": "d126ed07714e5997649daded4e7a76ac1114fc8b",
+      "size": 292
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/logical_error_rate.py",
+      "type": "blob",
+      "sha": "da64b407d9ce91d0566bdf60f26be1a51566196f",
+      "size": 213
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/logical_lattice.py",
+      "type": "blob",
+      "sha": "c91e48478cabb1ce1c8be35395738728f826691a",
+      "size": 690
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/logical_register.py",
+      "type": "blob",
+      "sha": "4afcb30982cc0c1c3af24e854b738b70776ece8e",
+      "size": 426
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/noise.py",
+      "type": "blob",
+      "sha": "6ae13d77d2a6b4a4937eaa9a8ba22662ac7c0f70",
+      "size": 606
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/phi_state.py",
+      "type": "blob",
+      "sha": "8aa8d92b024a9a4f1039e3f0ef299a0f69e1f551",
+      "size": 239
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/qec_pipeline.py",
+      "type": "blob",
+      "sha": "53a262ee18fa58397d062c206b366ceb8b528e45",
+      "size": 815
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp",
+      "type": "tree",
+      "sha": "4b508e90aa715071d79e0da9985f1a2a7f7701af"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp/sefi_encoder.qs",
+      "type": "blob",
+      "sha": "e1316785afe78b75fa8d67fc65bf40d1d726fc0e",
+      "size": 482
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp/sefi_stabilizer.qs",
+      "type": "blob",
+      "sha": "af4282e56758578237477b4064a6bff2059c13bc",
+      "size": 1002
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/qsharp/sefi_syndrome.qs",
+      "type": "blob",
+      "sha": "45924053f568e017148a272617bb6ab1be9b1364",
+      "size": 304
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/recovery.py",
+      "type": "blob",
+      "sha": "8cf2ef894f3f5797c33857984575c2248a12ac1f",
+      "size": 369
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/registers.py",
+      "type": "blob",
+      "sha": "36ce362dab0ff9c9e224a791d65307b01f51069b",
+      "size": 158
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/resource_estimator.py",
+      "type": "blob",
+      "sha": "634b31ed7b6d9605ee617cd46f20ba9bae4d83f2",
+      "size": 703
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/resource_model.py",
+      "type": "blob",
+      "sha": "57e100c60c0ca07511e0b1be188485eb228f7e24",
+      "size": 657
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/sefi_code.py",
+      "type": "blob",
+      "sha": "5d1f31498d4a8604f33fd66307202287c386683d",
+      "size": 555
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/self_stabilizers.py",
+      "type": "blob",
+      "sha": "fc93e755f9c6b14f028b3f5405020a7a25dc382f",
+      "size": 389
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/sovereignty_surface.py",
+      "type": "blob",
+      "sha": "e432d50d8093adc57f16e1bb283eaf8b377a242e",
+      "size": 227
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/stabilizer_code.py",
+      "type": "blob",
+      "sha": "24373bb590ea4c42edfbdabc38630bace1fb13b7",
+      "size": 468
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/syndrome.py",
+      "type": "blob",
+      "sha": "dc41fa50c87ca6e1423f5ddedfea1ef7ca2e7f77",
+      "size": 466
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/syndrome_extractor.py",
+      "type": "blob",
+      "sha": "68d260cd3ba48d9fdff631e452c8ec6784fbd4b4",
+      "size": 253
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/quantum/worldline_register.py",
+      "type": "blob",
+      "sha": "966f72ebd42257e361d039c50812d1e542480c7e",
+      "size": 644
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/reconstruct",
+      "type": "tree",
+      "sha": "d915e73cc66d67e9c57c4733ac4799ddee965a40"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/reconstruct/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/reconstruct/consistency.py",
+      "type": "blob",
+      "sha": "a5b7cd6a74a80340dbf5b5adeda896e713e4e64c",
+      "size": 338
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/setup.cfg",
+      "type": "blob",
+      "sha": "db6f458c915e4564cf247135e69fce069a134851",
+      "size": 200
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/stabilizer",
+      "type": "tree",
+      "sha": "55e212f630a365a577668ececf3c24a9b56ae9b8"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/stabilizer/__init__",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/stabilizer/stabilizer.py",
+      "type": "blob",
+      "sha": "582be30544861f4536027836a18339b1e30faea7",
+      "size": 1169
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/stack.py",
+      "type": "blob",
+      "sha": "b6a94ed9d86546ff3c72386f946e3bab10bd51d2",
+      "size": 4460
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests",
+      "type": "tree",
+      "sha": "2271f0d696f2d7af6e98ddc496e03da2bb8ce677"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests/test_geometric_qec.py",
+      "type": "blob",
+      "sha": "d13a0c0860073473eeaee0cd5120f611430cf187",
+      "size": 1154
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests/test_logical_qec.py",
+      "type": "blob",
+      "sha": "5a3680d98db1dd52c33eea61a148c7601ccfd10b",
+      "size": 356
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests/test_quantum.py",
+      "type": "blob",
+      "sha": "3a38f12e44eb8745c9443e9982cd2a4775c59ddd",
+      "size": 780
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests/test_quantum_noise.py",
+      "type": "blob",
+      "sha": "2dbc36693674299c12acf7d962b9ce0b42e0132d",
+      "size": 559
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests/test_sefi_code.py",
+      "type": "blob",
+      "sha": "a7b0607106efab29ef3fc6ecca5d36f6fa438192",
+      "size": 664
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/tests/test_stack.py",
+      "type": "blob",
+      "sha": "02a71e360400bc9004e0221513448d43f518bdb1",
+      "size": 5472
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/transport",
+      "type": "tree",
+      "sha": "f42bb0bbea1b4de6072cf0a5d9e0c248538c9ad0"
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/transport/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/transport/channel_models.py",
+      "type": "blob",
+      "sha": "c9811b3cccdabedd0eb9927d0a028ac166b525f5",
+      "size": 946
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/transport/curvature.py",
+      "type": "blob",
+      "sha": "f882097361fb3275f01e29682475bc6e9a4ddbf0",
+      "size": 1071
+    },
+    {
+      "path": "SEFI QEC Stack/SEFI QEC Stack/transport/worldline.py",
+      "type": "blob",
+      "sha": "0617f9c50f6f159cf366fefb69120ac54d2aa1d1",
+      "size": 168
+    },
+    {
+      "path": "SEFI QEC Stack/codec",
+      "type": "tree",
+      "sha": "615a63683a6faf74958084ca097c34ef7e902b6e"
+    },
+    {
+      "path": "SEFI QEC Stack/codec/__init__.py",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1
+    },
+    {
+      "path": "SEFI QEC Stack/codec/compress.py",
+      "type": "blob",
+      "sha": "7c72758bef8f76ded02ac74abe47677e64a6276d",
+      "size": 1286
+    },
+    {
+      "path": "SEFI QEC Stack/codec/sefi_codec.py",
+      "type": "blob",
+      "sha": "b817823873cb361b16a5e6c926836f5e1c4ccb97",
+      "size": 421
+    },
+    {
+      "path": "SEFI QEC Stack/core",
+      "type": "tree",
+      "sha": "eadbd1f08fb3cd40667f6ac69d54a17241443e86"
+    },
+    {
+      "path": "SEFI QEC Stack/core/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/core/identity_types.py",
+      "type": "blob",
+      "sha": "b757cf2ad3f22d047598fe808b50e6299c708f79",
+      "size": 513
+    },
+    {
+      "path": "SEFI QEC Stack/fidelity",
+      "type": "tree",
+      "sha": "a58c564f25a07c76c51fcb5c4f66d41acee85c0b"
+    },
+    {
+      "path": "SEFI QEC Stack/fidelity/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/fidelity/fidelity.py",
+      "type": "blob",
+      "sha": "ae4a9961f053775d13fafaaff9efcc50221563d6",
+      "size": 733
+    },
+    {
+      "path": "SEFI QEC Stack/pyproject.toml",
+      "type": "blob",
+      "sha": "058500f12123cec54b5ef47fbe73ed83e47717dd",
+      "size": 333
+    },
+    {
+      "path": "SEFI QEC Stack/qec",
+      "type": "tree",
+      "sha": "e0521e6ad08bb482320b3b3c89a3c703763b7f7d"
+    },
+    {
+      "path": "SEFI QEC Stack/qec/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/qec/authorship.py",
+      "type": "blob",
+      "sha": "e5bc2df235f596c37a5bb7f63c56ea8e6aa7e1b3",
+      "size": 322
+    },
+    {
+      "path": "SEFI QEC Stack/qec/collapse.py",
+      "type": "blob",
+      "sha": "27a6ea93e216821a8b17f6d1bc8b155a6366cca7",
+      "size": 210
+    },
+    {
+      "path": "SEFI QEC Stack/qec/metric.py",
+      "type": "blob",
+      "sha": "3c83090cc96cf03b9250f7910c1a45ab1808e656",
+      "size": 222
+    },
+    {
+      "path": "SEFI QEC Stack/qec/origin.py",
+      "type": "blob",
+      "sha": "87c65cdf2643346c25d7c38f8a6204d41950cb7a",
+      "size": 301
+    },
+    {
+      "path": "SEFI QEC Stack/qec/sovreignty.py",
+      "type": "blob",
+      "sha": "4237140e26b64d2e3c2554ceebd5321ef161e3c1",
+      "size": 327
+    },
+    {
+      "path": "SEFI QEC Stack/qec/stabilizer.py",
+      "type": "blob",
+      "sha": "fd85af18e16b79a2dbe497df372761cc8dc8c51f",
+      "size": 1127
+    },
+    {
+      "path": "SEFI QEC Stack/qec/warp_metric.py",
+      "type": "blob",
+      "sha": "9a6b43d4c9666e4a7e31e7abad881faf928101ac",
+      "size": 431
+    },
+    {
+      "path": "SEFI QEC Stack/reconstruct",
+      "type": "tree",
+      "sha": "d915e73cc66d67e9c57c4733ac4799ddee965a40"
+    },
+    {
+      "path": "SEFI QEC Stack/reconstruct/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/reconstruct/consistency.py",
+      "type": "blob",
+      "sha": "a5b7cd6a74a80340dbf5b5adeda896e713e4e64c",
+      "size": 338
+    },
+    {
+      "path": "SEFI QEC Stack/sefi_qec_stack.tex",
+      "type": "blob",
+      "sha": "c217ca3a980a415ce0e8e166be089eb8d50d0db7",
+      "size": 2723
+    },
+    {
+      "path": "SEFI QEC Stack/setup.cfg",
+      "type": "blob",
+      "sha": "db6f458c915e4564cf247135e69fce069a134851",
+      "size": 200
+    },
+    {
+      "path": "SEFI QEC Stack/stabilizer",
+      "type": "tree",
+      "sha": "e57570a256fdbe1d21e2ab2150cf3abe307e7e81"
+    },
+    {
+      "path": "SEFI QEC Stack/stabilizer/__init__",
+      "type": "blob",
+      "sha": "b5f57d3ed5bb8f48bb1391545c4778c4df65abde",
+      "size": 61
+    },
+    {
+      "path": "SEFI QEC Stack/stabilizer/stabilizer.py",
+      "type": "blob",
+      "sha": "582be30544861f4536027836a18339b1e30faea7",
+      "size": 1169
+    },
+    {
+      "path": "SEFI QEC Stack/stack.py",
+      "type": "blob",
+      "sha": "572615c6876d335cf0b30f01603c7f8b7064caea",
+      "size": 4461
+    },
+    {
+      "path": "SEFI QEC Stack/tests",
+      "type": "tree",
+      "sha": "17ed52080e5a58cc52e0f497fca7ce31cb5cb32f"
+    },
+    {
+      "path": "SEFI QEC Stack/tests/test_stack.py",
+      "type": "blob",
+      "sha": "841a2230f04b096b1050f9dd90221dd348ee9507",
+      "size": 5178
+    },
+    {
+      "path": "SEFI QEC Stack/transport",
+      "type": "tree",
+      "sha": "cb31a71059a12d68513a4f1b7beb2ec4efe203d7"
+    },
+    {
+      "path": "SEFI QEC Stack/transport/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI QEC Stack/transport/channel_models.py",
+      "type": "blob",
+      "sha": "c9811b3cccdabedd0eb9927d0a028ac166b525f5",
+      "size": 946
+    },
+    {
+      "path": "SEFI QEC Stack/transport/curvature.py",
+      "type": "blob",
+      "sha": "e539f3fbfeb54383f5259e0c771466e5c569b922",
+      "size": 670
+    },
+    {
+      "path": "SEFI QEC Stack/transport/worldline.py",
+      "type": "blob",
+      "sha": "84fdd3ad444e3c4f71ea653a8b8b379e47ff04f7",
+      "size": 213
+    },
+    {
+      "path": "SEFI-PY Evolution.zip",
+      "type": "blob",
+      "sha": "9ff05bbae2d671c826a5e47b6959f75cd6c8d014",
+      "size": 33696
+    },
+    {
+      "path": "SEFI-PY Evolution",
+      "type": "tree",
+      "sha": "ad267d11a46f5fa028db01450756d5462207dde8"
+    },
+    {
+      "path": "SEFI-PY Evolution/.gitignore",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/README.md",
+      "type": "blob",
+      "sha": "f7592791fe75b9c9705516c8f2a3b08e72144806",
+      "size": 89
+    },
+    {
+      "path": "SEFI-PY Evolution/benchmark.py",
+      "type": "blob",
+      "sha": "3521c828c8ddb9d590e541a5c9c6c4530496a24f",
+      "size": 594
+    },
+    {
+      "path": "SEFI-PY Evolution/cli",
+      "type": "tree",
+      "sha": "31f9c78fdcb7d8f81f0fb10f8e3520461ac30f46"
+    },
+    {
+      "path": "SEFI-PY Evolution/cli/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/cli/main_cli.py",
+      "type": "blob",
+      "sha": "08c909c409badc84b22afeb08e8d94e98d2f82b3",
+      "size": 581
+    },
+    {
+      "path": "SEFI-PY Evolution/cli/sefi-cli.js",
+      "type": "blob",
+      "sha": "229dc22a6fe72217b083599a87a59f44a7246223",
+      "size": 386
+    },
+    {
+      "path": "SEFI-PY Evolution/config.py",
+      "type": "blob",
+      "sha": "6843b0e85706febdd9950a920b16fd8901422564",
+      "size": 114
+    },
+    {
+      "path": "SEFI-PY Evolution/core",
+      "type": "tree",
+      "sha": "33251a5266b3e3ad33f3113fe8ab4b341d80a565"
+    },
+    {
+      "path": "SEFI-PY Evolution/core/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/core/constants.py",
+      "type": "blob",
+      "sha": "5630d7022ccccd2c647bab550b9cd78b835559b1",
+      "size": 226
+    },
+    {
+      "path": "SEFI-PY Evolution/core/identity.py",
+      "type": "blob",
+      "sha": "956d4a5d3e6f2f795a21c2e5efda3732688915d1",
+      "size": 285
+    },
+    {
+      "path": "SEFI-PY Evolution/core/sefi_space.py",
+      "type": "blob",
+      "sha": "ae5070c1455c856bbfbcf96f8d062c8fb9eb9014",
+      "size": 952
+    },
+    {
+      "path": "SEFI-PY Evolution/dna",
+      "type": "tree",
+      "sha": "3c5e469fb2ecb4ddef6236db5069766ed8a5f391"
+    },
+    {
+      "path": "SEFI-PY Evolution/dna/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/dna/encoder.py",
+      "type": "blob",
+      "sha": "8ea18454bafc70bfafdddb50dced95230d0a481f",
+      "size": 430
+    },
+    {
+      "path": "SEFI-PY Evolution/dna/mapping.py",
+      "type": "blob",
+      "sha": "09f54e4c4ccd96f2c100a8c57e57e8e457388554",
+      "size": 320
+    },
+    {
+      "path": "SEFI-PY Evolution/geometry",
+      "type": "tree",
+      "sha": "6f91f5b26ba6f43070b7baccade98a05af021cf1"
+    },
+    {
+      "path": "SEFI-PY Evolution/geometry/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/geometry/curves.py",
+      "type": "blob",
+      "sha": "caada6910005962b415f4f40edec53cdc5e1f3c4",
+      "size": 579
+    },
+    {
+      "path": "SEFI-PY Evolution/geometry/frenet.py",
+      "type": "blob",
+      "sha": "07f1e3218eeca209fdb9579a91623f7f0bbcb295",
+      "size": 903
+    },
+    {
+      "path": "SEFI-PY Evolution/geometry/transforms.py",
+      "type": "blob",
+      "sha": "498ec2c9e2471a04a9bea235c7edceede61d9667",
+      "size": 386
+    },
+    {
+      "path": "SEFI-PY Evolution/main.py",
+      "type": "blob",
+      "sha": "7fc8993ab757e90e506a9a5c1bea1f8927823f1e",
+      "size": 1938
+    },
+    {
+      "path": "SEFI-PY Evolution/qec",
+      "type": "tree",
+      "sha": "2d660d4f8febd66ae2ab96d64a37453bac549d61"
+    },
+    {
+      "path": "SEFI-PY Evolution/qec/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/qec/displacements.py",
+      "type": "blob",
+      "sha": "6b6f6dac6b763441719fcf8bf3ed2548438be90d",
+      "size": 429
+    },
+    {
+      "path": "SEFI-PY Evolution/qec/projection.py",
+      "type": "blob",
+      "sha": "a98b9cc61197f23ec2cd2270899163988e3176f4",
+      "size": 305
+    },
+    {
+      "path": "SEFI-PY Evolution/qec/syndrome.py",
+      "type": "blob",
+      "sha": "5485cf05cca02e02f433984447c06ef9fe7ffa7a",
+      "size": 597
+    },
+    {
+      "path": "SEFI-PY Evolution/requirements.txt",
+      "type": "blob",
+      "sha": "03f4ad23bbcccde90bcf9d6d69a6a507a0e00e17",
+      "size": 27
+    },
+    {
+      "path": "SEFI-PY Evolution/research",
+      "type": "tree",
+      "sha": "8b3e17fb13fcfa8f0606b3b13376d6c37a9b6b3a"
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench",
+      "type": "tree",
+      "sha": "48e9ed2e6099c9111cd07033ad2c1a5699cacb7a"
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/.gitignore",
+      "type": "blob",
+      "sha": "7c44a95d77689cd7454ea7f61ccce9c93f2fbd9d",
+      "size": 33
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/README.md",
+      "type": "blob",
+      "sha": "a91efba3049bcaa6a6f96c8946c13b09f397fd0a",
+      "size": 8526
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/VALIDATION.md",
+      "type": "blob",
+      "sha": "d8db018cbc7a4948b8fd286b4095878596addd47",
+      "size": 3969
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/requirements.txt",
+      "type": "blob",
+      "sha": "726a10393c7435c8a28afb5b6c3335831d9441a2",
+      "size": 15
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output",
+      "type": "tree",
+      "sha": "49e1326ef07c9c11167847cdb1be966087fbf1d7"
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/ambiguous_report.md",
+      "type": "blob",
+      "sha": "5e05b061e80c75456218ccdd08ca044c12304b80",
+      "size": 193
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/evaluation_truth.csv",
+      "type": "blob",
+      "sha": "a8f3595d4a2cae3df11841a20f491d896d58b1c8",
+      "size": 1115
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/index.html",
+      "type": "blob",
+      "sha": "d3131a8f7972922ec75dd5391c28472ca33da3a9",
+      "size": 10389
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/measurements.csv",
+      "type": "blob",
+      "sha": "d050fb31ffef142453ae7aa88431e0ed9add6651",
+      "size": 12081
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/metrics.csv",
+      "type": "blob",
+      "sha": "324eed7889afd314ecf978cb28d283aae8d19be0",
+      "size": 940
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/metrics.json",
+      "type": "blob",
+      "sha": "94a2560c8fd167d73bef0bc13eb03deff2783095",
+      "size": 4175
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/sample_output/service_report.md",
+      "type": "blob",
+      "sha": "1f8735a0f4c4bef48a4994c226d49be5caf26a4b",
+      "size": 6884
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/test_workbench.py",
+      "type": "blob",
+      "sha": "43bff31367e1e331d4c991823f53469aab16d5a4",
+      "size": 4708
+    },
+    {
+      "path": "SEFI-PY Evolution/research/calibration_workbench/workbench.py",
+      "type": "blob",
+      "sha": "4412fa108580d466b357ee4b824c7496fe318ed9",
+      "size": 19824
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23",
+      "type": "tree",
+      "sha": "75a0b6444a7292735e140b211ff92175022ed417"
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/.gitignore",
+      "type": "blob",
+      "sha": "8f6fb73c291fa66455caab9240ef03a29922c83f",
+      "size": 47
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/README.md",
+      "type": "blob",
+      "sha": "7b69b748d97813225625d9716d4b3365bb491d93",
+      "size": 3324
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/WORKFLOW.md",
+      "type": "blob",
+      "sha": "2a9dcc886203c065704b6f2385a48ca264a0d2a7",
+      "size": 2399
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/manifest.json",
+      "type": "blob",
+      "sha": "46cabd09c208774bc5d01c692750da72e728b763",
+      "size": 4193
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs",
+      "type": "tree",
+      "sha": "76e506a834a9b79f845806b0880dce241b1d8754"
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/charged_loop_dynamic_comparison.json",
+      "type": "blob",
+      "sha": "13ce2e99cf637ae142df6f48beb5d416b2a60179",
+      "size": 337
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/charged_vortex_ring_results.json",
+      "type": "blob",
+      "sha": "d833fea7b158d421db5206f305e8aa606cacf33b",
+      "size": 2927
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/core_carrier_linear_test.json",
+      "type": "blob",
+      "sha": "f531eda8f485e1aa4b3cbb2084b219dba3dca4b4",
+      "size": 2271
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/core_carrier_nonlinear_results.json",
+      "type": "blob",
+      "sha": "eaa1843ee8789435d2ad955422e06611ee7f8b41",
+      "size": 3944
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/research_direction_2026_09_23.md",
+      "type": "blob",
+      "sha": "5f72f137a683271256f1e51595a2b9437709ecf2",
+      "size": 13250
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/rest_branch_audit.json",
+      "type": "blob",
+      "sha": "d9daaedcf88ac34272e834a11412c85c80dd5dbb",
+      "size": 940
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/outputs/vortex_profile.csv",
+      "type": "blob",
+      "sha": "39828d7138f48fb6b30f3b8e036acdbf3959b22f",
+      "size": 36029
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/prepare_data.py",
+      "type": "blob",
+      "sha": "fa34ed1e785c85a879e0a9789b7c03de2272d81b",
+      "size": 771
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/reference_profiles.zip",
+      "type": "blob",
+      "sha": "baa73bac58a692983ff106313157d076a35acc6f",
+      "size": 766386
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/requirements-research.txt",
+      "type": "blob",
+      "sha": "88dd02af0500f946dc08e4599bfd9f369efd3079",
+      "size": 11
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work",
+      "type": "tree",
+      "sha": "e6917212586aca507aa0cad502f51b9666582f00"
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_azimuthal_m1_dt0.025.json",
+      "type": "blob",
+      "sha": "51fe6db2ca48ba26cf1a7bc54e14b6f1a321158f",
+      "size": 25800
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_azimuthal_m2_dt0.025.json",
+      "type": "blob",
+      "sha": "c4e64a966a75971057933f4bbf3f248d212de2a7",
+      "size": 25807
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_azimuthal_probe.py",
+      "type": "blob",
+      "sha": "ae9ee013e06c2a3f819f83cd3e5a9b261dc5a7f4",
+      "size": 3457
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_refined.json",
+      "type": "blob",
+      "sha": "c52e100bbaf27a4dea571ffbce8a032dd8834053",
+      "size": 543
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_time_probe.py",
+      "type": "blob",
+      "sha": "a17021ce1be3de56964a06ab0d63ec6d5dc0d598",
+      "size": 4142
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_trial.json",
+      "type": "blob",
+      "sha": "6b03265518fd4ceed91c044c38143edce04fb5ce",
+      "size": 665
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_ring_wide.json",
+      "type": "blob",
+      "sha": "0bdffbd622c8c5815139693adaef71e496d41e83",
+      "size": 598
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_time_control.json",
+      "type": "blob",
+      "sha": "766eb119bfaef0b700a4473becd4fe2683501838",
+      "size": 57749
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_time_dt0.0125_amp0.001.json",
+      "type": "blob",
+      "sha": "5df430d10a4fadd1f31e7912fe21cec2c97fb83e",
+      "size": 56912
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/charged_time_dt0.025_amp0.001.json",
+      "type": "blob",
+      "sha": "aab4198e76a765c4ddb7f8a5ed0af72d3efead82",
+      "size": 56928
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_carrier_linear_probe.py",
+      "type": "blob",
+      "sha": "fc163338ac8f69bb717fb7b92bafc7066fb552bc",
+      "size": 2640
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_condensate_L20_n400.json",
+      "type": "blob",
+      "sha": "1fb1ab0028f40c621e395ff0107336b6c7fd71f3",
+      "size": 558
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_condensate_L20_n400_omega0.3.json",
+      "type": "blob",
+      "sha": "c520d85d63d3e94ca3e0aeb6aeea8700d9dedd6f",
+      "size": 727
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_condensate_L20_n800.json",
+      "type": "blob",
+      "sha": "2ca8bcab4b252533ae7a3a746fd02e5efb4f9ee6",
+      "size": 555
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_condensate_L20_n800_omega0.3.json",
+      "type": "blob",
+      "sha": "d8db8d43c2b130fb6d8e888b2b9e5396f3b9f7b0",
+      "size": 729
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/core_condensate_L30_n600.json",
+      "type": "blob",
+      "sha": "9468d89880a959a8d7fe1308a306b898dc0e4091",
+      "size": 695
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/export_charged_ring.py",
+      "type": "blob",
+      "sha": "2ff08b6b779a194025f235fd9838bc7735b37e92",
+      "size": 1614
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/export_core_carrier.py",
+      "type": "blob",
+      "sha": "0721f764eb31f33faca905866ab44d512920c473",
+      "size": 1109
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/rest_branch_audit.py",
+      "type": "blob",
+      "sha": "bdbaa88cf454c43e0b0d11e986bfc6f3037000b8",
+      "size": 1458
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/rest_loop_lam12_nu085_N1.json",
+      "type": "blob",
+      "sha": "98ba395942836e5a134685d165c8ddf609b230e6",
+      "size": 948
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/rest_loop_lam12_nu085_N3.json",
+      "type": "blob",
+      "sha": "3a75ec88785a9f9f24397f93f87f257e9e48a8a8",
+      "size": 707
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/solve_charged_ring.py",
+      "type": "blob",
+      "sha": "f13b8811f70c33b1477974d46813313d4a27b2ba",
+      "size": 3594
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/solve_core_condensate.py",
+      "type": "blob",
+      "sha": "38d961d4c841088c799096f1de2e30c9a930d2aa",
+      "size": 2951
+    },
+    {
+      "path": "SEFI-PY Evolution/research/physical_matter_2026_09_23/work/solve_traveling_ring.py",
+      "type": "blob",
+      "sha": "594f8cbd3b507f00dcea0529165c9b07c08f6c17",
+      "size": 5471
+    },
+    {
+      "path": "SEFI-PY Evolution/sim",
+      "type": "tree",
+      "sha": "21fe391cd970c74a8017858e12c5a3101ddb3e4f"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/defi_integrator.py",
+      "type": "blob",
+      "sha": "1de5930f239431af5c0827488cb115f62ef22d80",
+      "size": 1122
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer",
+      "type": "tree",
+      "sha": "0cb28431a209cbe4760e583322ca07ff66293c75"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/.gitignore",
+      "type": "blob",
+      "sha": "6b72902c814745f531886b053bc7b4155f23ba91",
+      "size": 52
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/.nvmrc",
+      "type": "blob",
+      "sha": "a45fd52cc5891570d6299fab38643103c3955474",
+      "size": 3
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/CONTRIBUTING.md",
+      "type": "blob",
+      "sha": "ec2f20ba0e341f745d5ca73659ba6d0c3fc4d5aa",
+      "size": 2021
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/INSTALL.md",
+      "type": "blob",
+      "sha": "8b37ea9797a336a18793f65b0ac7748ae8c23d39",
+      "size": 2011
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/LICENSE",
+      "type": "blob",
+      "sha": "6325a1309c282ab4b11e84dc80f007b4e849b61c",
+      "size": 979
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/README.md",
+      "type": "blob",
+      "sha": "38cb7b20b9ad9c06613dfbbc1b3040682e0ca246",
+      "size": 4785
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/docs",
+      "type": "tree",
+      "sha": "edaaced0bd3d9b8fc00908732b8338b1e9a63b7f"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/docs/CONTENT_GUIDE.md",
+      "type": "blob",
+      "sha": "886ba3932f91f36312dc4b4f0e9fc5eafdfcdc9e",
+      "size": 1960
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/docs/PHYSICS.md",
+      "type": "blob",
+      "sha": "00908228fb713a2d50ccdd107b3f94174bc1a941",
+      "size": 4104
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/docs/VALIDATION.md",
+      "type": "blob",
+      "sha": "d183b86c7f519051f81a9eaba75e629ec78970d8",
+      "size": 1145
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/index.html",
+      "type": "blob",
+      "sha": "73f8c1396cdb2685f3f3278bb7bc3d7494d8a7d5",
+      "size": 734
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/package-lock.json",
+      "type": "blob",
+      "sha": "294edffa1879044f4dd718b6174a85bb15c1c421",
+      "size": 99650
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/package.json",
+      "type": "blob",
+      "sha": "d02035ed87af85276d0919322f5cbba86fffff2f",
+      "size": 630
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/public",
+      "type": "tree",
+      "sha": "d553ab074a3d97ae710fffb35650306250e95321"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/public/favicon.svg",
+      "type": "blob",
+      "sha": "9afdc0a8db4a372d316b4f6ffdeecad2180dfd42",
+      "size": 362
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src",
+      "type": "tree",
+      "sha": "882845dfbd9d8607c2bfff8fb4a0ee7b586e62e2"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/assets",
+      "type": "tree",
+      "sha": "27a82c51b592c0bed71664bd371f9cf23202f189"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/assets/mark.svg",
+      "type": "blob",
+      "sha": "5e27cfbc37d16a5573b706c2bb04b3669a555f35",
+      "size": 336
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/components",
+      "type": "tree",
+      "sha": "bfc213a2e82c309bddf0387cfc238900e616ef8b"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/components/AdvancedGeometry.tsx",
+      "type": "blob",
+      "sha": "fde2244899993018104f8c5d9f020ade5b6970c4",
+      "size": 2525
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/components/Concepts.tsx",
+      "type": "blob",
+      "sha": "210b137c60f2260c45f45a0ca3a5f642656c723b",
+      "size": 4075
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/components/Slider.tsx",
+      "type": "blob",
+      "sha": "595fec3d635cf2c4a41fff8414ff5b1439e409b4",
+      "size": 561
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/content.ts",
+      "type": "blob",
+      "sha": "93fb32d12583ab1b83c5bc965457d7ed55a83245",
+      "size": 6047
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/main.tsx",
+      "type": "blob",
+      "sha": "b79b93852bd8c73566f1c7f85e4ceebd6c746838",
+      "size": 738
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/pages",
+      "type": "tree",
+      "sha": "440a634cf9082b59adf5bd8e7fe203c60b4eada2"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/pages/App.tsx",
+      "type": "blob",
+      "sha": "37803405476014b2f568e886d61906b2a0ce2e04",
+      "size": 15702
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/simulations",
+      "type": "tree",
+      "sha": "7b70f4aad23aa75926e75a5368b29c42d1f28e19"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/simulations/ExperimentCanvas.tsx",
+      "type": "blob",
+      "sha": "f22cc60b492c2c6050cb7d9f6d0b6bda751a32e3",
+      "size": 6767
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/simulations/physics.test.ts",
+      "type": "blob",
+      "sha": "c11810cc7aad1ca610a0db5626b805874118711d",
+      "size": 3042
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/simulations/physics.ts",
+      "type": "blob",
+      "sha": "7b343f57da24c2fbe7fa78af3dabaf080477f5de",
+      "size": 1731
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/src/styles.css",
+      "type": "blob",
+      "sha": "c7e222e9693be7633a01967ab2f508763d8f6c4a",
+      "size": 16685
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/tsconfig.json",
+      "type": "blob",
+      "sha": "bc5b8a7897452bde875a2ad545c8bb686f0c8c70",
+      "size": 349
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/double_slit_explorer/vite.config.ts",
+      "type": "blob",
+      "sha": "9dce11cee7911ce66a7b4aa8d9b61e7d07a457ad",
+      "size": 291
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/environment.py",
+      "type": "blob",
+      "sha": "139a2f646dad6e83275b2744e2046c44563f78aa",
+      "size": 364
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/solver.py",
+      "type": "blob",
+      "sha": "9bdfa8775eb21835911d6ea9ea2f863e97e379b3",
+      "size": 585
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console",
+      "type": "tree",
+      "sha": "199bea2280aaecfba30d10b50b2fbd6b8cb5d904"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/.gitignore",
+      "type": "blob",
+      "sha": "ab818c318575ecfcae9e0f8de85d9822331d0f81",
+      "size": 25
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/FIXED_CHARGE_RESEARCH.md",
+      "type": "blob",
+      "sha": "3553210f7e863d5566de518a3eb72804dfce3954",
+      "size": 10585
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/MODEL_HISTORY.md",
+      "type": "blob",
+      "sha": "337c029eb520a15c1347afe266cadfbc60397631",
+      "size": 2333
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/README.md",
+      "type": "blob",
+      "sha": "ae86aa2122387b3732e42d60aaa4012b004cfd4c",
+      "size": 9655
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/REVIEWER_GUIDE.md",
+      "type": "blob",
+      "sha": "c138912086707d530230fd39a62221d782718a77",
+      "size": 7285
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/TEST_REPORT.md",
+      "type": "blob",
+      "sha": "bf887412082091505c8754771978934db77a3cbd",
+      "size": 4538
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/TWO_CHARGE_ACCOUNTING.md",
+      "type": "blob",
+      "sha": "57686a74d88733858ccc0a63e3b21cfcebbba267",
+      "size": 2096
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/WARP_VORTEX.md",
+      "type": "blob",
+      "sha": "2381711fece9d836949a21ac99b123a68c03049c",
+      "size": 2215
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data",
+      "type": "tree",
+      "sha": "c3c73c884b3cf7c4e1166b077bafd6c59c9138f7"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/charged_ring_refined.json",
+      "type": "blob",
+      "sha": "c52e100bbaf27a4dea571ffbce8a032dd8834053",
+      "size": 543
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/charged_ring_refined.npz",
+      "type": "blob",
+      "sha": "1744457d7ec0166ba3a0983f4538f038141e33cd",
+      "size": 28342
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/charged_ring_trial.json",
+      "type": "blob",
+      "sha": "6b03265518fd4ceed91c044c38143edce04fb5ce",
+      "size": 665
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/charged_ring_trial.npz",
+      "type": "blob",
+      "sha": "866ac05b6185dbbaa4f7bafdfa9c78fd7de4545a",
+      "size": 17078
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/charged_ring_wide.json",
+      "type": "blob",
+      "sha": "0bdffbd622c8c5815139693adaef71e496d41e83",
+      "size": 598
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/charged_ring_wide.npz",
+      "type": "blob",
+      "sha": "9ad943e577927839626ffbe52c47e83453896888",
+      "size": 35126
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_Q1000_continued.json",
+      "type": "blob",
+      "sha": "79468906451596ca5e5660782fc3b2ca36dd5f47",
+      "size": 5497
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_Q1000_continued.npz",
+      "type": "blob",
+      "sha": "10255899e8414b1d299a3a17798040c2f7f8cf73",
+      "size": 46401
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_Q1000_refined.json",
+      "type": "blob",
+      "sha": "1ba494aef0167785d6fce52653a929492394336b",
+      "size": 3977
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_Q1000_refined.npz",
+      "type": "blob",
+      "sha": "80c75233ffec7a146ad128b03b27bc2e5893ce77",
+      "size": 102455
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_Q1000_wide.json",
+      "type": "blob",
+      "sha": "36ddf94834f108f0cfc18bcbcc8e3806e4f84f75",
+      "size": 5480
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_Q1000_wide.npz",
+      "type": "blob",
+      "sha": "edb83dce0605abe342546793e422b354bb61d83d",
+      "size": 64955
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_background_audit.json",
+      "type": "blob",
+      "sha": "3a55459f35b15b9656d58a37c618ad4763b95d69",
+      "size": 409
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_binding_audit.json",
+      "type": "blob",
+      "sha": "baeabbec69fb23501aea312c217b42172231304b",
+      "size": 373
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_lambda12_Q100.json",
+      "type": "blob",
+      "sha": "163ecf31ef3984a8204f5d673ee571a748555562",
+      "size": 14087
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_lambda12_Q100.npz",
+      "type": "blob",
+      "sha": "3982c8fcb6b44326b1e846f4412816436a79c469",
+      "size": 46215
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_lambda12_Q1000.json",
+      "type": "blob",
+      "sha": "da5fb5a4baff6d02e7131f14956b1d6220b91319",
+      "size": 14020
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_lambda12_Q1000.npz",
+      "type": "blob",
+      "sha": "279d1d0506ab70435796e0f689957ee5d545d9bb",
+      "size": 46172
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_lambda25_Q100.json",
+      "type": "blob",
+      "sha": "c6739b7c7e2232e467a4aec15861d35212c277c4",
+      "size": 14030
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_lambda25_Q100.npz",
+      "type": "blob",
+      "sha": "c79aa8eea3922e8f495c34122e2709b6fe1e205c",
+      "size": 45843
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/fixed_charge_validation_2026_09_24.json",
+      "type": "blob",
+      "sha": "2822d72d6ad8fb22b31332fa38ca298642077930",
+      "size": 1345
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/data/two_charge_torus_audit.json",
+      "type": "blob",
+      "sha": "2385c4aabb7622185ed68c8a18ae66547332e627",
+      "size": 3649
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/launch.ps1",
+      "type": "blob",
+      "sha": "0f8b29569ff7870fc35d7448662eeb74f0643803",
+      "size": 472
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/manifest.json",
+      "type": "blob",
+      "sha": "177a43a36796d17920a7dd5ce77bf758c37c97de",
+      "size": 4380
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/physics.py",
+      "type": "blob",
+      "sha": "18b78d1034f5f21cb1fddd2d18154ea09efafc8e",
+      "size": 9265
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/requirements.txt",
+      "type": "blob",
+      "sha": "65adaa9e01e6b18b6280c042c57700520ed23552",
+      "size": 14
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/rest_search.py",
+      "type": "blob",
+      "sha": "bd740a9dba333a135cfc14315311517c66525ca3",
+      "size": 8060
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/ring_operator.py",
+      "type": "blob",
+      "sha": "594f8cbd3b507f00dcea0529165c9b07c08f6c17",
+      "size": 5471
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/server.py",
+      "type": "blob",
+      "sha": "3a60a4a8cae3244c87a9b4d5740d31c1da000524",
+      "size": 19871
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/static",
+      "type": "tree",
+      "sha": "cd91817b88b61bf27c4b7abece987214e8854bf2"
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/static/app.js",
+      "type": "blob",
+      "sha": "d45c16bd1b2a0986850f321bac4cd634cc80a316",
+      "size": 24372
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/static/index.html",
+      "type": "blob",
+      "sha": "0adfce7cc2edbdbc0749c23156365ec60fb1485a",
+      "size": 6857
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/static/rest.js",
+      "type": "blob",
+      "sha": "3b5a9c96c542cb1a9757b1f5a6532d0682db7947",
+      "size": 9794
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/static/style.css",
+      "type": "blob",
+      "sha": "32b4b1b6bb16f55c51dbd580492d20d4cb0a7de4",
+      "size": 4785
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/test_console.py",
+      "type": "blob",
+      "sha": "b35800b52e5fd7d36f4fdcf978cfc7b00a489fd9",
+      "size": 6337
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/test_rest_console.py",
+      "type": "blob",
+      "sha": "6cf7c6aa831b69f48035142c5b68282e2544e5ac",
+      "size": 2425
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/test_warp_vortex.py",
+      "type": "blob",
+      "sha": "b6ca354590f82f59af53f7397edba6defe85e75b",
+      "size": 3428
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/two_charge_audit.py",
+      "type": "blob",
+      "sha": "1354330f533809714d63a47ec72471e03d02fb2c",
+      "size": 2395
+    },
+    {
+      "path": "SEFI-PY Evolution/sim/vortex_console/warp_vortex.py",
+      "type": "blob",
+      "sha": "c8b94fb987c2a774340984477f88b15967b7774d",
+      "size": 9044
+    },
+    {
+      "path": "SEFI-PY Evolution/tests",
+      "type": "tree",
+      "sha": "259d9cb986486fb83baf1920f641808dfa0aae0c"
+    },
+    {
+      "path": "SEFI-PY Evolution/tests/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/tests/test_core.py",
+      "type": "blob",
+      "sha": "10834f3a2c934bedb492e04dac9b508b99ea0517",
+      "size": 236
+    },
+    {
+      "path": "SEFI-PY Evolution/tests/test_geometry.py",
+      "type": "blob",
+      "sha": "706d587a82bfeaca09573c680ac2f51fa99672ff",
+      "size": 227
+    },
+    {
+      "path": "SEFI-PY Evolution/tests/test_qec.py",
+      "type": "blob",
+      "sha": "16e0e5cab8bd19803d556d5e130308781d9c1505",
+      "size": 328
+    },
+    {
+      "path": "SEFI-PY Evolution/tests/test_sim.py",
+      "type": "blob",
+      "sha": "e879936f221e47ddc352f30451f4e8bc207702e8",
+      "size": 357
+    },
+    {
+      "path": "SEFI-PY Evolution/voxel",
+      "type": "tree",
+      "sha": "ddd2da9031f3404f318edf487fed05934c144549"
+    },
+    {
+      "path": "SEFI-PY Evolution/voxel/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY Evolution/voxel/grid.py",
+      "type": "blob",
+      "sha": "06b5c1cf465f29c34dc54a634104cd2f548ec2ea",
+      "size": 745
+    },
+    {
+      "path": "SEFI-PY Evolution/voxel/render.py",
+      "type": "blob",
+      "sha": "031e874adc874f592d8b873644e214ad9461cf97",
+      "size": 541
+    },
+    {
+      "path": "SEFI-PY",
+      "type": "tree",
+      "sha": "253e39d9dae2f8c6ec244ba4136322bc0f5181ba"
+    },
+    {
+      "path": "SEFI-PY/.gitignore",
+      "type": "blob",
+      "sha": "13671880f49588cb83dcad7df5ad2d5680b0d1c3",
+      "size": 33
+    },
+    {
+      "path": "SEFI-PY/README.md",
+      "type": "blob",
+      "sha": "0d78ec4184803d9a82e68cf7f3177b939af7edf3",
+      "size": 3237
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC",
+      "type": "tree",
+      "sha": "80312433d660ce6c7829af398d7136299df3de31"
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/__init__.py",
+      "type": "blob",
+      "sha": "3a6c9448f750e1146142e4ea18856ee4e1b388e7",
+      "size": 340
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/correction.py",
+      "type": "blob",
+      "sha": "b0478c1fa673c097ada1237c3abb043759d30d9f",
+      "size": 739
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/logical_worldline.py",
+      "type": "blob",
+      "sha": "16c2f9a95725659b55fbf68fe6649c262e54c587",
+      "size": 733
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/majority_check.py",
+      "type": "blob",
+      "sha": "51e9fe028abc21ea092e2741f9035513fb7cd920",
+      "size": 1248
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/pauli_frame_check.py",
+      "type": "blob",
+      "sha": "fb95835a90596f576a21d0043faaab64a6ea3aed",
+      "size": 1623
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/pauli_ops.py",
+      "type": "blob",
+      "sha": "4305b45652969b998d747096dd3c0b0f36cd5724",
+      "size": 425
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/physical_qubits.py",
+      "type": "blob",
+      "sha": "41abf01cbe3a0156acf46c519f19b03ca932c41a",
+      "size": 1095
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/runner.py",
+      "type": "blob",
+      "sha": "0ee3ceccb89657b724a350695356e574ae5950ec",
+      "size": 3069
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/stabilizer_energy.py",
+      "type": "blob",
+      "sha": "d1f78ee079f4866da89a82d1f13e60936fdcadb0",
+      "size": 2055
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/stabilizers.py",
+      "type": "blob",
+      "sha": "f957860ed7e6f4fe9d2859a4bbc54422c352acb1",
+      "size": 917
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/syndrome.py",
+      "type": "blob",
+      "sha": "50efde317730c5b66d5a3b28f531288a2acf64dc",
+      "size": 1041
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/warp_mapping.py",
+      "type": "blob",
+      "sha": "51da52c4bb0e9683acdfc7d3e8848d8a773df12d",
+      "size": 348
+    },
+    {
+      "path": "SEFI-PY/SEFI-QEC/warp_residual_check.py",
+      "type": "blob",
+      "sha": "e04b610f92bdbb3bd7aea4257251ee04072c7d64",
+      "size": 1274
+    },
+    {
+      "path": "SEFI-PY/animations",
+      "type": "tree",
+      "sha": "0c409aaa7ce516881e6a52a5ba9c89c8f6e39d7a"
+    },
+    {
+      "path": "SEFI-PY/animations/presentation",
+      "type": "tree",
+      "sha": "1b9cd1d429dc9b868897e474a1fc5befb1ae9dcc"
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/SEFI-boardroom.mp4",
+      "type": "blob",
+      "sha": "9e95a4f6aadb4734b11fe4adcbfab2d5f874a5d2",
+      "size": 2411195
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/boardroom.concat.txt",
+      "type": "blob",
+      "sha": "0b89a0d66999ff04cb1ebeb7ebef0a2e58b27e16",
+      "size": 656
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips",
+      "type": "tree",
+      "sha": "423cea5dc48b93c271ae58dafda9c1d59b434511"
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/DEFILayerFlow.mp4",
+      "type": "blob",
+      "sha": "728b2d91cbe6c52b9125209473afda888d3ccb89",
+      "size": 162318
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/GWFMIntro.mp4",
+      "type": "blob",
+      "sha": "4e1ddb444ddd7a4d82baa994f06a4d5236f49cb2",
+      "size": 107151
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/SEFICore.mp4",
+      "type": "blob",
+      "sha": "d00e855db80e48fd78b39bfd8fefc64f70710296",
+      "size": 470593
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/SEFIOntologyJourney.mp4",
+      "type": "blob",
+      "sha": "e5f620fa6f10b125261a4d50f1ce97630c4e4341",
+      "size": 309061
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/SEFIPhotonics.mp4",
+      "type": "blob",
+      "sha": "87c150ec370acf614606fba0f194f85b3b0555bc",
+      "size": 97538
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/SEFISovereigntyMorph.mp4",
+      "type": "blob",
+      "sha": "15bdcc043e4a4127bbc344a6961e02df2e3ede4f",
+      "size": 280761
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/SEFIUnifiedIntro.mp4",
+      "type": "blob",
+      "sha": "9930be49a6328a17bd028f69999aa140df47e4ee",
+      "size": 64762
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/SEFIUnifiedOutro.mp4",
+      "type": "blob",
+      "sha": "7b15e65b48eb51f15586b8368659c58724e50018",
+      "size": 46500
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/clips/WarpExpressionBridge.mp4",
+      "type": "blob",
+      "sha": "043072e2f89126bb44f3a3e2b4476aa2336c5bce",
+      "size": 489469
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/images",
+      "type": "tree",
+      "sha": "7ef1a7efd852413999f0c042cda678e30ddd9b6d"
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/images/gwfm_intro",
+      "type": "tree",
+      "sha": "b0b6f961034be086846eb487ced3ca215bf35a58"
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/images/gwfm_intro/GWFMIntro.png",
+      "type": "blob",
+      "sha": "078200cbbd3101cde3d2d38bd6bd4b63592e842c",
+      "size": 3261
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts",
+      "type": "tree",
+      "sha": "0236a9008b7f669a9bcf984dda560745382aba9c"
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/14d8d7ac0012ca62.svg",
+      "type": "blob",
+      "sha": "e1557284e6b3caaaa4206f7e041b37d74404649f",
+      "size": 30174
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/1dcf12f4755939df.svg",
+      "type": "blob",
+      "sha": "8a306e44c75dca7786ea35136e52c14c24770b22",
+      "size": 36642
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/3f57734a31469652.svg",
+      "type": "blob",
+      "sha": "42cbea82e8d90f3673539fa326aa6149d7d6ce3c",
+      "size": 27590
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/401e6bf380eef34f.svg",
+      "type": "blob",
+      "sha": "343c51a76d9d3c4b02685872abc446cc1f207a26",
+      "size": 33638
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/43af3834b9036dac.svg",
+      "type": "blob",
+      "sha": "e96f3b4edc8a255fa6bf61ca4a6f3795ee407e21",
+      "size": 24873
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/4ae44a99228105ea.svg",
+      "type": "blob",
+      "sha": "5ceade62de3b9626da8b97347c43d5a7a4cea8e4",
+      "size": 31593
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/4d9010a159323012.svg",
+      "type": "blob",
+      "sha": "9860101aa0c42b0046c7b0cbfdddb5e54a00df0f",
+      "size": 32756
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/65371610c2ed03aa.svg",
+      "type": "blob",
+      "sha": "027bc53197859b9d19321dbd91030f317ed79314",
+      "size": 23610
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/7a4c5bdef821f3df.svg",
+      "type": "blob",
+      "sha": "9028a30dee4bb8db6229dc4b362bec3bcaf75fd0",
+      "size": 18927
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/7fb3e65575aa7fa2.svg",
+      "type": "blob",
+      "sha": "1c779e45db5dd5a79a9254bc4cc6288791086455",
+      "size": 34033
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/822cfb58d1d7e550.svg",
+      "type": "blob",
+      "sha": "8c78c3265025cc2b265ece324ec459202e77f73c",
+      "size": 20974
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/9023511ed0fe592c.svg",
+      "type": "blob",
+      "sha": "8764d0d1d392b150ab31aed471c38cab2912b029",
+      "size": 28156
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/9b7ff651ad3070ca.svg",
+      "type": "blob",
+      "sha": "b373f390777446785dec2b37771af6f4f38c9da3",
+      "size": 19511
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/9dc38e166ebdd5b3.svg",
+      "type": "blob",
+      "sha": "f2a992c8d6cce1071ca206f6d8c82b2da8f40601",
+      "size": 28253
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/9e3411753691267c.svg",
+      "type": "blob",
+      "sha": "91bf1e4e7b8f77f6f1b9857b64d45b3f9052381d",
+      "size": 25328
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/a3dd7351867da355.svg",
+      "type": "blob",
+      "sha": "dbd26742f46d9e0bc9d26c066914476e1edba75d",
+      "size": 31108
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/a828474ee12c8cdd.svg",
+      "type": "blob",
+      "sha": "d3b99e09447f0fc8be103028c5cd700b5e0e0d99",
+      "size": 21287
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/aff4c4d850c1ee1f.svg",
+      "type": "blob",
+      "sha": "38429f7cc173953914c1aafce2f7e5482037ef62",
+      "size": 24941
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/c9861544ac2042e9.svg",
+      "type": "blob",
+      "sha": "bb360b697e554490b4e7e8a47d027f28f613643d",
+      "size": 26982
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/d32a6097d510e837.svg",
+      "type": "blob",
+      "sha": "bd3ca0c93d7dd1fe1d6e9a10f9011998476f13e7",
+      "size": 28042
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/ddbe865b919092a8.svg",
+      "type": "blob",
+      "sha": "d810cfb62194dfb7d56f846035b8d591d90c6946",
+      "size": 15542
+    },
+    {
+      "path": "SEFI-PY/animations/presentation/texts/fc1f864e79bcb857.svg",
+      "type": "blob",
+      "sha": "8ffb6ebeda44a14d7f1ee25eb877e40972d523bc",
+      "size": 17105
+    },
+    {
+      "path": "SEFI-PY/benchmark.py",
+      "type": "blob",
+      "sha": "b02705f23a54f4bb2eda5556e52341506bf8460e",
+      "size": 2205
+    },
+    {
+      "path": "SEFI-PY/config.py",
+      "type": "blob",
+      "sha": "e5826e7c519b455cbe4a7eb8d0609761afaca995",
+      "size": 535
+    },
+    {
+      "path": "SEFI-PY/core",
+      "type": "tree",
+      "sha": "86e2b4cbc14ca2a7e4e72b9c0610373e8d252767"
+    },
+    {
+      "path": "SEFI-PY/core/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY/core/animations",
+      "type": "tree",
+      "sha": "e3b23fae7622029603504c53ca92f486379d07e9"
+    },
+    {
+      "path": "SEFI-PY/core/animations/defi_flow.py",
+      "type": "blob",
+      "sha": "75f9f81d55594aed8f89c5d61ba0222739302ddb",
+      "size": 869
+    },
+    {
+      "path": "SEFI-PY/core/animations/defi_layer.py",
+      "type": "blob",
+      "sha": "34b70cdf84b9c1280fd601c79d988436aea9fdd2",
+      "size": 988
+    },
+    {
+      "path": "SEFI-PY/core/animations/gwfm_intro.py",
+      "type": "blob",
+      "sha": "505e0af3baeb8e446ee79ed48905579466067d70",
+      "size": 893
+    },
+    {
+      "path": "SEFI-PY/core/animations/intro_card.py",
+      "type": "blob",
+      "sha": "7f887942f6354f84fd9702848c7c1fc0af395200",
+      "size": 423
+    },
+    {
+      "path": "SEFI-PY/core/animations/outro_card.py",
+      "type": "blob",
+      "sha": "82a9ba37caa8a0d1ccfc9c5b50fe5317a6fb2113",
+      "size": 397
+    },
+    {
+      "path": "SEFI-PY/core/animations/overlay_labels.py",
+      "type": "blob",
+      "sha": "f5009c986c9c126aaf9665571948e4ada29f1c65",
+      "size": 581
+    },
+    {
+      "path": "SEFI-PY/core/animations/sefi_codec.py",
+      "type": "blob",
+      "sha": "c3e3d4a24ff003cf6c0d6f5d13da92adf8bdb004",
+      "size": 1001
+    },
+    {
+      "path": "SEFI-PY/core/animations/sefi_core.py",
+      "type": "blob",
+      "sha": "30677dd305f0f22e9215b3259e930b67f7f69b2a",
+      "size": 821
+    },
+    {
+      "path": "SEFI-PY/core/animations/sefi_intro.py",
+      "type": "blob",
+      "sha": "2a2eedd6b3d17fb8f5a5e7e61961a19a3b24844e",
+      "size": 1065
+    },
+    {
+      "path": "SEFI-PY/core/animations/sefi_ontology.py",
+      "type": "blob",
+      "sha": "b15cb533c27fc149bd04c9b8df5f44ce3b4a64e7",
+      "size": 4652
+    },
+    {
+      "path": "SEFI-PY/core/animations/sefi_photonics.py",
+      "type": "blob",
+      "sha": "33410f36a8a40ab4a967f4c78a05c7f2126644af",
+      "size": 882
+    },
+    {
+      "path": "SEFI-PY/core/animations/sefi_sovereignty.py",
+      "type": "blob",
+      "sha": "f45d0de0a83b1fef15e64126cfd2d21752ee9b52",
+      "size": 1097
+    },
+    {
+      "path": "SEFI-PY/core/animations/transition_fade.py",
+      "type": "blob",
+      "sha": "bb3e7283121f4a4b7b5a88cf2cd1116fda60c28d",
+      "size": 243
+    },
+    {
+      "path": "SEFI-PY/core/animations/transition_warp.py",
+      "type": "blob",
+      "sha": "ea1c214602c4e435c910d2046f0e1fe7053321d7",
+      "size": 760
+    },
+    {
+      "path": "SEFI-PY/core/animations/worldline_demo.py",
+      "type": "blob",
+      "sha": "7e480f5d1800e1eeea892861ca82207001f4c94a",
+      "size": 697
+    },
+    {
+      "path": "SEFI-PY/core/field_authorship.py",
+      "type": "blob",
+      "sha": "9892d4c459df9efaf2f6be7ed069106946caf1b0",
+      "size": 1761
+    },
+    {
+      "path": "SEFI-PY/core/field_origin.py",
+      "type": "blob",
+      "sha": "8299b8c1fbed238e64fb8d4dfb267d0fd580d6ef",
+      "size": 1508
+    },
+    {
+      "path": "SEFI-PY/core/field_sovereignty.py",
+      "type": "blob",
+      "sha": "059cdec9b8e67c7f7d35dcccfc36f907ad8d32e5",
+      "size": 3199
+    },
+    {
+      "path": "SEFI-PY/core/quantum.py",
+      "type": "blob",
+      "sha": "a3091ae48a6fb47cef4225d5890c0e302774b53e",
+      "size": 3256
+    },
+    {
+      "path": "SEFI-PY/core/time_dynamics.py",
+      "type": "blob",
+      "sha": "0617f9f1aa5bce63fc76b70d1a8a4071616dd447",
+      "size": 13345
+    },
+    {
+      "path": "SEFI-PY/core/warp_defi.py",
+      "type": "blob",
+      "sha": "31191a4d75280f24bdbc079591c5df09ceb17cc5",
+      "size": 2131
+    },
+    {
+      "path": "SEFI-PY/core/warp_expression.py",
+      "type": "blob",
+      "sha": "a5e8acb4556c23a83975f1a1a4faa4483c7d8161",
+      "size": 5276
+    },
+    {
+      "path": "SEFI-PY/demo_core.py",
+      "type": "blob",
+      "sha": "10c7a82ccc9cb0e3faca36337f5d761d439abcb0",
+      "size": 834
+    },
+    {
+      "path": "SEFI-PY/demo_quantum.py",
+      "type": "blob",
+      "sha": "50d8b22bedc0f9f5d8734c9a94c8dc71dc082eac",
+      "size": 915
+    },
+    {
+      "path": "SEFI-PY/demo_sim.py",
+      "type": "blob",
+      "sha": "fbf821cf53633a74569689c770c81f6cf345101b",
+      "size": 111
+    },
+    {
+      "path": "SEFI-PY/demo_time_dynamics.py",
+      "type": "blob",
+      "sha": "10b364cc3aa377b568db0b7603204eaa9d99a232",
+      "size": 991
+    },
+    {
+      "path": "SEFI-PY/demo_warp.py",
+      "type": "blob",
+      "sha": "4d893a6b310dce971e5ef55761ffafb7d90f0769",
+      "size": 367
+    },
+    {
+      "path": "SEFI-PY/docs",
+      "type": "tree",
+      "sha": "6943cc74500bd1de9c774dee629e15eb76b97bac"
+    },
+    {
+      "path": "SEFI-PY/docs/TIME_DYNAMICS.md",
+      "type": "blob",
+      "sha": "b954206601497855b809bab801113c7a5e468e17",
+      "size": 4523
+    },
+    {
+      "path": "SEFI-PY/docs/TIME_VALIDATION.md",
+      "type": "blob",
+      "sha": "98fa65b5504b40883a5d6469965fb4c52fa2fb0d",
+      "size": 1698
+    },
+    {
+      "path": "SEFI-PY/main.py",
+      "type": "blob",
+      "sha": "c205c543251174d611b4af5f97a60590df3be1c7",
+      "size": 843
+    },
+    {
+      "path": "SEFI-PY/pytest.ini",
+      "type": "blob",
+      "sha": "a635c5c031823148db0da62e63edb0c1f6e4a5f6",
+      "size": 24
+    },
+    {
+      "path": "SEFI-PY/render_presentation.ps1",
+      "type": "blob",
+      "sha": "be800c9ca180639dcad2b6c22904646298b263e4",
+      "size": 3250
+    },
+    {
+      "path": "SEFI-PY/requirements.txt",
+      "type": "blob",
+      "sha": "e079f8a6038dd2dc8512967540f96ee0de172067",
+      "size": 7
+    },
+    {
+      "path": "SEFI-PY/sim",
+      "type": "tree",
+      "sha": "14e772816af1e215d499ed6b0497150d0becc5ec"
+    },
+    {
+      "path": "SEFI-PY/sim/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY/sim/behavior.py",
+      "type": "blob",
+      "sha": "6e5875a7ab45aa34f580f0ec7e47a83c9721c590",
+      "size": 1177
+    },
+    {
+      "path": "SEFI-PY/sim/dna.py",
+      "type": "blob",
+      "sha": "826944d7bb70a6621343b07c2d54e6a65b926f20",
+      "size": 461
+    },
+    {
+      "path": "SEFI-PY/sim/entity.py",
+      "type": "blob",
+      "sha": "48db34f652a752a5284093b803b568a167ed82b1",
+      "size": 1431
+    },
+    {
+      "path": "SEFI-PY/sim/environment.py",
+      "type": "blob",
+      "sha": "2999d6d819ce09b12a18f65a133fed4fc4b8803f",
+      "size": 1695
+    },
+    {
+      "path": "SEFI-PY/sim/evolution.py",
+      "type": "blob",
+      "sha": "de7671df7c0ff30781aeddb4c5172b11db2fa732",
+      "size": 814
+    },
+    {
+      "path": "SEFI-PY/sim/interaction.py",
+      "type": "blob",
+      "sha": "409710fc122846bdaa55b7038c29c41b6a9a48a7",
+      "size": 873
+    },
+    {
+      "path": "SEFI-PY/sim/sim_engine.py",
+      "type": "blob",
+      "sha": "403d8b219cdae8d4366ed420d983154b23feba5b",
+      "size": 3508
+    },
+    {
+      "path": "SEFI-PY/sim/world.py",
+      "type": "blob",
+      "sha": "2862b21fd1d6b7ef7f30d043952575a0f8b54a2f",
+      "size": 3450
+    },
+    {
+      "path": "SEFI-PY/test.py",
+      "type": "blob",
+      "sha": "d1d868b5a4368c6a2ef8be2c04bffb54cf8b3684",
+      "size": 40
+    },
+    {
+      "path": "SEFI-PY/tests",
+      "type": "tree",
+      "sha": "9a88f325c1cee71d7a1c379c2c441a0d503b02db"
+    },
+    {
+      "path": "SEFI-PY/tests/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY/tests/test_core.py",
+      "type": "blob",
+      "sha": "06fe2b63de5d18f1afac64d267b6a586f57401fa",
+      "size": 727
+    },
+    {
+      "path": "SEFI-PY/tests/test_geometry.py",
+      "type": "blob",
+      "sha": "f5caad3b51dbe49a2f401f67c2598fddf3fc4c7d",
+      "size": 3535
+    },
+    {
+      "path": "SEFI-PY/tests/test_pipeline_consistency.py",
+      "type": "blob",
+      "sha": "9341b49e23099e6dd31b1b2b810bc8530d467b1b",
+      "size": 790
+    },
+    {
+      "path": "SEFI-PY/tests/test_qec_consistency.py",
+      "type": "blob",
+      "sha": "f1424f4e21b84a4db040305c2cb2514df2c68e81",
+      "size": 487
+    },
+    {
+      "path": "SEFI-PY/tests/test_quantum.py",
+      "type": "blob",
+      "sha": "2e7150767e55c5a09a18f1f10829740ee495c64e",
+      "size": 939
+    },
+    {
+      "path": "SEFI-PY/tests/test_sovereignty.py",
+      "type": "blob",
+      "sha": "fa25669a36efbb29ae3896d5a44d0d2e963ce3a2",
+      "size": 872
+    },
+    {
+      "path": "SEFI-PY/tests/test_stability.py",
+      "type": "blob",
+      "sha": "da632027851cb7ad7d245f5e9df961ceb5b081ac",
+      "size": 423
+    },
+    {
+      "path": "SEFI-PY/tests/test_time_dynamics.py",
+      "type": "blob",
+      "sha": "caf70004e1dd48c19a0aac61307690299063f14e",
+      "size": 6353
+    },
+    {
+      "path": "SEFI-PY/tests/test_world.py",
+      "type": "blob",
+      "sha": "dab940d977a0d45252372f2e48135dc8645ff3b2",
+      "size": 2375
+    },
+    {
+      "path": "SEFI-PY/utils",
+      "type": "tree",
+      "sha": "a3c61feafe22f4afc39e51db3470028556b2796f"
+    },
+    {
+      "path": "SEFI-PY/utils/__init__.py",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "SEFI-PY/utils/draw.py",
+      "type": "blob",
+      "sha": "4298e273dcde205bec42b21f0608957c561bfe43",
+      "size": 735
+    },
+    {
+      "path": "SEFI-PY/utils/draw3d.py",
+      "type": "blob",
+      "sha": "a222ca145a1e1ef16ef94c387441524c5981d347",
+      "size": 1037
+    },
+    {
+      "path": "SEFI-PY/utils/geometry.py",
+      "type": "blob",
+      "sha": "213e7900b6962b0f16b4e5890880c56a176793e6",
+      "size": 1376
+    },
+    {
+      "path": "SEFI-PY/utils/plot.py",
+      "type": "blob",
+      "sha": "0c92d13ec372ccd0bb5d5f0f5a8ce5238081630d",
+      "size": 1085
+    },
+    {
+      "path": "SEFI-PY/utils/sefi_visualizer",
+      "type": "tree",
+      "sha": "53e750c067783b80fd0ba65d5b7e7bda5475f766"
+    },
+    {
+      "path": "SEFI-PY/utils/sefi_visualizer/index.html",
+      "type": "blob",
+      "sha": "2c3266c89f12081cbfbcb00122fe1c5ce7200244",
+      "size": 1992
+    },
+    {
+      "path": "SEFI-PY/utils/sefi_visualizer/sefi.js",
+      "type": "blob",
+      "sha": "7fedaa04230047c840c5accb0b632a1e956f70da",
+      "size": 4371
+    },
+    {
+      "path": "SEFI-PY/utils/sefi_visualizer/sefi3d.js",
+      "type": "blob",
+      "sha": "bfb56658c3e129bbe2659378ac3ec9f3c0b98476",
+      "size": 845
+    },
+    {
+      "path": "SEFI-PY/utils/sefi_visualizer/style.css",
+      "type": "blob",
+      "sha": "f31cc2e6cb9f71f7e868a82a88196cd5e8ec4847",
+      "size": 718
+    },
+    {
+      "path": "SEFI-PY/utils/stability.py",
+      "type": "blob",
+      "sha": "6cd87315dc32a5a70cca166a9408d069c2164a33",
+      "size": 1444
+    },
+    {
+      "path": "SEFI_QEC_Stack",
+      "type": "commit",
+      "sha": "150d1b1a4f96d35ac7a4e7c871d03f75abe09ac9"
+    },
+    {
+      "path": "examples",
+      "type": "tree",
+      "sha": "de1b9abf94c6ba68af5a9bfa6e9882adc9f8ee25"
+    },
+    {
+      "path": "examples/demo_sefi_worldline.py",
+      "type": "blob",
+      "sha": "b53a3b82fe3e0a5de35598b77ccdb39317dae774",
+      "size": 871
+    },
+    {
+      "path": "examples/demo_worldline.py",
+      "type": "blob",
+      "sha": "33745966f421209397e73b7781997411c8979da9",
+      "size": 691
+    },
+    {
+      "path": "package.json",
+      "type": "blob",
+      "sha": "f9b748e67028003b48068c10e20d6e4ee8d21bb7",
+      "size": 378
+    },
+    {
+      "path": "sefi-cli.js",
+      "type": "blob",
+      "sha": "903f9e5d226ef3d69908e7fc658ed056ffbae57d",
+      "size": 2012
+    },
+    {
+      "path": "sefi-cli",
+      "type": "tree",
+      "sha": "2ac8f5628d84320fea85d244087cb149dd52a91f"
+    },
+    {
+      "path": "sefi-cli/index.js",
+      "type": "blob",
+      "sha": "d0be06c121d0d51aff5ebd89a01a914957a0e067",
+      "size": 1311
+    },
+    {
+      "path": "sefi-config",
+      "type": "tree",
+      "sha": "c2ea3aa739d96caf5f131438fa6717caafd99cd5"
+    },
+    {
+      "path": "sefi-config/index.js",
+      "type": "blob",
+      "sha": "aa6544ab82acdc2400c2998e432df9a6f294cf40",
+      "size": 3294
+    },
+    {
+      "path": "sefi-core",
+      "type": "tree",
+      "sha": "d0941351eebbc7996262f8a920ecca93f7307129"
+    },
+    {
+      "path": "sefi-core/curvature.py",
+      "type": "blob",
+      "sha": "28c9f9fc6e78093b849aecb86061b78a5591afd3",
+      "size": 460
+    },
+    {
+      "path": "sefi-core/index.js",
+      "type": "blob",
+      "sha": "957609f862bf61e757c970553e99b7ac1f852588",
+      "size": 1094
+    },
+    {
+      "path": "sefi-core/layers.py",
+      "type": "blob",
+      "sha": "7db933a825ffe3e8282f812da01663605de41005",
+      "size": 599
+    },
+    {
+      "path": "sefi-core/trajectory_generator.py",
+      "type": "blob",
+      "sha": "63c33919a5db5f24db57d84e786ee3e45618c143",
+      "size": 491
+    },
+    {
+      "path": "sefi-core/worldline.py",
+      "type": "blob",
+      "sha": "12160688c13ea88f79d5cfda5d961d7a6bb89541",
+      "size": 1266
+    },
+    {
+      "path": "sefi-dna",
+      "type": "tree",
+      "sha": "38176d0319d00bcc3f15596a76a157afbf6ebec7"
+    },
+    {
+      "path": "sefi-dna/index.js",
+      "type": "blob",
+      "sha": "ba0284d0c04b08c0a6eca0865147a3532e4712f8",
+      "size": 2891
+    },
+    {
+      "path": "sefi-geometry",
+      "type": "tree",
+      "sha": "a2f42565b592dcdbbed4c6b1151c7311315cd45b"
+    },
+    {
+      "path": "sefi-geometry/index.js",
+      "type": "blob",
+      "sha": "17348e34305f356f6befbf4a0dfc897e0a13c1bf",
+      "size": 2100
+    },
+    {
+      "path": "sefi-geometry/trajectory_generator.py",
+      "type": "blob",
+      "sha": "def713d8b1d50b9acf377f9fb415649a37f5017a",
+      "size": 986
+    },
+    {
+      "path": "sefi-sim",
+      "type": "tree",
+      "sha": "e2442426d2bef51f81b6a2ed58a99be124075f48"
+    },
+    {
+      "path": "sefi-sim/canvas.js",
+      "type": "blob",
+      "sha": "b837c4eae1e6cb11572c88118c5d477838ce891e",
+      "size": 230
+    },
+    {
+      "path": "sefi-sim/dna-test.js",
+      "type": "blob",
+      "sha": "ac1478e2ffb78f5215cfc371d2540e57038d3135",
+      "size": 1784
+    },
+    {
+      "path": "sefi-sim/field-visualizer.js",
+      "type": "blob",
+      "sha": "b4004b1eac661f6045ea603bb4b94b00f8cbc024",
+      "size": 476
+    },
+    {
+      "path": "sefi-sim/geometry-test.js",
+      "type": "blob",
+      "sha": "23343a87501aaac41a43b55e5472d7c714f07efb",
+      "size": 1587
+    },
+    {
+      "path": "sefi-sim/index.html",
+      "type": "blob",
+      "sha": "eca4f2155ace779ade846b005237c4ca8f14f9cc",
+      "size": 482
+    },
+    {
+      "path": "sefi-sim/index.js",
+      "type": "blob",
+      "sha": "c94d8f7576635b1daabd80c36ef49ac6da82ed62",
+      "size": 1563
+    },
+    {
+      "path": "sefi-sim/loop.js",
+      "type": "blob",
+      "sha": "517b380991ebc20cdab404857a1e27fc78506b16",
+      "size": 903
+    },
+    {
+      "path": "sefi-sim/origin.js",
+      "type": "blob",
+      "sha": "6661f610289d9675b103cac7372db576119768d3",
+      "size": 1587
+    },
+    {
+      "path": "sefi-sim/renderer.js",
+      "type": "blob",
+      "sha": "97fcd88326a81f3ed1b61b75c44e2c418c44ed74",
+      "size": 794
+    },
+    {
+      "path": "sefi-sim/slit.js",
+      "type": "blob",
+      "sha": "ac67e287f4d48e5f3fdd0e4ef1740803fc1a40d4",
+      "size": 1828
+    },
+    {
+      "path": "sefi-sim/warp-engine.js",
+      "type": "blob",
+      "sha": "33ad0842d02e5f17f6a540ba11909989c5cf1efa",
+      "size": 932
+    },
+    {
+      "path": "sefi-sim/warp-test.js",
+      "type": "blob",
+      "sha": "c12123063d10d8af3b32ab1af8b758592d169bd9",
+      "size": 1756
+    },
+    {
+      "path": "sefi-voxel",
+      "type": "tree",
+      "sha": "2b07d1f91355f8d50e0f56cbcc0183ab2b2589e7"
+    },
+    {
+      "path": "sefi-voxel/device_interface.py",
+      "type": "blob",
+      "sha": "837a0ff6c552d1115147d8459bb7bc11c0c47d1e",
+      "size": 561
+    },
+    {
+      "path": "sefi-voxel/phase_compiler.py",
+      "type": "blob",
+      "sha": "4533ed87c3aaedb86654c8b45811f972ea52d642",
+      "size": 350
+    },
+    {
+      "path": "sefi",
+      "type": "tree",
+      "sha": "7a19c88e9a5b00ddadd3759edae58d0de2b85d1b"
+    },
+    {
+      "path": "sefi/index.js",
+      "type": "blob",
+      "sha": "0d3c169a8a622c19772270d7b9ce38eff0f507f8",
+      "size": 997
+    },
+    {
+      "path": "sefi/loop.js",
+      "type": "blob",
+      "sha": "8ef82fe8e55d7ce6cb3908d63047d2821a610b96",
+      "size": 148
+    }
+  ]
+}
