@@ -71,3 +71,8 @@ Runtime excludes pauses; stop/cancel during a profile solve takes effect between
 Read [MODEL_HISTORY.md](MODEL_HISTORY.md) for the user's requested continuing-development policy: preserve the baseline, version equations and saved states, add discriminating tests, and update explanations as new mathematics is established. The console rejects checkpoints from an incompatible model version.
 
 [TEST_REPORT.md](TEST_REPORT.md) records executed checks. [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md) contains questions for reviewers and GitHub Copilot usage. Repository-wide Copilot guidance lives at the SEFI-PY repository root in `.github/copilot-instructions.md`. Guidance does not share the author's personal Copilot session or guarantee an accurate answer.
+
+
+## Background dispersion comparison - 19 October 2026
+
+Open `/comparison` after launching the console. The separate page compares exact linear far-field spectra of a static global-Witten control and the rotating console background. It provides two plots, a wave-number probe, JSON export and matching assumptions. It does not change the ring solver or checkpoints. See `DISPERSION_COMPARISON.md`. Run `python -m unittest test_dispersion -v` for analytic/eigenvalue/API checks. The reproducible research note and benchmark are in `research/2026-10-19/vortex-comparison` at repository root.

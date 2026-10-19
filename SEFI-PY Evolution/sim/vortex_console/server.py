@@ -9,6 +9,7 @@ from urllib.parse import urlparse,parse_qs
 import numpy as np
 import physics
 import rest_search
+import dispersion
 
 ROOT=Path(__file__).resolve().parent;RUNS=ROOT/'runs';RUNS.mkdir(exist_ok=True)
 JOBS={};LOCK=threading.Lock();PORT=8765
@@ -197,6 +198,10 @@ class Handler(BaseHTTPRequestHandler):
         if not self.check_host():self.respond({'error':'Invalid host'},403);return
         u=urlparse(self.path);q=parse_qs(u.query)
         try:
+            if u.path=='/api/dispersion':
+                self.respond(dispersion.comparison());return
+            if u.path=='/dispersion-note':
+                self.file(ROOT/'DISPERSION_COMPARISON.md','text/plain; charset=utf-8');return
             if u.path=='/api/rest_baseline':
                 name=q.get('name',['Q1000_wide'])[0]
                 if name not in rest_search.SAVED:raise ValueError('Unknown rest reference')
@@ -225,7 +230,7 @@ class Handler(BaseHTTPRequestHandler):
                 path=RUNS/ident/('rest_checkpoint.npz' if u.path=='/api/rest_checkpoint' else 'checkpoint.npz' if u.path.endswith('checkpoint') else 'settings.json')
                 self.file(path,'application/octet-stream',download=path.name);return
             if u.path=='/research-note':self.file(ROOT/'FIXED_CHARGE_RESEARCH.md','text/plain; charset=utf-8');return
-            files={'/':'index.html','/app.js':'app.js','/rest.js':'rest.js','/style.css':'style.css'}
+            files={'/comparison':'comparison.html','/dispersion.js':'dispersion.js','/':'index.html','/app.js':'app.js','/rest.js':'rest.js','/style.css':'style.css'}
             if u.path not in files:self.respond({'error':'Not found'},404);return
             name=files[u.path];self.file(ROOT/'static'/name,{'html':'text/html','js':'text/javascript','css':'text/css'}[name.split('.')[-1]])
         except (ValueError,KeyError,FileNotFoundError) as e:self.respond({'error':str(e)},400)

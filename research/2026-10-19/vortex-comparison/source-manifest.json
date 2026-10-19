@@ -1,0 +1,9 @@
+{
+  "base_commit": "574489968f8d78054adda991779b5a2ea59ea425",
+  "console_sources_sha256": {
+    "physics.py": "cd88da0cf95493c304dd34fecf0d87be2d3f4e4be3fe6e0bd9ca8cc819bcda16",
+    "FIXED_CHARGE_RESEARCH.md": "e0f4298262ae42a969ffdad32e00af9a567370f4e770955512f49c03e15f042f",
+    "TWO_CHARGE_ACCOUNTING.md": "43d5da4d80d0a09ab7df41fa93717f47fc294dabcd1650d65c0300e287d316d2"
+  },
+  "literature": "https://arxiv.org/abs/1909.01950"
+}

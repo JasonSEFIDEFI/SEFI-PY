@@ -1,5 +1,10 @@
 # Model history and development contract
 
+## Console 0.3 - Background response comparison, 19 October 2026
+
+Adds the separate `far-field-dispersion-v1` analysis and `/comparison` page. The static control and rotating background share effective stiffness/carrier mass, but have different potentials and background charges. The 1/sqrt(5) long-wave speed is an analytical condensate response, not altered causal light speed or nonlinear vortex stability. Existing physical evolution, relaxation and checkpoint models are unchanged.
+
+
 ## Console 0.2 — Fixed-charge research, 24 September 2026
 
 Adds `fixed-charge-rest-v0.1` as a separate model for fictitious relaxation, with its own parameter validation, data, run frames and checkpoints. The original `coupled-ring-axisymmetric-v0.1` equations and checkpoint compatibility remain intact. The new mode cannot be restored as a physical evolution. Includes the fixed-charge candidate, negative lower-charge searches, grid/domain evidence, and two-charge initial-data accounting. No physical-matter, stability or intrinsic-mass claim is added.

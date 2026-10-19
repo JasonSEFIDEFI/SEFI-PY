@@ -1,0 +1,179 @@
+{
+  "scope": "Dimensionless homogeneous far-field linearization; no nonlinear vortex evolution or empirical validation",
+  "omega": 1.4142135623730951,
+  "static_low_k_speed": 1.0,
+  "rotating_low_k_speed": 0.4472135954999579,
+  "speed_reduction_percent": 55.27864045000421,
+  "rows": [
+    {
+      "model": "static_global_witten_control",
+      "k": 0.05,
+      "low_frequency": 0.05,
+      "high_frequency": 1.4150971698084907,
+      "low_phase_speed": 1.0
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 0.1,
+      "low_frequency": 0.1,
+      "high_frequency": 1.4177446878757824,
+      "low_phase_speed": 1.0
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 0.25,
+      "low_frequency": 0.25,
+      "high_frequency": 1.4361406616345072,
+      "low_phase_speed": 1.0
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 0.5,
+      "low_frequency": 0.5,
+      "high_frequency": 1.5,
+      "low_phase_speed": 1.0
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 1.0,
+      "low_frequency": 1.0,
+      "high_frequency": 1.7320508075688772,
+      "low_phase_speed": 1.0
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 2.0,
+      "low_frequency": 2.0,
+      "high_frequency": 2.449489742783178,
+      "low_phase_speed": 1.0
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.05,
+      "low_frequency": 0.022369618684277014,
+      "high_frequency": 3.162989029408721,
+      "low_phase_speed": 0.44739237368554025
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.1,
+      "low_frequency": 0.04479274249735369,
+      "high_frequency": 3.1651214210863325,
+      "low_phase_speed": 0.4479274249735369
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.25,
+      "low_frequency": 0.11290496365953545,
+      "high_frequency": 3.179976803245747,
+      "low_phase_speed": 0.4516198546381418
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.5,
+      "low_frequency": 0.23205080756887728,
+      "high_frequency": 3.2320508075688776,
+      "low_phase_speed": 0.46410161513775455
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 1.0,
+      "low_frequency": 0.5054081058530535,
+      "high_frequency": 3.4270340889080795,
+      "low_phase_speed": 0.5054081058530535
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 2.0,
+      "low_frequency": 1.2042282029288511,
+      "high_frequency": 4.068148772509525,
+      "low_phase_speed": 0.6021141014644256
+    }
+  ],
+  "checks": [
+    {
+      "model": "static_global_witten_control",
+      "k": 0.05,
+      "eigenvalue_error": 0.0,
+      "rk4_dt_01_error": 2.600856274574791e-12,
+      "rk4_dt_005_error": 1.6290555762602974e-13
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 0.1,
+      "eigenvalue_error": 1.3877787807814457e-17,
+      "rk4_dt_01_error": 8.29196520440049e-11,
+      "rk4_dt_005_error": 5.182560637035026e-12
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 0.25,
+      "eigenvalue_error": 0.0,
+      "rk4_dt_01_error": 7.894990882596869e-09,
+      "rk4_dt_005_error": 4.934389849573437e-10
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 0.5,
+      "eigenvalue_error": 1.1102230246251565e-16,
+      "rk4_dt_01_error": 2.3291796959157828e-07,
+      "rk4_dt_005_error": 1.4557643870634995e-08
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 1.0,
+      "eigenvalue_error": 0.0,
+      "rk4_dt_01_error": 5.891969948393777e-06,
+      "rk4_dt_005_error": 3.6827564418065613e-07
+    },
+    {
+      "model": "static_global_witten_control",
+      "k": 2.0,
+      "eigenvalue_error": 4.440892098500626e-16,
+      "rk4_dt_01_error": 0.00023841407589654875,
+      "rk4_dt_005_error": 1.4905630785241095e-05
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.05,
+      "eigenvalue_error": 6.941130239909226e-18,
+      "rk4_dt_01_error": 4.6588145000529616e-14,
+      "rk4_dt_005_error": 2.805510737231593e-15
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.1,
+      "eigenvalue_error": 1.3879481770324007e-17,
+      "rk4_dt_01_error": 1.497999308327455e-12,
+      "rk4_dt_005_error": 9.308119372810464e-14
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.25,
+      "eigenvalue_error": 1.3877787807814457e-17,
+      "rk4_dt_01_error": 1.5011535620379743e-10,
+      "rk4_dt_005_error": 9.381793352509017e-12
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 0.5,
+      "eigenvalue_error": 2.8609792490763984e-17,
+      "rk4_dt_01_error": 5.233183032316649e-09,
+      "rk4_dt_005_error": 3.2707519873567883e-10
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 1.0,
+      "eigenvalue_error": 2.2247786310271853e-16,
+      "rk4_dt_01_error": 2.1752016772299482e-07,
+      "rk4_dt_005_error": 1.3595269164709329e-08
+    },
+    {
+      "model": "rotating_console_background",
+      "k": 2.0,
+      "eigenvalue_error": 2.2887833992611187e-16,
+      "rk4_dt_01_error": 1.299539905007714e-05,
+      "rk4_dt_005_error": 8.123009022854893e-07
+    }
+  ]
+}
