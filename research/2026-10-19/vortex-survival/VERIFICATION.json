@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-19",
+  "production_console": {
+    "physics.py": "unchanged",
+    "ring_operator.py": "unchanged",
+    "rest_search.py": "unchanged",
+    "server.py": "unchanged",
+    "manifest.json": "unchanged",
+    "static/index.html": "unchanged"
+  },
+  "research_unit_tests": 4,
+  "production_console_tests": 20,
+  "nonlinear_cases": 8,
+  "linear_angular_cases": 7,
+  "balance_audits": 2,
+  "authorship_dynamics": "not implemented; no existing equations changed",
+  "limitations": [
+    "finite domain and time",
+    "no nonlinear 3D run",
+    "selected tangent directions, not spectrum",
+    "no full identity/vortex coupling or matter identification"
+  ]
+}

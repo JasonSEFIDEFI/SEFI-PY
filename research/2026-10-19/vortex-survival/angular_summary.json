@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "m": 1,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.57059292914104,
+      "maximum_gain": 1.7114640064001354
+    },
+    {
+      "m": 2,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.253956633403291,
+      "maximum_gain": 1.4414540034182357
+    },
+    {
+      "m": 3,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.3434263715454806,
+      "maximum_gain": 1.4303611556395626
+    },
+    {
+      "m": 4,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.300116829724892,
+      "maximum_gain": 1.43243340272598
+    },
+    {
+      "m": 2,
+      "dt": 0.0125,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.2539575858893433,
+      "maximum_gain": 1.4414543466929242
+    }
+  ],
+  "m2_temporal_refinement_max_difference": 2.7692220841504814e-07
+}

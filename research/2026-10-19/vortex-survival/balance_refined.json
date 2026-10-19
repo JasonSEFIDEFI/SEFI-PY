@@ -1,0 +1,307 @@
+{
+  "reference": "refined",
+  "dt": 0.025,
+  "T": 24.0,
+  "initial_canonical_energy": 69.04845965388182,
+  "max_relative_energy_drift": 2.4777203643837266e-10,
+  "phi_charge_change": -2.768788255135462,
+  "integrated_discrete_boundary_balance": -2.7687882570010047,
+  "charge_balance_residual": 1.8655428313252287e-09,
+  "interpretation": "Conserved rotating/moving-frame discrete energy is not isolated-particle rest energy. Fixed Phi boundary permits charge exchange; integrated finite-box balance is checked.",
+  "samples": [
+    {
+      "time": 0.0,
+      "energy": 69.04845965388182,
+      "phi_charge": -311.4976436004041,
+      "integrated_charge_rate": 0.0
+    },
+    {
+      "time": 0.5000000000000001,
+      "energy": 69.04845965348716,
+      "phi_charge": -311.49764360030383,
+      "integrated_charge_rate": -4.666906706084834e-14
+    },
+    {
+      "time": 1.0000000000000004,
+      "energy": 69.04845965297577,
+      "phi_charge": -311.4976436002408,
+      "integrated_charge_rate": -6.088681616393016e-13
+    },
+    {
+      "time": 1.4999999999999987,
+      "energy": 69.04845965264516,
+      "phi_charge": -311.497643600098,
+      "integrated_charge_rate": -2.565096197379816e-12
+    },
+    {
+      "time": 1.999999999999997,
+      "energy": 69.04845965232494,
+      "phi_charge": -311.49764360004815,
+      "integrated_charge_rate": -5.903457204277424e-12
+    },
+    {
+      "time": 2.499999999999995,
+      "energy": 69.0484596519938,
+      "phi_charge": -311.49764360004514,
+      "integrated_charge_rate": -1.0500535241340798e-11
+    },
+    {
+      "time": 2.9999999999999933,
+      "energy": 69.04845965164773,
+      "phi_charge": -311.49764360038733,
+      "integrated_charge_rate": -3.562668136952318e-10
+    },
+    {
+      "time": 3.4999999999999916,
+      "energy": 69.04845965129974,
+      "phi_charge": -311.49764360794865,
+      "integrated_charge_rate": -7.907719170161819e-09
+    },
+    {
+      "time": 3.99999999999999,
+      "energy": 69.04845965094754,
+      "phi_charge": -311.4976436778311,
+      "integrated_charge_rate": -7.779927409858462e-08
+    },
+    {
+      "time": 4.4999999999999964,
+      "energy": 69.04845965059198,
+      "phi_charge": -311.4976439465341,
+      "integrated_charge_rate": -3.4654671486912874e-07
+    },
+    {
+      "time": 5.0000000000000036,
+      "energy": 69.0484596502362,
+      "phi_charge": -311.4976437256769,
+      "integrated_charge_rate": -1.2574615683084245e-07
+    },
+    {
+      "time": 5.500000000000011,
+      "energy": 69.04845964988203,
+      "phi_charge": -311.49763784686587,
+      "integrated_charge_rate": 5.7530145239403405e-06
+    },
+    {
+      "time": 6.000000000000018,
+      "energy": 69.04845964952898,
+      "phi_charge": -311.49761677632165,
+      "integrated_charge_rate": 2.682352096560482e-05
+    },
+    {
+      "time": 6.500000000000025,
+      "energy": 69.04845964917519,
+      "phi_charge": -311.49758563349286,
+      "integrated_charge_rate": 5.79663165525343e-05
+    },
+    {
+      "time": 7.000000000000032,
+      "energy": 69.04845964882097,
+      "phi_charge": -311.49755299434236,
+      "integrated_charge_rate": 9.060542847058295e-05
+    },
+    {
+      "time": 7.500000000000039,
+      "energy": 69.04845964846697,
+      "phi_charge": -311.49742090453714,
+      "integrated_charge_rate": 0.00022269520349280854
+    },
+    {
+      "time": 8.000000000000046,
+      "energy": 69.04845964811429,
+      "phi_charge": -311.4971028508956,
+      "integrated_charge_rate": 0.0005407488096524538
+    },
+    {
+      "time": 8.500000000000053,
+      "energy": 69.0484596477605,
+      "phi_charge": -311.49700322418727,
+      "integrated_charge_rate": 0.0006403754844441601
+    },
+    {
+      "time": 9.00000000000006,
+      "energy": 69.04845964740673,
+      "phi_charge": -311.4974015039472,
+      "integrated_charge_rate": 0.00024209567581828488
+    },
+    {
+      "time": 9.500000000000068,
+      "energy": 69.04845964705356,
+      "phi_charge": -311.4976071052527,
+      "integrated_charge_rate": 3.649434079203608e-05
+    },
+    {
+      "time": 10.000000000000075,
+      "energy": 69.04845964669943,
+      "phi_charge": -311.49922186641464,
+      "integrated_charge_rate": -0.0015782668561457264
+    },
+    {
+      "time": 10.500000000000082,
+      "energy": 69.04845964634464,
+      "phi_charge": -311.5061276511859,
+      "integrated_charge_rate": -0.00848405165293111
+    },
+    {
+      "time": 11.000000000000089,
+      "energy": 69.04845964599099,
+      "phi_charge": -311.5152956877589,
+      "integrated_charge_rate": -0.017652088273733383
+    },
+    {
+      "time": 11.500000000000096,
+      "energy": 69.0484596456374,
+      "phi_charge": -311.5247265974803,
+      "integrated_charge_rate": -0.02708299802968211
+    },
+    {
+      "time": 12.000000000000103,
+      "energy": 69.04845964528346,
+      "phi_charge": -311.54617593465764,
+      "integrated_charge_rate": -0.04853233524683086
+    },
+    {
+      "time": 12.50000000000011,
+      "energy": 69.04845964492895,
+      "phi_charge": -311.5728838993344,
+      "integrated_charge_rate": -0.07524029995528621
+    },
+    {
+      "time": 13.000000000000117,
+      "energy": 69.04845964457485,
+      "phi_charge": -311.58275846001305,
+      "integrated_charge_rate": -0.08511486067767744
+    },
+    {
+      "time": 13.500000000000124,
+      "energy": 69.04845964422094,
+      "phi_charge": -311.597874739155,
+      "integrated_charge_rate": -0.10023113986048265
+    },
+    {
+      "time": 14.000000000000131,
+      "energy": 69.04845964386709,
+      "phi_charge": -311.62121014305126,
+      "integrated_charge_rate": -0.12356654379482136
+    },
+    {
+      "time": 14.500000000000139,
+      "energy": 69.04845964351313,
+      "phi_charge": -311.5927333360085,
+      "integrated_charge_rate": -0.09508973678598047
+    },
+    {
+      "time": 15.000000000000146,
+      "energy": 69.04845964315894,
+      "phi_charge": -311.5290579961115,
+      "integrated_charge_rate": -0.031414396928763494
+    },
+    {
+      "time": 15.500000000000153,
+      "energy": 69.04845964280454,
+      "phi_charge": -311.46336477337195,
+      "integrated_charge_rate": 0.03427882577267514
+    },
+    {
+      "time": 16.00000000000016,
+      "energy": 69.04845964244956,
+      "phi_charge": -311.3102049796844,
+      "integrated_charge_rate": 0.18743861941959294
+    },
+    {
+      "time": 16.50000000000013,
+      "energy": 69.04845964209468,
+      "phi_charge": -311.0733662987147,
+      "integrated_charge_rate": 0.4242773003643579
+    },
+    {
+      "time": 17.000000000000103,
+      "energy": 69.04845964174018,
+      "phi_charge": -310.8573688550616,
+      "integrated_charge_rate": 0.6402747439869366
+    },
+    {
+      "time": 17.500000000000075,
+      "energy": 69.04845964138565,
+      "phi_charge": -310.6324959280816,
+      "integrated_charge_rate": 0.8651476709322135
+    },
+    {
+      "time": 18.000000000000046,
+      "energy": 69.04845964103103,
+      "phi_charge": -310.38670086395894,
+      "integrated_charge_rate": 1.1109427350162253
+    },
+    {
+      "time": 18.500000000000018,
+      "energy": 69.04845964067655,
+      "phi_charge": -310.23391849518663,
+      "integrated_charge_rate": 1.2637251037474608
+    },
+    {
+      "time": 18.99999999999999,
+      "energy": 69.04845964032219,
+      "phi_charge": -310.19185029000533,
+      "integrated_charge_rate": 1.3057933088928646
+    },
+    {
+      "time": 19.49999999999996,
+      "energy": 69.0484596399674,
+      "phi_charge": -310.19757547815794,
+      "integrated_charge_rate": 1.3000681207040998
+    },
+    {
+      "time": 19.999999999999932,
+      "energy": 69.04845963961256,
+      "phi_charge": -310.2908079122737,
+      "integrated_charge_rate": 1.2068356865491545
+    },
+    {
+      "time": 20.499999999999904,
+      "energy": 69.0484596392576,
+      "phi_charge": -310.5337192163423,
+      "integrated_charge_rate": 0.9639243824438274
+    },
+    {
+      "time": 20.999999999999876,
+      "energy": 69.04845963890261,
+      "phi_charge": -310.87561428381343,
+      "integrated_charge_rate": 0.6220293149410724
+    },
+    {
+      "time": 21.499999999999847,
+      "energy": 69.0484596385478,
+      "phi_charge": -311.28487523600086,
+      "integrated_charge_rate": 0.21276836272057917
+    },
+    {
+      "time": 21.99999999999982,
+      "energy": 69.04845963819298,
+      "phi_charge": -311.80068029479247,
+      "integrated_charge_rate": -0.3030366961102376
+    },
+    {
+      "time": 22.49999999999979,
+      "energy": 69.04845963783796,
+      "phi_charge": -312.3919578887149,
+      "integrated_charge_rate": -0.8943142900722654
+    },
+    {
+      "time": 22.999999999999762,
+      "energy": 69.04845963748332,
+      "phi_charge": -313.0066834163304,
+      "integrated_charge_rate": -1.5090398177265938
+    },
+    {
+      "time": 23.499999999999734,
+      "energy": 69.04845963712847,
+      "phi_charge": -313.63181789639964,
+      "integrated_charge_rate": -2.1341742978258167
+    },
+    {
+      "time": 23.999999999999705,
+      "energy": 69.04845963677354,
+      "phi_charge": -314.26643185553957,
+      "integrated_charge_rate": -2.7687882570010047
+    }
+  ]
+}

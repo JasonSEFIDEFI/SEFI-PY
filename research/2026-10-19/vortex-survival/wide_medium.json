@@ -1,0 +1,1244 @@
+{
+  "name": "wide_medium",
+  "reference": "wide",
+  "epsilon": 0.01,
+  "kind": "amplitude",
+  "dt": 0.025,
+  "T_requested": 24.0,
+  "grid_intervals": 36,
+  "h": 0.666666666666667,
+  "L": 24.00000000000001,
+  "reason": "completed",
+  "runtime_seconds": 13.296999999962281,
+  "boundary_influence_warning_time": 15.26504169380183,
+  "core_detected_all_samples": true,
+  "max_carrier_charge_drift": 4.876992767216919e-10,
+  "phi_excess_charge_change": 0.018564485552815313,
+  "samples": [
+    {
+      "time": 0.0,
+      "charge": 7.18268239707189,
+      "charge_drift": 0.0,
+      "phi_distance": 0.10089424162354996,
+      "sigma_distance": 0.10089424162354987,
+      "aligned_distance": 0.10089424162354987,
+      "phase_shift": 0.0,
+      "winding": 1.0,
+      "contour_min": 0.6109870122521797,
+      "peak": 0.3083520275049139,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563449701,
+      "carrier_norm": 23.9422746569063,
+      "carrier_rms_radius": 5.6554409504061365,
+      "carrier_edge_fraction": 2.4199882312766513e-11,
+      "max_velocity": 0.0
+    },
+    {
+      "time": 0.5000000000000001,
+      "charge": 7.182682397349959,
+      "charge_drift": 3.8713826939672865e-11,
+      "phi_distance": 0.09396979324052615,
+      "sigma_distance": 0.06106033625071617,
+      "aligned_distance": 0.06096832100343138,
+      "phase_shift": 0.0006934835605862889,
+      "winding": 1.0,
+      "contour_min": 0.6106518983229404,
+      "peak": 0.302213960137461,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563448562,
+      "carrier_norm": 23.630347584882532,
+      "carrier_rms_radius": 5.658735156117036,
+      "carrier_edge_fraction": 2.45193273994723e-11,
+      "max_velocity": 0.020892535726432303
+    },
+    {
+      "time": 1.0000000000000004,
+      "charge": 7.182682397341922,
+      "charge_drift": 3.7594868022159977e-11,
+      "phi_distance": 0.09403156400178359,
+      "sigma_distance": 0.05593821234144785,
+      "aligned_distance": 0.051112015124990806,
+      "phase_shift": 0.004735344129843231,
+      "winding": 1.0,
+      "contour_min": 0.6105078484708522,
+      "peak": 0.2931515992383747,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634477705,
+      "carrier_norm": 23.014122202315637,
+      "carrier_rms_radius": 5.664306715191762,
+      "carrier_edge_fraction": 2.51758561071151e-11,
+      "max_velocity": 0.013814672886895262
+    },
+    {
+      "time": 1.4999999999999987,
+      "charge": 7.1826823974459115,
+      "charge_drift": 5.207270512904957e-11,
+      "phi_distance": 0.10283423377244777,
+      "sigma_distance": 0.10350697823744542,
+      "aligned_distance": 0.08482210727270686,
+      "phase_shift": 0.012411545948698451,
+      "winding": 1.0,
+      "contour_min": 0.6108974053203426,
+      "peak": 0.29258553288217465,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.093256344645,
+      "carrier_norm": 22.624726065987748,
+      "carrier_rms_radius": 5.664893866282486,
+      "carrier_edge_fraction": 2.5609159965392132e-11,
+      "max_velocity": 0.008706405252255876
+    },
+    {
+      "time": 1.999999999999997,
+      "charge": 7.182682397654265,
+      "charge_drift": 8.108043832219363e-11,
+      "phi_distance": 0.101666177390412,
+      "sigma_distance": 0.12852465373545816,
+      "aligned_distance": 0.07941390359643347,
+      "phase_shift": 0.02113241588705268,
+      "winding": 1.0,
+      "contour_min": 0.6106497274976145,
+      "peak": 0.2978045061169452,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634462056,
+      "carrier_norm": 22.673111908521133,
+      "carrier_rms_radius": 5.658879639179535,
+      "carrier_edge_fraction": 2.5554508412199854e-11,
+      "max_velocity": 0.011740522551011294
+    },
+    {
+      "time": 2.499999999999995,
+      "charge": 7.182682397736106,
+      "charge_drift": 9.247467740432702e-11,
+      "phi_distance": 0.09527094925114257,
+      "sigma_distance": 0.15387570991086838,
+      "aligned_distance": 0.0733259037368023,
+      "phase_shift": 0.028188766446257667,
+      "winding": 1.0,
+      "contour_min": 0.6101331106250597,
+      "peak": 0.3011187627447079,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563446111,
+      "carrier_norm": 23.00226190465107,
+      "carrier_rms_radius": 5.651431639276232,
+      "carrier_edge_fraction": 2.518883714126794e-11,
+      "max_velocity": 0.008803269747082492
+    },
+    {
+      "time": 2.9999999999999933,
+      "charge": 7.182682397880148,
+      "charge_drift": 1.1252876076884107e-10,
+      "phi_distance": 0.09668648552313765,
+      "sigma_distance": 0.17656308669759113,
+      "aligned_distance": 0.07881310586691063,
+      "phase_shift": 0.03280418793070542,
+      "winding": 1.0,
+      "contour_min": 0.6104514935018581,
+      "peak": 0.3008857235077286,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634459634,
+      "carrier_norm": 23.33575729565915,
+      "carrier_rms_radius": 5.648693969379752,
+      "carrier_edge_fraction": 2.4828859061923358e-11,
+      "max_velocity": 0.007049936456721576
+    },
+    {
+      "time": 3.4999999999999916,
+      "charge": 7.182682398017597,
+      "charge_drift": 1.3166494911239166e-10,
+      "phi_distance": 0.10419370123439775,
+      "sigma_distance": 0.1928790966971778,
+      "aligned_distance": 0.0854052279360145,
+      "phase_shift": 0.03583977985078686,
+      "winding": 1.0,
+      "contour_min": 0.6106609463575975,
+      "peak": 0.2994390346076687,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563446057,
+      "carrier_norm": 23.511311423240127,
+      "carrier_rms_radius": 5.652420015518976,
+      "carrier_edge_fraction": 2.4643467077268673e-11,
+      "max_velocity": 0.0067785939733750866
+    },
+    {
+      "time": 3.99999999999999,
+      "charge": 7.182682398128794,
+      "charge_drift": 1.4714612721350157e-10,
+      "phi_distance": 0.10959362812419522,
+      "sigma_distance": 0.2061061595861929,
+      "aligned_distance": 0.08880280885644086,
+      "phase_shift": 0.03854222571980449,
+      "winding": 1.0,
+      "contour_min": 0.6101533222551658,
+      "peak": 0.29850234974505013,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634462346,
+      "carrier_norm": 23.519532078189524,
+      "carrier_rms_radius": 5.6593953236145556,
+      "carrier_edge_fraction": 2.4634853583840668e-11,
+      "max_velocity": 0.006381894658064169
+    },
+    {
+      "time": 4.4999999999999964,
+      "charge": 7.182682398218437,
+      "charge_drift": 1.5962655649692053e-10,
+      "phi_distance": 0.1117776790210328,
+      "sigma_distance": 0.2198657642681918,
+      "aligned_distance": 0.08870977378202936,
+      "phase_shift": 0.041725161620176435,
+      "winding": 1.0,
+      "contour_min": 0.610255434182436,
+      "peak": 0.29851726998194766,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563446004,
+      "carrier_norm": 23.43785776922329,
+      "carrier_rms_radius": 5.664773521958366,
+      "carrier_edge_fraction": 2.4720699140302126e-11,
+      "max_velocity": 0.0063797020817818045
+    },
+    {
+      "time": 5.0000000000000036,
+      "charge": 7.182682398289678,
+      "charge_drift": 1.6954509044902863e-10,
+      "phi_distance": 0.11291789649265886,
+      "sigma_distance": 0.23592952224789063,
+      "aligned_distance": 0.08659971404282268,
+      "phase_shift": 0.0455605592855956,
+      "winding": 1.0,
+      "contour_min": 0.6110148439700941,
+      "peak": 0.29897489143526845,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634454575,
+      "carrier_norm": 23.35148934094547,
+      "carrier_rms_radius": 5.666194486835493,
+      "carrier_edge_fraction": 2.4812132065127997e-11,
+      "max_velocity": 0.00604775202293768
+    },
+    {
+      "time": 5.500000000000011,
+      "charge": 7.182682398351725,
+      "charge_drift": 1.781834186686789e-10,
+      "phi_distance": 0.11426918617568063,
+      "sigma_distance": 0.2538326824080356,
+      "aligned_distance": 0.08298626614161371,
+      "phase_shift": 0.04983305145060675,
+      "winding": 1.0,
+      "contour_min": 0.611352321032934,
+      "peak": 0.29920261642076335,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634449397,
+      "carrier_norm": 23.291566576866614,
+      "carrier_rms_radius": 5.664651915456309,
+      "carrier_edge_fraction": 2.4875964511646156e-11,
+      "max_velocity": 0.006559853497644953
+    },
+    {
+      "time": 6.000000000000018,
+      "charge": 7.182682398410352,
+      "charge_drift": 1.8634567308653618e-10,
+      "phi_distance": 0.11765981964040753,
+      "sigma_distance": 0.2731564027173623,
+      "aligned_distance": 0.07862813310076631,
+      "phase_shift": 0.054376229144153916,
+      "winding": 1.0,
+      "contour_min": 0.6107854890615431,
+      "peak": 0.29913581387935495,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563444749,
+      "carrier_norm": 23.236566707767956,
+      "carrier_rms_radius": 5.661843370502267,
+      "carrier_edge_fraction": 2.4934776349742512e-11,
+      "max_velocity": 0.01156509578199098
+    },
+    {
+      "time": 6.500000000000025,
+      "charge": 7.182682398475556,
+      "charge_drift": 1.9542372038129706e-10,
+      "phi_distance": 0.12215252619670411,
+      "sigma_distance": 0.29494235407558206,
+      "aligned_distance": 0.0766358900762712,
+      "phase_shift": 0.059245033293756084,
+      "winding": 1.0,
+      "contour_min": 0.6107191258865942,
+      "peak": 0.29895812547686984,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634447174,
+      "carrier_norm": 23.171453138466934,
+      "carrier_rms_radius": 5.658420497689406,
+      "carrier_edge_fraction": 2.50040410637302e-11,
+      "max_velocity": 0.01248114284006841
+    },
+    {
+      "time": 7.000000000000032,
+      "charge": 7.1826823985404635,
+      "charge_drift": 2.044603430725253e-10,
+      "phi_distance": 0.12358580547628335,
+      "sigma_distance": 0.3194517800115459,
+      "aligned_distance": 0.07765863068506737,
+      "phase_shift": 0.0644936837453835,
+      "winding": 1.0,
+      "contour_min": 0.6112187307958763,
+      "peak": 0.2987076469184541,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634445554,
+      "carrier_norm": 23.12175353850979,
+      "carrier_rms_radius": 5.655109315054041,
+      "carrier_edge_fraction": 2.5051431499144136e-11,
+      "max_velocity": 0.01191561299631564
+    },
+    {
+      "time": 7.500000000000039,
+      "charge": 7.18268239860328,
+      "charge_drift": 2.132058806392287e-10,
+      "phi_distance": 0.1224044153981783,
+      "sigma_distance": 0.34507675542207245,
+      "aligned_distance": 0.07854936167207636,
+      "phase_shift": 0.069938713462531,
+      "winding": 1.0,
+      "contour_min": 0.6117183210359766,
+      "peak": 0.29863282811066905,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563444428,
+      "carrier_norm": 23.121350064166375,
+      "carrier_rms_radius": 5.653429124848121,
+      "carrier_edge_fraction": 2.501419080647197e-11,
+      "max_velocity": 0.017247640622371174
+    },
+    {
+      "time": 8.000000000000046,
+      "charge": 7.182682398665361,
+      "charge_drift": 2.2184903142466336e-10,
+      "phi_distance": 0.12517749090736888,
+      "sigma_distance": 0.3701700558529034,
+      "aligned_distance": 0.07881723365152692,
+      "phase_shift": 0.0752430538379959,
+      "winding": 1.0,
+      "contour_min": 0.6112208647860893,
+      "peak": 0.29892931312838467,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563444346,
+      "carrier_norm": 23.170231963714865,
+      "carrier_rms_radius": 5.654257306762198,
+      "carrier_edge_fraction": 2.4786899478899352e-11,
+      "max_velocity": 0.01897441279584025
+    },
+    {
+      "time": 8.500000000000053,
+      "charge": 7.182682398724358,
+      "charge_drift": 2.300628501997538e-10,
+      "phi_distance": 0.1330831622759637,
+      "sigma_distance": 0.3936064496215928,
+      "aligned_distance": 0.07883282700829114,
+      "phase_shift": 0.08016808151974676,
+      "winding": 1.0,
+      "contour_min": 0.610877470808265,
+      "peak": 0.29920682491276696,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563444489,
+      "carrier_norm": 23.23933369439937,
+      "carrier_rms_radius": 5.656918865848826,
+      "carrier_edge_fraction": 2.407420577563572e-11,
+      "max_velocity": 0.018121880945346773
+    },
+    {
+      "time": 9.00000000000006,
+      "charge": 7.182682398783664,
+      "charge_drift": 2.383195774447721e-10,
+      "phi_distance": 0.13702659121118957,
+      "sigma_distance": 0.41529814652662034,
+      "aligned_distance": 0.07995933349831837,
+      "phase_shift": 0.08466407697129992,
+      "winding": 1.0,
+      "contour_min": 0.6110727451340302,
+      "peak": 0.2991870039293783,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563444658,
+      "carrier_norm": 23.303738178916117,
+      "carrier_rms_radius": 5.6602556208035315,
+      "carrier_edge_fraction": 2.2185332145628287e-11,
+      "max_velocity": 0.019202610670070955
+    },
+    {
+      "time": 9.500000000000068,
+      "charge": 7.182682398844515,
+      "charge_drift": 2.467915889726272e-10,
+      "phi_distance": 0.133806070308565,
+      "sigma_distance": 0.43552615392350735,
+      "aligned_distance": 0.0828959813358275,
+      "phase_shift": 0.08878329235981633,
+      "winding": 1.0,
+      "contour_min": 0.6117704619132818,
+      "peak": 0.2991818977989159,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563444624,
+      "carrier_norm": 23.352270290878362,
+      "carrier_rms_radius": 5.663713535338381,
+      "carrier_edge_fraction": 1.8284321174938153e-11,
+      "max_velocity": 0.020058532930107575
+    },
+    {
+      "time": 10.000000000000075,
+      "charge": 7.182682398905424,
+      "charge_drift": 2.5527151445458995e-10,
+      "phi_distance": 0.13431137766061615,
+      "sigma_distance": 0.45415662888194275,
+      "aligned_distance": 0.08479529053617363,
+      "phase_shift": 0.09262836620677237,
+      "winding": 1.0,
+      "contour_min": 0.61153987851433,
+      "peak": 0.29929020750066787,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634411783,
+      "carrier_norm": 23.37377434052798,
+      "carrier_rms_radius": 5.666712587850079,
+      "carrier_edge_fraction": 1.2771760972261458e-11,
+      "max_velocity": 0.02062630126605152
+    },
+    {
+      "time": 10.500000000000082,
+      "charge": 7.182682398965975,
+      "charge_drift": 2.6370160675678065e-10,
+      "phi_distance": 0.14333255450561888,
+      "sigma_distance": 0.47185897907259416,
+      "aligned_distance": 0.08489487654476034,
+      "phase_shift": 0.09638210024752057,
+      "winding": 1.0,
+      "contour_min": 0.6110650428662536,
+      "peak": 0.2991625242380146,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325634287904,
+      "carrier_norm": 23.358115999510172,
+      "carrier_rms_radius": 5.667928118170165,
+      "carrier_edge_fraction": 8.56654176598917e-12,
+      "max_velocity": 0.01825154252825573
+    },
+    {
+      "time": 11.000000000000089,
+      "charge": 7.1826823990274296,
+      "charge_drift": 2.7225758039149737e-10,
+      "phi_distance": 0.14789226620635704,
+      "sigma_distance": 0.4898894594235727,
+      "aligned_distance": 0.08390780579876131,
+      "phase_shift": 0.10027513283085686,
+      "winding": 1.0,
+      "contour_min": 0.6110343006659825,
+      "peak": 0.29882256560911624,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563407914,
+      "carrier_norm": 23.311472944387457,
+      "carrier_rms_radius": 5.666584116448018,
+      "carrier_edge_fraction": 1.6257728658250425e-11,
+      "max_velocity": 0.01585158847458628
+    },
+    {
+      "time": 11.500000000000096,
+      "charge": 7.182682399086951,
+      "charge_drift": 2.8054435593101846e-10,
+      "phi_distance": 0.143086082067947,
+      "sigma_distance": 0.5092219734943056,
+      "aligned_distance": 0.08248915318954575,
+      "phase_shift": 0.10446485632763615,
+      "winding": 1.0,
+      "contour_min": 0.611681996717568,
+      "peak": 0.29873376475104796,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325633796016,
+      "carrier_norm": 23.255533524457494,
+      "carrier_rms_radius": 5.663817670936766,
+      "carrier_edge_fraction": 1.2943077038484615e-10,
+      "max_velocity": 0.01629966354858509
+    },
+    {
+      "time": 12.000000000000103,
+      "charge": 7.182682399147391,
+      "charge_drift": 2.889591149471254e-10,
+      "phi_distance": 0.14150951094143896,
+      "sigma_distance": 0.5300963675159545,
+      "aligned_distance": 0.08077723803292426,
+      "phase_shift": 0.10897578509452042,
+      "winding": 1.0,
+      "contour_min": 0.611825000976608,
+      "peak": 0.29891790296639337,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932563259983,
+      "carrier_norm": 23.20789834186497,
+      "carrier_rms_radius": 5.661572558141284,
+      "carrier_edge_fraction": 7.918998694779768e-10,
+      "max_velocity": 0.015098879525392241
+    },
+    {
+      "time": 12.50000000000011,
+      "charge": 7.182682399206903,
+      "charge_drift": 2.972445302757842e-10,
+      "phi_distance": 0.14971363934635035,
+      "sigma_distance": 0.5524004407876203,
+      "aligned_distance": 0.07934770554315426,
+      "phase_shift": 0.11375679475301444,
+      "winding": 1.0,
+      "contour_min": 0.6112527953869785,
+      "peak": 0.29895131120587953,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932562854495,
+      "carrier_norm": 23.174773629243052,
+      "carrier_rms_radius": 5.6604386286040915,
+      "carrier_edge_fraction": 2.7410144738935603e-09,
+      "max_velocity": 0.013760353612850091
+    },
+    {
+      "time": 13.000000000000117,
+      "charge": 7.1826823992651905,
+      "charge_drift": 3.05359548280061e-10,
+      "phi_distance": 0.15476815639385677,
+      "sigma_distance": 0.5759568327296497,
+      "aligned_distance": 0.0795625332883798,
+      "phase_shift": 0.11872024143766088,
+      "winding": 1.0,
+      "contour_min": 0.6110137001231339,
+      "peak": 0.29875501183968317,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932562231447,
+      "carrier_norm": 23.164768956184872,
+      "carrier_rms_radius": 5.65960571699278,
+      "carrier_edge_fraction": 5.033173680626565e-09,
+      "max_velocity": 0.012762722000703703
+    },
+    {
+      "time": 13.500000000000124,
+      "charge": 7.1826823993242765,
+      "charge_drift": 3.135857326084448e-10,
+      "phi_distance": 0.15000782360743004,
+      "sigma_distance": 0.6000172951855057,
+      "aligned_distance": 0.0815231192891447,
+      "phase_shift": 0.12368587050066482,
+      "winding": 1.0,
+      "contour_min": 0.6113952197379775,
+      "peak": 0.29859176309721464,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932561727164,
+      "carrier_norm": 23.194485349950206,
+      "carrier_rms_radius": 5.658731986592778,
+      "carrier_edge_fraction": 4.655596854133488e-09,
+      "max_velocity": 0.011291793789511943
+    },
+    {
+      "time": 14.000000000000131,
+      "charge": 7.182682399377655,
+      "charge_drift": 3.210173064821996e-10,
+      "phi_distance": 0.14728341376505918,
+      "sigma_distance": 0.6231220328172227,
+      "aligned_distance": 0.08411363346188253,
+      "phase_shift": 0.12836972668006333,
+      "winding": 1.0,
+      "contour_min": 0.6114886864274094,
+      "peak": 0.2986608488187162,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325602185936,
+      "carrier_norm": 23.267598809051535,
+      "carrier_rms_radius": 5.658710630005277,
+      "carrier_edge_fraction": 1.1831240586261437e-08,
+      "max_velocity": 0.009907976042782438
+    },
+    {
+      "time": 14.500000000000139,
+      "charge": 7.182682399431596,
+      "charge_drift": 3.285271543083011e-10,
+      "phi_distance": 0.15522821956522206,
+      "sigma_distance": 0.6438232394995352,
+      "aligned_distance": 0.08545115517922158,
+      "phase_shift": 0.13256024161209268,
+      "winding": 1.0,
+      "contour_min": 0.6108782965373266,
+      "peak": 0.29903541187183125,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325560694987,
+      "carrier_norm": 23.352522280611026,
+      "carrier_rms_radius": 5.660475715127702,
+      "carrier_edge_fraction": 6.375544890275112e-08,
+      "max_velocity": 0.009121816413749083
+    },
+    {
+      "time": 15.000000000000146,
+      "charge": 7.182682399486573,
+      "charge_drift": 3.361813081413357e-10,
+      "phi_distance": 0.16201295818914482,
+      "sigma_distance": 0.6620508226050175,
+      "aligned_distance": 0.08457017175081441,
+      "phase_shift": 0.13634515110031775,
+      "winding": 1.0,
+      "contour_min": 0.6103358957794958,
+      "peak": 0.29954471080697553,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325552515224,
+      "carrier_norm": 23.395890014186353,
+      "carrier_rms_radius": 5.663875726890154,
+      "carrier_edge_fraction": 1.57656199330169e-07,
+      "max_velocity": 0.00991630656293761
+    },
+    {
+      "time": 15.500000000000153,
+      "charge": 7.1826823995439595,
+      "charge_drift": 3.4417081577968527e-10,
+      "phi_distance": 0.15816029724195324,
+      "sigma_distance": 0.6794252112380613,
+      "aligned_distance": 0.0814421138141522,
+      "phase_shift": 0.1401122710450846,
+      "winding": 1.0,
+      "contour_min": 0.6106053136164076,
+      "peak": 0.299750487877099,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325673828107,
+      "carrier_norm": 23.365958081609765,
+      "carrier_rms_radius": 5.66783211408867,
+      "carrier_edge_fraction": 1.9059784857195913e-07,
+      "max_velocity": 0.00891903208934601
+    },
+    {
+      "time": 16.00000000000016,
+      "charge": 7.182682399603159,
+      "charge_drift": 3.5241282801628453e-10,
+      "phi_distance": 0.15287146428763396,
+      "sigma_distance": 0.6982954224676255,
+      "aligned_distance": 0.07794697434351744,
+      "phase_shift": 0.14428220646099438,
+      "winding": 1.0,
+      "contour_min": 0.6112012514147533,
+      "peak": 0.29935566855840007,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09325854221873,
+      "carrier_norm": 23.280482707334905,
+      "carrier_rms_radius": 5.670707888651466,
+      "carrier_edge_fraction": 2.450555140762151e-07,
+      "max_velocity": 0.008342041619487352
+    },
+    {
+      "time": 16.50000000000013,
+      "charge": 7.182682399660314,
+      "charge_drift": 3.6037018521607143e-10,
+      "phi_distance": 0.15739058118280838,
+      "sigma_distance": 0.7200121061480295,
+      "aligned_distance": 0.07592848474970292,
+      "phase_shift": 0.14902418569245413,
+      "winding": 1.0,
+      "contour_min": 0.6110416144216902,
+      "peak": 0.2986502281950991,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0932625233095,
+      "carrier_norm": 23.189795490501687,
+      "carrier_rms_radius": 5.67053287032913,
+      "carrier_edge_fraction": 8.074680444103391e-07,
+      "max_velocity": 0.008066697378572787
+    },
+    {
+      "time": 17.000000000000103,
+      "charge": 7.182682399722599,
+      "charge_drift": 3.690416531185478e-10,
+      "phi_distance": 0.16378658633365908,
+      "sigma_distance": 0.7441960078866702,
+      "aligned_distance": 0.07532840471054486,
+      "phase_shift": 0.1541921380567526,
+      "winding": 1.0,
+      "contour_min": 0.6102898192384579,
+      "peak": 0.29828791916640995,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09327913640965,
+      "carrier_norm": 23.139136903927824,
+      "carrier_rms_radius": 5.666214415559256,
+      "carrier_edge_fraction": 1.8233477335660726e-06,
+      "max_velocity": 0.007739351406016049
+    },
+    {
+      "time": 17.500000000000075,
+      "charge": 7.182682399783138,
+      "charge_drift": 3.774701378988104e-10,
+      "phi_distance": 0.1619336834661784,
+      "sigma_distance": 0.7695510439068052,
+      "aligned_distance": 0.07720994306437647,
+      "phase_shift": 0.15945769707009996,
+      "winding": 1.0,
+      "contour_min": 0.6102863386873306,
+      "peak": 0.2985398176203042,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09331359780515,
+      "carrier_norm": 23.147103464074814,
+      "carrier_rms_radius": 5.659342159570522,
+      "carrier_edge_fraction": 2.3034024384719875e-06,
+      "max_velocity": 0.007021260296492002
+    },
+    {
+      "time": 18.000000000000046,
+      "charge": 7.18268239984205,
+      "charge_drift": 3.8567208574273923e-10,
+      "phi_distance": 0.15798182874449346,
+      "sigma_distance": 0.7943800871440988,
+      "aligned_distance": 0.0809444814231057,
+      "phase_shift": 0.16448829023218117,
+      "winding": 1.0,
+      "contour_min": 0.6110504138591576,
+      "peak": 0.29906156706941556,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0933576457054,
+      "carrier_norm": 23.203371415930715,
+      "carrier_rms_radius": 5.653910472724693,
+      "carrier_edge_fraction": 2.872202049969341e-06,
+      "max_velocity": 0.0066600942747411076
+    },
+    {
+      "time": 18.500000000000018,
+      "charge": 7.182682399902438,
+      "charge_drift": 3.9407954908240313e-10,
+      "phi_distance": 0.16237770038586707,
+      "sigma_distance": 0.8172597629112168,
+      "aligned_distance": 0.08394068176506031,
+      "phase_shift": 0.16908838619422223,
+      "winding": 1.0,
+      "contour_min": 0.6110415763848971,
+      "peak": 0.2993359171757363,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0934366635406,
+      "carrier_norm": 23.2772663974745,
+      "carrier_rms_radius": 5.653139371946744,
+      "carrier_edge_fraction": 5.803178119137415e-06,
+      "max_velocity": 0.006522562426234742
+    },
+    {
+      "time": 18.99999999999999,
+      "charge": 7.182682399962995,
+      "charge_drift": 4.0251050697332436e-10,
+      "phi_distance": 0.16994966175401988,
+      "sigma_distance": 0.8378247137923455,
+      "aligned_distance": 0.08508007555436715,
+      "phase_shift": 0.1732669559383763,
+      "winding": 1.0,
+      "contour_min": 0.6102084926646885,
+      "peak": 0.29920608784810715,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0935928446087,
+      "carrier_norm": 23.334905295866076,
+      "carrier_rms_radius": 5.656983192397389,
+      "carrier_edge_fraction": 9.915084722904669e-06,
+      "max_velocity": 0.006308986047625575
+    },
+    {
+      "time": 19.49999999999996,
+      "charge": 7.1826824000251515,
+      "charge_drift": 4.111641684790584e-10,
+      "phi_distance": 0.1698666566341047,
+      "sigma_distance": 0.8567223013927928,
+      "aligned_distance": 0.08448225133554225,
+      "phase_shift": 0.17719411070726163,
+      "winding": 1.0,
+      "contour_min": 0.6102141123566814,
+      "peak": 0.2990180760488521,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09375079241653,
+      "carrier_norm": 23.35772851253297,
+      "carrier_rms_radius": 5.663201906633851,
+      "carrier_edge_fraction": 1.2337885449082269e-05,
+      "max_velocity": 0.006270197311459303
+    },
+    {
+      "time": 19.999999999999932,
+      "charge": 7.1826824000880745,
+      "charge_drift": 4.1992454470971375e-10,
+      "phi_distance": 0.16488378024484837,
+      "sigma_distance": 0.8750365369021519,
+      "aligned_distance": 0.08319905386904174,
+      "phase_shift": 0.18107184420085193,
+      "winding": 1.0,
+      "contour_min": 0.61111496367357,
+      "peak": 0.2990725849811523,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.093824601811,
+      "carrier_norm": 23.348860226071825,
+      "carrier_rms_radius": 5.669628502144498,
+      "carrier_edge_fraction": 1.5499952189618215e-05,
+      "max_velocity": 0.00613917245543908
+    },
+    {
+      "time": 20.499999999999904,
+      "charge": 7.182682400149721,
+      "charge_drift": 4.2850722793954404e-10,
+      "phi_distance": 0.16579672387625086,
+      "sigma_distance": 0.8936118320702824,
+      "aligned_distance": 0.08243549347780535,
+      "phase_shift": 0.1850275455010782,
+      "winding": 1.0,
+      "contour_min": 0.6112599625682059,
+      "peak": 0.2991671424801142,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0939192984486,
+      "carrier_norm": 23.32301949427976,
+      "carrier_rms_radius": 5.674456849463143,
+      "carrier_edge_fraction": 2.221102841434011e-05,
+      "max_velocity": 0.005932876786945483
+    },
+    {
+      "time": 20.999999999999876,
+      "charge": 7.1826824002100285,
+      "charge_drift": 4.3690343862571105e-10,
+      "phi_distance": 0.17144935953094204,
+      "sigma_distance": 0.9127858321193498,
+      "aligned_distance": 0.08220500701394669,
+      "phase_shift": 0.18911055417546246,
+      "winding": 1.0,
+      "contour_min": 0.6105069457266947,
+      "peak": 0.2990059221085104,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09384370384294,
+      "carrier_norm": 23.29216653368263,
+      "carrier_rms_radius": 5.675798233931917,
+      "carrier_edge_fraction": 2.975391544948958e-05,
+      "max_velocity": 0.005666631699757824
+    },
+    {
+      "time": 21.499999999999847,
+      "charge": 7.182682400269235,
+      "charge_drift": 4.4514644010657376e-10,
+      "phi_distance": 0.17228011685614544,
+      "sigma_distance": 0.9327209891651402,
+      "aligned_distance": 0.08224764435706407,
+      "phase_shift": 0.1933513321577635,
+      "winding": 1.0,
+      "contour_min": 0.6103472000200986,
+      "peak": 0.298740373440627,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.09293850494277,
+      "carrier_norm": 23.261046817485738,
+      "carrier_rms_radius": 5.672805830480045,
+      "carrier_edge_fraction": 3.6204901961580566e-05,
+      "max_velocity": 0.005550354451648909
+    },
+    {
+      "time": 21.99999999999982,
+      "charge": 7.182682400328337,
+      "charge_drift": 4.533748502345503e-10,
+      "phi_distance": 0.1684212885361889,
+      "sigma_distance": 0.9536087037791616,
+      "aligned_distance": 0.0825972847719742,
+      "phase_shift": 0.19778054762424152,
+      "winding": 1.0,
+      "contour_min": 0.6110329663907358,
+      "peak": 0.29874146629145676,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0912857234538,
+      "carrier_norm": 23.234077683861333,
+      "carrier_rms_radius": 5.666939169426806,
+      "carrier_edge_fraction": 4.2565496743695693e-05,
+      "max_velocity": 0.0050486100562739545
+    },
+    {
+      "time": 22.49999999999979,
+      "charge": 7.182682400387666,
+      "charge_drift": 4.6163479252342486e-10,
+      "phi_distance": 0.1685109880004962,
+      "sigma_distance": 0.9754113245827728,
+      "aligned_distance": 0.08271016478244253,
+      "phase_shift": 0.2023793953002013,
+      "winding": 1.0,
+      "contour_min": 0.6112431921747327,
+      "peak": 0.29895930566125806,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.0892104442899,
+      "carrier_norm": 23.220548756580683,
+      "carrier_rms_radius": 5.66113416879162,
+      "carrier_edge_fraction": 4.9500495562130527e-05,
+      "max_velocity": 0.0046302131094854765
+    },
+    {
+      "time": 22.999999999999762,
+      "charge": 7.182682400448514,
+      "charge_drift": 4.701063094291482e-10,
+      "phi_distance": 0.17377782949586887,
+      "sigma_distance": 0.9977302811621518,
+      "aligned_distance": 0.08235781086976535,
+      "phase_shift": 0.20705413357279565,
+      "winding": 1.0,
+      "contour_min": 0.6106018306842448,
+      "peak": 0.29901590940690065,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.08529597541553,
+      "carrier_norm": 23.225764789254246,
+      "carrier_rms_radius": 5.657862990645878,
+      "carrier_edge_fraction": 5.775485083228107e-05,
+      "max_velocity": 0.004931805703583596
+    },
+    {
+      "time": 23.499999999999734,
+      "charge": 7.1826824005112195,
+      "charge_drift": 4.788363900542349e-10,
+      "phi_distance": 0.17649807929739014,
+      "sigma_distance": 1.0200579144798612,
+      "aligned_distance": 0.08184274823303864,
+      "phase_shift": 0.21171171987651058,
+      "winding": 1.0,
+      "contour_min": 0.6102988151054111,
+      "peak": 0.2989031511432875,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.079356972396,
+      "carrier_norm": 23.24023300821972,
+      "carrier_rms_radius": 5.658073722774895,
+      "carrier_edge_fraction": 6.717303427584783e-05,
+      "max_velocity": 0.004662412679057436
+    },
+    {
+      "time": 23.999999999999705,
+      "charge": 7.182682400574879,
+      "charge_drift": 4.876992767216919e-10,
+      "phi_distance": 0.17402407129971098,
+      "sigma_distance": 1.042149310546596,
+      "aligned_distance": 0.08069956581759183,
+      "phase_shift": 0.21633866665583756,
+      "winding": 1.0,
+      "contour_min": 0.6108527066479584,
+      "peak": 0.2989230879188589,
+      "core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "ambiguous_cells": 0,
+      "phi_excess_charge": -304.07469185941727,
+      "carrier_norm": 23.250309164913283,
+      "carrier_rms_radius": 5.661394673808295,
+      "carrier_edge_fraction": 7.42070376339861e-05,
+      "max_velocity": 0.004627389213559502
+    }
+  ]
+}

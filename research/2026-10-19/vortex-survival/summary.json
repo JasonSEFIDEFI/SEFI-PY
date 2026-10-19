@@ -1,0 +1,298 @@
+{
+  "scope": "Finite-time axisymmetric numerical study; no proof of full stability or physical matter",
+  "cases": [
+    {
+      "name": "control",
+      "reference": "refined",
+      "epsilon": 0,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 9.578000000037719,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 7.470490916246906e-16,
+      "phi_excess_charge_change": -2.3456379949493567e-08,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.844170655445573,
+      "final_rms": 5.844170655456842,
+      "final_edge_fraction": 4.260314453697389e-06,
+      "final_phi_distance": 9.600162355273184e-10
+    },
+    {
+      "name": "small",
+      "reference": "refined",
+      "epsilon": 0.001,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 7.9060000000172295,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.772122954880015e-12,
+      "phi_excess_charge_change": -0.2680673570493468,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.843322160226055,
+      "final_rms": 5.843200027512535,
+      "final_edge_fraction": 5.2721375356769184e-06,
+      "final_phi_distance": 0.017377275040640953
+    },
+    {
+      "name": "medium",
+      "reference": "refined",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 7.76600000000326,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.733895006258296e-10,
+      "phi_excess_charge_change": -2.768788255135462,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.835846549396897,
+      "final_rms": 5.839075467958339,
+      "final_edge_fraction": 0.00012120142283626109,
+      "final_phi_distance": 0.17407366925525433
+    },
+    {
+      "name": "strong",
+      "reference": "refined",
+      "epsilon": 0.02,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 8.03200000000652,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 1.8748335440495366e-09,
+      "phi_excess_charge_change": -5.747002406974843,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.827868766871133,
+      "final_rms": 5.845303680061732,
+      "final_edge_fraction": 0.00048079793308151926,
+      "final_phi_distance": 0.34883117840720274
+    },
+    {
+      "name": "phase",
+      "reference": "refined",
+      "epsilon": 0.02,
+      "kind": "phase",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 10.65700000000652,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 5.477488447974169e-12,
+      "phi_excess_charge_change": -3.7545047129135583,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.844170655445572,
+      "final_rms": 5.843504468910469,
+      "final_edge_fraction": 1.526310937952236e-05,
+      "final_phi_distance": 0.08386479394505855
+    },
+    {
+      "name": "medium_half_dt",
+      "reference": "refined",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.0125,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 17.29700000002049,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 1.788133715854556e-11,
+      "phi_excess_charge_change": -2.7687881707518045,
+      "final_time": 23.999999999999172,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.835846549396897,
+      "final_rms": 5.839075468919089,
+      "final_edge_fraction": 0.00012120147407663252,
+      "final_phi_distance": 0.1740736268817224
+    },
+    {
+      "name": "coarse_medium",
+      "reference": "trial",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 24,
+      "h": 0.6666666666666666,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 7.436999999976251,
+      "boundary_influence_warning_time": 8.614652523509768,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.864158823465802e-10,
+      "phi_excess_charge_change": -2.616002800186209,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.666666666666666,
+          "z": -0.3333333333333333,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.666666666666666,
+          "z": 0.3333333333333333,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.838263986313657,
+      "final_rms": 5.840922427912324,
+      "final_edge_fraction": 0.00011625842198983551,
+      "final_phi_distance": 0.17535947497546606
+    },
+    {
+      "name": "wide_medium",
+      "reference": "wide",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 36,
+      "h": 0.666666666666667,
+      "L": 24.00000000000001,
+      "reason": "completed",
+      "runtime_seconds": 13.296999999962281,
+      "boundary_influence_warning_time": 15.26504169380183,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.876992767216919e-10,
+      "phi_excess_charge_change": 0.018564485552815313,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.6554409504061365,
+      "final_rms": 5.661394673808295,
+      "final_edge_fraction": 7.42070376339861e-05,
+      "final_phi_distance": 0.17402407129971098
+    }
+  ],
+  "source_sha256": {
+    "physics.py": "cd88da0cf95493c304dd34fecf0d87be2d3f4e4be3fe6e0bd9ca8cc819bcda16",
+    "ring_operator.py": "bb060f51dc6fb5961f509e4af76dae1de8b16c20f1aeae241100015adb0e55de"
+  },
+  "temporal_refinement_max_field_difference": 7.371733316951898e-08
+}
