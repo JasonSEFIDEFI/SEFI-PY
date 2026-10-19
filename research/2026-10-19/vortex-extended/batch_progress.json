@@ -1,0 +1,22 @@
+{
+  "deadline_utc": "2026-10-19T21:36:00Z",
+  "completed": [
+    {
+      "name": "nonlinear_m2_n16",
+      "T_requested": 12,
+      "ntheta": 16,
+      "dt": 0.025,
+      "epsilon": 0.01,
+      "m": 2,
+      "reference": "refined",
+      "reason": "completed",
+      "wall_seconds": 232.82800000003772,
+      "initial_source": "saved_reference_plus_perturbation",
+      "min_angles_with_core": 16,
+      "maximum_asymmetry": 0.10666126647380415,
+      "asymmetry_gain": 1.2084047822034747,
+      "max_relative_energy_drift": 3.2281232604295295e-11,
+      "max_relative_carrier_charge_drift": 2.764697321862039e-11
+    }
+  ]
+}

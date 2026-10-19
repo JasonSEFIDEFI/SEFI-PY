@@ -1,0 +1,403 @@
+{
+  "date": "2026-10-19T21:19:09.632413+00:00",
+  "scope": "Finite-time, finite-domain evidence. No independent Authorship dynamics or physical-matter identification.",
+  "axisymmetric": [
+    {
+      "name": "control",
+      "reference": "refined",
+      "epsilon": 0,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 9.578000000037719,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 7.470490916246906e-16,
+      "phi_excess_charge_change": -2.3456379949493567e-08,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.844170655445573,
+      "final_rms": 5.844170655456842,
+      "final_edge_fraction": 4.260314453697389e-06,
+      "final_phi_distance": 9.600162355273184e-10
+    },
+    {
+      "name": "small",
+      "reference": "refined",
+      "epsilon": 0.001,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 7.9060000000172295,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.772122954880015e-12,
+      "phi_excess_charge_change": -0.2680673570493468,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.843322160226055,
+      "final_rms": 5.843200027512535,
+      "final_edge_fraction": 5.2721375356769184e-06,
+      "final_phi_distance": 0.017377275040640953
+    },
+    {
+      "name": "medium",
+      "reference": "refined",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 7.76600000000326,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.733895006258296e-10,
+      "phi_excess_charge_change": -2.768788255135462,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.835846549396897,
+      "final_rms": 5.839075467958339,
+      "final_edge_fraction": 0.00012120142283626109,
+      "final_phi_distance": 0.17407366925525433
+    },
+    {
+      "name": "strong",
+      "reference": "refined",
+      "epsilon": 0.02,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 8.03200000000652,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 1.8748335440495366e-09,
+      "phi_excess_charge_change": -5.747002406974843,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.827868766871133,
+      "final_rms": 5.845303680061732,
+      "final_edge_fraction": 0.00048079793308151926,
+      "final_phi_distance": 0.34883117840720274
+    },
+    {
+      "name": "phase",
+      "reference": "refined",
+      "epsilon": 0.02,
+      "kind": "phase",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 10.65700000000652,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 5.477488447974169e-12,
+      "phi_excess_charge_change": -3.7545047129135583,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.844170655445572,
+      "final_rms": 5.843504468910469,
+      "final_edge_fraction": 1.526310937952236e-05,
+      "final_phi_distance": 0.08386479394505855
+    },
+    {
+      "name": "medium_half_dt",
+      "reference": "refined",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.0125,
+      "T_requested": 24.0,
+      "grid_intervals": 32,
+      "h": 0.5,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 17.29700000002049,
+      "boundary_influence_warning_time": 8.621783501929807,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 1.788133715854556e-11,
+      "phi_excess_charge_change": -2.7687881707518045,
+      "final_time": 23.999999999999172,
+      "initial_core_cells": [
+        {
+          "r": 5.25,
+          "z": -0.25,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.25,
+          "z": 0.25,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.835846549396897,
+      "final_rms": 5.839075468919089,
+      "final_edge_fraction": 0.00012120147407663252,
+      "final_phi_distance": 0.1740736268817224
+    },
+    {
+      "name": "coarse_medium",
+      "reference": "trial",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 24,
+      "h": 0.6666666666666666,
+      "L": 16.0,
+      "reason": "completed",
+      "runtime_seconds": 7.436999999976251,
+      "boundary_influence_warning_time": 8.614652523509768,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.864158823465802e-10,
+      "phi_excess_charge_change": -2.616002800186209,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.666666666666666,
+          "z": -0.3333333333333333,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.666666666666666,
+          "z": 0.3333333333333333,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.838263986313657,
+      "final_rms": 5.840922427912324,
+      "final_edge_fraction": 0.00011625842198983551,
+      "final_phi_distance": 0.17535947497546606
+    },
+    {
+      "name": "wide_medium",
+      "reference": "wide",
+      "epsilon": 0.01,
+      "kind": "amplitude",
+      "dt": 0.025,
+      "T_requested": 24.0,
+      "grid_intervals": 36,
+      "h": 0.666666666666667,
+      "L": 24.00000000000001,
+      "reason": "completed",
+      "runtime_seconds": 13.296999999962281,
+      "boundary_influence_warning_time": 15.26504169380183,
+      "core_detected_all_samples": true,
+      "max_carrier_charge_drift": 4.876992767216919e-10,
+      "phi_excess_charge_change": 0.018564485552815313,
+      "final_time": 23.999999999999705,
+      "initial_core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": -0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "final_core_cells": [
+        {
+          "r": 5.000000000000002,
+          "z": 0.3333333333333335,
+          "winding": 1
+        }
+      ],
+      "initial_rms": 5.6554409504061365,
+      "final_rms": 5.661394673808295,
+      "final_edge_fraction": 7.42070376339861e-05,
+      "final_phi_distance": 0.17402407129971098
+    }
+  ],
+  "linear": [
+    {
+      "m": 1,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.57059292914104,
+      "maximum_gain": 1.7114640064001354
+    },
+    {
+      "m": 2,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.253956633403291,
+      "maximum_gain": 1.4414540034182357
+    },
+    {
+      "m": 3,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.3434263715454806,
+      "maximum_gain": 1.4303611556395626
+    },
+    {
+      "m": 4,
+      "dt": 0.025,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.300116829724892,
+      "maximum_gain": 1.43243340272598
+    },
+    {
+      "m": 2,
+      "dt": 0.0125,
+      "T": 24.0,
+      "scope": "Linear cos(m theta) disturbance; selected initial direction, not full mode spectrum",
+      "final_gain": 1.2539575858893433,
+      "maximum_gain": 1.4414543466929242
+    }
+  ],
+  "nonlinear": [
+    {
+      "name": "nonlinear_m2_n16",
+      "T_requested": 12,
+      "ntheta": 16,
+      "dt": 0.025,
+      "epsilon": 0.01,
+      "m": 2,
+      "reference": "refined",
+      "reason": "completed",
+      "wall_seconds": 232.82800000003772,
+      "initial_source": "saved_reference_plus_perturbation",
+      "min_angles_with_core": 16,
+      "maximum_asymmetry": 0.10666126647380415,
+      "asymmetry_gain": 1.2084047822034747,
+      "max_relative_energy_drift": 3.2281232604295295e-11,
+      "max_relative_carrier_charge_drift": 2.764697321862039e-11,
+      "final_time": 12.000000000000103,
+      "high_angular_power_fraction": 2.047031338184961e-10
+    },
+    {
+      "name": "pilot_control_n8",
+      "T_requested": 8,
+      "ntheta": 8,
+      "dt": 0.025,
+      "epsilon": 0,
+      "m": 2,
+      "reference": "refined",
+      "reason": "completed",
+      "wall_seconds": 61.98499999998603,
+      "initial_source": "saved_reference_plus_perturbation",
+      "min_angles_with_core": 8,
+      "maximum_asymmetry": 1.8008150731591518e-14,
+      "asymmetry_gain": 1.0321659867229993,
+      "max_relative_energy_drift": 1.2352882729606351e-15,
+      "max_relative_carrier_charge_drift": 3.735245458123453e-16,
+      "final_time": 8.000000000000046,
+      "high_angular_power_fraction": 0.0
+    },
+    {
+      "name": "pilot_m2_n8",
+      "T_requested": 8,
+      "ntheta": 8,
+      "dt": 0.025,
+      "epsilon": 0.01,
+      "m": 2,
+      "reference": "refined",
+      "reason": "completed",
+      "wall_seconds": 53.01600000000326,
+      "initial_source": "saved_reference_plus_perturbation",
+      "min_angles_with_core": 8,
+      "maximum_asymmetry": 0.1048396367273491,
+      "asymmetry_gain": 1.1877668677121718,
+      "max_relative_energy_drift": 2.1525213484989087e-11,
+      "max_relative_carrier_charge_drift": 2.074917391659735e-11,
+      "final_time": 8.000000000000046,
+      "high_angular_power_fraction": 6.97875038762055e-06
+    }
+  ],
+  "checks": [
+    "20 production-console regression tests passed at the survival checkpoint.",
+    "Four survival/core/balance tests passed.",
+    "Four nonlinear angular prototype consistency tests passed.",
+    "Main console physical equations unchanged; new research views are read-only.",
+    "Angular/temporal refinement is reported by completed case; it is not a continuum stability proof.",
+    "Interactive page/API automated checks are recorded separately; visual browser inspection may be unavailable."
+  ]
+}

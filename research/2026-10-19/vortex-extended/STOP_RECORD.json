@@ -1,0 +1,35 @@
+{
+  "status": "stopped_at_user_request",
+  "recorded_utc": "2026-10-19T21:19:08.432923+00:00",
+  "authorized_limit_minutes": 30,
+  "stop_reason": "User requested stopping early and recording the vortex work; compute was not exhausted.",
+  "completed_cases": [
+    "pilot_control_n8",
+    "pilot_m2_n8",
+    "nonlinear_m2_n16"
+  ],
+  "interrupted_case": "nonlinear_m2_n24",
+  "interrupted_case_state_saved": false,
+  "not_run": [
+    "nonlinear_m2_n16_half_dt",
+    "nonlinear_strong_m2_n16",
+    "nonlinear_m2_wide_n16",
+    "long_linear"
+  ],
+  "limits": [
+    "No angular-resolution convergence comparison completed",
+    "No temporal-refinement comparison completed for nonlinear angular extension",
+    "No independent Authorship coordinate evolved",
+    "No proof of isolated matter or nonlinear stability"
+  ],
+  "validation": {
+    "prototype_consistency_tests": 4,
+    "new_evidence_route_test": 1,
+    "dispersion_route_math_tests": 5
+  },
+  "protected_equations": {
+    "physics.py": "25ed373dd448b5a300af9ab53e603318e34c193ebc0086b8644f21f81bb82062",
+    "ring_operator.py": "c1cae4c80789223867812613831a992cd79847e4fb359c5ebbb29119774567a0",
+    "rest_search.py": "4c1264ddd279d14f6461ff1aa89787db0a3f2f618acc0206579012bfc3dab5a4"
+  }
+}

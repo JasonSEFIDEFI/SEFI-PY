@@ -76,3 +76,8 @@ Read [MODEL_HISTORY.md](MODEL_HISTORY.md) for the user's requested continuing-de
 ## Background dispersion comparison - 19 October 2026
 
 Open `/comparison` after launching the console. The separate page compares exact linear far-field spectra of a static global-Witten control and the rotating console background. It provides two plots, a wave-number probe, JSON export and matching assumptions. It does not change the ring solver or checkpoints. See `DISPERSION_COMPARISON.md`. Run `python -m unittest test_dispersion -v` for analytic/eigenvalue/API checks. The reproducible research note and benchmark are in `research/2026-10-19/vortex-comparison` at repository root.
+
+
+## Read-only research evidence - 19 October 2026
+
+Open `/evidence` for the recorded survival, linear angular and experimental nonlinear angular results. The extended batch was stopped early at the author's request: three new nonlinear runs completed; the 24-angle run was interrupted and convergence remains unestablished. Authorship is not evolved. Main physical equations are unchanged. Source and the paused PDF report are in `research/2026-10-19/vortex-extended`.

@@ -1,5 +1,10 @@
 # Model history and development contract
 
+## Console 0.4 - Read-only evidence view, 19 October 2026
+
+Adds `/evidence` and `/api/research-evidence` for published study snapshots. Experimental solvers remain in separate research files; no production dynamical equation or checkpoint model changes. The extended batch stopped early at the author's request. Completed, interrupted and unrun calculations are distinguished in the research record.
+
+
 ## Console 0.3 - Background response comparison, 19 October 2026
 
 Adds the separate `far-field-dispersion-v1` analysis and `/comparison` page. The static control and rotating background share effective stiffness/carrier mass, but have different potentials and background charges. The 1/sqrt(5) long-wave speed is an analytical condensate response, not altered causal light speed or nonlinear vortex stability. Existing physical evolution, relaxation and checkpoint models are unchanged.

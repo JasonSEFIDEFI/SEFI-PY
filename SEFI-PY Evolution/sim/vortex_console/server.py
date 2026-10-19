@@ -198,6 +198,8 @@ class Handler(BaseHTTPRequestHandler):
         if not self.check_host():self.respond({'error':'Invalid host'},403);return
         u=urlparse(self.path);q=parse_qs(u.query)
         try:
+            if u.path=='/api/research-evidence':
+                self.respond(json.loads((ROOT/'data/research_evidence.json').read_text(encoding='utf-8')));return
             if u.path=='/api/dispersion':
                 self.respond(dispersion.comparison());return
             if u.path=='/dispersion-note':
@@ -230,7 +232,7 @@ class Handler(BaseHTTPRequestHandler):
                 path=RUNS/ident/('rest_checkpoint.npz' if u.path=='/api/rest_checkpoint' else 'checkpoint.npz' if u.path.endswith('checkpoint') else 'settings.json')
                 self.file(path,'application/octet-stream',download=path.name);return
             if u.path=='/research-note':self.file(ROOT/'FIXED_CHARGE_RESEARCH.md','text/plain; charset=utf-8');return
-            files={'/comparison':'comparison.html','/dispersion.js':'dispersion.js','/':'index.html','/app.js':'app.js','/rest.js':'rest.js','/style.css':'style.css'}
+            files={'/evidence':'evidence.html','/evidence.js':'evidence.js','/comparison':'comparison.html','/dispersion.js':'dispersion.js','/':'index.html','/app.js':'app.js','/rest.js':'rest.js','/style.css':'style.css'}
             if u.path not in files:self.respond({'error':'Not found'},404);return
             name=files[u.path];self.file(ROOT/'static'/name,{'html':'text/html','js':'text/javascript','css':'text/css'}[name.split('.')[-1]])
         except (ValueError,KeyError,FileNotFoundError) as e:self.respond({'error':str(e)},400)
