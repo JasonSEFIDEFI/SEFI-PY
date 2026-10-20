@@ -1,0 +1,15 @@
+{
+  "local_date": "2026-10-19",
+  "unit_checks": {"command": "python -m unittest test_spherical_stability test_extended test_run_integrity", "passed": 11},
+  "completed_new_profile_searches": 3,
+  "completed_curvature_scans": 4,
+  "curvature_blocks_per_scan": 15,
+  "eigenpairs_per_block": 3,
+  "completed_radial_physical_evolutions": 4,
+  "evolution_final_time": 100,
+  "ui_check": {"browser": "headless Edge via Playwright", "path": "/evidence", "spherical_table_rows": 5, "javascript_errors": []},
+  "api_check": {"path": "/api/research-evidence", "spherical_profiles": 5},
+  "figure": {"path": "spherical-checkpoint.png", "visually_reviewed": true},
+  "production_physical_equations": "No differences in physics.py, ring_operator.py, or rest_search.py",
+  "limitations": ["Finite grids and domains", "Floating-point spectra are not certified continuum bounds", "Physical time evolution retains radial symmetry", "No electromagnetic charge or fermion identification", "No new identity/Authorship coupling"]
+}

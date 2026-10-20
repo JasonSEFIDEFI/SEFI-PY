@@ -45,10 +45,15 @@ class Radial:
         x=np.clip((self.r-R+width)/(2*width),0,1);t=1-10*x**3+15*x**4-6*x**5
         return a*t,self.vac*(1-t)
 
-def run(h=.4,wall=90,maximum=20000):
-    model=Radial(h=h);f,s=model.initial();E=model.energy(f,s);initialE=E
+def run(h=.4,wall=90,maximum=20000,L=60.,tag=None):
+    tag=tag or f'vacuum_spherical_h{h}'.replace('.','p')
+    if (ROOT/(tag+'.json')).exists():raise FileExistsError(tag)
+    status=ROOT/(tag+'.status.json')
+    status.write_text(json.dumps(dict(reason='running',h=h,L=L)))
+    model=Radial(h=h,L=L);f,s=model.initial();E=model.energy(f,s);initialE=E
     t0=time.monotonic();reason='iteration_limit';history=[]
     for iteration in range(maximum):
+        if (ROOT/'STOP_REQUEST').exists():reason='user_interrupted';break
         gf,gs,omega=model.gradient(f,s);res=float(max(abs(gf).max(),abs(gs).max()))
         if iteration%100==0:history.append(dict(iteration=iteration,energy=E,omega=omega,residual=res))
         if res<1e-7:reason='residual_tolerance';break
@@ -68,9 +73,9 @@ def run(h=.4,wall=90,maximum=20000):
         residual=res,initial_energy=initialE,energy=E,energy_per_charge=E/model.Q,omega=omega,
         free_phi_mass=float(np.sqrt(1+12/model.lam)),wall_seconds=time.monotonic()-t0,
         converged=res<1e-7,history=history)
-    tag=f'vacuum_spherical_h{h}'.replace('.','p')
     (ROOT/(tag+'.json')).write_text(json.dumps(result,indent=2)+'\n')
     np.savez_compressed(ROOT/(tag+'.npz'),r=model.r,f=f,s=s)
+    status.write_text(json.dumps(dict(reason=reason,converged=res<1e-7,iterations=iteration)))
     print(json.dumps({k:v for k,v in result.items() if k!='history'}),flush=True)
 
 if __name__=='__main__':

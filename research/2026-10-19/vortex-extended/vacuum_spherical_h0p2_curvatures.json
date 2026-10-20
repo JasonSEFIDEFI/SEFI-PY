@@ -1,0 +1,149 @@
+{
+  "source": "vacuum_spherical_h0p2",
+  "scope": "Fixed-charge second variation, separated into spherical harmonics.\n\nReal-amplitude block includes the fixed-charge rank-one term only for l=0.\nImaginary Phi/Sigma blocks test phase directions. These are energy curvatures,\nnot physical mode frequencies or a nonlinear stability theorem.\n",
+  "hessian_directional_relative_error": 2.509297488240636e-10,
+  "sectors": [
+    {
+      "l": 0,
+      "real_amplitudes": {
+        "eigenvalues": [
+          0.12305707312351864,
+          0.1508626636239465,
+          0.19429975827329948
+        ],
+        "max_residual": 1.9273005454803363e-10
+      },
+      "phi_phase": {
+        "eigenvalues": [
+          2.6176397506353086e-09,
+          0.027232208807356797,
+          0.0767914846310077
+        ],
+        "max_residual": 9.25890028068297e-14
+      },
+      "sigma_phase": {
+        "eigenvalues": [
+          0.004105762980111161,
+          0.02285412344129825,
+          0.05884119969876192
+        ],
+        "max_residual": 2.211054439642252e-11
+      }
+    },
+    {
+      "l": 1,
+      "real_amplitudes": {
+        "eigenvalues": [
+          1.8374108175916527e-06,
+          0.12436495654144412,
+          0.1531249125722229
+        ],
+        "max_residual": 1.0644522315820629e-11
+      },
+      "phi_phase": {
+        "eigenvalues": [
+          0.00588290089085572,
+          0.04690314031375574,
+          0.1043909917235415
+        ],
+        "max_residual": 2.458583454642315e-11
+      },
+      "sigma_phase": {
+        "eigenvalues": [
+          0.0055813502407004775,
+          0.024225995079611245,
+          0.06017767735266187
+        ],
+        "max_residual": 1.0802502042069633e-11
+      }
+    },
+    {
+      "l": 2,
+      "real_amplitudes": {
+        "eigenvalues": [
+          0.005318204525888605,
+          0.12653863391164297,
+          0.15556287228017238
+        ],
+        "max_residual": 1.126223020483608e-10
+      },
+      "phi_phase": {
+        "eigenvalues": [
+          0.015065980261221268,
+          0.06940640842907085,
+          0.12318378161269575
+        ],
+        "max_residual": 4.6571525994106476e-11
+      },
+      "sigma_phase": {
+        "eigenvalues": [
+          0.008450067714819013,
+          0.027008764173547525,
+          0.0628641721057762
+        ],
+        "max_residual": 1.3112530262884348e-12
+      }
+    },
+    {
+      "l": 3,
+      "real_amplitudes": {
+        "eigenvalues": [
+          0.01328304669720956,
+          0.1297487075177966,
+          0.15921713607320437
+        ],
+        "max_residual": 3.8182036457946216e-11
+      },
+      "phi_phase": {
+        "eigenvalues": [
+          0.027303597606716995,
+          0.09410965165380374,
+          0.1291382023523566
+        ],
+        "max_residual": 6.737115319920882e-11
+      },
+      "sigma_phase": {
+        "eigenvalues": [
+          0.01255322884409218,
+          0.03127271865126727,
+          0.06692892051395041
+        ],
+        "max_residual": 3.254660101405668e-11
+      }
+    },
+    {
+      "l": 4,
+      "real_amplitudes": {
+        "eigenvalues": [
+          0.023884337249469867,
+          0.13394117591017934,
+          0.16408071451218947
+        ],
+        "max_residual": 6.422650199518477e-11
+      },
+      "phi_phase": {
+        "eigenvalues": [
+          0.042431759315568286,
+          0.11954790393507765,
+          0.13496923911726788
+        ],
+        "max_residual": 2.7639165150944665e-11
+      },
+      "sigma_phase": {
+        "eigenvalues": [
+          0.017681308961092095,
+          0.0370913514151346,
+          0.07241670728471523
+        ],
+        "max_residual": 8.708362095272008e-12
+      }
+    }
+  ],
+  "dilation": {
+    "K": 578.1386378173484,
+    "U": 68482.83951319187,
+    "charge_kinetic": 68675.67549119142,
+    "relative_virial_residual": -2.6811757912024754e-06
+  },
+  "reason": "completed"
+}

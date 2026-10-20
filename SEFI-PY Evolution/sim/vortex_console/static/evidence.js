@@ -8,6 +8,11 @@ fetch('/api/research-evidence').then(r=>{if(!r.ok)throw Error('Evidence summary 
   for(const c of data.axisymmetric)cells('axis',[c.name,number(c.final_time),c.core_detected_all_samples?'Retained':'Not retained',number(c.max_carrier_charge_drift),'Fixed boundaries; finite domain/time']);
   for(const c of data.linear)cells('linear',[c.m,number(c.T),number(c.maximum_gain),c.scope]);
   for(const c of data.nonlinear)cells('nonlinear',[c.name,c.ntheta,number(c.final_time),`${c.min_angles_with_core} / ${c.ntheta}`,number(c.max_relative_energy_drift),c.reason]);
+  if(data.spherical){
+    document.getElementById('spherical').hidden=false;
+    for(const c of data.spherical.profiles)cells('spherical-profiles',[c.L,c.h,number(c.energy_per_charge),number(c.residual)]);
+    document.getElementById('spherical-result').textContent=`Energy is ${(100*data.spherical.binding_fraction).toFixed(3)}% below the free-Phi threshold. No negative energy curvature was found in tested sectors through angular order 4. Four radial physical-time runs reached T=100. These are finite-grid checks, not a proof of unrestricted stability or an observed-particle identification.`;
+  }
   if(!data.nonlinear.length)document.getElementById('empty').textContent='No completed experimental nonlinear runs are included in this snapshot.';
   for(const text of data.checks){const item=document.createElement('li');item.textContent=text;document.getElementById('checks').append(item);}
 }).catch(e=>{document.getElementById('status').textContent=e.message;});

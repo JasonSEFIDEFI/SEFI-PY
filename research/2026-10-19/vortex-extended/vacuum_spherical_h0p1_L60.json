@@ -1,0 +1,43 @@
+{
+  "scope": "Discrete spherical fixed-charge critical-point search; not a vortex, existence theorem, or stability/observed-matter identification",
+  "Q": 100000.0,
+  "lambda_sigma": 12.0,
+  "L": 60.0,
+  "h": 0.1,
+  "reason": "residual_tolerance",
+  "iterations": 321,
+  "residual": 9.745924483932356e-08,
+  "initial_energy": 139190.77073190687,
+  "energy": 137736.789837248,
+  "energy_per_charge": 1.3773678983724802,
+  "omega": 1.3735143959968241,
+  "free_phi_mass": 1.4142135623730951,
+  "wall_seconds": 0.39100000000325963,
+  "converged": true,
+  "history": [
+    {
+      "iteration": 0,
+      "energy": 139190.77073190687,
+      "omega": 1.3413951889233742,
+      "residual": 0.37600000741246487
+    },
+    {
+      "iteration": 100,
+      "energy": 137736.8218644703,
+      "omega": 1.3736011025404717,
+      "residual": 0.0002638658607333356
+    },
+    {
+      "iteration": 200,
+      "energy": 137736.78986779734,
+      "omega": 1.373515581453192,
+      "residual": 6.135659276887417e-06
+    },
+    {
+      "iteration": 300,
+      "energy": 137736.78983728003,
+      "omega": 1.3735144111691122,
+      "residual": 1.9676529712064732e-07
+    }
+  ]
+}

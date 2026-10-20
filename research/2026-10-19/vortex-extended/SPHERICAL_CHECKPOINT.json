@@ -1,0 +1,316 @@
+{
+  "scope": "Separate lambda=12 spherical vacuum branch; no independent identity/Authorship dynamics or observed-particle identification.",
+  "profiles": [
+    {
+      "scope": "Discrete spherical fixed-charge critical-point search; not a vortex, existence theorem, or stability/observed-matter identification",
+      "Q": 100000.0,
+      "lambda_sigma": 12.0,
+      "L": 60.0,
+      "h": 0.4,
+      "reason": "residual_tolerance",
+      "iterations": 321,
+      "residual": 9.745304583533981e-08,
+      "initial_energy": 139172.979663265,
+      "energy": 137736.10755752033,
+      "energy_per_charge": 1.3773610755752033,
+      "omega": 1.3735099564584965,
+      "free_phi_mass": 1.4142135623730951,
+      "wall_seconds": 0.3440000000409782,
+      "converged": true,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 139172.979663265,
+          "omega": 1.3413364810078146,
+          "residual": 0.3593165915335473
+        },
+        {
+          "iteration": 100,
+          "energy": 137736.1396001444,
+          "omega": 1.3735966149574366,
+          "residual": 0.00026403797325969154
+        },
+        {
+          "iteration": 200,
+          "energy": 137736.10758807085,
+          "omega": 1.373511140172964,
+          "residual": 6.137868873734922e-06
+        },
+        {
+          "iteration": 300,
+          "energy": 137736.10755755234,
+          "omega": 1.3735099715850407,
+          "residual": 1.9677474190457796e-07
+        }
+      ]
+    },
+    {
+      "scope": "Discrete spherical fixed-charge critical-point search; not a vortex, existence theorem, or stability/observed-matter identification",
+      "Q": 100000.0,
+      "lambda_sigma": 12.0,
+      "L": 60.0,
+      "h": 0.2,
+      "reason": "residual_tolerance",
+      "iterations": 321,
+      "residual": 9.745081066040405e-08,
+      "initial_energy": 139187.18254837158,
+      "energy": 137736.65364220063,
+      "energy_per_charge": 1.3773665364220062,
+      "omega": 1.3735135098238282,
+      "free_phi_mass": 1.4142135623730951,
+      "wall_seconds": 0.3440000000409782,
+      "converged": true,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 139187.18254837158,
+          "omega": 1.3413814138726359,
+          "residual": 0.372690151175582
+        },
+        {
+          "iteration": 100,
+          "energy": 137736.68566617218,
+          "omega": 1.37360018366784,
+          "residual": 0.00026383139292412115
+        },
+        {
+          "iteration": 200,
+          "energy": 137736.6536727455,
+          "omega": 1.3735146947862849,
+          "residual": 6.135132511441918e-06
+        },
+        {
+          "iteration": 300,
+          "energy": 137736.65364223265,
+          "omega": 1.373513524985639,
+          "residual": 1.9674332874712944e-07
+        }
+      ]
+    },
+    {
+      "scope": "Discrete spherical fixed-charge critical-point search; not a vortex, existence theorem, or stability/observed-matter identification",
+      "Q": 100000.0,
+      "lambda_sigma": 12.0,
+      "L": 60.0,
+      "h": 0.1,
+      "reason": "residual_tolerance",
+      "iterations": 321,
+      "residual": 9.745924483932356e-08,
+      "initial_energy": 139190.77073190687,
+      "energy": 137736.789837248,
+      "energy_per_charge": 1.3773678983724802,
+      "omega": 1.3735143959968241,
+      "free_phi_mass": 1.4142135623730951,
+      "wall_seconds": 0.39100000000325963,
+      "converged": true,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 139190.77073190687,
+          "omega": 1.3413951889233742,
+          "residual": 0.37600000741246487
+        },
+        {
+          "iteration": 100,
+          "energy": 137736.8218644703,
+          "omega": 1.3736011025404717,
+          "residual": 0.0002638658607333356
+        },
+        {
+          "iteration": 200,
+          "energy": 137736.78986779734,
+          "omega": 1.373515581453192,
+          "residual": 6.135659276887417e-06
+        },
+        {
+          "iteration": 300,
+          "energy": 137736.78983728003,
+          "omega": 1.3735144111691122,
+          "residual": 1.9676529712064732e-07
+        }
+      ]
+    },
+    {
+      "scope": "Discrete spherical fixed-charge critical-point search; not a vortex, existence theorem, or stability/observed-matter identification",
+      "Q": 100000.0,
+      "lambda_sigma": 12.0,
+      "L": 80,
+      "h": 0.2,
+      "reason": "residual_tolerance",
+      "iterations": 321,
+      "residual": 9.754456054911556e-08,
+      "initial_energy": 139187.18254837155,
+      "energy": 137736.65364179492,
+      "energy_per_charge": 1.3773665364179493,
+      "omega": 1.3735135098012587,
+      "free_phi_mass": 1.4142135623730951,
+      "wall_seconds": 0.42199999996228144,
+      "converged": true,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 139187.18254837155,
+          "omega": 1.3413814138726357,
+          "residual": 0.372690151175582
+        },
+        {
+          "iteration": 100,
+          "energy": 137736.68566616822,
+          "omega": 1.3736001836677327,
+          "residual": 0.00026383139290177965
+        },
+        {
+          "iteration": 200,
+          "energy": 137736.65367242787,
+          "omega": 1.373514694770831,
+          "residual": 6.135145252432472e-06
+        },
+        {
+          "iteration": 300,
+          "energy": 137736.65364182793,
+          "omega": 1.3735135249634018,
+          "residual": 1.9683690352396283e-07
+        }
+      ]
+    },
+    {
+      "scope": "Discrete spherical fixed-charge critical-point search; not a vortex, existence theorem, or stability/observed-matter identification",
+      "Q": 100000.0,
+      "lambda_sigma": 12.0,
+      "L": 80,
+      "h": 0.1,
+      "reason": "residual_tolerance",
+      "iterations": 321,
+      "residual": 9.755422649597792e-08,
+      "initial_energy": 139190.7707319068,
+      "energy": 137736.78983684327,
+      "energy_per_charge": 1.3773678983684325,
+      "omega": 1.373514395974315,
+      "free_phi_mass": 1.4142135623730951,
+      "wall_seconds": 0.4220000000204891,
+      "converged": true,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 139190.7707319068,
+          "omega": 1.3413951889233737,
+          "residual": 0.37600000741246487
+        },
+        {
+          "iteration": 100,
+          "energy": 137736.82186446633,
+          "omega": 1.373601102540366,
+          "residual": 0.0002638658607127583
+        },
+        {
+          "iteration": 200,
+          "energy": 137736.78986748063,
+          "omega": 1.373515581437791,
+          "residual": 6.1356722802657394e-06
+        },
+        {
+          "iteration": 300,
+          "energy": 137736.78983687627,
+          "omega": 1.3735144111469348,
+          "residual": 1.9686017907276886e-07
+        }
+      ]
+    }
+  ],
+  "grid_difference_ratio": 4.00957810733855,
+  "finest_domain_relative_energy_change": 2.9385538216858435e-12,
+  "binding_fraction": 0.026053818872155854,
+  "max_temporal_final_state_difference": 6.409799272602519e-07,
+  "minimum_computed_curvature": 2.617348034825263e-09,
+  "max_eigenpair_residual": 1.9273005454803363e-10,
+  "evolutions": [
+    {
+      "name": "radial_amplitude_halfdt_T100",
+      "source": "vacuum_spherical_h0p2_L80",
+      "T_requested": 100.0,
+      "dt": 0.01,
+      "kind": "amplitude",
+      "epsilon": 0.01,
+      "reason": "completed",
+      "wall_seconds": 22.81300000002375,
+      "max_relative_energy_drift": 2.131073095767988e-12,
+      "max_relative_charge_drift": 1.5756285165480222e-12,
+      "final": {
+        "time": 100.0,
+        "energy": 137742.63537408772,
+        "charge": 100000.00000015757,
+        "sigma_charge": 0.0,
+        "rms_phi_radius": 21.23866161610947,
+        "max_phi": 0.9397126224755988,
+        "amplitude_profile_relative_change": 0.00486301319486232
+      },
+      "maximum_profile_change": 0.006117754132350383
+    },
+    {
+      "name": "radial_amplitude_T100",
+      "source": "vacuum_spherical_h0p2_L80",
+      "T_requested": 100.0,
+      "dt": 0.02,
+      "kind": "amplitude",
+      "epsilon": 0.01,
+      "reason": "completed",
+      "wall_seconds": 8.125,
+      "max_relative_energy_drift": 6.855860323895513e-11,
+      "max_relative_charge_drift": 5.0034199006177005e-11,
+      "final": {
+        "time": 100.0,
+        "energy": 137742.63536493783,
+        "charge": 100000.00000500341,
+        "sigma_charge": 0.0,
+        "rms_phi_radius": 21.238661948343303,
+        "max_phi": 0.9397125434839253,
+        "amplitude_profile_relative_change": 0.004863033955174488
+      },
+      "maximum_profile_change": 0.006117752173402798
+    },
+    {
+      "name": "radial_control_T100",
+      "source": "vacuum_spherical_h0p2_L80",
+      "T_requested": 100.0,
+      "dt": 0.02,
+      "kind": "amplitude",
+      "epsilon": 0,
+      "reason": "completed",
+      "wall_seconds": 8.327999999979511,
+      "max_relative_energy_drift": 6.661338147750939e-16,
+      "max_relative_charge_drift": 6.661338147750939e-16,
+      "final": {
+        "time": 100.0,
+        "energy": 137736.6536417949,
+        "charge": 99999.99999999997,
+        "sigma_charge": 0.0,
+        "rms_phi_radius": 21.224538420027272,
+        "max_phi": 0.9415620061499357,
+        "amplitude_profile_relative_change": 2.1969924394626592e-06
+      },
+      "maximum_profile_change": 3.173671957085279e-06
+    },
+    {
+      "name": "radial_phase_T100",
+      "source": "vacuum_spherical_h0p2_L80",
+      "T_requested": 100.0,
+      "dt": 0.02,
+      "kind": "phase",
+      "epsilon": 0.01,
+      "reason": "completed",
+      "wall_seconds": 9.59399999998277,
+      "max_relative_energy_drift": 1.099120794378905e-14,
+      "max_relative_charge_drift": 7.549516567451064e-15,
+      "final": {
+        "time": 100.0,
+        "energy": 137736.70963264868,
+        "charge": 100000.00000000073,
+        "sigma_charge": 5.004572166255264,
+        "rms_phi_radius": 21.232214486711996,
+        "max_phi": 0.9413801604828527,
+        "amplitude_profile_relative_change": 0.0014122212960520238
+      },
+      "maximum_profile_change": 0.0014122212960520238
+    }
+  ]
+}

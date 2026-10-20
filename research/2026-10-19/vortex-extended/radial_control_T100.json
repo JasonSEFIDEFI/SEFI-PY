@@ -1,0 +1,1824 @@
+{
+  "name": "radial_control_T100",
+  "source": "vacuum_spherical_h0p2_L80",
+  "scope": "Physical radial time evolution of the separate lambda=12 vacuum candidate.\n\nUses Phi=exp(i omega t)F; Sigma boundary is fixed to its real vacuum value.\nRK4 evolves the equations, not the fictitious relaxation. Radial symmetry is\nretained: these finite-time tests are not unrestricted nonlinear stability.\n",
+  "T_requested": 100.0,
+  "dt": 0.02,
+  "kind": "amplitude",
+  "epsilon": 0,
+  "reason": "completed",
+  "wall_seconds": 8.327999999979511,
+  "samples": [
+    {
+      "time": 0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453443293934,
+      "max_phi": 0.9415621945434042,
+      "amplitude_profile_relative_change": 0.0
+    },
+    {
+      "time": 0.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534459560136,
+      "max_phi": 0.9415621941005315,
+      "amplitude_profile_relative_change": 2.1007143361717757e-08
+    },
+    {
+      "time": 1.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534496721965,
+      "max_phi": 0.941562193618321,
+      "amplitude_profile_relative_change": 4.998412358465125e-08
+    },
+    {
+      "time": 1.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453448378232,
+      "max_phi": 0.9415621940183638,
+      "amplitude_profile_relative_change": 4.109010675172575e-08
+    },
+    {
+      "time": 2.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453443900491,
+      "max_phi": 0.9415621945361073,
+      "amplitude_profile_relative_change": 1.2662661871330577e-08
+    },
+    {
+      "time": 2.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534432821166,
+      "max_phi": 0.9415621941820488,
+      "amplitude_profile_relative_change": 1.653742756199898e-08
+    },
+    {
+      "time": 3.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534477194055,
+      "max_phi": 0.941562193632861,
+      "amplitude_profile_relative_change": 5.159755582012659e-08
+    },
+    {
+      "time": 3.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453450588516,
+      "max_phi": 0.9415621939381345,
+      "amplitude_profile_relative_change": 6.740940091553306e-08
+    },
+    {
+      "time": 4.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453447999392,
+      "max_phi": 0.941562194514441,
+      "amplitude_profile_relative_change": 4.6073405006283554e-08
+    },
+    {
+      "time": 4.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534450948596,
+      "max_phi": 0.9415621942603496,
+      "amplitude_profile_relative_change": 3.3322780699644625e-08
+    },
+    {
+      "time": 5.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453447632736,
+      "max_phi": 0.9415621936614842,
+      "amplitude_profile_relative_change": 6.046170810619014e-08
+    },
+    {
+      "time": 5.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534523460534,
+      "max_phi": 0.9415621938623749,
+      "amplitude_profile_relative_change": 9.517742633445939e-08
+    },
+    {
+      "time": 6.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534522221038,
+      "max_phi": 0.9415621944790927,
+      "amplitude_profile_relative_change": 9.334185196962488e-08
+    },
+    {
+      "time": 6.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453448371117,
+      "max_phi": 0.9415621943329764,
+      "amplitude_profile_relative_change": 7.318119780209881e-08
+    },
+    {
+      "time": 7.0,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453448482429,
+      "max_phi": 0.9415621937032829,
+      "amplitude_profile_relative_change": 8.419986576969144e-08
+    },
+    {
+      "time": 7.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453453838388,
+      "max_phi": 0.941562193793473,
+      "amplitude_profile_relative_change": 1.250187871724492e-07
+    },
+    {
+      "time": 8.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.2245345674652,
+      "max_phi": 0.9415621944311666,
+      "amplitude_profile_relative_change": 1.468282166938273e-07
+    },
+    {
+      "time": 8.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534534344674,
+      "max_phi": 0.9415621943976216,
+      "amplitude_profile_relative_change": 1.3286486264054473e-07
+    },
+    {
+      "time": 9.0,
+      "energy": 137736.65364179487,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453450844782,
+      "max_phi": 0.9415621937569465,
+      "amplitude_profile_relative_change": 1.2749658383884853e-07
+    },
+    {
+      "time": 9.5,
+      "energy": 137736.65364179487,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534551588,
+      "max_phi": 0.9415621937335823,
+      "amplitude_profile_relative_change": 1.6123280011063043e-07
+    },
+    {
+      "time": 10.0,
+      "energy": 137736.65364179487,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453461035815,
+      "max_phi": 0.9415621943721951,
+      "amplitude_profile_relative_change": 2.0173309758669534e-07
+    },
+    {
+      "time": 10.5,
+      "energy": 137736.65364179487,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534603089754,
+      "max_phi": 0.9415621944522695,
+      "amplitude_profile_relative_change": 2.0610425342824598e-07
+    },
+    {
+      "time": 11.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534559705138,
+      "max_phi": 0.9415621938207774,
+      "amplitude_profile_relative_change": 1.9250701950772537e-07
+    },
+    {
+      "time": 11.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453457455864,
+      "max_phi": 0.9415621936846041,
+      "amplitude_profile_relative_change": 2.0993483375689573e-07
+    },
+    {
+      "time": 12.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534646513934,
+      "max_phi": 0.9415621943040192,
+      "amplitude_profile_relative_change": 2.5719559875696674e-07
+    },
+    {
+      "time": 12.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534678075788,
+      "max_phi": 0.9415621944951895,
+      "amplitude_profile_relative_change": 2.850993960827709e-07
+    },
+    {
+      "time": 13.0,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453463963889,
+      "max_phi": 0.9415621938927814,
+      "amplitude_profile_relative_change": 2.7706098192844433e-07
+    },
+    {
+      "time": 13.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534621119155,
+      "max_phi": 0.9415621936480677,
+      "amplitude_profile_relative_change": 2.772233181858917e-07
+    },
+    {
+      "time": 14.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453468061536,
+      "max_phi": 0.9415621942287711,
+      "amplitude_profile_relative_change": 3.1706066585490796e-07
+    },
+    {
+      "time": 14.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534745617113,
+      "max_phi": 0.9415621945250373,
+      "amplitude_profile_relative_change": 3.639280167192444e-07
+    },
+    {
+      "time": 15.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.2245347353115,
+      "max_phi": 0.9415621939706653,
+      "amplitude_profile_relative_change": 3.7425594355220557e-07
+    },
+    {
+      "time": 15.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534697028684,
+      "max_phi": 0.9415621936251658,
+      "amplitude_profile_relative_change": 3.658373279191185e-07
+    },
+    {
+      "time": 16.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534725652443,
+      "max_phi": 0.9415621941488218,
+      "amplitude_profile_relative_change": 3.883621946335176e-07
+    },
+    {
+      "time": 16.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534803547815,
+      "max_phi": 0.9415621945408608,
+      "amplitude_profile_relative_change": 4.415421618803216e-07
+    },
+    {
+      "time": 17.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534831883442,
+      "max_phi": 0.9415621940520428,
+      "amplitude_profile_relative_change": 4.754482792119611e-07
+    },
+    {
+      "time": 17.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453479785226,
+      "max_phi": 0.9415621936165495,
+      "amplitude_profile_relative_change": 4.727385102929727e-07
+    },
+    {
+      "time": 18.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534794260535,
+      "max_phi": 0.9415621940667287,
+      "amplitude_profile_relative_change": 4.774821207894212e-07
+    },
+    {
+      "time": 18.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534861799068,
+      "max_phi": 0.9415621945421675,
+      "amplitude_profile_relative_change": 5.222858430164906e-07
+    },
+    {
+      "time": 19.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224534922574662,
+      "max_phi": 0.9415621941342331,
+      "amplitude_profile_relative_change": 5.746018611637952e-07
+    },
+    {
+      "time": 19.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453491351665,
+      "max_phi": 0.9415621936225534,
+      "amplitude_profile_relative_change": 5.902057576981597e-07
+    },
+    {
+      "time": 20.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453489089451,
+      "max_phi": 0.941562193985053,
+      "amplitude_profile_relative_change": 5.863715568487766e-07
+    },
+    {
+      "time": 20.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453493271448,
+      "max_phi": 0.9415621945289127,
+      "amplitude_profile_relative_change": 6.132576621040753e-07
+    },
+    {
+      "time": 21.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535008416265,
+      "max_phi": 0.9415621942147345,
+      "amplitude_profile_relative_change": 6.710682675223021e-07
+    },
+    {
+      "time": 21.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535033460846,
+      "max_phi": 0.9415621936429521,
+      "amplitude_profile_relative_change": 7.096523661427327e-07
+    },
+    {
+      "time": 22.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453501123462,
+      "max_phi": 0.941562193906344,
+      "amplitude_profile_relative_change": 7.113548978268851e-07
+    },
+    {
+      "time": 22.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453502405047,
+      "max_phi": 0.9415621948755274,
+      "amplitude_profile_relative_change": 7.202588512638155e-07
+    },
+    {
+      "time": 23.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535094303217,
+      "max_phi": 0.9415621949116917,
+      "amplitude_profile_relative_change": 7.692010679604958e-07
+    },
+    {
+      "time": 23.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535149951013,
+      "max_phi": 0.9415621945186555,
+      "amplitude_profile_relative_change": 8.254702756743639e-07
+    },
+    {
+      "time": 24.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535146564545,
+      "max_phi": 0.9415621950232111,
+      "amplitude_profile_relative_change": 8.448484055736201e-07
+    },
+    {
+      "time": 24.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535139030028,
+      "max_phi": 0.9415621960426477,
+      "amplitude_profile_relative_change": 8.447970756940458e-07
+    },
+    {
+      "time": 25.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453518788364,
+      "max_phi": 0.941562196105519,
+      "amplitude_profile_relative_change": 8.755587102855188e-07
+    },
+    {
+      "time": 25.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535260377916,
+      "max_phi": 0.9415621955872835,
+      "amplitude_profile_relative_change": 9.369285771725007e-07
+    },
+    {
+      "time": 26.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535287421343,
+      "max_phi": 0.9415621958705318,
+      "amplitude_profile_relative_change": 9.78583999259276e-07
+    },
+    {
+      "time": 26.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535277112796,
+      "max_phi": 0.9415621968827086,
+      "amplitude_profile_relative_change": 9.833135881313453e-07
+    },
+    {
+      "time": 27.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535298716102,
+      "max_phi": 0.9415621972467334,
+      "amplitude_profile_relative_change": 9.955654114757994e-07
+    },
+    {
+      "time": 27.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535368532525,
+      "max_phi": 0.9415621966826215,
+      "amplitude_profile_relative_change": 1.0478190835802134e-06
+    },
+    {
+      "time": 28.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535425501774,
+      "max_phi": 0.9415621967602705,
+      "amplitude_profile_relative_change": 1.1067791832938727e-06
+    },
+    {
+      "time": 28.5,
+      "energy": 137736.6536417949,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535432049425,
+      "max_phi": 0.9415622004447995,
+      "amplitude_profile_relative_change": 1.1284470896241154e-06
+    },
+    {
+      "time": 29.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535433659423,
+      "max_phi": 0.9415622033905653,
+      "amplitude_profile_relative_change": 1.1309001525099625e-06
+    },
+    {
+      "time": 29.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535483378066,
+      "max_phi": 0.9415622043197063,
+      "amplitude_profile_relative_change": 1.1644265208245735e-06
+    },
+    {
+      "time": 30.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535556542317,
+      "max_phi": 0.9415622060891325,
+      "amplitude_profile_relative_change": 1.2282259819783532e-06
+    },
+    {
+      "time": 30.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535592202777,
+      "max_phi": 0.9415622100196902,
+      "amplitude_profile_relative_change": 1.2717536498384779e-06
+    },
+    {
+      "time": 31.0,
+      "energy": 137736.65364179487,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535591551877,
+      "max_phi": 0.9415622129595943,
+      "amplitude_profile_relative_change": 1.2782407086418263e-06
+    },
+    {
+      "time": 31.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453561480223,
+      "max_phi": 0.9415622139921337,
+      "amplitude_profile_relative_change": 1.2924374460742117e-06
+    },
+    {
+      "time": 32.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535683609247,
+      "max_phi": 0.9415622157743534,
+      "amplitude_profile_relative_change": 1.3465741496424367e-06
+    },
+    {
+      "time": 32.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453574673452,
+      "max_phi": 0.9415622193833784,
+      "amplitude_profile_relative_change": 1.4070624685142899e-06
+    },
+    {
+      "time": 33.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535763186907,
+      "max_phi": 0.9415622219935875,
+      "amplitude_profile_relative_change": 1.4300349637295103e-06
+    },
+    {
+      "time": 33.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535768286025,
+      "max_phi": 0.9415622224093144,
+      "amplitude_profile_relative_change": 1.433741630876477e-06
+    },
+    {
+      "time": 34.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453581632451,
+      "max_phi": 0.941562223811746,
+      "amplitude_profile_relative_change": 1.4683787783117023e-06
+    },
+    {
+      "time": 34.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535892527495,
+      "max_phi": 0.9415622272901746,
+      "amplitude_profile_relative_change": 1.5330826565096548e-06
+    },
+    {
+      "time": 35.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453593687416,
+      "max_phi": 0.9415622298437181,
+      "amplitude_profile_relative_change": 1.5774673077068249e-06
+    },
+    {
+      "time": 35.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535941739536,
+      "max_phi": 0.9415622300773149,
+      "amplitude_profile_relative_change": 1.5847736051002933e-06
+    },
+    {
+      "time": 36.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224535964756324,
+      "max_phi": 0.9415622354564563,
+      "amplitude_profile_relative_change": 1.5994715654592648e-06
+    },
+    {
+      "time": 36.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536034863583,
+      "max_phi": 0.9415622528769615,
+      "amplitude_profile_relative_change": 1.6537254532125568e-06
+    },
+    {
+      "time": 37.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536104338203,
+      "max_phi": 0.9415622536996532,
+      "amplitude_profile_relative_change": 1.7143434792131242e-06
+    },
+    {
+      "time": 37.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536126536872,
+      "max_phi": 0.9415622527059874,
+      "amplitude_profile_relative_change": 1.7376563003840943e-06
+    },
+    {
+      "time": 38.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453613304606,
+      "max_phi": 0.9415622442810755,
+      "amplitude_profile_relative_change": 1.7415039585687158e-06
+    },
+    {
+      "time": 38.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536182413058,
+      "max_phi": 0.941562239035801,
+      "amplitude_profile_relative_change": 1.775686230519091e-06
+    },
+    {
+      "time": 39.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453626319704,
+      "max_phi": 0.9415622418346911,
+      "amplitude_profile_relative_change": 1.8396804031474855e-06
+    },
+    {
+      "time": 39.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453631187102,
+      "max_phi": 0.9415622422355825,
+      "amplitude_profile_relative_change": 1.8836459982539515e-06
+    },
+    {
+      "time": 40.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536317959764,
+      "max_phi": 0.9415622419563859,
+      "amplitude_profile_relative_change": 1.8906671428521073e-06
+    },
+    {
+      "time": 40.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536342385804,
+      "max_phi": 0.9415622441017034,
+      "amplitude_profile_relative_change": 1.90459632820678e-06
+    },
+    {
+      "time": 41.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536416626787,
+      "max_phi": 0.9415622472531354,
+      "amplitude_profile_relative_change": 1.957536925463487e-06
+    },
+    {
+      "time": 41.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536489475348,
+      "max_phi": 0.94156224848991,
+      "amplitude_profile_relative_change": 2.0168795119450935e-06
+    },
+    {
+      "time": 42.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453651162473,
+      "max_phi": 0.9415622485538875,
+      "amplitude_profile_relative_change": 2.0392032074540014e-06
+    },
+    {
+      "time": 42.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536518433734,
+      "max_phi": 0.9415622501065517,
+      "amplitude_profile_relative_change": 2.0419052593424393e-06
+    },
+    {
+      "time": 43.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.2245365717403,
+      "max_phi": 0.9415622535370289,
+      "amplitude_profile_relative_change": 2.074414284863997e-06
+    },
+    {
+      "time": 43.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536656350043,
+      "max_phi": 0.9415622548416949,
+      "amplitude_profile_relative_change": 2.136488647234742e-06
+    },
+    {
+      "time": 44.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453670460476,
+      "max_phi": 0.9415622562141048,
+      "amplitude_profile_relative_change": 2.178670373736441e-06
+    },
+    {
+      "time": 44.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453670938424,
+      "max_phi": 0.9415622589436723,
+      "amplitude_profile_relative_change": 2.18393124442446e-06
+    },
+    {
+      "time": 45.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536736597578,
+      "max_phi": 0.9415622634661873,
+      "amplitude_profile_relative_change": 2.19578463056127e-06
+    },
+    {
+      "time": 45.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536815182002,
+      "max_phi": 0.941562267965593,
+      "amplitude_profile_relative_change": 2.246363405536513e-06
+    },
+    {
+      "time": 46.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536888341635,
+      "max_phi": 0.9415622689115747,
+      "amplitude_profile_relative_change": 2.3033054591020014e-06
+    },
+    {
+      "time": 46.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536908236434,
+      "max_phi": 0.9415622685977996,
+      "amplitude_profile_relative_change": 2.3232045356903853e-06
+    },
+    {
+      "time": 47.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453691598939,
+      "max_phi": 0.9415622705004922,
+      "amplitude_profile_relative_change": 2.323272888764228e-06
+    },
+    {
+      "time": 47.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224536972976317,
+      "max_phi": 0.941562274906163,
+      "amplitude_profile_relative_change": 2.3529418359980536e-06
+    },
+    {
+      "time": 48.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453705832479,
+      "max_phi": 0.9415622927659507,
+      "amplitude_profile_relative_change": 2.4121378132625023e-06
+    },
+    {
+      "time": 48.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453710396689,
+      "max_phi": 0.9415623224578039,
+      "amplitude_profile_relative_change": 2.451383473678345e-06
+    },
+    {
+      "time": 49.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537108176843,
+      "max_phi": 0.9415623537379649,
+      "amplitude_profile_relative_change": 2.4534781383172566e-06
+    },
+    {
+      "time": 49.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537137881935,
+      "max_phi": 0.9415623605160226,
+      "amplitude_profile_relative_change": 2.4619277985836162e-06
+    },
+    {
+      "time": 50.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537216861208,
+      "max_phi": 0.941562369890799,
+      "amplitude_profile_relative_change": 2.509079698422935e-06
+    },
+    {
+      "time": 50.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453728683894,
+      "max_phi": 0.9415623911326337,
+      "amplitude_profile_relative_change": 2.562632848574794e-06
+    },
+    {
+      "time": 51.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537305069568,
+      "max_phi": 0.9415624004572668,
+      "amplitude_profile_relative_change": 2.5789818171666984e-06
+    },
+    {
+      "time": 51.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537314698207,
+      "max_phi": 0.9415624053306338,
+      "amplitude_profile_relative_change": 2.575189350985907e-06
+    },
+    {
+      "time": 52.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453737200196,
+      "max_phi": 0.9415624205211617,
+      "amplitude_profile_relative_change": 2.6008290769650163e-06
+    },
+    {
+      "time": 52.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537453390305,
+      "max_phi": 0.9415624285184778,
+      "amplitude_profile_relative_change": 2.656056151759432e-06
+    },
+    {
+      "time": 53.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453749589506,
+      "max_phi": 0.9415624127100188,
+      "amplitude_profile_relative_change": 2.691366851273136e-06
+    },
+    {
+      "time": 53.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453750148013,
+      "max_phi": 0.9415624005535057,
+      "amplitude_profile_relative_change": 2.6893271383502157e-06
+    },
+    {
+      "time": 54.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537532231064,
+      "max_phi": 0.9415624113060658,
+      "amplitude_profile_relative_change": 2.693320839730439e-06
+    },
+    {
+      "time": 54.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537607106708,
+      "max_phi": 0.9415624186049988,
+      "amplitude_profile_relative_change": 2.7358752140776852e-06
+    },
+    {
+      "time": 55.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537671990383,
+      "max_phi": 0.9415623952910436,
+      "amplitude_profile_relative_change": 2.7849350279297613e-06
+    },
+    {
+      "time": 55.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537689996676,
+      "max_phi": 0.9415623745620592,
+      "amplitude_profile_relative_change": 2.7968632131926853e-06
+    },
+    {
+      "time": 56.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537701178583,
+      "max_phi": 0.9415623768628796,
+      "amplitude_profile_relative_change": 2.7884245421825645e-06
+    },
+    {
+      "time": 56.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537755148837,
+      "max_phi": 0.9415623740463449,
+      "amplitude_profile_relative_change": 2.809050171200881e-06
+    },
+    {
+      "time": 57.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537829968185,
+      "max_phi": 0.9415623563274615,
+      "amplitude_profile_relative_change": 2.8591614303058184e-06
+    },
+    {
+      "time": 57.5,
+      "energy": 137736.653641795,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453786962469,
+      "max_phi": 0.9415623404890955,
+      "amplitude_profile_relative_change": 2.8895674554595294e-06
+    },
+    {
+      "time": 58.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537875964398,
+      "max_phi": 0.9415623392230067,
+      "amplitude_profile_relative_change": 2.8827005236658914e-06
+    },
+    {
+      "time": 58.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537904414547,
+      "max_phi": 0.9415623312305174,
+      "amplitude_profile_relative_change": 2.881529873130562e-06
+    },
+    {
+      "time": 59.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224537972809653,
+      "max_phi": 0.94156230712082,
+      "amplitude_profile_relative_change": 2.9185395412202644e-06
+    },
+    {
+      "time": 59.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538033066334,
+      "max_phi": 0.9415623001320357,
+      "amplitude_profile_relative_change": 2.9621106483229708e-06
+    },
+    {
+      "time": 60.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538050227675,
+      "max_phi": 0.9415623041380268,
+      "amplitude_profile_relative_change": 2.968844416310788e-06
+    },
+    {
+      "time": 60.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453805884143,
+      "max_phi": 0.9415622865796232,
+      "amplitude_profile_relative_change": 2.9551519721930553e-06
+    },
+    {
+      "time": 61.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453810584231,
+      "max_phi": 0.941562265766771,
+      "amplitude_profile_relative_change": 2.970084118162935e-06
+    },
+    {
+      "time": 61.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453817422982,
+      "max_phi": 0.9415622591230765,
+      "amplitude_profile_relative_change": 3.0142808721808455e-06
+    },
+    {
+      "time": 62.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538211616384,
+      "max_phi": 0.9415622579332825,
+      "amplitude_profile_relative_change": 3.0390063046709437e-06
+    },
+    {
+      "time": 62.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538216313512,
+      "max_phi": 0.9415622443448048,
+      "amplitude_profile_relative_change": 3.026630529502706e-06
+    },
+    {
+      "time": 63.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538240234423,
+      "max_phi": 0.9415622333490546,
+      "amplitude_profile_relative_change": 3.019670685090926e-06
+    },
+    {
+      "time": 63.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538303495947,
+      "max_phi": 0.9415622278166236,
+      "amplitude_profile_relative_change": 3.0505574375993734e-06
+    },
+    {
+      "time": 64.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538360016506,
+      "max_phi": 0.9415622177300221,
+      "amplitude_profile_relative_change": 3.088100881429679e-06
+    },
+    {
+      "time": 64.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538371553564,
+      "max_phi": 0.9415622089780914,
+      "amplitude_profile_relative_change": 3.089060188093889e-06
+    },
+    {
+      "time": 65.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453837073798,
+      "max_phi": 0.9415622052013597,
+      "amplitude_profile_relative_change": 3.0694648223193383e-06
+    },
+    {
+      "time": 65.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538409554782,
+      "max_phi": 0.9415622001640567,
+      "amplitude_profile_relative_change": 3.0781235767861903e-06
+    },
+    {
+      "time": 66.0,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453847559541,
+      "max_phi": 0.9415621914640706,
+      "amplitude_profile_relative_change": 3.1160153576361645e-06
+    },
+    {
+      "time": 66.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538512520716,
+      "max_phi": 0.9415621845630002,
+      "amplitude_profile_relative_change": 3.1347230300373136e-06
+    },
+    {
+      "time": 67.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538512075206,
+      "max_phi": 0.9415621809626803,
+      "amplitude_profile_relative_change": 3.1163576100407572e-06
+    },
+    {
+      "time": 67.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538526917893,
+      "max_phi": 0.9415621760856042,
+      "amplitude_profile_relative_change": 3.1030452489705443e-06
+    },
+    {
+      "time": 68.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538582564826,
+      "max_phi": 0.9415621690381305,
+      "amplitude_profile_relative_change": 3.127397553641601e-06
+    },
+    {
+      "time": 68.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000006,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538633886823,
+      "max_phi": 0.9415621639208892,
+      "amplitude_profile_relative_change": 3.158675683563882e-06
+    },
+    {
+      "time": 69.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000006,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538639559572,
+      "max_phi": 0.9415621596440849,
+      "amplitude_profile_relative_change": 3.153590408156619e-06
+    },
+    {
+      "time": 69.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000006,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453863179016,
+      "max_phi": 0.9415621546729916,
+      "amplitude_profile_relative_change": 3.1277084730924577e-06
+    },
+    {
+      "time": 70.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453866418276,
+      "max_phi": 0.9415621496416929,
+      "amplitude_profile_relative_change": 3.129752525828323e-06
+    },
+    {
+      "time": 70.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.2245387229969,
+      "max_phi": 0.9415621453036263,
+      "amplitude_profile_relative_change": 3.161142982146316e-06
+    },
+    {
+      "time": 71.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538750147676,
+      "max_phi": 0.9415621404895389,
+      "amplitude_profile_relative_change": 3.173671957085279e-06
+    },
+    {
+      "time": 71.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538740699526,
+      "max_phi": 0.9415621354041143,
+      "amplitude_profile_relative_change": 3.1490868264723055e-06
+    },
+    {
+      "time": 72.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538751392206,
+      "max_phi": 0.9415621310806884,
+      "amplitude_profile_relative_change": 3.1292003791580956e-06
+    },
+    {
+      "time": 72.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538804478936,
+      "max_phi": 0.9415621270576252,
+      "amplitude_profile_relative_change": 3.1469097996110788e-06
+    },
+    {
+      "time": 73.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538848207217,
+      "max_phi": 0.941562122148723,
+      "amplitude_profile_relative_change": 3.1718773818844876e-06
+    },
+    {
+      "time": 73.5,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453884233329,
+      "max_phi": 0.9415621172114106,
+      "amplitude_profile_relative_change": 3.16064848088769e-06
+    },
+    {
+      "time": 74.0,
+      "energy": 137736.65364179498,
+      "charge": 100000.00000000004,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453882656711,
+      "max_phi": 0.9415621132550284,
+      "amplitude_profile_relative_change": 3.1283179545217946e-06
+    },
+    {
+      "time": 74.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000003,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538856001736,
+      "max_phi": 0.9415621093737557,
+      "amplitude_profile_relative_change": 3.1236330577680603e-06
+    },
+    {
+      "time": 75.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538909770907,
+      "max_phi": 0.9415621043407455,
+      "amplitude_profile_relative_change": 3.1485550102169064e-06
+    },
+    {
+      "time": 75.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453892531057,
+      "max_phi": 0.9415620992805366,
+      "amplitude_profile_relative_change": 3.1550691469005656e-06
+    },
+    {
+      "time": 76.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538901749103,
+      "max_phi": 0.9415620954872003,
+      "amplitude_profile_relative_change": 3.1244223551694e-06
+    },
+    {
+      "time": 76.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538901010426,
+      "max_phi": 0.9415620917205269,
+      "amplitude_profile_relative_change": 3.097967692773496e-06
+    },
+    {
+      "time": 77.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.2245389457767,
+      "max_phi": 0.9415620868665169,
+      "amplitude_profile_relative_change": 3.108936773342844e-06
+    },
+    {
+      "time": 77.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538983626267,
+      "max_phi": 0.941562081992643,
+      "amplitude_profile_relative_change": 3.1276585404622467e-06
+    },
+    {
+      "time": 78.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538974389358,
+      "max_phi": 0.9415620782905025,
+      "amplitude_profile_relative_change": 3.1106641401995047e-06
+    },
+    {
+      "time": 78.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538954194063,
+      "max_phi": 0.9415620745919587,
+      "amplitude_profile_relative_change": 3.07233787379704e-06
+    },
+    {
+      "time": 79.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538972733733,
+      "max_phi": 0.9415620699747693,
+      "amplitude_profile_relative_change": 3.06106910252938e-06
+    },
+    {
+      "time": 79.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539011592395,
+      "max_phi": 0.9415620654714717,
+      "amplitude_profile_relative_change": 3.0793839863333107e-06
+    },
+    {
+      "time": 80.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539017923437,
+      "max_phi": 0.9415620619087571,
+      "amplitude_profile_relative_change": 3.0799301472145925e-06
+    },
+    {
+      "time": 80.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538993000326,
+      "max_phi": 0.9415620585129071,
+      "amplitude_profile_relative_change": 3.0437432651156525e-06
+    },
+    {
+      "time": 81.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453898780728,
+      "max_phi": 0.9415620543252539,
+      "amplitude_profile_relative_change": 3.011425343609305e-06
+    },
+    {
+      "time": 81.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.2245390168415,
+      "max_phi": 0.9415620502326455,
+      "amplitude_profile_relative_change": 3.016038842729427e-06
+    },
+    {
+      "time": 82.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539035418584,
+      "max_phi": 0.941562046877975,
+      "amplitude_profile_relative_change": 3.0285302140285107e-06
+    },
+    {
+      "time": 82.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453901582551,
+      "max_phi": 0.9415620440349398,
+      "amplitude_profile_relative_change": 3.005860013914108e-06
+    },
+    {
+      "time": 83.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453899352435,
+      "max_phi": 0.9415620407101158,
+      "amplitude_profile_relative_change": 2.9620648124929857e-06
+    },
+    {
+      "time": 83.5,
+      "energy": 137736.65364179495,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453900751174,
+      "max_phi": 0.9415620373301136,
+      "amplitude_profile_relative_change": 2.945051011394833e-06
+    },
+    {
+      "time": 84.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539035090405,
+      "max_phi": 0.941562034255261,
+      "amplitude_profile_relative_change": 2.9574602029471572e-06
+    },
+    {
+      "time": 84.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539028848746,
+      "max_phi": 0.9415620316612457,
+      "amplitude_profile_relative_change": 2.952334875596066e-06
+    },
+    {
+      "time": 85.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538994545867,
+      "max_phi": 0.9415620291293295,
+      "amplitude_profile_relative_change": 2.910691903722375e-06
+    },
+    {
+      "time": 85.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453898215626,
+      "max_phi": 0.9415620262244323,
+      "amplitude_profile_relative_change": 2.87285120569795e-06
+    },
+    {
+      "time": 86.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539004588916,
+      "max_phi": 0.9415620233275762,
+      "amplitude_profile_relative_change": 2.871963387441077e-06
+    },
+    {
+      "time": 86.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224539016095527,
+      "max_phi": 0.9415620212670174,
+      "amplitude_profile_relative_change": 2.879272228732537e-06
+    },
+    {
+      "time": 87.0,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538985680525,
+      "max_phi": 0.9415620197276324,
+      "amplitude_profile_relative_change": 2.8515892385074224e-06
+    },
+    {
+      "time": 87.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538947450995,
+      "max_phi": 0.9415620178308858,
+      "amplitude_profile_relative_change": 2.802482388933097e-06
+    },
+    {
+      "time": 88.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538946595484,
+      "max_phi": 0.9415620155395032,
+      "amplitude_profile_relative_change": 2.779946169878383e-06
+    },
+    {
+      "time": 88.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538967156466,
+      "max_phi": 0.9415620138664194,
+      "amplitude_profile_relative_change": 2.787329609728989e-06
+    },
+    {
+      "time": 89.0,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453895746572,
+      "max_phi": 0.9415620127331146,
+      "amplitude_profile_relative_change": 2.7778449714571785e-06
+    },
+    {
+      "time": 89.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538912926118,
+      "max_phi": 0.9415620109543912,
+      "amplitude_profile_relative_change": 2.7317123924013743e-06
+    },
+    {
+      "time": 90.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538883389346,
+      "max_phi": 0.9415620084240108,
+      "amplitude_profile_relative_change": 2.688642718270131e-06
+    },
+    {
+      "time": 90.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538892905276,
+      "max_phi": 0.9415620071801657,
+      "amplitude_profile_relative_change": 2.682449025808568e-06
+    },
+    {
+      "time": 91.0,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453890097168,
+      "max_phi": 0.941562007022327,
+      "amplitude_profile_relative_change": 2.6853908903517816e-06
+    },
+    {
+      "time": 91.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538868162018,
+      "max_phi": 0.9415620061278942,
+      "amplitude_profile_relative_change": 2.654042050535009e-06
+    },
+    {
+      "time": 92.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538819889904,
+      "max_phi": 0.9415620044809463,
+      "amplitude_profile_relative_change": 2.600780612091587e-06
+    },
+    {
+      "time": 92.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538804348274,
+      "max_phi": 0.9415620040348343,
+      "amplitude_profile_relative_change": 2.573253394434498e-06
+    },
+    {
+      "time": 93.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538813307834,
+      "max_phi": 0.9415620047229357,
+      "amplitude_profile_relative_change": 2.5758885095082256e-06
+    },
+    {
+      "time": 93.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453879610701,
+      "max_phi": 0.9415620042486564,
+      "amplitude_profile_relative_change": 2.562750260872753e-06
+    },
+    {
+      "time": 94.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538743975753,
+      "max_phi": 0.9415620024847328,
+      "amplitude_profile_relative_change": 2.51342439269946e-06
+    },
+    {
+      "time": 94.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.00000000001,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538704663615,
+      "max_phi": 0.9415620020165841,
+      "amplitude_profile_relative_change": 2.4664916825031123e-06
+    },
+    {
+      "time": 95.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538702473573,
+      "max_phi": 0.9415620030474333,
+      "amplitude_profile_relative_change": 2.4558356448576645e-06
+    },
+    {
+      "time": 95.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538697362433,
+      "max_phi": 0.9415620028384424,
+      "amplitude_profile_relative_change": 2.4548086917586095e-06
+    },
+    {
+      "time": 96.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538652520256,
+      "max_phi": 0.9415620013651245,
+      "amplitude_profile_relative_change": 2.4204073193377033e-06
+    },
+    {
+      "time": 96.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453859715857,
+      "max_phi": 0.9415620014283161,
+      "amplitude_profile_relative_change": 2.3642303718159184e-06
+    },
+    {
+      "time": 97.0,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.22453857764376,
+      "max_phi": 0.9415620032525801,
+      "amplitude_profile_relative_change": 2.3332092763542683e-06
+    },
+    {
+      "time": 97.5,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538578435826,
+      "max_phi": 0.9415620038669582,
+      "amplitude_profile_relative_change": 2.3321610845729544e-06
+    },
+    {
+      "time": 98.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538547267315,
+      "max_phi": 0.9415620029470431,
+      "amplitude_profile_relative_change": 2.3159037582562986e-06
+    },
+    {
+      "time": 98.5,
+      "energy": 137736.65364179492,
+      "charge": 100000.0,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538483593204,
+      "max_phi": 0.9415620034636698,
+      "amplitude_profile_relative_change": 2.2639784831224626e-06
+    },
+    {
+      "time": 99.0,
+      "energy": 137736.65364179492,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538440587075,
+      "max_phi": 0.9415620058476241,
+      "amplitude_profile_relative_change": 2.2143383711609033e-06
+    },
+    {
+      "time": 99.5,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999999,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538435646334,
+      "max_phi": 0.9415620069843826,
+      "amplitude_profile_relative_change": 2.2007348239325314e-06
+    },
+    {
+      "time": 100.0,
+      "energy": 137736.6536417949,
+      "charge": 99999.99999999997,
+      "sigma_charge": 0.0,
+      "rms_phi_radius": 21.224538420027272,
+      "max_phi": 0.9415620061499357,
+      "amplitude_profile_relative_change": 2.1969924394626592e-06
+    }
+  ],
+  "max_relative_energy_drift": 6.661338147750939e-16,
+  "max_relative_charge_drift": 6.661338147750939e-16
+}

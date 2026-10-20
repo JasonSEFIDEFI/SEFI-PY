@@ -31,6 +31,9 @@ data=dict(date=datetime.now(timezone.utc).isoformat(),
             'Main console physical equations unchanged; new research views are read-only.',
             'Angular/temporal refinement is reported by completed case; it is not a continuum stability proof.',
             'Interactive page/API automated checks are recorded separately; visual browser inspection may be unavailable.'])
+if (ROOT/'SPHERICAL_CHECKPOINT.json').exists():
+    data['spherical']=json.loads((ROOT/'SPHERICAL_CHECKPOINT.json').read_text())
+    data['checks'].append('Eleven extension, run-integrity and spherical-curvature tests passed at the spherical checkpoint.')
 (CONSOLE/'data/research_evidence.json').write_text(json.dumps(data,indent=2)+'\n')
 (ROOT/'evidence_snapshot.json').write_text(json.dumps(data,indent=2)+'\n')
 print('Snapshot:',len(nonlinear),'nonlinear angular runs')
