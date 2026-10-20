@@ -98,13 +98,21 @@ class Cylinder:
         return result
 
 def run_case(name,T,ntheta=16,dt=.025,epsilon=.01,m=2,reference='refined',wall_limit=180,initial=None):
+    status_path=ROOT/(name+'.status.json')
+    def status(value):
+        temporary=status_path.with_suffix('.tmp')
+        temporary.write_text(json.dumps(value,indent=2)+'\n');temporary.replace(status_path)
+    if (ROOT/(name+'.json')).exists():raise FileExistsError('Use a new run ID; preserve the prior result')
+    status(dict(name=name,status='running',T_requested=T,ntheta=ntheta,dt=dt,epsilon=epsilon,m=m,reference=reference))
     c=Cylinder(reference,ntheta,dt);c.perturb(epsilon,m)
     if initial is not None:
         old=np.load(initial);assert old['final'].shape==c.y.shape;c.y=old['final'].copy()
     t0=time.monotonic();samples=[c.diagnostics()];initial_y=c.y.copy();reason='completed'
     for i in range(round(T/dt)):
+        if (ROOT/'STOP_REQUEST').exists():reason='user_interrupted';break
         if time.monotonic()-t0>wall_limit:reason='wall_limit';break
         try:c.step()
+        except KeyboardInterrupt:reason='user_interrupted';break
         except FloatingPointError:reason='nonfinite';break
         if (i+1)%round(1/dt)==0:
             d=c.diagnostics();samples.append(d)
@@ -121,5 +129,6 @@ def run_case(name,T,ntheta=16,dt=.025,epsilon=.01,m=2,reference='refined',wall_l
         samples=samples)
     (ROOT/(name+'.json')).write_text(json.dumps(result,indent=2)+'\n')
     np.savez_compressed(ROOT/(name+'.npz'),initial=initial_y,final=c.y,r=c.r,z=c.z,theta=c.theta)
+    status(dict(name=name,status=reason,T_requested=T,achieved_time=c.time,checkpoint_saved=True,eligible_for_completed_comparison=reason=='completed' and abs(c.time-T)<1e-8))
     print(json.dumps({k:v for k,v in result.items() if k!='samples'}),flush=True)
     return result

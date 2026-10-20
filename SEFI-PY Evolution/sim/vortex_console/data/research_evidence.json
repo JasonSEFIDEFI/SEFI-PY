@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19T21:19:09.632413+00:00",
+  "date": "2026-10-20T02:33:58.568969+00:00",
   "scope": "Finite-time, finite-domain evidence. No independent Authorship dynamics or physical-matter identification.",
   "axisymmetric": [
     {
@@ -354,6 +354,44 @@
       "high_angular_power_fraction": 2.047031338184961e-10
     },
     {
+      "name": "nonlinear_m2_n16_half_dt_rerun_01",
+      "T_requested": 12,
+      "ntheta": 16,
+      "dt": 0.0125,
+      "epsilon": 0.01,
+      "m": 2,
+      "reference": "refined",
+      "reason": "completed",
+      "wall_seconds": 256.4219999999623,
+      "initial_source": "saved_reference_plus_perturbation",
+      "min_angles_with_core": 16,
+      "maximum_asymmetry": 0.10666128825163504,
+      "asymmetry_gain": 1.2084050289325439,
+      "max_relative_energy_drift": 1.009148782117338e-12,
+      "max_relative_carrier_charge_drift": 1.120002211410715e-12,
+      "final_time": 11.999999999999853,
+      "high_angular_power_fraction": 2.0470242524603748e-10
+    },
+    {
+      "name": "nonlinear_m2_n24_rerun_01",
+      "T_requested": 12,
+      "ntheta": 24,
+      "dt": 0.025,
+      "epsilon": 0.01,
+      "m": 2,
+      "reference": "refined",
+      "reason": "completed",
+      "wall_seconds": 184.31200000003446,
+      "initial_source": "saved_reference_plus_perturbation",
+      "min_angles_with_core": 24,
+      "maximum_asymmetry": 0.10666126647378993,
+      "asymmetry_gain": 1.2084047822033126,
+      "max_relative_energy_drift": 3.228123260429531e-11,
+      "max_relative_carrier_charge_drift": 2.764697321862039e-11,
+      "final_time": 12.000000000000103,
+      "high_angular_power_fraction": 1.6001194020999715e-14
+    },
+    {
       "name": "pilot_control_n8",
       "T_requested": 8,
       "ntheta": 8,
@@ -390,6 +428,12 @@
       "max_relative_carrier_charge_drift": 2.074917391659735e-11,
       "final_time": 8.000000000000046,
       "high_angular_power_fraction": 6.97875038762055e-06
+    }
+  ],
+  "excluded_runs": [
+    {
+      "name": "nonlinear_m2_n24",
+      "reason": "Original run interrupted at author request; no final state saved"
     }
   ],
   "checks": [

@@ -1,0 +1,34 @@
+{
+  "scope": "Potential audit of existing dimensionless scalar model; not a new equation set",
+  "omega_squared": 2,
+  "lambda_sigma": 25,
+  "physical_ground_state": {
+    "phi_squared": 0,
+    "sigma_squared": 0.12,
+    "potential": 0.16,
+    "phase_degeneracy": "Sigma phase arbitrary"
+  },
+  "rotating_background": {
+    "phi_squared": 1,
+    "sigma_squared": 0,
+    "phi_charge_density": 1.4142135623730951,
+    "potential": 1,
+    "kinetic_energy_density": 1,
+    "total_energy_density": 2
+  },
+  "interpretation": "The console ring is an excitation of a charged rotating background, not yet an isolated particle over the zero-charge physical ground state.",
+  "vacuum_phi_mass_squared": 1.48,
+  "vacuum_binding_audit": {
+    "lambda25": "Uphys-Umin >= 1.48 |Phi|^2/2, hence E_relative >= sqrt(1.48) |Q_Phi| in the zero-charge vacuum sector",
+    "lambda12_comparison": {
+      "vacuum_phi_mass_squared": 2.0,
+      "pointwise_charge_binding_threshold_squared": 1.8660254037844388,
+      "scope": "Energetically permitted by the pointwise bound, not an existence or stability result; not the current console parameter set"
+    }
+  },
+  "checks": {
+    "force_gradient_max_difference": 4.48911463557522e-11,
+    "potential_identity_max_residual": 3.552713678800501e-15,
+    "binding_identity_max_residual": 5.329070518200751e-15
+  }
+}

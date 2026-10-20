@@ -1,0 +1,8 @@
+{
+  "name": "nonlinear_m2_n24_rerun_01",
+  "status": "completed",
+  "T_requested": 12,
+  "achieved_time": 12.000000000000103,
+  "checkpoint_saved": true,
+  "eligible_for_completed_comparison": true
+}
