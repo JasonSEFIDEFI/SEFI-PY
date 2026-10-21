@@ -1,0 +1,23 @@
+{
+  "protocol_sha256": "9db8f924dda84bab7944f507e3e460a7a18394c754a49c972ca15f4ebdfa7699",
+  "ew": "ew:0.03",
+  "rolling": "rolling:128",
+  "primary_comparator": "rolling:128",
+  "development_scores": {
+    "ew:0.005": 0.9498566282511984,
+    "ew:0.01": 0.952707125672781,
+    "ew:0.03": 0.9528745077273377,
+    "ew:0.05": 0.9507549838128844,
+    "ew:0.1": 0.9453776199897768,
+    "ew:0.15": 0.94040036713769,
+    "rolling:32": 0.9489641254388322,
+    "rolling:64": 0.9524794237566248,
+    "rolling:128": 0.9530635957060071,
+    "rolling:256": 0.9506747787883498
+  },
+  "evaluation_not_used": true,
+  "source_hashes": {
+    "adaptive.py": "bb89edb5541ceeba107951cf72b32b6f751b5ee5c3b817fcea2d604b6dbf02e3",
+    "benchmark.py": "baff95a816ced1d6fe4d0478b50600cb7cf5d770367b655dcf75074fb29c2d8f"
+  }
+}

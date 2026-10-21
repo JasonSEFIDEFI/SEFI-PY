@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "output": "test_causal_future_invariance (test_adaptive.ScientificChecks.test_causal_future_invariance) ... ok\ntest_covariance_projection_matches_independent_eigendecomposition (test_adaptive.ScientificChecks.test_covariance_projection_matches_independent_eigendecomposition) ... ok\ntest_development_and_evaluation_are_disjoint (test_adaptive.ScientificChecks.test_development_and_evaluation_are_disjoint) ... ok\ntest_ew_predicts_before_update (test_adaptive.ScientificChecks.test_ew_predicts_before_update) ... ok\ntest_no_truth_interface (test_adaptive.ScientificChecks.test_no_truth_interface) ... ok\ntest_posterior_matches_matrix_formula (test_adaptive.ScientificChecks.test_posterior_matches_matrix_formula) ... ok\ntest_score_matches_legacy_physical_overlap (test_adaptive.ScientificChecks.test_score_matches_legacy_physical_overlap) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.813s\n\nOK\n",
+  "tests_passed": true
+}

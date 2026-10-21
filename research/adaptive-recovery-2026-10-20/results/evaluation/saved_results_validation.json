@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "rows_verified": 600,
+  "complete_cases": 100,
+  "scored_samples_including_six_methods": 1440000,
+  "max_fidelity_discrepancy": 0.0,
+  "source_and_protocol_hashes_match_development_lock": true,
+  "incomplete_cases": 0
+}
