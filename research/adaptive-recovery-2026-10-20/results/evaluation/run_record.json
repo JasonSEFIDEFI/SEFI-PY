@@ -1,0 +1,525 @@
+{
+  "status": "completed",
+  "stage": "evaluation",
+  "protocol_sha256": "9db8f924dda84bab7944f507e3e460a7a18394c754a49c972ca15f4ebdfa7699",
+  "sources": {
+    "adaptive.py": "bb89edb5541ceeba107951cf72b32b6f751b5ee5c3b817fcea2d604b6dbf02e3",
+    "benchmark.py": "baff95a816ced1d6fe4d0478b50600cb7cf5d770367b655dcf75074fb29c2d8f"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 122 Stepping 8, GenuineIntel",
+  "started_utc": "2026-10-21T03:49:05Z",
+  "completed_cases": [
+    {
+      "scenario": "stationary",
+      "seed": 2001,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2002,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2003,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2004,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2005,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2006,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2007,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2008,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2009,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2010,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2011,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2012,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2013,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2014,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2015,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2016,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2017,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2018,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2019,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 2020,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2001,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2002,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2003,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2004,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2005,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2006,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2007,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2008,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2009,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2010,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2011,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2012,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2013,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2014,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2015,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2016,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2017,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2018,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2019,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 2020,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2001,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2002,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2003,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2004,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2005,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2006,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2007,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2008,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2009,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2010,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2011,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2012,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2013,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2014,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2015,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2016,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2017,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2018,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2019,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 2020,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2001,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2002,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2003,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2004,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2005,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2006,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2007,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2008,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2009,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2010,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2011,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2012,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2013,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2014,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2015,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2016,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2017,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2018,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2019,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 2020,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2001,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2002,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2003,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2004,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2005,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2006,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2007,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2008,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2009,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2010,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2011,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2012,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2013,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2014,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2015,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2016,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2017,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2018,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2019,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 2020,
+      "status": "completed"
+    }
+  ],
+  "elapsed_seconds": 59.3557866999181,
+  "methods": [
+    "no_recovery",
+    "ml",
+    "fixed",
+    "ew:0.03",
+    "rolling:128",
+    "mixture"
+  ]
+}

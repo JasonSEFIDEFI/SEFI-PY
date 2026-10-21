@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="225" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 225" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="225"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-225)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 45,64.5 L 470,64.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="12" y="61.500000000000014" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,123) scale(1,-1)">0.80</text>
+			<path d="M 45,100.75 L 470,100.75 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="12" y="97.74999999999997" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,195) scale(1,-1)">0.85</text>
+			<path d="M 45,137 L 470,137 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="12" y="134.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,268) scale(1,-1)">0.90</text>
+			<path d="M 45,173.25 L 470,173.25 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="12" y="170.25" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,340) scale(1,-1)">0.95</text>
+			<rect x="51" y="50" width="12" height="133.9465375075471" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,54%); fill-rule: evenodd;"/>
+			<rect x="66" y="50" width="12" height="130.9424555760452" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<rect x="81" y="50" width="12" height="132.4071121366539" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<rect x="96" y="50" width="12" height="132.84706108869543" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="60.556" y="34" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,68) scale(1,-1)">Stationary</text>
+			<rect x="136" y="50" width="12" height="33.5354148248571" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,54%); fill-rule: evenodd;"/>
+			<rect x="151" y="50" width="12" height="129.38629193555337" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<rect x="166" y="50" width="12" height="128.88081032660827" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<rect x="181" y="50" width="12" height="130.99515827863874" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="143.892" y="34" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,68) scale(1,-1)">Mean steps</text>
+			<rect x="221" y="50" width="12" height="129.55975527023807" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,54%); fill-rule: evenodd;"/>
+			<rect x="236" y="50" width="12" height="131.1630977732948" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<rect x="251" y="50" width="12" height="132.45896291887055" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<rect x="266" y="50" width="12" height="132.63831400365694" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="233.22" y="34" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,68) scale(1,-1)">Rotation</text>
+			<rect x="306" y="50" width="12" height="13.369957866977778" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,54%); fill-rule: evenodd;"/>
+			<rect x="321" y="50" width="12" height="122.92358297996344" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<rect x="336" y="50" width="12" height="120.61827995360272" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<rect x="351" y="50" width="12" height="122.14306862190034" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="316.332" y="34" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,68) scale(1,-1)">Joint drift</text>
+			<rect x="391" y="50" width="12" height="116.65116647304035" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,54%); fill-rule: evenodd;"/>
+			<rect x="406" y="50" width="12" height="113.5958530601504" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<rect x="421" y="50" width="12" height="114.83336798086529" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<rect x="436" y="50" width="12" height="116.1328079897524" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="406.776" y="34" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,68) scale(1,-1)">Bursts</text>
+			<rect x="35" y="10" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,48%,54%); fill-rule: evenodd;"/>
+			<text x="45" y="10" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Fixed prior</text>
+			<rect x="153" y="10" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<text x="163" y="10" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">EW (rate 0.03)</text>
+			<rect x="271" y="10" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<text x="281" y="10" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Rolling (128)</text>
+			<rect x="389" y="10" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="399" y="10" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Adaptive mixture</text>
+			<text x="45" y="211" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,422) scale(1,-1)">Unconditional entanglement fidelity (truncated axis: 0.78-0.98)</text>
+		</g>
+	</g>
+</svg>

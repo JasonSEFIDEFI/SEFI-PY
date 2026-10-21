@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="215" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 215" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="215"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-215)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 55,45 L 55,185 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="53.0" y="31" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">0</text>
+			<path d="M 128.076923,45 L 128.076923,185 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="124.0769230769231" y="31" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">25</text>
+			<path d="M 201.153846,45 L 201.153846,185 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="197.15384615384616" y="31" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">50</text>
+			<path d="M 274.230769,45 L 274.230769,185 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="270.23076923076917" y="31" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">75</text>
+			<path d="M 347.307692,45 L 347.307692,185 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="341.3076923076923" y="31" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">100</text>
+			<path d="M 420.384615,45 L 420.384615,185 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="414.3846153846154" y="31" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">125</text>
+			<path d="M 55,45 L 435,45 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="15" y="42.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,84) scale(1,-1)">0.945</text>
+			<path d="M 55,76.818182 L 435,76.818182 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="15" y="73.81818181818184" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,147) scale(1,-1)">0.950</text>
+			<path d="M 55,108.636364 L 435,108.636364 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="15" y="105.6363636363637" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,211) scale(1,-1)">0.955</text>
+			<path d="M 55,140.454545 L 435,140.454545 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="15" y="137.45454545454555" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,274) scale(1,-1)">0.960</text>
+			<path d="M 55,172.272727 L 435,172.272727 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="15" y="169.2727272727274" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,338) scale(1,-1)">0.965</text>
+			<circle cx="99.92403854293605" cy="73.95307944795533" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,52%,41%); fill-rule: evenodd;"/>
+			<text x="106.92403854293605" y="78.95307944795533" style="font-family: Times-Roman; font-size: 8px;fill: rgb(9%,52%,41%); stroke:none;" transform="translate(0,157) scale(1,-1)">EW (rate 0.03)</text>
+			<circle cx="275.91092944043714" cy="53.718444733817336" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,47%,13%); fill-rule: evenodd;"/>
+			<text x="282.91092944043714" y="58.718444733817336" style="font-family: Times-Roman; font-size: 8px;fill: rgb(73%,47%,13%); stroke:none;" transform="translate(0,117) scale(1,-1)">Rolling (128)</text>
+			<circle cx="370.91957691722575" cy="67.10216972200938" r="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,34%,64%); fill-rule: evenodd;"/>
+			<text x="377.91957691722575" y="72.10216972200938" style="font-family: Times-Roman; font-size: 8px;fill: rgb(25%,34%,64%); stroke:none;" transform="translate(0,144) scale(1,-1)">Adaptive mixture</text>
+			<text x="148.51999999999998" y="11" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,22) scale(1,-1)">Median microseconds per observation; lower is faster</text>
+			<text x="45" y="202" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,404) scale(1,-1)">Drift fidelity vs processing cost; fixed prior fidelity 0.798 is below plot</text>
+		</g>
+	</g>
+</svg>
