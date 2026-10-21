@@ -1,0 +1,54 @@
+{
+  "DERIVATION.md": {
+    "bytes": 4547,
+    "sha256": "681fbbed4398f24990314f0ccd160d5d1dc9eaa5ea89aa61e7013edb3429f459"
+  },
+  "LICENSE": {
+    "bytes": 1942,
+    "sha256": "2604f9f7056c7003d0f98a657d471e23d0501fa2c34be87a52353ff2885e9baa"
+  },
+  "pilot.py": {
+    "bytes": 5116,
+    "sha256": "66e6334608eaf42790c9785cf68b2c1210820e5b24791495ab9378aa771afac6"
+  },
+  "protocol.json": {
+    "bytes": 1261,
+    "sha256": "6a16ae1e7a704acf434cf688386f4b8809e126e4c4d5cb5df11707e68883c1d8"
+  },
+  "README.md": {
+    "bytes": 3934,
+    "sha256": "906eab94dd44df295a8f87da78105562614f1960b26085c330ae3eccfdfe9dfd"
+  },
+  "requirements.txt": {
+    "bytes": 13,
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "SOURCE_AUDIT.md": {
+    "bytes": 3715,
+    "sha256": "ca48d2340a3c5a10bea2e507c1f29a29a535132030ca629d7b576f424d1f76c0"
+  },
+  "test_gate.py": {
+    "bytes": 1221,
+    "sha256": "846b01fecc84bd1f82590b306d6456322eb507a52435f93e7c49202deac51977"
+  },
+  "results/run_record.json": {
+    "bytes": 587,
+    "sha256": "920cb67185820af17a6bdc5c6d5b3d332b778b904e8e945148bf3982401c61dd"
+  },
+  "results/seed_results.csv": {
+    "bytes": 19899,
+    "sha256": "5fcf027013b66aaebb8fb60070b85a3cc43bbee7ffb8031905b244671de4a5d1"
+  },
+  "results/simulation_inputs.npz": {
+    "bytes": 6154555,
+    "sha256": "cefe7f0466e3128e442e6aea1db396261a7f84ee42684cd89302885727614b34"
+  },
+  "results/summary.json": {
+    "bytes": 3793,
+    "sha256": "e75a6473387982c99b71db97abc4e0b7b20b49196c1d3df17706a9a0ddd0b991"
+  },
+  "results/test_validation.json": {
+    "bytes": 632,
+    "sha256": "da95f4cd815c737b7347589e766fed738b619f0b014d898553ac474724a2d22f"
+  }
+}
