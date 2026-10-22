@@ -26,4 +26,9 @@ plot([(0,2),(4,2)],575,105,375,210,4,2.1,blue)
 for x,col,label in [(70,blue,'Ideal constant gain'),(280,red,'Gain-degradation model')]:
     d.add(Line(x,44,x+26,44,strokeColor=col,strokeWidth=2));d.add(String(x+33,40,label,fontSize=11))
 d.add(String(575,42,'K0 = 2 rad/s; beta = 1/s',fontSize=11,fillColor=navy))
-(P/'figures').mkdir(exist_ok=True);renderSVG.drawToFile(d,str(P/'figures/phase_stability.svg'));print('Scientific SVG figure generated')
+(P/'figures').mkdir(exist_ok=True)
+target=P/'figures/phase_stability.svg'
+renderSVG.drawToFile(d,str(target))
+# ReportLab omits an explicit fill for unfilled polylines; SVG defaults to black.
+target.write_text(target.read_text().replace('fill: None;', 'fill: none;').replace('<polyline ', '<polyline fill="none" '))
+print('Scientific SVG figure generated')

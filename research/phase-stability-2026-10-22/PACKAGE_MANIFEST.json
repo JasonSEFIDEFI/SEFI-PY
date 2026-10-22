@@ -1,7 +1,7 @@
 {
   "build_figure.py": {
-    "bytes": 2695,
-    "sha256": "1c8a63c21fd8b81854c4a94bb6aac7c2f9ac87b1b1d2a695084b76f5bf33dc9c"
+    "bytes": 2915,
+    "sha256": "ae5de3a4629175990ed399cb54a6ebfa607d21cbf0fabde41c5c8fa6b105cfef"
   },
   "LICENSE": {
     "bytes": 1942,
@@ -32,12 +32,12 @@
     "sha256": "5a0950222a8a5b62a8c651e0a8ce0be307fd7fa1c82465e5350b86b0d75f6a47"
   },
   "figures/phase_stability.png": {
-    "bytes": 62281,
-    "sha256": "c402567f138725491352cc7f3c56da5c7e25b5f73e757bde4b5f6b1d4f8d9a44"
+    "bytes": 56903,
+    "sha256": "755221a842fb52b7866d066337237b5343eab7b4958bf88573481297cc24ec0b"
   },
   "figures/phase_stability.svg": {
-    "bytes": 56206,
-    "sha256": "fb30c5369268e0833c04fa605ea57ca3fdfa53225abf8adf46d06c816e413c7a"
+    "bytes": 56254,
+    "sha256": "020956df680138ab73ee702f15ff6651d44f18b50fa0e24b0628a1e6834e9d08"
   },
   "results/all_trajectories_summary.csv": {
     "bytes": 4279,
@@ -57,7 +57,7 @@
   },
   "results/test_validation.json": {
     "bytes": 805,
-    "sha256": "f7046240919e5ac754c13f081dccb55785b9ca39186f7d25466b832547447930"
+    "sha256": "f0d1171bc71ff6d86bac79c3ab458504dc9cdd82d223e868ddb3500c3c856a1f"
   },
   "results/time_step_convergence.csv": {
     "bytes": 652,
