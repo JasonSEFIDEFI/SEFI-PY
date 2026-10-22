@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "output": "test_constant_gain_limit_matches_exact_phase (test_phase_model.PhaseChecks.test_constant_gain_limit_matches_exact_phase) ... ok\ntest_equilibrium_and_stability (test_phase_model.PhaseChecks.test_equilibrium_and_stability) ... ok\ntest_jacobian_independent_finite_differences (test_phase_model.PhaseChecks.test_jacobian_independent_finite_differences) ... ok\ntest_strict_threshold_excludes_marginal_point (test_phase_model.PhaseChecks.test_strict_threshold_excludes_marginal_point) ... ok\ntest_threshold_satisfies_cubic_and_decreases_with_activity_penalty (test_phase_model.PhaseChecks.test_threshold_satisfies_cubic_and_decreases_with_activity_penalty) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.061s\n\nOK\n"
+}

@@ -1,0 +1,18 @@
+{
+ "date": "2026-10-22",
+ "scope": "Deterministic classical relative-phase tracking with phenomenological actuator gain degradation; no quantum correction or universal fatigue law",
+ "freeze": "Local prospective specification, not independent preregistration",
+ "K0": 2.0,
+ "beta": 1.0,
+ "alpha_test": 1.0,
+ "detunings": [0.4, 0.8, 0.95, 1.05, 1.3, 1.8],
+ "alpha_threshold_grid": [0.0, 0.25, 1.0, 4.0],
+ "dt_grid": [0.02, 0.01, 0.005],
+ "duration_seconds": 120.0,
+ "initial_phase": 0.0,
+ "initial_degradation": 0.0,
+ "late_window_seconds": 30.0,
+ "numerical_lock_criterion": "absolute late-window mean phase drift < 0.001 rad/s and late-window phase range < 0.01 rad; finite-time diagnostic, not proof",
+ "comparison": "Standard constant-gain Adler equation (alpha=0) versus a specified two-state gain-degradation extension. The extension is itself a conventional nonlinear control model, not an established SEFI-specific law.",
+ "evaluation": "All detunings and time steps reported. Analytical equilibrium and stability conditions checked independently by finite-difference Jacobians and numerical trajectories. No parameter fit or superiority claim."
+}
