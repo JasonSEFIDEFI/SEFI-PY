@@ -1,0 +1,44 @@
+random_4200 {'SEMF': 3.3323291780927873, 'SEMF_known_shell_features': 2.9740666607132793, 'SEFI_geometric_prototype': 1.1385274652072723, 'conventional_matched_kernel': 1.1385274652072723}
+random_4201 {'SEMF': 3.483110162622109, 'SEMF_known_shell_features': 3.0938294947552683, 'SEFI_geometric_prototype': 1.246836393129575, 'conventional_matched_kernel': 1.246836393129575}
+random_4202 {'SEMF': 3.2116699788371696, 'SEMF_known_shell_features': 2.6679152013182743, 'SEFI_geometric_prototype': 0.9829475916933536, 'conventional_matched_kernel': 0.9829475916933536}
+random_4203 {'SEMF': 3.4476241105044467, 'SEMF_known_shell_features': 2.964449626086195, 'SEFI_geometric_prototype': 1.2459754244401422, 'conventional_matched_kernel': 1.2459754244401422}
+random_4204 {'SEMF': 3.4465524971598485, 'SEMF_known_shell_features': 3.127645820201185, 'SEFI_geometric_prototype': 1.3327215311067593, 'conventional_matched_kernel': 1.3327215311067593}
+random_4205 {'SEMF': 3.392920993955071, 'SEMF_known_shell_features': 2.953301467831259, 'SEFI_geometric_prototype': 1.0963334392305137, 'conventional_matched_kernel': 1.0963334392305137}
+random_4206 {'SEMF': 3.1817577772844134, 'SEMF_known_shell_features': 2.677970571168241, 'SEFI_geometric_prototype': 1.0881338101849998, 'conventional_matched_kernel': 1.0881338101849998}
+random_4207 {'SEMF': 3.4244930451300326, 'SEMF_known_shell_features': 2.9253785966565475, 'SEFI_geometric_prototype': 1.1072890153687076, 'conventional_matched_kernel': 1.1072890153687076}
+random_4208 {'SEMF': 3.445822321529121, 'SEMF_known_shell_features': 3.059380257408802, 'SEFI_geometric_prototype': 1.3212325404870713, 'conventional_matched_kernel': 1.3212325404870713}
+random_4209 {'SEMF': 3.044374327245014, 'SEMF_known_shell_features': 2.615465182670597, 'SEFI_geometric_prototype': 0.8666367845929123, 'conventional_matched_kernel': 0.8666367845929123}
+proton_extrapolation {'SEMF': 12.764881872277495, 'SEMF_known_shell_features': 13.93050546476028, 'SEFI_geometric_prototype': 12.71162223420954, 'conventional_matched_kernel': 12.71162223420954}
+neutron_frontier {'SEMF': 5.080807122604599, 'SEMF_known_shell_features': 4.886931992093507, 'SEFI_geometric_prototype': 3.480582532093081, 'conventional_matched_kernel': 3.480582532093081}
+discovery_year_proxy {'SEMF': 9.273590497832329, 'SEMF_known_shell_features': 9.995049917437225, 'SEFI_geometric_prototype': 5.754356196220532, 'conventional_matched_kernel': 5.754356196220532}
+{
+  "audit": {
+    "ame_rows": 3558,
+    "nubase_ground_rows": 3558,
+    "joined_rows": 3558,
+    "joined_nubase": 3558,
+    "estimated_mass_rows": 1008,
+    "min_Z": 0,
+    "max_Z": 118,
+    "lifetime_status_counts": {
+      "bounded_or_approximate": 17,
+      "estimated": 369,
+      "finite_evaluated": 2832,
+      "missing": 84,
+      "no_observed_decay": 253,
+      "particle_unstable": 3
+    },
+    "mass_analysis_rows": 2484
+  },
+  "mass_cells": 52,
+  "lifetime_cells": 52,
+  "metadata": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "seconds": 5.949411399997189,
+    "script_sha256": "7e993222e64bbc993337326868d0daaeb5018af67c51aca683e89528e22daed1",
+    "new_elements_predicted": 0,
+    "evaluated_isotope_gaps_are_not_existence_predictions": true
+  }
+}

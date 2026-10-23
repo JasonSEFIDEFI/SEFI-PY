@@ -1,0 +1,19 @@
+{"ame2016_rows": 3436, "eligible_2016_training_pool": 2433, "newly_nonestimated_2020_test": 73, "training_test_overlap": 0, "seconds": 2.2103300000017043}
+{
+  "SEMF": {
+    "mean_rmse": 5.230398418353473,
+    "mean_coverage": 0.8835616438356164
+  },
+  "SEMF_known_shell_features": {
+    "mean_rmse": 5.6641444983508045,
+    "mean_coverage": 0.8246575342465754
+  },
+  "SEFI_geometric_prototype": {
+    "mean_rmse": 3.0044962365130847,
+    "mean_coverage": 0.7794520547945206
+  },
+  "conventional_matched_kernel": {
+    "mean_rmse": 3.0044962365130847,
+    "mean_coverage": 0.7794520547945206
+  }
+}
