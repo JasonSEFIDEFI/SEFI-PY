@@ -1,0 +1,9 @@
+{
+  "pages": 9,
+  "rendered_pages": 9,
+  "visual_review": "All pages inspected in overview; equations, tables, and final figure/reference pages checked at readable size. No clipping or broken equations in final version.",
+  "reproducibility": "45912 saved isotope prediction rows reproduced with zero numeric difference",
+  "tests": "5 passed; benchmark suites separately report 134 passed",
+  "renderer": "ReportLab 5.0.1; Pillow 12.3.0; Matplotlib 3.11.1; Windows Times New Roman",
+  "notes": "Initial equation escaping and figure caption placement corrected before delivery. Poppler emitted display-font configuration warnings; embedded text and rasterized math render legibly."
+}

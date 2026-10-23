@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    7300,
+    7301,
+    7302,
+    7303,
+    7304,
+    7305,
+    7306,
+    7307,
+    7308,
+    7309
+  ],
+  "train_fraction": 0.8,
+  "tuning_fraction": 0.1,
+  "bandwidths": [
+    1.5,
+    3.0,
+    6.0
+  ],
+  "test_definition": "Non-extrapolated AME2020 entries absent or mass-estimated in AME2016; A>=16, Z,N>0",
+  "train_values": "AME2016 binding energies only, never updated AME2020 targets"
+}

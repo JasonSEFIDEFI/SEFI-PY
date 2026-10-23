@@ -1,0 +1,922 @@
+[
+  {
+    "split": "discovery_year_proxy",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 18,
+    "rmse_delta_vs_semf": -3.519234301611797,
+    "cluster_bootstrap_ci95": [
+      -5.63711402048662,
+      -1.2866295368956715
+    ]
+  },
+  {
+    "split": "discovery_year_proxy",
+    "method": "SEMF",
+    "proton_clusters": 18,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "discovery_year_proxy",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 18,
+    "rmse_delta_vs_semf": 0.721459419604896,
+    "cluster_bootstrap_ci95": [
+      -0.4450119888575153,
+      1.5407976701859172
+    ]
+  },
+  {
+    "split": "discovery_year_proxy",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 18,
+    "rmse_delta_vs_semf": -3.519234301611797,
+    "cluster_bootstrap_ci95": [
+      -5.63711402048662,
+      -1.2866295368956715
+    ]
+  },
+  {
+    "split": "historical_7300",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.3100930695656907,
+    "cluster_bootstrap_ci95": [
+      -3.5556202199963702,
+      -1.0646825196059837
+    ]
+  },
+  {
+    "split": "historical_7300",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7300",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.44677050951881014,
+    "cluster_bootstrap_ci95": [
+      -0.500556697529757,
+      1.0537997014451193
+    ]
+  },
+  {
+    "split": "historical_7300",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.3100930695656907,
+    "cluster_bootstrap_ci95": [
+      -3.5556202199963702,
+      -1.0646825196059837
+    ]
+  },
+  {
+    "split": "historical_7301",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.3427741064283976,
+    "cluster_bootstrap_ci95": [
+      -3.6470712676625485,
+      -1.0230589879477832
+    ]
+  },
+  {
+    "split": "historical_7301",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7301",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.45359443885062056,
+    "cluster_bootstrap_ci95": [
+      -0.5106769296613796,
+      1.0625833355523326
+    ]
+  },
+  {
+    "split": "historical_7301",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.3427741064283976,
+    "cluster_bootstrap_ci95": [
+      -3.6470712676625485,
+      -1.0230589879477832
+    ]
+  },
+  {
+    "split": "historical_7302",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.380799033807601,
+    "cluster_bootstrap_ci95": [
+      -3.7106685982090037,
+      -1.029058414977685
+    ]
+  },
+  {
+    "split": "historical_7302",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7302",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.3772137725947031,
+    "cluster_bootstrap_ci95": [
+      -0.5079361819341525,
+      0.9423053662533619
+    ]
+  },
+  {
+    "split": "historical_7302",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.380799033807601,
+    "cluster_bootstrap_ci95": [
+      -3.7106685982090037,
+      -1.029058414977685
+    ]
+  },
+  {
+    "split": "historical_7303",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -1.881221804514309,
+    "cluster_bootstrap_ci95": [
+      -2.712867821229625,
+      -1.122639618020481
+    ]
+  },
+  {
+    "split": "historical_7303",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7303",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.45238495391495004,
+    "cluster_bootstrap_ci95": [
+      -0.4631365288712962,
+      1.0375563583667706
+    ]
+  },
+  {
+    "split": "historical_7303",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -1.881221804514309,
+    "cluster_bootstrap_ci95": [
+      -2.712867821229625,
+      -1.122639618020481
+    ]
+  },
+  {
+    "split": "historical_7304",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.0830726325920064,
+    "cluster_bootstrap_ci95": [
+      -3.09858890314979,
+      -1.0581112266093486
+    ]
+  },
+  {
+    "split": "historical_7304",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7304",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.4146664430896978,
+    "cluster_bootstrap_ci95": [
+      -0.5187743566848104,
+      1.0045386552114293
+    ]
+  },
+  {
+    "split": "historical_7304",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.0830726325920064,
+    "cluster_bootstrap_ci95": [
+      -3.09858890314979,
+      -1.0581112266093486
+    ]
+  },
+  {
+    "split": "historical_7305",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.3780257078563323,
+    "cluster_bootstrap_ci95": [
+      -3.6952121293524676,
+      -1.0527655001141674
+    ]
+  },
+  {
+    "split": "historical_7305",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7305",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.4542705904019062,
+    "cluster_bootstrap_ci95": [
+      -0.5095445107450652,
+      1.0643605901860942
+    ]
+  },
+  {
+    "split": "historical_7305",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.3780257078563323,
+    "cluster_bootstrap_ci95": [
+      -3.6952121293524676,
+      -1.0527655001141674
+    ]
+  },
+  {
+    "split": "historical_7306",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.355678522810553,
+    "cluster_bootstrap_ci95": [
+      -3.6413082155112866,
+      -1.0587211221662725
+    ]
+  },
+  {
+    "split": "historical_7306",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7306",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.4491462851895198,
+    "cluster_bootstrap_ci95": [
+      -0.5157183766484087,
+      1.0671458976188974
+    ]
+  },
+  {
+    "split": "historical_7306",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.355678522810553,
+    "cluster_bootstrap_ci95": [
+      -3.6413082155112866,
+      -1.0587211221662725
+    ]
+  },
+  {
+    "split": "historical_7307",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.273486808386888,
+    "cluster_bootstrap_ci95": [
+      -3.43602739068961,
+      -1.135134739663772
+    ]
+  },
+  {
+    "split": "historical_7307",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7307",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.4470651645263324,
+    "cluster_bootstrap_ci95": [
+      -0.5265178259354342,
+      1.0651471379500057
+    ]
+  },
+  {
+    "split": "historical_7307",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.273486808386888,
+    "cluster_bootstrap_ci95": [
+      -3.43602739068961,
+      -1.135134739663772
+    ]
+  },
+  {
+    "split": "historical_7308",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -1.9663385058122906,
+    "cluster_bootstrap_ci95": [
+      -2.9279841139751808,
+      -1.0813329543241252
+    ]
+  },
+  {
+    "split": "historical_7308",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7308",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.4409519861617248,
+    "cluster_bootstrap_ci95": [
+      -0.5437065248888401,
+      1.0677089172353076
+    ]
+  },
+  {
+    "split": "historical_7308",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -1.9663385058122906,
+    "cluster_bootstrap_ci95": [
+      -2.9279841139751808,
+      -1.0813329543241252
+    ]
+  },
+  {
+    "split": "historical_7309",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.2875316266298125,
+    "cluster_bootstrap_ci95": [
+      -3.5173491413382982,
+      -1.0686717407801325
+    ]
+  },
+  {
+    "split": "historical_7309",
+    "method": "SEMF",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "historical_7309",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": 0.40139665572505123,
+    "cluster_bootstrap_ci95": [
+      -0.5167481138162986,
+      0.9765721694038814
+    ]
+  },
+  {
+    "split": "historical_7309",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 38,
+    "rmse_delta_vs_semf": -2.2875316266298125,
+    "cluster_bootstrap_ci95": [
+      -3.5173491413382982,
+      -1.0686717407801325
+    ]
+  },
+  {
+    "split": "neutron_frontier",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 93,
+    "rmse_delta_vs_semf": -1.6002245905115182,
+    "cluster_bootstrap_ci95": [
+      -2.1694841741538418,
+      -1.068896158985038
+    ]
+  },
+  {
+    "split": "neutron_frontier",
+    "method": "SEMF",
+    "proton_clusters": 93,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "neutron_frontier",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 93,
+    "rmse_delta_vs_semf": -0.19387513051109284,
+    "cluster_bootstrap_ci95": [
+      -0.5331939860678291,
+      0.12876768229718455
+    ]
+  },
+  {
+    "split": "neutron_frontier",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 93,
+    "rmse_delta_vs_semf": -1.6002245905115182,
+    "cluster_bootstrap_ci95": [
+      -2.1694841741538418,
+      -1.068896158985038
+    ]
+  },
+  {
+    "split": "proton_extrapolation",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 28,
+    "rmse_delta_vs_semf": -0.05325963806795464,
+    "cluster_bootstrap_ci95": [
+      -0.1075336554485395,
+      -0.014254438330618511
+    ]
+  },
+  {
+    "split": "proton_extrapolation",
+    "method": "SEMF",
+    "proton_clusters": 28,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "proton_extrapolation",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 28,
+    "rmse_delta_vs_semf": 1.1656235924827847,
+    "cluster_bootstrap_ci95": [
+      0.9016415601037876,
+      1.4459975192804706
+    ]
+  },
+  {
+    "split": "proton_extrapolation",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 28,
+    "rmse_delta_vs_semf": -0.05325963806795464,
+    "cluster_bootstrap_ci95": [
+      -0.1075336554485395,
+      -0.014254438330618511
+    ]
+  },
+  {
+    "split": "random_4200",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": -2.1938017128855147,
+    "cluster_bootstrap_ci95": [
+      -2.4843746609788906,
+      -1.925191056968642
+    ]
+  },
+  {
+    "split": "random_4200",
+    "method": "SEMF",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4200",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": -0.358262517379508,
+    "cluster_bootstrap_ci95": [
+      -0.6655943600201555,
+      -0.07107607054424489
+    ]
+  },
+  {
+    "split": "random_4200",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": -2.1938017128855147,
+    "cluster_bootstrap_ci95": [
+      -2.4843746609788906,
+      -1.925191056968642
+    ]
+  },
+  {
+    "split": "random_4201",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.2362737694925343,
+    "cluster_bootstrap_ci95": [
+      -2.533540234277561,
+      -1.9588594942172324
+    ]
+  },
+  {
+    "split": "random_4201",
+    "method": "SEMF",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4201",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -0.3892806678668408,
+    "cluster_bootstrap_ci95": [
+      -0.7691136481410492,
+      -0.04997944358642545
+    ]
+  },
+  {
+    "split": "random_4201",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.2362737694925343,
+    "cluster_bootstrap_ci95": [
+      -2.533540234277561,
+      -1.9588594942172324
+    ]
+  },
+  {
+    "split": "random_4202",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 99,
+    "rmse_delta_vs_semf": -2.228722387143816,
+    "cluster_bootstrap_ci95": [
+      -2.520097250340582,
+      -1.9158279393998972
+    ]
+  },
+  {
+    "split": "random_4202",
+    "method": "SEMF",
+    "proton_clusters": 99,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4202",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 99,
+    "rmse_delta_vs_semf": -0.5437547775188953,
+    "cluster_bootstrap_ci95": [
+      -0.8429360951352245,
+      -0.21681037646511012
+    ]
+  },
+  {
+    "split": "random_4202",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 99,
+    "rmse_delta_vs_semf": -2.228722387143816,
+    "cluster_bootstrap_ci95": [
+      -2.520097250340582,
+      -1.9158279393998972
+    ]
+  },
+  {
+    "split": "random_4203",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -2.2016486860643045,
+    "cluster_bootstrap_ci95": [
+      -2.468868671693109,
+      -1.932785084586063
+    ]
+  },
+  {
+    "split": "random_4203",
+    "method": "SEMF",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4203",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -0.4831744844182517,
+    "cluster_bootstrap_ci95": [
+      -0.7676775615586916,
+      -0.18247170191876252
+    ]
+  },
+  {
+    "split": "random_4203",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -2.2016486860643045,
+    "cluster_bootstrap_ci95": [
+      -2.468868671693109,
+      -1.932785084586063
+    ]
+  },
+  {
+    "split": "random_4204",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.113830966053089,
+    "cluster_bootstrap_ci95": [
+      -2.3974287433341237,
+      -1.850002275659616
+    ]
+  },
+  {
+    "split": "random_4204",
+    "method": "SEMF",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4204",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -0.3189066769586635,
+    "cluster_bootstrap_ci95": [
+      -0.672888855648247,
+      0.01069819637533204
+    ]
+  },
+  {
+    "split": "random_4204",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.113830966053089,
+    "cluster_bootstrap_ci95": [
+      -2.3974287433341237,
+      -1.850002275659616
+    ]
+  },
+  {
+    "split": "random_4205",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.296587554724557,
+    "cluster_bootstrap_ci95": [
+      -2.6118863911427312,
+      -2.0221255606920017
+    ]
+  },
+  {
+    "split": "random_4205",
+    "method": "SEMF",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4205",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -0.43961952612381205,
+    "cluster_bootstrap_ci95": [
+      -0.7838143223412037,
+      -0.1043759381743265
+    ]
+  },
+  {
+    "split": "random_4205",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.296587554724557,
+    "cluster_bootstrap_ci95": [
+      -2.6118863911427312,
+      -2.0221255606920017
+    ]
+  },
+  {
+    "split": "random_4206",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -2.093623967099414,
+    "cluster_bootstrap_ci95": [
+      -2.373451859282089,
+      -1.82782315760979
+    ]
+  },
+  {
+    "split": "random_4206",
+    "method": "SEMF",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4206",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -0.5037872061161726,
+    "cluster_bootstrap_ci95": [
+      -0.7462825353397776,
+      -0.25314776869081657
+    ]
+  },
+  {
+    "split": "random_4206",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -2.093623967099414,
+    "cluster_bootstrap_ci95": [
+      -2.373451859282089,
+      -1.82782315760979
+    ]
+  },
+  {
+    "split": "random_4207",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.3172040297613252,
+    "cluster_bootstrap_ci95": [
+      -2.5725665293042494,
+      -2.062560553741001
+    ]
+  },
+  {
+    "split": "random_4207",
+    "method": "SEMF",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4207",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -0.4991144484734851,
+    "cluster_bootstrap_ci95": [
+      -0.8271283025395224,
+      -0.2093712768111213
+    ]
+  },
+  {
+    "split": "random_4207",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 101,
+    "rmse_delta_vs_semf": -2.3172040297613252,
+    "cluster_bootstrap_ci95": [
+      -2.5725665293042494,
+      -2.062560553741001
+    ]
+  },
+  {
+    "split": "random_4208",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -2.1245897810420495,
+    "cluster_bootstrap_ci95": [
+      -2.399684567361377,
+      -1.8778156193749487
+    ]
+  },
+  {
+    "split": "random_4208",
+    "method": "SEMF",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4208",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -0.386442064120319,
+    "cluster_bootstrap_ci95": [
+      -0.7213791058768146,
+      -0.06996221447445443
+    ]
+  },
+  {
+    "split": "random_4208",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 100,
+    "rmse_delta_vs_semf": -2.1245897810420495,
+    "cluster_bootstrap_ci95": [
+      -2.399684567361377,
+      -1.8778156193749487
+    ]
+  },
+  {
+    "split": "random_4209",
+    "method": "SEFI_geometric_prototype",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": -2.177737542652102,
+    "cluster_bootstrap_ci95": [
+      -2.4289196418595296,
+      -1.9171415237262468
+    ]
+  },
+  {
+    "split": "random_4209",
+    "method": "SEMF",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "split": "random_4209",
+    "method": "SEMF_known_shell_features",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": -0.4289091445744173,
+    "cluster_bootstrap_ci95": [
+      -0.6969061018547668,
+      -0.15699096417219788
+    ]
+  },
+  {
+    "split": "random_4209",
+    "method": "conventional_matched_kernel",
+    "proton_clusters": 98,
+    "rmse_delta_vs_semf": -2.177737542652102,
+    "cluster_bootstrap_ci95": [
+      -2.4289196418595296,
+      -1.9171415237262468
+    ]
+  }
+]

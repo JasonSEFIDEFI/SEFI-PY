@@ -1,0 +1,23 @@
+[
+  {
+    "file": "mass16.txt",
+    "url": "https://www-nds.iaea.org/amdc/ame2016/mass16.txt",
+    "sha256": "2167f57a2a98331e4649b2dd2b658a9006ed4fba1975729ebfe52a42b4b9218a",
+    "bytes": 418937,
+    "accessed_utc": "2026-10-23T07:37:04.510729+00:00"
+  },
+  {
+    "file": "mass_1.mas20.txt",
+    "url": "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt",
+    "sha256": "e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307",
+    "bytes": 472648,
+    "accessed_utc": "2026-10-23T07:37:04.518504+00:00"
+  },
+  {
+    "file": "nubase_4.mas20.txt",
+    "url": "https://www-nds.iaea.org/amdc/ame2020/nubase_4.mas20.txt",
+    "sha256": "1585a5eea86c5e17e90307c7e6e786d060049c4039e392a261ff6db977df9859",
+    "bytes": 761906,
+    "accessed_utc": "2026-10-23T07:37:04.524867+00:00"
+  }
+]
