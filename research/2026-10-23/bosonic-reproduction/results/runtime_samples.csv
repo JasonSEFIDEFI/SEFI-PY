@@ -1,0 +1,511 @@
+method,repeat,microseconds_per_trial
+No recovery,0,0.013675000000000001
+No recovery,1,0.0157
+No recovery,2,0.012725
+No recovery,3,0.013425000000000001
+No recovery,4,0.013474999999999999
+No recovery,5,0.016550000000000002
+No recovery,6,0.012925
+No recovery,7,0.01315
+No recovery,8,0.01285
+No recovery,9,0.013
+No recovery,10,0.013975
+No recovery,11,0.01295
+No recovery,12,0.012825
+No recovery,13,0.0129
+No recovery,14,0.012825
+No recovery,15,0.01315
+No recovery,16,0.028375
+No recovery,17,0.014675
+No recovery,18,0.014074999999999999
+No recovery,19,0.0132
+No recovery,20,0.012925
+No recovery,21,0.01275
+No recovery,22,0.014125
+No recovery,23,0.02075
+No recovery,24,0.01305
+No recovery,25,0.0129
+No recovery,26,0.013125
+No recovery,27,0.01405
+No recovery,28,0.0132
+No recovery,29,0.012825
+No recovery,30,0.0128
+No recovery,31,0.012775
+No recovery,32,0.012975
+No recovery,33,0.01295
+No recovery,34,0.013375
+No recovery,35,0.013525
+No recovery,36,0.0179
+No recovery,37,0.013375
+No recovery,38,0.01365
+No recovery,39,0.0129
+No recovery,40,0.01375
+No recovery,41,0.0128
+No recovery,42,0.01295
+No recovery,43,0.013175000000000001
+No recovery,44,0.014375
+No recovery,45,0.013375
+No recovery,46,0.013550000000000001
+No recovery,47,0.013125
+No recovery,48,0.013
+No recovery,49,0.013099999999999999
+No recovery,50,0.01285
+ML,0,0.00435
+ML,1,0.002525
+ML,2,0.002875
+ML,3,0.0027
+ML,4,0.003225
+ML,5,0.0032
+ML,6,0.002775
+ML,7,0.0025499999999999997
+ML,8,0.0029
+ML,9,0.0025
+ML,10,0.003
+ML,11,0.00285
+ML,12,0.0029500000000000004
+ML,13,0.003225
+ML,14,0.00395
+ML,15,0.00525
+ML,16,0.003025
+ML,17,0.003575
+ML,18,0.003125
+ML,19,0.00335
+ML,20,0.00285
+ML,21,0.00265
+ML,22,0.0029
+ML,23,0.002875
+ML,24,0.002725
+ML,25,0.004325
+ML,26,0.0038250000000000003
+ML,27,0.00335
+ML,28,0.0033
+ML,29,0.0029
+ML,30,0.0033
+ML,31,0.003
+ML,32,0.003075
+ML,33,0.0034249999999999997
+ML,34,0.002775
+ML,35,0.00285
+ML,36,0.003525
+ML,37,0.00325
+ML,38,0.0045
+ML,39,0.003175
+ML,40,0.0033250000000000003
+ML,41,0.0024249999999999996
+ML,42,0.002775
+ML,43,0.0029249999999999996
+ML,44,0.0063
+ML,45,0.003125
+ML,46,0.0024500000000000004
+ML,47,0.004775000000000001
+ML,48,0.0028250000000000003
+ML,49,0.0028
+ML,50,0.0033250000000000003
+Geometry,0,0.0129
+Geometry,1,0.0129
+Geometry,2,0.013550000000000001
+Geometry,3,0.0129
+Geometry,4,0.01275
+Geometry,5,0.013550000000000001
+Geometry,6,0.01275
+Geometry,7,0.015275
+Geometry,8,0.0128
+Geometry,9,0.012775
+Geometry,10,0.013
+Geometry,11,0.012875
+Geometry,12,0.01275
+Geometry,13,0.016649999999999998
+Geometry,14,0.012825
+Geometry,15,0.055600000000000004
+Geometry,16,0.038200000000000005
+Geometry,17,0.0128
+Geometry,18,0.012975
+Geometry,19,0.01275
+Geometry,20,0.01285
+Geometry,21,0.012775
+Geometry,22,12.083450000000001
+Geometry,23,0.013099999999999999
+Geometry,24,1.621675
+Geometry,25,0.01305
+Geometry,26,0.013625
+Geometry,27,0.013175000000000001
+Geometry,28,0.012975
+Geometry,29,0.012875
+Geometry,30,0.013
+Geometry,31,0.01295
+Geometry,32,0.0129
+Geometry,33,0.013474999999999999
+Geometry,34,0.012625
+Geometry,35,0.012775
+Geometry,36,0.015125
+Geometry,37,0.012775
+Geometry,38,0.012825
+Geometry,39,0.012825
+Geometry,40,0.013099999999999999
+Geometry,41,0.013699999999999999
+Geometry,42,0.013349999999999999
+Geometry,43,0.01305
+Geometry,44,0.01305
+Geometry,45,0.013
+Geometry,46,1.5770250000000001
+Geometry,47,0.01325
+Geometry,48,0.013925
+Geometry,49,0.013075
+Geometry,50,0.012725
+Conventional posterior,0,0.014875
+Conventional posterior,1,0.01275
+Conventional posterior,2,0.0128
+Conventional posterior,3,0.012825
+Conventional posterior,4,0.0159
+Conventional posterior,5,0.013900000000000001
+Conventional posterior,6,0.013125
+Conventional posterior,7,0.012825
+Conventional posterior,8,0.013
+Conventional posterior,9,0.013099999999999999
+Conventional posterior,10,0.01305
+Conventional posterior,11,0.013125
+Conventional posterior,12,0.01285
+Conventional posterior,13,0.013125
+Conventional posterior,14,0.012975
+Conventional posterior,15,0.015525
+Conventional posterior,16,0.013474999999999999
+Conventional posterior,17,0.0128
+Conventional posterior,18,0.013175000000000001
+Conventional posterior,19,0.013
+Conventional posterior,20,0.012825
+Conventional posterior,21,0.01275
+Conventional posterior,22,0.013775
+Conventional posterior,23,0.014175
+Conventional posterior,24,0.028975
+Conventional posterior,25,0.0143
+Conventional posterior,26,0.012975
+Conventional posterior,27,0.013474999999999999
+Conventional posterior,28,0.013425000000000001
+Conventional posterior,29,0.01305
+Conventional posterior,30,0.01295
+Conventional posterior,31,0.0128
+Conventional posterior,32,0.013775
+Conventional posterior,33,0.013099999999999999
+Conventional posterior,34,0.01305
+Conventional posterior,35,0.0128
+Conventional posterior,36,0.0232
+Conventional posterior,37,0.013625
+Conventional posterior,38,0.013550000000000001
+Conventional posterior,39,0.01405
+Conventional posterior,40,0.018375
+Conventional posterior,41,0.013
+Conventional posterior,42,0.013175000000000001
+Conventional posterior,43,0.013125
+Conventional posterior,44,0.013425000000000001
+Conventional posterior,45,0.01365
+Conventional posterior,46,0.0135
+Conventional posterior,47,0.013625
+Conventional posterior,48,0.013099999999999999
+Conventional posterior,49,0.013349999999999999
+Conventional posterior,50,0.01375
+No prior distance,0,0.00285
+No prior distance,1,0.002875
+No prior distance,2,0.002625
+No prior distance,3,0.0026
+No prior distance,4,0.002775
+No prior distance,5,0.007775000000000001
+No prior distance,6,0.00335
+No prior distance,7,0.0029249999999999996
+No prior distance,8,0.0030499999999999998
+No prior distance,9,0.003375
+No prior distance,10,0.00275
+No prior distance,11,0.00285
+No prior distance,12,0.002775
+No prior distance,13,0.002525
+No prior distance,14,0.00265
+No prior distance,15,0.004925
+No prior distance,16,0.004225
+No prior distance,17,0.002775
+No prior distance,18,0.0029
+No prior distance,19,0.002675
+No prior distance,20,0.0029249999999999996
+No prior distance,21,0.00285
+No prior distance,22,0.005425
+No prior distance,23,0.002775
+No prior distance,24,0.0032
+No prior distance,25,0.004
+No prior distance,26,0.00275
+No prior distance,27,0.002625
+No prior distance,28,0.00375
+No prior distance,29,0.0024249999999999996
+No prior distance,30,0.002575
+No prior distance,31,0.00675
+No prior distance,32,0.0028
+No prior distance,33,0.002525
+No prior distance,34,0.0025499999999999997
+No prior distance,35,0.0027
+No prior distance,36,0.00325
+No prior distance,37,0.0038250000000000003
+No prior distance,38,0.00275
+No prior distance,39,0.0044
+No prior distance,40,0.002525
+No prior distance,41,0.003375
+No prior distance,42,0.003225
+No prior distance,43,0.0027
+No prior distance,44,0.0033
+No prior distance,45,0.002525
+No prior distance,46,0.003375
+No prior distance,47,0.002475
+No prior distance,48,0.0030499999999999998
+No prior distance,49,0.003175
+No prior distance,50,0.002725
+No anisotropy,0,0.013125
+No anisotropy,1,0.0128
+No anisotropy,2,0.012975
+No anisotropy,3,0.01285
+No anisotropy,4,0.01275
+No anisotropy,5,0.013275
+No anisotropy,6,0.012925
+No anisotropy,7,0.012875
+No anisotropy,8,0.013
+No anisotropy,9,0.013425000000000001
+No anisotropy,10,0.012975
+No anisotropy,11,0.013574999999999999
+No anisotropy,12,0.0135
+No anisotropy,13,0.0135
+No anisotropy,14,0.0129
+No anisotropy,15,0.01305
+No anisotropy,16,0.014675
+No anisotropy,17,0.013
+No anisotropy,18,0.01295
+No anisotropy,19,0.013
+No anisotropy,20,0.01285
+No anisotropy,21,0.013550000000000001
+No anisotropy,22,0.013224999999999999
+No anisotropy,23,0.01295
+No anisotropy,24,0.013025
+No anisotropy,25,0.013325
+No anisotropy,26,0.013375
+No anisotropy,27,0.01285
+No anisotropy,28,0.013325
+No anisotropy,29,0.012875
+No anisotropy,30,0.013775
+No anisotropy,31,0.012825
+No anisotropy,32,0.013625
+No anisotropy,33,0.036625
+No anisotropy,34,0.01295
+No anisotropy,35,0.012875
+No anisotropy,36,0.013725
+No anisotropy,37,0.0205
+No anisotropy,38,0.01305
+No anisotropy,39,0.013099999999999999
+No anisotropy,40,0.012775
+No anisotropy,41,0.01305
+No anisotropy,42,0.0129
+No anisotropy,43,0.013175000000000001
+No anisotropy,44,0.013625
+No anisotropy,45,0.013125
+No anisotropy,46,0.015375
+No anisotropy,47,0.01285
+No anisotropy,48,0.012925
+No anisotropy,49,0.013275
+No anisotropy,50,0.013125
+Random metric orientation,0,0.01305
+Random metric orientation,1,0.012725
+Random metric orientation,2,0.0128
+Random metric orientation,3,0.0127
+Random metric orientation,4,0.01285
+Random metric orientation,5,0.01305
+Random metric orientation,6,0.0128
+Random metric orientation,7,0.0128
+Random metric orientation,8,0.012825
+Random metric orientation,9,0.0128
+Random metric orientation,10,0.012925
+Random metric orientation,11,0.01275
+Random metric orientation,12,0.012875
+Random metric orientation,13,0.013
+Random metric orientation,14,0.0135
+Random metric orientation,15,0.01375
+Random metric orientation,16,0.014150000000000001
+Random metric orientation,17,0.013025
+Random metric orientation,18,0.013025
+Random metric orientation,19,0.013075
+Random metric orientation,20,0.013925
+Random metric orientation,21,0.012975
+Random metric orientation,22,0.013349999999999999
+Random metric orientation,23,0.013300000000000001
+Random metric orientation,24,0.01445
+Random metric orientation,25,0.01315
+Random metric orientation,26,0.013075
+Random metric orientation,27,0.013300000000000001
+Random metric orientation,28,0.014575
+Random metric orientation,29,0.013
+Random metric orientation,30,0.01295
+Random metric orientation,31,0.012725
+Random metric orientation,32,0.0135
+Random metric orientation,33,0.01295
+Random metric orientation,34,0.013625
+Random metric orientation,35,0.012775
+Random metric orientation,36,0.013550000000000001
+Random metric orientation,37,0.017125
+Random metric orientation,38,0.013275
+Random metric orientation,39,0.01315
+Random metric orientation,40,0.013
+Random metric orientation,41,0.01275
+Random metric orientation,42,0.0178
+Random metric orientation,43,0.0146
+Random metric orientation,44,0.0193
+Random metric orientation,45,0.013349999999999999
+Random metric orientation,46,0.01385
+Random metric orientation,47,0.0132
+Random metric orientation,48,0.01305
+Random metric orientation,49,0.01815
+Random metric orientation,50,0.013325
+Shuffled features,0,0.07902500000000001
+Shuffled features,1,0.041925
+Shuffled features,2,0.041575
+Shuffled features,3,0.041325
+Shuffled features,4,0.041575
+Shuffled features,5,0.04675
+Shuffled features,6,0.042675
+Shuffled features,7,0.044774999999999995
+Shuffled features,8,0.043225
+Shuffled features,9,0.04425
+Shuffled features,10,0.042725
+Shuffled features,11,0.041975
+Shuffled features,12,0.041725
+Shuffled features,13,0.0433
+Shuffled features,14,0.050775
+Shuffled features,15,0.045024999999999996
+Shuffled features,16,0.110425
+Shuffled features,17,0.045625
+Shuffled features,18,0.045225
+Shuffled features,19,0.043575
+Shuffled features,20,0.0429
+Shuffled features,21,0.041725
+Shuffled features,22,0.046700000000000005
+Shuffled features,23,0.0435
+Shuffled features,24,0.04955
+Shuffled features,25,0.042475
+Shuffled features,26,0.04925
+Shuffled features,27,0.063225
+Shuffled features,28,0.04525
+Shuffled features,29,0.043825
+Shuffled features,30,0.042225
+Shuffled features,31,0.047075000000000006
+Shuffled features,32,0.045450000000000004
+Shuffled features,33,0.043675
+Shuffled features,34,0.042625
+Shuffled features,35,0.04145
+Shuffled features,36,0.0443
+Shuffled features,37,0.0436
+Shuffled features,38,0.05575
+Shuffled features,39,0.045200000000000004
+Shuffled features,40,0.0448
+Shuffled features,41,0.04275
+Shuffled features,42,0.042825
+Shuffled features,43,0.043125
+Shuffled features,44,0.046174999999999994
+Shuffled features,45,0.04225
+Shuffled features,46,0.08515
+Shuffled features,47,0.0471
+Shuffled features,48,0.0455
+Shuffled features,49,0.04485
+Shuffled features,50,0.042275
+Affine coordinates,0,0.037700000000000004
+Affine coordinates,1,0.03645
+Affine coordinates,2,0.03645
+Affine coordinates,3,0.0362
+Affine coordinates,4,0.037125
+Affine coordinates,5,0.038625
+Affine coordinates,6,0.03725
+Affine coordinates,7,0.03755
+Affine coordinates,8,0.036625
+Affine coordinates,9,0.036375
+Affine coordinates,10,0.037225
+Affine coordinates,11,0.036899999999999995
+Affine coordinates,12,0.039525
+Affine coordinates,13,0.038525
+Affine coordinates,14,0.037825000000000004
+Affine coordinates,15,0.106575
+Affine coordinates,16,0.04015
+Affine coordinates,17,0.03685
+Affine coordinates,18,0.0375
+Affine coordinates,19,0.037
+Affine coordinates,20,0.037075000000000004
+Affine coordinates,21,0.0366
+Affine coordinates,22,0.036525
+Affine coordinates,23,0.0378
+Affine coordinates,24,0.03675
+Affine coordinates,25,0.038424999999999994
+Affine coordinates,26,0.037399999999999996
+Affine coordinates,27,0.0375
+Affine coordinates,28,0.037325000000000004
+Affine coordinates,29,0.037375
+Affine coordinates,30,0.036925
+Affine coordinates,31,0.036575
+Affine coordinates,32,0.037399999999999996
+Affine coordinates,33,0.037
+Affine coordinates,34,0.036899999999999995
+Affine coordinates,35,0.0365
+Affine coordinates,36,0.03755
+Affine coordinates,37,0.038875
+Affine coordinates,38,0.067375
+Affine coordinates,39,0.037125
+Affine coordinates,40,0.0368
+Affine coordinates,41,0.036950000000000004
+Affine coordinates,42,0.0368
+Affine coordinates,43,3.501575
+Affine coordinates,44,0.038175
+Affine coordinates,45,0.0368
+Affine coordinates,46,0.045975
+Affine coordinates,47,0.037625
+Affine coordinates,48,0.037725
+Affine coordinates,49,0.037425
+Affine coordinates,50,0.04575
+Nonlinear coordinates,0,0.19444999999999998
+Nonlinear coordinates,1,0.204125
+Nonlinear coordinates,2,0.183575
+Nonlinear coordinates,3,0.19644999999999999
+Nonlinear coordinates,4,0.18309999999999998
+Nonlinear coordinates,5,1.29915
+Nonlinear coordinates,6,0.192
+Nonlinear coordinates,7,0.1855
+Nonlinear coordinates,8,0.187425
+Nonlinear coordinates,9,0.186875
+Nonlinear coordinates,10,0.18680000000000002
+Nonlinear coordinates,11,0.186475
+Nonlinear coordinates,12,0.1895
+Nonlinear coordinates,13,0.2512
+Nonlinear coordinates,14,0.18765
+Nonlinear coordinates,15,0.310375
+Nonlinear coordinates,16,0.24209999999999998
+Nonlinear coordinates,17,0.19372499999999998
+Nonlinear coordinates,18,0.183875
+Nonlinear coordinates,19,0.190275
+Nonlinear coordinates,20,0.1921
+Nonlinear coordinates,21,0.183
+Nonlinear coordinates,22,0.21005000000000001
+Nonlinear coordinates,23,0.189825
+Nonlinear coordinates,24,0.184625
+Nonlinear coordinates,25,0.2074
+Nonlinear coordinates,26,0.187425
+Nonlinear coordinates,27,0.1865
+Nonlinear coordinates,28,0.216775
+Nonlinear coordinates,29,0.193025
+Nonlinear coordinates,30,0.18569999999999998
+Nonlinear coordinates,31,2.018125
+Nonlinear coordinates,32,0.1889
+Nonlinear coordinates,33,0.18880000000000002
+Nonlinear coordinates,34,0.187075
+Nonlinear coordinates,35,0.185225
+Nonlinear coordinates,36,0.18855000000000002
+Nonlinear coordinates,37,1.86585
+Nonlinear coordinates,38,0.2055
+Nonlinear coordinates,39,0.19175
+Nonlinear coordinates,40,0.18325
+Nonlinear coordinates,41,0.184325
+Nonlinear coordinates,42,0.185825
+Nonlinear coordinates,43,0.1846
+Nonlinear coordinates,44,0.19747499999999998
+Nonlinear coordinates,45,0.191525
+Nonlinear coordinates,46,0.22205000000000003
+Nonlinear coordinates,47,0.18680000000000002
+Nonlinear coordinates,48,0.1951
+Nonlinear coordinates,49,0.185625
+Nonlinear coordinates,50,0.184475

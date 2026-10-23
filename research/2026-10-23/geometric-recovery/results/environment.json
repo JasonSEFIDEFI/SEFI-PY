@@ -1,0 +1,8 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_commit": "847a071351ed2b1c54e240fd9a520a1cce238178",
+  "runner_sha256": "8455ee4cbe4ea6ba8a38f6205dcf3d7fe81a8cf6e9807c4eaaaadb41ca0895de",
+  "projection_sha256": "c495b52de752d1ce6fd44092aef6adfc3b79c7ddf6054cd8680d869056e77f6c"
+}

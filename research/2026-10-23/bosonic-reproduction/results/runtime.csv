@@ -1,0 +1,11 @@
+method,median_microseconds_per_trial,timing_p025,timing_p975,repeats,batch,timing_range_is_not_statistical_ci
+No recovery,0.01315,0.01275625,0.0200375,51,4000,True
+ML,0.003025,0.0024625000000000003,0.00513125,51,4000,True
+Geometry,0.013,0.01273125,1.6105125,51,4000,True
+Conventional posterior,0.013125,0.0127625,0.02199375,51,4000,True
+No prior distance,0.00285,0.0024875,0.00641875,51,4000,True
+No anisotropy,0.01305,0.012781250000000001,0.01921875,51,4000,True
+Random metric orientation,0.013075,0.012725,0.0180625,51,4000,True
+Shuffled features,0.043825,0.04148125,0.08361875,51,4000,True
+Affine coordinates,0.037325000000000004,0.03639375,0.096775,51,4000,True
+Nonlinear coordinates,0.1889,0.18313749999999998,1.724175,51,4000,True

@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    1701,
+    1702,
+    1703
+  ],
+  "samples_per_seed": 10000,
+  "sigmas": [
+    0.001,
+    0.01,
+    0.1,
+    0.5
+  ],
+  "noise": [
+    "isotropic_gaussian",
+    "radial_gaussian",
+    "tangent_gaussian",
+    "student_t3"
+  ],
+  "frame_errors_radians": [
+    0,
+    0.05,
+    0.2
+  ],
+  "duration": 100.0,
+  "steps": [
+    0.2,
+    0.1,
+    0.05,
+    0.025,
+    0.0125
+  ]
+}

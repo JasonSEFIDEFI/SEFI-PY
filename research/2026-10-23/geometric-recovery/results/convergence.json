@@ -1,0 +1,182 @@
+[
+  {
+    "dt": 0.2,
+    "method": "euler",
+    "steps": 500,
+    "seconds": 0.0038021000000298955,
+    "state_error": 18127.105727544043,
+    "energy_error": 164300790.28983143,
+    "phase_error": 1.3022200750596153
+  },
+  {
+    "dt": 0.2,
+    "method": "projected_euler",
+    "steps": 500,
+    "seconds": 0.011062699999456527,
+    "state_error": 1.2121394311951312,
+    "energy_error": 5.551115123125783e-17,
+    "phase_error": 1.3022200750596145
+  },
+  {
+    "dt": 0.2,
+    "method": "midpoint",
+    "steps": 500,
+    "seconds": 0.04751659999965341,
+    "state_error": 0.687952362167133,
+    "energy_error": 0.11067695802541255,
+    "phase_error": 0.6585541873203866
+  },
+  {
+    "dt": 0.2,
+    "method": "rk4",
+    "steps": 500,
+    "seconds": 0.037534700000833254,
+    "state_error": 0.0013326572403603886,
+    "energy_error": 0.00022106232593155362,
+    "phase_error": 0.00131433562438854
+  },
+  {
+    "dt": 0.1,
+    "method": "euler",
+    "steps": 1000,
+    "seconds": 0.015468499997950858,
+    "state_error": 143.82753551024604,
+    "energy_error": 10479.077818906859,
+    "phase_error": 0.33134750883796765
+  },
+  {
+    "dt": 0.1,
+    "method": "projected_euler",
+    "steps": 1000,
+    "seconds": 0.03151170000273851,
+    "state_error": 0.3298337947706353,
+    "energy_error": 1.1102230246251565e-16,
+    "phase_error": 0.3313475088379671
+  },
+  {
+    "dt": 0.1,
+    "method": "midpoint",
+    "steps": 1000,
+    "seconds": 0.022403100003430154,
+    "state_error": 0.1674873438125315,
+    "energy_error": 0.012657400059421287,
+    "phase_error": 0.1661648879251184
+  },
+  {
+    "dt": 0.1,
+    "method": "rk4",
+    "steps": 1000,
+    "seconds": 0.06695659999968484,
+    "state_error": 8.332477800965064e-05,
+    "energy_error": 6.935715833211731e-06,
+    "phase_error": 8.303590770400439e-05
+  },
+  {
+    "dt": 0.05,
+    "method": "euler",
+    "steps": 2000,
+    "seconds": 0.027151900001626927,
+    "state_error": 11.1483158727091,
+    "energy_error": 73.24500149724368,
+    "phase_error": 0.08320855611447323
+  },
+  {
+    "dt": 0.05,
+    "method": "projected_euler",
+    "steps": 2000,
+    "seconds": 0.06412769999951706,
+    "state_error": 0.08318455368901577,
+    "energy_error": 0.0,
+    "phase_error": 0.08320855611447536
+  },
+  {
+    "dt": 0.05,
+    "method": "midpoint",
+    "steps": 2000,
+    "seconds": 0.041159199998219265,
+    "state_error": 0.04169425309095291,
+    "energy_error": 0.0015649427268478178,
+    "phase_error": 0.04163538879203956
+  },
+  {
+    "dt": 0.05,
+    "method": "rk4",
+    "steps": 2000,
+    "seconds": 0.179252699999779,
+    "state_error": 5.208203589291265e-06,
+    "energy_error": 2.1694602514443773e-07,
+    "phase_error": 5.203683783051207e-06
+  },
+  {
+    "dt": 0.025,
+    "method": "euler",
+    "steps": 4000,
+    "seconds": 0.047568599999067374,
+    "state_error": 2.4892843223147247,
+    "energy_error": 5.58649203241683,
+    "phase_error": 0.020825524319361237
+  },
+  {
+    "dt": 0.025,
+    "method": "projected_euler",
+    "steps": 4000,
+    "seconds": 0.1326649999973597,
+    "state_error": 0.020825147984680163,
+    "energy_error": 1.1102230246251565e-16,
+    "phase_error": 0.020825524319356387
+  },
+  {
+    "dt": 0.025,
+    "method": "midpoint",
+    "steps": 4000,
+    "seconds": 0.09042880000197329,
+    "state_error": 0.010417514568283654,
+    "energy_error": 0.00019535064239861732,
+    "phase_error": 0.010414713105813303
+  },
+  {
+    "dt": 0.025,
+    "method": "rk4",
+    "steps": 4000,
+    "seconds": 0.7411333000018203,
+    "state_error": 3.2551880941070165e-07,
+    "energy_error": 6.781153860657696e-09,
+    "phase_error": 3.2544817089898616e-07
+  },
+  {
+    "dt": 0.0125,
+    "method": "euler",
+    "steps": 8000,
+    "seconds": 0.22357310000006692,
+    "state_error": 0.868183926767829,
+    "energy_error": 1.2450010778990463,
+    "phase_error": 0.0052078451065659965
+  },
+  {
+    "dt": 0.0125,
+    "method": "projected_euler",
+    "steps": 8000,
+    "seconds": 0.3744162000002689,
+    "state_error": 0.0052078392213452795,
+    "energy_error": 1.1102230246251565e-16,
+    "phase_error": 0.005207845106566444
+  },
+  {
+    "dt": 0.0125,
+    "method": "midpoint",
+    "steps": 8000,
+    "seconds": 0.1849437000018952,
+    "state_error": 0.0026041900868271485,
+    "energy_error": 2.4414658482130314e-05,
+    "phase_error": 0.0026040445895480057
+  },
+  {
+    "dt": 0.0125,
+    "method": "rk4",
+    "steps": 8000,
+    "seconds": 0.7557959999976447,
+    "state_error": 2.0345016296327657e-08,
+    "energy_error": 2.1191987054081096e-10,
+    "phase_error": 2.034391255887697e-08
+  }
+]

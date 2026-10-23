@@ -1,0 +1,23 @@
+{
+  "grids": [
+    {
+      "h": 0.8,
+      "L": 60
+    },
+    {
+      "h": 0.4,
+      "L": 60
+    },
+    {
+      "h": 0.2,
+      "L": 60
+    },
+    {
+      "h": 0.2,
+      "L": 80
+    }
+  ],
+  "wall_seconds_per_relaxation": 20,
+  "maximum_iterations": 20000,
+  "note": "Uncalibrated dimensionless two-field model, Q=100000, lambda=12. No empirical particle identification."
+}

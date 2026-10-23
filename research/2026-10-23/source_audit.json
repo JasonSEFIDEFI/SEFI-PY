@@ -1,0 +1,350 @@
+[
+  {
+    "path": "research/2026-10-19/vortex-extended/batch.py",
+    "sha256": "9a311fe65de73bfe98b7fb62678e9f6376f7341033596298779fe3df2559dee5",
+    "imports": [
+      "azimuthal",
+      "cylindrical3d",
+      "datetime"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/cylindrical3d.py",
+    "sha256": "01673692013fa3896737b12f94021e6b5bc4bf128c5d96fd33738120a5e6b70a",
+    "imports": [
+      "json",
+      "numpy",
+      "pathlib",
+      "study",
+      "sys",
+      "time"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/make_report.py",
+    "sha256": "1fcf727006643cbff12109f74ff14a6b65157d62260b6adb9c5b97e95e3baa6d",
+    "imports": [
+      "json",
+      "pathlib",
+      "reportlab.lib",
+      "reportlab.lib.styles",
+      "reportlab.pdfbase",
+      "reportlab.pdfbase.ttfonts",
+      "reportlab.platypus"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/physical_potential_audit.py",
+    "sha256": "1473580a0b0e03f962e24e9b8c895645e052828da86b73e65dd1c2281a06448c",
+    "imports": [
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/record_stop.py",
+    "sha256": "c151d1e1c5de15d37a9d2eebfa9296c6909d3323522b2f08fa6a5c90448d5448",
+    "imports": [
+      "datetime",
+      "hashlib",
+      "json",
+      "pathlib",
+      "subprocess"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/run_integrity.py",
+    "sha256": "d027b09b768b69c07c74e6f211931a2f4f03495d6c8bef7e068360711e6e89f0",
+    "imports": [
+      "math"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/snapshot.py",
+    "sha256": "d6fcf725f96735877b9bde8dc75f972c78ea69ba71c52babe6bbf1e03f6052b4",
+    "imports": [
+      "datetime",
+      "json",
+      "pathlib",
+      "run_integrity"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/spherical_checkpoint.py",
+    "sha256": "29ee0580d9060fb0c7e5b65e71ba7165925ee3de3a9bfa90ca0772f4c075415b",
+    "imports": [
+      "PIL",
+      "run_integrity",
+      "vacuum_spherical"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/spherical_evolution.py",
+    "sha256": "d11469b3004abae1a1d5a8e09819b03bf67460810cc56ce2fd51e95ea0aa2c24",
+    "imports": [
+      "vacuum_spherical"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/spherical_stability.py",
+    "sha256": "8baa3a150887d1293dba9ebb75ad0db323c39e4297db48be381e37af1d9b54bf",
+    "imports": [
+      "scipy.sparse",
+      "scipy.sparse.linalg",
+      "vacuum_spherical"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/test_extended.py",
+    "sha256": "f7a58a6032a356bf1ecbd5cb14010591c1dde82cb7b173dabac8e80cd8ca77e9",
+    "imports": [
+      "azimuthal",
+      "cylindrical3d",
+      "unittest"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/test_run_integrity.py",
+    "sha256": "2bd9075d9ad94a1bd4e891a34105213f33b7afe5d0b8cf1527c6e600aa254d32",
+    "imports": [
+      "run_integrity",
+      "unittest"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/test_spherical_stability.py",
+    "sha256": "83c9824538ec625bc81ff1c9b0026c6c024dd818c8767d9d73c61ef153f2811f",
+    "imports": [
+      "spherical_stability",
+      "unittest"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/vacuum_spherical.py",
+    "sha256": "9d7c0d310015af5933809ef64c4ca7eba6282c79051a7ec0fa1f30b77bf5c424",
+    "imports": [
+      "json",
+      "numpy",
+      "pathlib",
+      "scipy.linalg",
+      "sys",
+      "time"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "research/2026-10-19/vortex-extended/vacuum_trial.py",
+    "sha256": "11db465b5e64f4e821661577ee13ff930922e01ffceb5c97360eaa4ec84f961f",
+    "imports": [
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/__init__.py",
+    "sha256": "06b1a6f40518492fdddb9c133fcd80d1b7f4791fd0dd7166539eb830c7d5b180",
+    "imports": [
+      "runner"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/correction.py",
+    "sha256": "0ccf376325f588050c077a0d985bd8d66a4e2c6ac529e04d48bed86099b2b7cf",
+    "imports": [
+      "logical_worldline",
+      "physical_qubits"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/logical_worldline.py",
+    "sha256": "365f5ac8c5d76baa3ae2fc4f439deba129c12a5eaa0edd8b8ab9aeb0143c28f0",
+    "imports": [],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/majority_check.py",
+    "sha256": "c55113f92c4452d8f90f4dd7d6580f42997f7bd527918dac8792df9dc8aa8022",
+    "imports": [],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/pauli_frame_check.py",
+    "sha256": "17db943772a16175bbd874f66c33e28d90147b5eddf416e1e2de3ad4ecf345b3",
+    "imports": [
+      "logical_worldline"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/pauli_ops.py",
+    "sha256": "d02caa621e08a16323c003cdd40d5342065dab35197e21fed1e177f7f3ce2740",
+    "imports": [],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/physical_qubits.py",
+    "sha256": "3801393d27b913d61d6f6beb5aaa9deb6db399274b1fcc734bb2f0992e5d9dcf",
+    "imports": [
+      "logical_worldline",
+      "pauli_ops"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/runner.py",
+    "sha256": "bc74ac7e8d565ba3089e82725b258d647c933236f0ecbfa54dd7238e474321c1",
+    "imports": [
+      "benchmark",
+      "correction",
+      "logical_worldline",
+      "majority_check",
+      "pathlib",
+      "pauli_frame_check",
+      "physical_qubits",
+      "stabilizer_energy",
+      "stabilizers",
+      "syndrome",
+      "sys",
+      "warp_residual_check"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/stabilizer_energy.py",
+    "sha256": "416dc167c08a8533743d13a08ad265dff0b66810606c79a158f772ebca82477a",
+    "imports": [
+      "pauli_ops"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/stabilizers.py",
+    "sha256": "105d57e872945649320dcb7f124eb7342126a65815435420b88c3372af0ad377",
+    "imports": [
+      "physical_qubits"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/syndrome.py",
+    "sha256": "286173f013c9f2cf7f4f41a9bc4f51002221a2cc53c7fa7cdb464ea9790a18b0",
+    "imports": [
+      "physical_qubits",
+      "stabilizers"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/warp_mapping.py",
+    "sha256": "e7fb39abdd8433c45ff004974ed36d9edd56bd06bc9441317c8fea11f5f074f3",
+    "imports": [],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/SEFI-QEC/warp_residual_check.py",
+    "sha256": "c767fe6e278c418d29f526d27ef9f628e04131f62a074cad2fe4d279e4567f16",
+    "imports": [
+      "math"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imports": [],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/utils/draw.py",
+    "sha256": "8539b8a30d436b2d8b230dbc2089096ef8ea4e63ed11a16aca53b2f2da82d5ff",
+    "imports": [
+      "matplotlib.pyplot",
+      "numpy"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/utils/draw3d.py",
+    "sha256": "395eb2bd35e3c585ad6dd3941525e34e437441ce0dee1ebe8ceb2c315332ec4f",
+    "imports": [
+      "matplotlib.pyplot",
+      "mpl_toolkits.mplot3d",
+      "numpy"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/utils/geometry.py",
+    "sha256": "48a483fbd443398e4c85ac4b67b6b7e6958af9ba120b7a61266512ff007fe416",
+    "imports": [
+      "numpy"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/utils/plot.py",
+    "sha256": "a0683249af3010ef5f21ac86446b09409f99ea2174186612e949ece14b0219c7",
+    "imports": [
+      "matplotlib.pyplot",
+      "numpy"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY/utils/stability.py",
+    "sha256": "22491976827ff9a6984d6206ae34b0561eb8b3485bcfc4d5e83903a4bcbc2f3c",
+    "imports": [
+      "numpy",
+      "sim.world"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY Evolution/qec/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "imports": [],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY Evolution/qec/displacements.py",
+    "sha256": "cd0c6c5ee416f0a59f0a699dae30c2d92854b206e33a97cf404391982ef83c0f",
+    "imports": [
+      "numpy"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY Evolution/qec/projection.py",
+    "sha256": "c495b52de752d1ce6fd44092aef6adfc3b79c7ddf6054cd8680d869056e77f6c",
+    "imports": [
+      "numpy"
+    ],
+    "parse_error": null
+  },
+  {
+    "path": "SEFI-PY Evolution/qec/syndrome.py",
+    "sha256": "52bd658c672a1278bcfbfacd12df79e1c0968e5974e614d8be1684ae10b00fe6",
+    "imports": [
+      "numpy"
+    ],
+    "parse_error": null
+  }
+]
