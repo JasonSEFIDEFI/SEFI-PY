@@ -1,0 +1,9 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seconds": 766.7177472000039,
+  "script_sha256": "91a8b3906f0ffad6e7c42d0f58b880001b947910e0288906528ccc1b0fec4fdb",
+  "protocol_sha256": "fa1f861c3d35a459076129d5ffe005c59388aad8108a6c06dac942647e3eb54e",
+  "test_targets_used_for_model_selection": false
+}

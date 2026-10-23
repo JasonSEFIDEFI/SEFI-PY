@@ -1,0 +1,18 @@
+{
+  "ame_rows": 3558,
+  "nubase_ground_rows": 3558,
+  "joined_rows": 3558,
+  "joined_nubase": 3558,
+  "estimated_mass_rows": 1008,
+  "min_Z": 0,
+  "max_Z": 118,
+  "lifetime_status_counts": {
+    "bounded_or_approximate": 17,
+    "estimated": 369,
+    "finite_evaluated": 2832,
+    "missing": 84,
+    "no_observed_decay": 253,
+    "particle_unstable": 3
+  },
+  "mass_analysis_rows": 2484
+}

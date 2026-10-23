@@ -1,0 +1,9 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seconds": 7.469204799999716,
+  "script_sha256": "7e993222e64bbc993337326868d0daaeb5018af67c51aca683e89528e22daed1",
+  "new_elements_predicted": 0,
+  "evaluated_isotope_gaps_are_not_existence_predictions": true
+}

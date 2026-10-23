@@ -1,0 +1,49 @@
+{
+  "version": "publication-extension-1",
+  "random_seeds": [
+    8400,
+    8401,
+    8402,
+    8403,
+    8404
+  ],
+  "historical_seeds": [
+    9600,
+    9601,
+    9602,
+    9603,
+    9604
+  ],
+  "element_chain_folds": 5,
+  "length_scales": [
+    1.5,
+    3.0,
+    6.0
+  ],
+  "noise_fractions": [
+    0.03,
+    0.3
+  ],
+  "parity_coordinate_scale": 2.0,
+  "interval_alpha": 0.1,
+  "bootstrap_seed": 2307,
+  "bootstrap_repeats": 2000,
+  "primary_endpoint": "Total binding-energy RMSE (MeV); actual held-out AME2016-to-2020 cohort",
+  "secondary_endpoints": [
+    "MAE",
+    "nominal-90% residual interval coverage",
+    "distance-scaled coverage",
+    "Gaussian process predictive-normal and residual-calibrated coverage",
+    "width",
+    "setup and inference time"
+  ],
+  "model_families": [
+    "SEMF",
+    "SEMF_known_shells",
+    "Gaussian_residual_smoother",
+    "GP_RBF",
+    "GP_Matern32",
+    "GP_RBF_parity"
+  ],
+  "interpretation": "Retrospective extension following pilot; no SEFI-specific law or discovery claim."
+}

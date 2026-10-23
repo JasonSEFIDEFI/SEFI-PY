@@ -1,0 +1,42 @@
+{
+  "seed_range": [
+    4200,
+    4201,
+    4202,
+    4203,
+    4204,
+    4205,
+    4206,
+    4207,
+    4208,
+    4209
+  ],
+  "minimum_A": 16,
+  "kernel_bandwidths": [
+    1.5,
+    3.0,
+    6.0
+  ],
+  "kernel_prior_weight": 1.0,
+  "shell_width": 3.0,
+  "mass_primary_endpoint": "Total binding-energy RMSE in MeV on held-out nuclei",
+  "lifetime_endpoint": "MAE of log10(half-life / 1 second), finite measured radioactive ground states only",
+  "proton_magic": [
+    2,
+    8,
+    20,
+    28,
+    50,
+    82
+  ],
+  "neutron_magic": [
+    2,
+    8,
+    20,
+    28,
+    50,
+    82,
+    126
+  ],
+  "status": "Exploratory reconstruction of a lost original map; conventional models and matched geometric re-expression."
+}
