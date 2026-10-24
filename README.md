@@ -69,3 +69,8 @@ The foundational work investigates SEFI, DEFI, and GWFM proposals. Finite-domain
 - [Book manuscripts and early source material](https://github.com/JasonSEFIDEFI/Publishing-V-Drive-Content).
 
 These are research drafts and computational studies, not confirmations of new physics, a working propulsion engine, journal acceptance, or a doctoral award. Prior versions and submission history remain distinct. Existing draft pull requests are retained for review.
+
+
+## Quantum benchmark integration
+
+[Install and use the standard quantum benchmark adapter](integrations/QUANTUM_BENCHMARK.md) for seeded synthetic states and syndrome-only QEC software tests. Includes a runnable bridge to the existing QuantumState class. Standard quantum mechanics and optional SEFI-inspired descriptors are explicitly separated; no new physics or SEFI advantage is claimed.

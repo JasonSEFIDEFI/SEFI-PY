@@ -1,0 +1,23 @@
+name: Quantum benchmark integration
+on:
+  push:
+    paths: ['integrations/quantum_benchmark*', '.github/workflows/quantum-benchmark-integration.yml']
+  pull_request:
+    paths: ['integrations/quantum_benchmark*', '.github/workflows/quantum-benchmark-integration.yml']
+permissions:
+  contents: read
+jobs:
+  adapter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: JasonSEFIDEFI/SEFI_QEC_Stack
+          ref: aaad1aa1adfe358f468cfd7c371fb1f29259fcf5
+          path: .benchmark-reference
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install ./.benchmark-reference/benchmark_pipeline
+      - run: python integrations/quantum_benchmark_example.py
