@@ -1,0 +1,17 @@
+{
+  "scope": "five-minute checkpoint 04; proposed gauge-source interaction and covariant internal derivative",
+  "source_sha256": {
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/gauge_coupling.py": "8215bfbfd714e042d116cbd96053eb8c0afab1a3e76c326000fd1a90ac8f3852",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/test_gauge_coupling.py": "a43465a80dae258bcb015d13eca43060182485cfdee7375e65acdb13ecde623a",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/worldline_current.py": "3f65abb6d8b7e009b6ae8af22307c699feed0605f006a02016e97fb509b9341e"
+  },
+  "test_summary": [
+    {
+      "tests": "20",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "5.411"
+    }
+  ]
+}

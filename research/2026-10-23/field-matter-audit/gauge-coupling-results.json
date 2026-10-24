@@ -1,0 +1,21 @@
+{
+  "scope": "Proposed S_int=-g integral j.A, g=0.7; chi vanishes at endpoints",
+  "constant_charge": {
+    "direct_action_change": 0.0,
+    "predicted_action_change": 0.0,
+    "identity_error": 0.0,
+    "endpoint_contribution": 0.0,
+    "interior_contribution": 0.0,
+    "quadrature_error_estimate": 2.854006972683287e-14
+  },
+  "changing_charge": {
+    "direct_action_change": 0.37333333333333324,
+    "predicted_action_change": 0.3733333333333333,
+    "identity_error": 5.551115123125783e-17,
+    "endpoint_contribution": 0.0,
+    "interior_contribution": 0.3733333333333333,
+    "quadrature_error_estimate": 2.0708422796105483e-14
+  },
+  "exact_expected_changing_charge_variation": "28/75",
+  "interpretation": "Endpoint phases alone cannot repair a nonzero interior torque. Gauging an invariant internal sector changes its derivative and source current."
+}
