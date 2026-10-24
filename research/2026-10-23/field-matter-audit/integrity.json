@@ -1,0 +1,51 @@
+{
+  "junit_summary": [
+    {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "6",
+      "time": "4.760"
+    }
+  ],
+  "sha256": {
+    "research/2026-10-19/vortex-extended/vacuum_spherical.py": "9d7c0d310015af5933809ef64c4ca7eba6282c79051a7ec0fa1f30b77bf5c424",
+    "research/2026-10-19/vortex-extended/vacuum_spherical_h0p1_L80.npz": "6f127614a263dabbf8ed43281751dad2660dc71464936a3d91217be10f5c7c21",
+    "research/2026-10-23/field-matter-audit/audit.py": "79418383c15446c1ddf59538c65d1a1a1bb42c018349645d38f917ef1550164f",
+    "research/2026-10-23/field-matter-audit/dynamics.py": "c034963fa3a505c8e0691eedd3823f162e5b0a17d39c14edcaa6b90a093675bc",
+    "research/2026-10-23/field-matter-audit/plot_results.py": "29c3c7be450442ef164b5628db85a73ee212030455b2764999167fce999c39df",
+    "research/2026-10-23/field-matter-audit/record_integrity.py": "144f4b91a1beff59ffd832adf2d0c9fc66a14219d1366df242c10fcede8ab4ec",
+    "research/2026-10-23/field-matter-audit/results/Q100000_h0.2.npz": "3e2da35152403e7fe23575faed0ccefdc30ba39734200a184485b2e0a23309a7",
+    "research/2026-10-23/field-matter-audit/results/Q100000_h0.4.npz": "d7f29fcb04227cd5566248659926475541285933049cde3bc43d8b579ca3198f",
+    "research/2026-10-23/field-matter-audit/results/Q101000_h0.2.npz": "4393404c979dec55111c8b074d67fcd27a064eebce638a931a325de95680cece",
+    "research/2026-10-23/field-matter-audit/results/Q101000_h0.4.npz": "625f9a09d61a9c678222dfabedfb9f3e4b1403791451ee6bcdd40880bbc6c78b",
+    "research/2026-10-23/field-matter-audit/results/Q125000_h0.2.npz": "9e35ceb1d89e11b34f439908d8c4325e4da122717185ed0daf641a876b02375f",
+    "research/2026-10-23/field-matter-audit/results/Q125000_h0.4.npz": "a2cb8cbe7715dfe3b3921f1fb84e71970f15872e323d33b657789c1cea10f171",
+    "research/2026-10-23/field-matter-audit/results/Q149000_h0.2.npz": "e31e2b770edef931821e2a9d751ddae88a7366ca4608ffb2489a5a1649527bfd",
+    "research/2026-10-23/field-matter-audit/results/Q149000_h0.4.npz": "966027743000f1c11d8fc2b211f241e0b8df4fb8607caca08e3ca1beda593969",
+    "research/2026-10-23/field-matter-audit/results/Q150000_h0.2.npz": "671a57952ff4e4c4998f14f4cbe4545ae36d4f30f598f37a5a3fb5e7b7dd1f42",
+    "research/2026-10-23/field-matter-audit/results/Q150000_h0.4.npz": "433923651ac82cad88c8915145c35f7b5ceebce86eade19ebe7bc2f24e9ee9e9",
+    "research/2026-10-23/field-matter-audit/results/Q151000_h0.2.npz": "d94849c6f5cd5d1bb203c28fd2f33d6568e931115b82c4ed058a3540b35c504b",
+    "research/2026-10-23/field-matter-audit/results/Q151000_h0.4.npz": "24c00839e90dbf8fbd9a205afc931a8194cc2808d4298eb961f33f3365ce3dee",
+    "research/2026-10-23/field-matter-audit/results/Q200000_h0.2.npz": "f84fdb8d47914213ff742606bfb2b9b8ff6aa4ef57a337f138c36972b11b38e1",
+    "research/2026-10-23/field-matter-audit/results/Q200000_h0.4.npz": "ba59b71711c00cae3277b8440a15f4be9cfe5634de8d7a4a6dba25e47b317cb5",
+    "research/2026-10-23/field-matter-audit/results/Q25000_h0.2.npz": "c77d195024b3aa8350d1ff36c0656ef3fe05f393188c3aca22dce517e14463d0",
+    "research/2026-10-23/field-matter-audit/results/Q25000_h0.4.npz": "f559e1968b86258d573b3dfeb4fa3aa950cd784dff9087154942832f08511440",
+    "research/2026-10-23/field-matter-audit/results/Q49000_h0.2.npz": "e911544450ac1b469df49f9db3549d0291502ce83f5fffd43782913f2788910b",
+    "research/2026-10-23/field-matter-audit/results/Q49000_h0.4.npz": "a3a15d1809ca59aef3c85e3d87dbd86c99049f9d860ba8234e6f65297016ee6d",
+    "research/2026-10-23/field-matter-audit/results/Q50000_h0.2.npz": "9bf04e8d477fa1d9fec0dd202de7bc4342097f1b2ac5f5cce2b1424298fcaf4e",
+    "research/2026-10-23/field-matter-audit/results/Q50000_h0.4.npz": "bfb35606316cad9388288ee0f73f579cac34f05205adc6a0adbc0dd37b67afdf",
+    "research/2026-10-23/field-matter-audit/results/Q51000_h0.2.npz": "7817c85967d9d17961a25d7ed85e9d556d7552ac360677c185bf20ffc898a91f",
+    "research/2026-10-23/field-matter-audit/results/Q51000_h0.4.npz": "ff01ac6d483ca4ae7de56f060e700e4ab81b76b2eb8bd1c889a8220885f8cdee",
+    "research/2026-10-23/field-matter-audit/results/Q75000_h0.2.npz": "6e9d8451990ed53c758982dbc3e3500c096d2a5f72dcdf4710d9db55e8a2d653",
+    "research/2026-10-23/field-matter-audit/results/Q75000_h0.4.npz": "701d17e42ed780c146428f7ca5ae86f9f8f560ee2b46692307a31ff9b1eabdd8",
+    "research/2026-10-23/field-matter-audit/results/Q99000_h0.2.npz": "1cc34394636cd0b7dcdc88cfdcdafb4183309dbdf2b1db4b8459da840b2517bc",
+    "research/2026-10-23/field-matter-audit/results/Q99000_h0.4.npz": "3a81e67dff6806df7eeb697a7247ddc6f9549c71d074f69f1e868a1c2363c37d",
+    "research/2026-10-23/field-matter-audit/results/analytic.json": "8bf0decdf899db4a190cccd6d09879d39529342fea27ebb59a6a32c201f657f4",
+    "research/2026-10-23/field-matter-audit/results/branch_summary.json": "551a37a15bd55e93a4d64cd8c16aa8adefefeafef3f152fb9c1bc4d392303238",
+    "research/2026-10-23/field-matter-audit/results/dynamics.json": "4434c6e20f2ebc1ba6d79823f3ec0b4733493fad5f156c109fa336cb35c77648",
+    "research/2026-10-23/field-matter-audit/results/profiles.json": "57d461ba2c7f06fb254039b354b5cd13b01acecaa0fe091d848ee26a61a1ce9b",
+    "research/2026-10-23/field-matter-audit/results/provenance.json": "2cbd4340cb97a6ca0dabf449f639359e8b1d5aca568755d70a38ad98e48e9b62",
+    "research/2026-10-23/field-matter-audit/test_audit.py": "465dd4f2bbf69cae39360248f5ed1856348ab3eee615ec07209bb763bba96974"
+  }
+}

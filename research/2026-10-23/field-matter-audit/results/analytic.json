@@ -1,0 +1,52 @@
+{
+  "scope": "Independent recheck of already documented potential bound; not a new theorem",
+  "vacuum_real_component_mass_squared": {
+    "phi_real": 2.0,
+    "phi_imag": 2.0,
+    "sigma_radial": 6.0,
+    "sigma_phase": 0.0
+  },
+  "mass_spectrum_lambda": 12.0,
+  "coupling_audit": [
+    {
+      "lambda": 4.0,
+      "m_phi_squared": 4.0,
+      "infimum_ratio": 2.5,
+      "numeric_infimum": 2.5000000000000995,
+      "subthreshold_well": true,
+      "exact_square_identity": true
+    },
+    {
+      "lambda": 12.0,
+      "m_phi_squared": 2.0,
+      "infimum_ratio": 1.8660254037844388,
+      "numeric_infimum": 1.866025403784551,
+      "subthreshold_well": true,
+      "exact_square_identity": true
+    },
+    {
+      "lambda": 15.0,
+      "m_phi_squared": 1.8,
+      "infimum_ratio": 1.7745966692414834,
+      "numeric_infimum": 1.7745966692415025,
+      "subthreshold_well": true,
+      "exact_square_identity": true
+    },
+    {
+      "lambda": 16.0,
+      "m_phi_squared": 1.75,
+      "infimum_ratio": 1.75,
+      "numeric_infimum": 1.7499999999999998,
+      "subthreshold_well": false,
+      "exact_square_identity": true
+    },
+    {
+      "lambda": 25.0,
+      "m_phi_squared": 1.48,
+      "infimum_ratio": 1.48,
+      "numeric_infimum": 1.4800000000067954,
+      "subthreshold_well": false,
+      "exact_square_identity": true
+    }
+  ]
+}

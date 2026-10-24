@@ -1,0 +1,152 @@
+[
+  {
+    "h": 0.2,
+    "charge_derivatives": [
+      {
+        "Q": 50000.0,
+        "central_dE_dQ": 1.3754981736261398,
+        "omega": 1.3754978847567736,
+        "relative_identity_error": 2.1001076730566644e-07,
+        "domega_dQ": -6.440465716239796e-08,
+        "eligible": true
+      },
+      {
+        "Q": 100000.0,
+        "central_dE_dQ": 1.3735135527921667,
+        "omega": 1.373513490935839,
+        "relative_identity_error": 4.503510742615784e-08,
+        "domega_dQ": -2.5346851228902347e-08,
+        "eligible": true
+      },
+      {
+        "Q": 150000.0,
+        "central_dE_dQ": 1.372554171955184,
+        "omega": 1.3725541470757556,
+        "relative_identity_error": 1.8126372899988864e-08,
+        "domega_dQ": -1.4702712074043944e-08,
+        "eligible": true
+      }
+    ],
+    "selected_fission": [
+      {
+        "parent_Q": 50000.0,
+        "daughter_Qs": [
+          25000.0,
+          25000.0
+        ],
+        "daughter_energy_minus_parent": 190.76203331806755,
+        "fraction_of_parent_energy": 0.0027639056739633227,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      },
+      {
+        "parent_Q": 100000.0,
+        "daughter_Qs": [
+          50000.0,
+          50000.0
+        ],
+        "daughter_energy_minus_parent": 301.3663348700502,
+        "fraction_of_parent_energy": 0.002187989376116427,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      },
+      {
+        "parent_Q": 150000.0,
+        "daughter_Qs": [
+          50000.0,
+          100000.0
+        ],
+        "daughter_energy_minus_parent": 369.48884264947264,
+        "fraction_of_parent_energy": 0.0017902790389422993,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      },
+      {
+        "parent_Q": 200000.0,
+        "daughter_Qs": [
+          100000.0,
+          100000.0
+        ],
+        "daughter_energy_minus_parent": 475.50163891830016,
+        "fraction_of_parent_energy": 0.0017291106661874315,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      }
+    ]
+  },
+  {
+    "h": 0.4,
+    "charge_derivatives": [
+      {
+        "Q": 50000.0,
+        "central_dE_dQ": 1.3754936644478222,
+        "omega": 1.3754933755604384,
+        "relative_identity_error": 2.1002455477097982e-07,
+        "domega_dQ": -6.437334420583695e-08,
+        "eligible": true
+      },
+      {
+        "Q": 100000.0,
+        "central_dE_dQ": 1.3735099994366902,
+        "omega": 1.3735099420836965,
+        "relative_identity_error": 4.175651877741727e-08,
+        "domega_dQ": -2.5335058805642242e-08,
+        "eligible": true
+      },
+      {
+        "Q": 150000.0,
+        "central_dE_dQ": 1.3725510781699268,
+        "omega": 1.3725510550697497,
+        "relative_identity_error": 1.6830104074578094e-08,
+        "domega_dQ": -1.4696292804816658e-08,
+        "eligible": true
+      }
+    ],
+    "selected_fission": [
+      {
+        "parent_Q": 50000.0,
+        "daughter_Qs": [
+          25000.0,
+          25000.0
+        ],
+        "daughter_energy_minus_parent": 190.66514696863305,
+        "fraction_of_parent_energy": 0.0027625158490116658,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      },
+      {
+        "parent_Q": 100000.0,
+        "daughter_Qs": [
+          50000.0,
+          50000.0
+        ],
+        "daughter_energy_minus_parent": 301.21594773905235,
+        "fraction_of_parent_energy": 0.0021869062011512256,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      },
+      {
+        "parent_Q": 150000.0,
+        "daughter_Qs": [
+          50000.0,
+          100000.0
+        ],
+        "daughter_energy_minus_parent": 369.30573872616515,
+        "fraction_of_parent_energy": 0.0017893980144560418,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      },
+      {
+        "parent_Q": 200000.0,
+        "daughter_Qs": [
+          100000.0,
+          100000.0
+        ],
+        "daughter_energy_minus_parent": 475.26769099436933,
+        "fraction_of_parent_energy": 0.001728265333298266,
+        "eligible": true,
+        "scope": "Selected same-branch separated candidates, not all fission channels"
+      }
+    ]
+  }
+]

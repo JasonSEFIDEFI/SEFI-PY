@@ -1,0 +1,11 @@
+{
+  "python": "3.14.7",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "source_sha256": {
+    "vacuum_spherical.py": "9d7c0d310015af5933809ef64c4ca7eba6282c79051a7ec0fa1f30b77bf5c424",
+    "vacuum_spherical_h0p1_L80.npz": "6f127614a263dabbf8ed43281751dad2660dc71464936a3d91217be10f5c7c21",
+    "audit.py": "79418383c15446c1ddf59538c65d1a1a1bb42c018349645d38f917ef1550164f"
+  },
+  "scope": "Classical radial lambda=12 continuation. No new physics or observed-particle identification."
+}

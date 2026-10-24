@@ -1,0 +1,146 @@
+[
+  {
+    "h": 0.8,
+    "Q": 100000.0,
+    "L": 80.0,
+    "dimension": 600,
+    "profile": {
+      "Q": 100000.0,
+      "h": 0.8,
+      "L": 80.0,
+      "lambda": 12.0,
+      "energy": 137733.9017139668,
+      "energy_per_charge": 1.377339017139668,
+      "omega": 1.3734955853865576,
+      "residual": 4.431322066233978e-09,
+      "reason": "line_search_stalled",
+      "iterations": 267,
+      "requested_tolerance": 1e-09,
+      "converged": false,
+      "usable_stationarity_1e-7": true,
+      "K": 579.4793131272163,
+      "U": 68479.64313151171,
+      "C": 68674.77926932788,
+      "relative_virial_residual": -4.304750135932089e-05,
+      "seconds": 0.15457929999683984
+    },
+    "seconds": 1.4950823999970453,
+    "real_grand_canonical_lowest": [
+      -0.002633307901995111,
+      0.11720285947053809,
+      0.1281950561018541
+    ],
+    "real_fixed_charge_lowest": [
+      0.1171582458700833,
+      0.1279994440111835,
+      0.14574954175853524
+    ],
+    "sigma_phase_lowest": [
+      0.001866936755656727,
+      0.009290387866783982,
+      0.023484830823857973
+    ],
+    "max_real_part": 1.9845236565174673e-15,
+    "max_normalized_eigenpair_residual": 6.978985048355825e-15,
+    "positive_real_roots_above_1e-7": [],
+    "near_zero_roots": [
+      [
+        -5.4175014243347235e-17,
+        4.931024333980588e-07
+      ],
+      [
+        -5.4175014243347235e-17,
+        -4.931024333980588e-07
+      ],
+      [
+        -1.5336547949575813e-16,
+        -0.041872130656459124
+      ],
+      [
+        -1.5336547949575813e-16,
+        0.041872130656459124
+      ],
+      [
+        -2.1831765995711239e-16,
+        -0.04490319015136465
+      ],
+      [
+        -2.1831765995711239e-16,
+        0.04490319015136465
+      ]
+    ],
+    "scope": "All finite-grid radial coupled roots; decoupled Sigma phase tested by its curvature. Positive roots require symmetry/refinement audit."
+  },
+  {
+    "h": 0.4,
+    "Q": 100000.0,
+    "L": 80.0,
+    "dimension": 1200,
+    "profile": {
+      "Q": 100000.0,
+      "h": 0.4,
+      "L": 80.0,
+      "lambda": 12.0,
+      "energy": 137736.10755709917,
+      "energy_per_charge": 1.3773610755709917,
+      "omega": 1.3735099420836965,
+      "residual": 3.1992136314239195e-09,
+      "reason": "line_search_stalled",
+      "iterations": 245,
+      "requested_tolerance": 1e-09,
+      "converged": false,
+      "usable_stationarity_1e-7": true,
+      "K": 578.3994125066965,
+      "U": 68482.21104040765,
+      "C": 68675.49710418482,
+      "relative_virial_residual": -1.0591114056261371e-05,
+      "seconds": 0.15737499999522697
+    },
+    "seconds": 10.32757720000518,
+    "real_grand_canonical_lowest": [
+      -0.002653424721637069,
+      0.11716917751020076,
+      0.12818525058951982
+    ],
+    "real_fixed_charge_lowest": [
+      0.11712293583499814,
+      0.1279827792187998,
+      0.1457838511551413
+    ],
+    "sigma_phase_lowest": [
+      0.0018670532107742089,
+      0.00929379238269743,
+      0.02350667931462514
+    ],
+    "max_real_part": 7.060324547225605e-15,
+    "max_normalized_eigenpair_residual": 9.643980510473514e-15,
+    "positive_real_roots_above_1e-7": [],
+    "near_zero_roots": [
+      [
+        9.653042876437097e-16,
+        -4.2593467435422665e-07
+      ],
+      [
+        9.653042876437097e-16,
+        4.2593467435422665e-07
+      ],
+      [
+        3.642919299551295e-17,
+        -0.04185925469119329
+      ],
+      [
+        3.642919299551295e-17,
+        0.04185925469119329
+      ],
+      [
+        6.613633252161577e-16,
+        -0.04490239080406948
+      ],
+      [
+        6.613633252161577e-16,
+        0.04490239080406948
+      ]
+    ],
+    "scope": "All finite-grid radial coupled roots; decoupled Sigma phase tested by its curvature. Positive roots require symmetry/refinement audit."
+  }
+]

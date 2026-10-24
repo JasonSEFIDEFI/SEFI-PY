@@ -1,0 +1,21 @@
+name: Field action and matter audit
+on:
+  push:
+    paths: ['research/2026-10-23/field-matter-audit/**', '.github/workflows/field-matter-audit.yml']
+  pull_request:
+    paths: ['research/2026-10-23/field-matter-audit/**', '.github/workflows/field-matter-audit.yml']
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - run: python -m pip install -r research/2026-10-23/field-matter-audit/requirements.txt
+      - run: python -m pytest research/2026-10-23/field-matter-audit/test_audit.py -q
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
