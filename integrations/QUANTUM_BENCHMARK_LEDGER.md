@@ -21,3 +21,12 @@ Its public research ledger includes baseline counts, uncertainty, checksums,
 failed attempts, correction steps and model limitations. Published seeded
 examples are reproducibility demos, not blind evaluations. No geometric QEC
 advantage was measured. CI status must be checked independently.
+
+Public CI was subsequently verified: implementation commit
+`c907b24ab91293bd542807b975e07f81b3be7cef` passed its Linux/Python 3.12 adapter
+job in [run 40046235231](https://github.com/JasonSEFIDEFI/SEFI-PY/actions/runs/40046235231).
+The pinned Stack implementation passed all Python 3.10/3.12/3.14 jobs in
+[run 40046229740](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack/actions/runs/40046229740).
+Both implementations are public on `feat/quantum-benchmark-v1`. Default
+branches and existing history remain unchanged. This follow-up only records
+observed CI outcomes and changes no executable code.
