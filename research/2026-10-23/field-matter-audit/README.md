@@ -201,6 +201,16 @@ are local observations, not performance claims. Source and input checksums
 are recorded, and raw outcomes remain distinct from interpretation. Remote
 CI must be checked separately from these local results.
 
+After publication, the Linux/Python 3.14 dependency installation and six-test
+suite both passed in [GitHub Actions run 40047469206](https://github.com/JasonSEFIDEFI/SEFI-PY/actions/runs/40047469206),
+testing implementation commit `05458baddbd5e7c6c2e4b5f44f846123a6f8a985`.
+An additional audit loaded all 26 saved NPZ profiles and independently
+reconstructed finite-volume gradient energy, potential energy and Q^2/(2I)
+from their arrays: all profiles were finite and the maximum relative
+difference from recorded energy was 2.152e-16. This checks serialization and
+energy accounting, not continuum accuracy. This CI/accounting paragraph is a
+documentation-only follow-up; existing scientific outputs are unchanged.
+
 ## What the next work must settle
 
 1. Check alternative initial profiles and lower-charge branches to distinguish
