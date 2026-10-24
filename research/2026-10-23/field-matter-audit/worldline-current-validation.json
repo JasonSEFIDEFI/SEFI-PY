@@ -1,0 +1,17 @@
+{
+  "scope": "five-minute checkpoint 03; weak current, divergence, reparametrization and endpoints",
+  "source_sha256": {
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/worldline_current.py": "3f65abb6d8b7e009b6ae8af22307c699feed0605f006a02016e97fb509b9341e",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/test_worldline_current.py": "1bb44cfded0a218cbeadb85bc6a96e56448c9e62a12be67fb52bec0f992f8faa",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/internal_symmetry.py": "62561a701e4ed8ec3c5cf49dbfa302c6767ef3bcfc5814aa62f2f8686c73cf4c"
+  },
+  "test_summary": [
+    {
+      "tests": "17",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "4.248"
+    }
+  ]
+}

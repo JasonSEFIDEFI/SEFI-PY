@@ -1,0 +1,35 @@
+{
+  "scope": "Finite future-timelike inertial example; tests vanish at endpoints; not a field-generation simulation",
+  "curve": "y(t)=(t,0.2t,0.1t,0), 0<=t<=2",
+  "test_on_curve": "t^2(2-t)^2, smooth compact cutoff understood outside the finite curve",
+  "examples": [
+    {
+      "name": "constant_charge",
+      "weak_divergence": -7.936137366287965e-17,
+      "quadrature_error_estimate": 4.4077052684741174e-14,
+      "source_decomposition": {
+        "initial_endpoint": 0.0,
+        "final_endpoint": -0.0,
+        "interior_source": 0.0,
+        "total": 0.0,
+        "quadrature_error_estimate": 0.0
+      },
+      "identity_absolute_error": 7.936137366287965e-17
+    },
+    {
+      "name": "changing_charge",
+      "weak_divergence": 0.5333333333333333,
+      "quadrature_error_estimate": 3.3057789513555884e-14,
+      "source_decomposition": {
+        "initial_endpoint": 0.0,
+        "final_endpoint": -0.0,
+        "interior_source": 0.5333333333333333,
+        "total": 0.5333333333333333,
+        "quadrature_error_estimate": 5.921189464667502e-15
+      },
+      "identity_absolute_error": 0.0
+    }
+  ],
+  "exact_expected_changing_charge_result": "8/15",
+  "interpretation": "Conservation requires zero interior torque and accounted endpoints; current support remains a curve."
+}
