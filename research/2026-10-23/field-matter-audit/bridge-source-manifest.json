@@ -1,0 +1,21 @@
+{
+  "scope": "five-minute checkpoint 01; source audit is limited to listed documents",
+  "date": "2026-10-23",
+  "source_sha256": {
+    "matter-work/theory-sources/SEFI_Formal_Mathematical_Construction.pdf": "9f4dd6cce38b06f82f68b23da254074923bc02acc4cd6d9a4e8176c35e7bbaa4",
+    "matter-work/theory-sources/DEFI_Formal_Construction.pdf": "6c68806b1d3dd04b5baf027a97a27dd1bd154d952724cbe6fb0f43fec266e039",
+    "output/theory-foundations/foundations.tex": "b99d5ee4fc796fdc938d7aec8e903aa8945f42d95df62fc6a099ce3c11658cc1",
+    "output/sefi-source-coupling/sefi-source-coupling.tex": "aeff6cde50aaecdfd209c569681d985b9d865b5f91ab2415dbf1d1b5f04757bc",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/bridge_check.py": "2a1c7d89fb5126549330f11f07860cecc8daeddacbf1910d1f6ce594be48e113",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/test_bridge.py": "c2ac92621cdfca2b6d3eeb0b12e9beeb9ab5045fa94f973a092fb23b9fc6c440"
+  },
+  "test_summary": [
+    {
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "4.011"
+    }
+  ]
+}

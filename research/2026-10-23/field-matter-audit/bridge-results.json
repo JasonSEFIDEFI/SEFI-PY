@@ -1,0 +1,70 @@
+{
+  "scope": "Polynomial potential operators only, not all EFT derivative operators",
+  "invariant_powers_phi_phistar_sigma_sigmastar": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      0,
+      0
+    ]
+  ],
+  "lambda12": {
+    "identity_exact": true,
+    "m_squared": "2",
+    "quartic_discriminant_ab_minus_g2": "-4"
+  },
+  "lambda25": {
+    "identity_exact": true,
+    "m_squared": "37/25",
+    "quartic_discriminant_ab_minus_g2": "9"
+  },
+  "naive_internal_pairing_counterexample": {
+    "pairing": "Phi=I_O+i I_A; Sigma=I_S+i I_W",
+    "state": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "rotated_state": [
+      0,
+      0,
+      -1,
+      0
+    ],
+    "rotation": "Sigma -> -Sigma",
+    "potential_before": "3/2",
+    "potential_after": "-1/2",
+    "interpretation": "This allowed worldline coupling lacks the bulk U(1)xU(1) symmetry under naive pairing. Not a no-go theorem for every possible bridge."
+  }
+}
