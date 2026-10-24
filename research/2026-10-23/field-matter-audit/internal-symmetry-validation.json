@@ -1,0 +1,17 @@
+{
+  "scope": "five-minute checkpoint 02; internal symmetry and torques",
+  "source_sha256": {
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/internal_symmetry.py": "62561a701e4ed8ec3c5cf49dbfa302c6767ef3bcfc5814aa62f2f8686c73cf4c",
+    "matter-work/SEFI-PY/research/2026-10-23/field-matter-audit/test_internal_symmetry.py": "6c92319d485cfbd9ebef1583c4dea8096a74a1a290d7c191d2850c684045186a",
+    "output/theory-foundations/foundations.tex": "b99d5ee4fc796fdc938d7aec8e903aa8945f42d95df62fc6a099ce3c11658cc1"
+  },
+  "test_summary": [
+    {
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "5.389"
+    }
+  ]
+}

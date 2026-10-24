@@ -1,0 +1,73 @@
+{
+  "scope": "Prescribed kappa=2, torsion=3, q=(1,2,3,4); exact symmetry conditions and illustrative torques",
+  "h": [
+    1.0,
+    4.0,
+    9.0,
+    16.0
+  ],
+  "k": [
+    2.0,
+    8.0,
+    27.0,
+    48.0
+  ],
+  "conditions": {
+    "ordinary_origin_centered_pair_rotations": [
+      false,
+      false
+    ],
+    "kinetically_normalized_pair_rotations": [
+      true,
+      true
+    ],
+    "squared_frequencies": [
+      "2",
+      "2",
+      "3",
+      "3"
+    ]
+  },
+  "cases": [
+    {
+      "name": "uncoupled",
+      "coefficients_c1_d1_c2_d2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dJ_ds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "constant_geometry_coupling",
+      "coefficients_c1_d1_c2_d2": [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      "dJ_ds": [
+        0.0,
+        -8.166666666666668
+      ]
+    },
+    {
+      "name": "authorship_dependent_coupling",
+      "coefficients_c1_d1_c2_d2": [
+        1.0,
+        0.5,
+        2.0,
+        -0.25
+      ],
+      "dJ_ds": [
+        0.125,
+        -3.8125
+      ]
+    }
+  ],
+  "interpretation": "Constant couplings preserve OA rotations but generally torque origin-centered SW rotations. Affine shifted symmetries may survive on fixed constant geometry."
+}
