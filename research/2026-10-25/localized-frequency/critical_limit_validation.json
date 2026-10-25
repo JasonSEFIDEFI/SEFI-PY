@@ -1,0 +1,33 @@
+{
+  "scope": "Check reduced predictions with a larger domain and tighter tolerance.",
+  "runs": [
+    {
+      "beta": 0.12437038000563955,
+      "status": 0,
+      "nodes": 4660,
+      "X": 48,
+      "tolerance": 1e-10,
+      "max_rms_residual": 9.988641333506673e-11,
+      "central_theta": 1.105324363679508,
+      "scaled_charge": 38.53902853074249,
+      "scaled_binding_difference": 0.025492136020093238,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem",
+      "charge_difference_from_X40": 1.2720846598313074e-10,
+      "scaled_binding_difference_from_X40": -5.163577898592564e-14
+    },
+    {
+      "beta": 0.26513102811715317,
+      "status": 0,
+      "nodes": 5136,
+      "X": 48,
+      "tolerance": 1e-10,
+      "max_rms_residual": 9.994366245717674e-11,
+      "central_theta": 1.420579420887719,
+      "scaled_charge": 50.59921949989723,
+      "scaled_binding_difference": 2.7663849428551767e-14,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem",
+      "charge_difference_from_X40": 8.981970722743426e-11,
+      "scaled_binding_difference_from_X40": 2.610161427680971e-14
+    }
+  ]
+}

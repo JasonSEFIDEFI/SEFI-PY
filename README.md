@@ -73,3 +73,7 @@ These are research drafts and computational studies, not confirmations of new ph
 ## Localized vacuum branch — 25 October 2026
 
 [Continuation, binding threshold and publication-readiness record](research/2026-10-25/localized-branch/README.md): three-grid charge continuation, selected fragmentation comparisons, independent continuum collocation and an exploratory binding crossing near Q=1225.43 in the dimensionless lambda=12 model. Includes unsuccessful runs, raw profiles and limitations. **Exploratory / Not Promoted**; no observed-particle identification or general nonlinear stability claim.
+
+## Stationary charge turn and critical coupling — 25 October 2026
+
+[Frequency continuation and critical-limit study](research/2026-10-25/localized-frequency/README.md) separates a numerical charge minimum near Q=953.31 from the binding crossing near Q=1225.43 at lambda=12, compares two Q=1000 stationary states with different radial constrained-energy character, and tests a formal critical scaling problem as lambda approaches 16. Includes the stationary virial obstruction's assumptions, raw profiles, rejected continuation attempts and a publication assessment. **Exploratory / Not Promoted**; no general nonlinear stability or established novelty claim.
