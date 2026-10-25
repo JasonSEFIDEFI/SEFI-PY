@@ -1,0 +1,109 @@
+{
+  "scope": "Symbolic local expansion and direct finite-delta functional checks.",
+  "symbolic_checks": {
+    "local_first_order": "0",
+    "transverse_completion_of_square": "0"
+  },
+  "functional_checks": [
+    {
+      "beta": 0.12437038000563955,
+      "rows": [
+        {
+          "delta": 0.01,
+          "lambda_sigma": 15.587044978042726,
+          "actual_action": 2.819099220662801,
+          "first_order_action": 2.8196786114675048,
+          "remainder": -0.0005793908047036223,
+          "remainder_over_delta_squared": -5.793908047036222
+        },
+        {
+          "delta": 0.005,
+          "lambda_sigma": 15.790157152036416,
+          "actual_action": 2.8067263994866973,
+          "first_order_action": 2.8068737168017295,
+          "remainder": -0.00014731731503205003,
+          "remainder_over_delta_squared": -5.892692601282001
+        },
+        {
+          "delta": 0.0025,
+          "lambda_sigma": 15.894214008029069,
+          "actual_action": 2.800434117692848,
+          "first_order_action": 2.800471269468842,
+          "remainder": -3.7151775993789216e-05,
+          "remainder_over_delta_squared": -5.9442841590062745
+        },
+        {
+          "delta": 0.00125,
+          "lambda_sigma": 15.946887857010022,
+          "actual_action": 2.7972607143171846,
+          "first_order_action": 2.797270045802398,
+          "remainder": -9.331485213402019e-06,
+          "remainder_over_delta_squared": -5.972150536577292
+        }
+      ]
+    },
+    {
+      "beta": 0.26513102811715317,
+      "rows": [
+        {
+          "delta": 0.01,
+          "lambda_sigma": 15.587044978042726,
+          "actual_action": 5.123525773745109,
+          "first_order_action": 5.120329602211223,
+          "remainder": 0.0031961715338860164,
+          "remainder_over_delta_squared": 31.961715338860163
+        },
+        {
+          "delta": 0.005,
+          "lambda_sigma": 15.790157152036416,
+          "actual_action": 5.096220500215363,
+          "first_order_action": 5.095441459919513,
+          "remainder": 0.000779040295849992,
+          "remainder_over_delta_squared": 31.16161183399968
+        },
+        {
+          "delta": 0.0025,
+          "lambda_sigma": 15.894214008029069,
+          "actual_action": 5.083189555464811,
+          "first_order_action": 5.082997388773658,
+          "remainder": 0.00019216669115269813,
+          "remainder_over_delta_squared": 30.7466705844317
+        },
+        {
+          "delta": 0.00125,
+          "lambda_sigma": 15.946887857010022,
+          "actual_action": 5.0768230478908905,
+          "first_order_action": 5.0767753532007305,
+          "remainder": 4.769469015956235e-05,
+          "remainder_over_delta_squared": 30.524601702119902
+        }
+      ]
+    }
+  ],
+  "leading_envelope_checks": [
+    {
+      "step": 0.001,
+      "derivative": 14.56638359974649,
+      "expected": 14.566383608909675,
+      "absolute_error": 9.163183989358004e-09
+    },
+    {
+      "step": 0.0005,
+      "derivative": 14.566383608341688,
+      "expected": 14.566383608909675,
+      "absolute_error": 5.679865466845513e-10
+    },
+    {
+      "step": 0.00025,
+      "derivative": 14.566383608878,
+      "expected": 14.566383608909675,
+      "absolute_error": 3.1674218803345866e-11
+    },
+    {
+      "step": 0.000125,
+      "derivative": 14.566383608923298,
+      "expected": 14.566383608909675,
+      "absolute_error": 1.3622880601360521e-11
+    }
+  ]
+}

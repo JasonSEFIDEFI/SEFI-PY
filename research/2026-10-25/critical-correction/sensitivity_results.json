@@ -1,0 +1,44 @@
+{
+  "scope": "Linear profile sensitivity check of the first-order charge coefficients.",
+  "runs": [
+    {
+      "beta": 0.12437038000563955,
+      "A1": 2.5609789331550363,
+      "A1_beta_derivative": 17.23474544172687,
+      "I0_beta_derivative": -6.393664762072149e-07,
+      "Q0_beta_derivative": -8.458023463379931e-07,
+      "Q1": 66.25169133061863,
+      "max_sensitivity_residual": 9.993387994826645e-11,
+      "finite_difference_profile_checks": [
+        {
+          "step": 0.0001,
+          "max_absolute_profile_sensitivity_error": 3.7339601899333275e-07
+        },
+        {
+          "step": 5e-05,
+          "max_absolute_profile_sensitivity_error": 9.334337125466163e-08
+        }
+      ]
+    },
+    {
+      "beta": 0.26513102811715317,
+      "A1": 4.977628458341926,
+      "A1_beta_derivative": 17.769463874045876,
+      "I0_beta_derivative": 120.56895537642237,
+      "Q0_beta_derivative": 159.4977358804288,
+      "Q1": 72.09444403077458,
+      "max_sensitivity_residual": 9.999457470321784e-11,
+      "finite_difference_profile_checks": [
+        {
+          "step": 0.0001,
+          "max_absolute_profile_sensitivity_error": 3.798484851103012e-07
+        },
+        {
+          "step": 5e-05,
+          "max_absolute_profile_sensitivity_error": 9.496414676846143e-08
+        }
+      ]
+    }
+  ],
+  "turn_C1_difference_from_frozen_prediction": 6.178879630169831e-11
+}

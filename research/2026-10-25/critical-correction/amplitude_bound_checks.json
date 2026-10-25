@@ -1,0 +1,7 @@
+{
+  "scope": "Exact algebra checks for the conditional amplitude estimate.",
+  "residual_identity": "0",
+  "leading_cancellation": "0",
+  "coercivity_coefficient": "0",
+  "limitation": "Symbolic identities only; no certified verification of branch hypotheses."
+}
