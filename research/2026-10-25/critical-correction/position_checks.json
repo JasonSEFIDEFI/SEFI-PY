@@ -1,0 +1,61 @@
+{
+  "scope": "Secondary reduced-equation checks of beta-root shifts, after charge tests.\nThese position coefficients were not part of the frozen held-out protocol.\n",
+  "turn_step_checks": [
+    {
+      "step": 0.001,
+      "Q0_second_derivative": 1751.738788979968,
+      "Q1_beta_derivative": -20.723956833596034,
+      "beta_turn_first_correction": 0.01183050633117711
+    },
+    {
+      "step": 0.0005,
+      "Q0_second_derivative": 1751.7388006135357,
+      "Q1_beta_derivative": -20.723957439478383,
+      "beta_turn_first_correction": 0.011830506598483715
+    },
+    {
+      "step": 0.00025,
+      "Q0_second_derivative": 1751.7388017038888,
+      "Q1_beta_derivative": -20.723957515066807,
+      "beta_turn_first_correction": 0.01183050663427044
+    },
+    {
+      "step": 0.000125,
+      "Q0_second_derivative": 1751.738801942012,
+      "Q1_beta_derivative": -20.723957071719155,
+      "beta_turn_first_correction": 0.011830506379572212
+    }
+  ],
+  "beta_turn_C1": 0.011830506379572212,
+  "beta_binding_C1": 0.028682701337053477,
+  "tests": [
+    {
+      "kind": "turn",
+      "lambda_sigma": 15.95,
+      "actual_beta": 0.12438402386327072,
+      "first_order_beta": 0.12438429822284075,
+      "remainder_over_delta_squared": -0.1982255184985528
+    },
+    {
+      "kind": "turn",
+      "lambda_sigma": 15.975,
+      "actual_beta": 0.12437725737714708,
+      "first_order_beta": 0.12437732550521997,
+      "remainder_over_delta_squared": -0.19766318716169728
+    },
+    {
+      "kind": "binding",
+      "lambda_sigma": 15.95,
+      "actual_beta": 0.26516443821900454,
+      "first_order_beta": 0.26516477240960507,
+      "remainder_over_delta_squared": -0.24145359703757902
+    },
+    {
+      "kind": "binding",
+      "lambda_sigma": 15.975,
+      "actual_beta": 0.26514778386257887,
+      "first_order_beta": 0.2651478672687254,
+      "remainder_over_delta_squared": -0.24199018195043476
+    }
+  ]
+}

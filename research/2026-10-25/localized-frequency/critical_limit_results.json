@@ -1,0 +1,125 @@
+{
+  "scope": "Formal near-lambda=16 constrained-curve limit: numeric predictions.",
+  "runs": [
+    {
+      "beta": 0.125,
+      "status": 0,
+      "nodes": 2627,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.973194134592806e-10,
+      "central_theta": 1.107770369388518,
+      "scaled_charge": 38.53937470260722,
+      "scaled_binding_difference": 0.025491483381835076,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.15,
+      "status": 0,
+      "nodes": 2680,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.980724759024539e-10,
+      "central_theta": 1.1947401642552709,
+      "scaled_charge": 39.0550425026975,
+      "scaled_binding_difference": 0.024450008967854663,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.175,
+      "status": 0,
+      "nodes": 2734,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.959817786481095e-10,
+      "central_theta": 1.2643473876538005,
+      "scaled_charge": 40.39078195010098,
+      "scaled_binding_difference": 0.02159602471777139,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.2,
+      "status": 0,
+      "nodes": 2786,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.991206414156093e-10,
+      "central_theta": 1.3201019722544178,
+      "scaled_charge": 42.40726750271338,
+      "scaled_binding_difference": 0.017187400129165958,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.225,
+      "status": 0,
+      "nodes": 2840,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.996664069443579e-10,
+      "central_theta": 1.3650645356509175,
+      "scaled_charge": 45.048125676232154,
+      "scaled_binding_difference": 0.01146062491970709,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.25,
+      "status": 0,
+      "nodes": 2865,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.991831574600808e-10,
+      "central_theta": 1.4016756846180072,
+      "scaled_charge": 48.309933743795575,
+      "scaled_binding_difference": 0.0046156246433868295,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.275,
+      "status": 0,
+      "nodes": 2860,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.96746370416656e-10,
+      "central_theta": 1.4317862201851383,
+      "scaled_charge": 52.22788766433433,
+      "scaled_binding_difference": -0.0031837542460836513,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.3,
+      "status": 0,
+      "nodes": 2826,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.997311093662928e-10,
+      "central_theta": 1.4567694469987986,
+      "scaled_charge": 56.8697827217847,
+      "scaled_binding_difference": -0.011804086545761115,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.1,
+      "status": 0,
+      "nodes": 2581,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.939890542604662e-10,
+      "central_theta": 0.9998505107085653,
+      "scaled_charge": 39.13268570265097,
+      "scaled_binding_difference": 0.0244870577609383,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    },
+    {
+      "beta": 0.075,
+      "status": 0,
+      "nodes": 2560,
+      "X": 40,
+      "tolerance": 1e-09,
+      "max_rms_residual": 9.98237951091622e-10,
+      "central_theta": 0.8673150730669457,
+      "scaled_charge": 41.45376494887047,
+      "scaled_binding_difference": 0.021306614714739023,
+      "scope": "Prediction of a formal constrained-curve limit, not a proved singular-limit theorem"
+    }
+  ]
+}

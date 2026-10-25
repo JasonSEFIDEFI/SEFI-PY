@@ -1,0 +1,1220 @@
+{
+  "scope": "Fixed-charge continuation and restricted fragmentation comparisons.\nAll values dimensionless. No continuum/global/nonlinear stability claim.\n",
+  "source_commit": "847a071351ed2b1c54e240fd9a520a1cce238178",
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "configuration": {
+    "h": 0.2,
+    "L": 100.0,
+    "lam": 12.0,
+    "charges": "2500,1500,1300,1250,1225,1200,1150,1100,1000,900,800,600",
+    "out": "threshold_h0p2_L100"
+  },
+  "gradient_checks": [
+    {
+      "Q": 50000.0,
+      "lambda_sigma": 12.0,
+      "relative_gradient_error": 1.8699498245635585e-08
+    },
+    {
+      "Q": 100000.0,
+      "lambda_sigma": 15.0,
+      "relative_gradient_error": 1.7233063096522875e-08
+    }
+  ],
+  "runs": [
+    {
+      "Q": 2500.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 3512.73797719777,
+      "energy_per_charge": 1.4050951908791078,
+      "omega": 1.3928388615325893,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.471954449919483,
+      "max_residual": 1.1969591984239969e-14,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -9.298627773902714e-06,
+      "tail_charge_fraction": 1.6990198235935815e-16,
+      "relaxation_iterations": 417,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6073820000019623,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 3979.237886259294,
+          "residual": 3.360505221950138
+        },
+        {
+          "iteration": 100,
+          "energy": 3512.7973638087333,
+          "residual": 0.0008599837432011759
+        },
+        {
+          "iteration": 200,
+          "energy": 3512.739031613083,
+          "residual": 7.5919038621447e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 3512.7380048364166,
+          "residual": 9.394655122438311e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 3512.737978049121,
+          "residual": 1.3517443947924646e-06
+        }
+      ]
+    },
+    {
+      "Q": 1500.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 2117.4003730265285,
+      "energy_per_charge": 1.4116002486843524,
+      "omega": 1.3986015332865762,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.118728821423685,
+      "max_residual": 1.0304257447302234e-14,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.0240990585815791e-05,
+      "tail_charge_fraction": 2.1129444548479797e-14,
+      "relaxation_iterations": 519,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6379175000038231,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 2118.8262172663244,
+          "residual": 0.034390543224972855
+        },
+        {
+          "iteration": 100,
+          "energy": 2117.4189879871114,
+          "residual": 0.0005720749814759757
+        },
+        {
+          "iteration": 200,
+          "energy": 2117.4013936976753,
+          "residual": 9.699018855433006e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 2117.4004442168084,
+          "residual": 2.09545321352006e-05
+        },
+        {
+          "iteration": 400,
+          "energy": 2117.4003785548994,
+          "residual": 5.02291124798715e-06
+        },
+        {
+          "iteration": 500,
+          "energy": 2117.400373483437,
+          "residual": 1.2787323150631469e-06
+        }
+      ]
+    },
+    {
+      "Q": 1300.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1837.4882256038186,
+      "energy_per_charge": 1.4134524812337066,
+      "omega": 1.4006120456093885,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.16771051816848,
+      "max_residual": 1.0831613383999183e-14,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.01747212766848e-05,
+      "tail_charge_fraction": 1.5569131659666892e-13,
+      "relaxation_iterations": 540,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6239980000100331,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1837.6170592718458,
+          "residual": 0.010249378556584185
+        },
+        {
+          "iteration": 100,
+          "energy": 1837.4924883447911,
+          "residual": 0.00030420794825795905
+        },
+        {
+          "iteration": 200,
+          "energy": 1837.4885880362294,
+          "residual": 6.54816228723154e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1837.4882624255135,
+          "residual": 1.7547116300975496e-05
+        },
+        {
+          "iteration": 400,
+          "energy": 1837.4882296629958,
+          "residual": 5.132548687794558e-06
+        },
+        {
+          "iteration": 500,
+          "energy": 1837.4882260732638,
+          "residual": 1.5777709999609257e-06
+        }
+      ]
+    },
+    {
+      "Q": 1250.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1767.4427301708074,
+      "energy_per_charge": 1.4139541841366459,
+      "omega": 1.4012164369826248,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.203067116970854,
+      "max_residual": 1.4752088439706768e-14,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.0093803162587384e-05,
+      "tail_charge_fraction": 2.945740522787492e-13,
+      "relaxation_iterations": 474,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.8392543999943882,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1767.453311319996,
+          "residual": 0.002627624224712896
+        },
+        {
+          "iteration": 100,
+          "energy": 1767.4432317755134,
+          "residual": 0.00010973055178829794
+        },
+        {
+          "iteration": 200,
+          "energy": 1767.4427799159848,
+          "residual": 2.537710080978417e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1767.442735896554,
+          "residual": 7.288474257446942e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 1767.4427308779577,
+          "residual": 2.273282175099811e-06
+        }
+      ]
+    },
+    {
+      "Q": 1225.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1732.408312088015,
+      "energy_per_charge": 1.4142108670106246,
+      "omega": 1.4015395454849795,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.226332923607329,
+      "max_residual": 8.507200570379332e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.0037119733875947e-05,
+      "tail_charge_fraction": 4.1740879430219273e-13,
+      "relaxation_iterations": 435,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.5061093999975128,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1732.4112378137704,
+          "residual": 0.0017277354606746315
+        },
+        {
+          "iteration": 100,
+          "energy": 1732.4084690604502,
+          "residual": 6.380769858184421e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 1732.408328920621,
+          "residual": 1.511172400407712e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1732.4083141584517,
+          "residual": 4.5088005132948306e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 1732.4083123598944,
+          "residual": 1.457651821495931e-06
+        }
+      ]
+    },
+    {
+      "Q": 1200.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1697.3656184858428,
+      "energy_per_charge": 1.4144713487382023,
+      "omega": 1.4018787968232895,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.254223995084793,
+      "max_residual": 1.0928757898653885e-14,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -9.966881474269626e-06,
+      "tail_charge_fraction": 6.05448609421048e-13,
+      "relaxation_iterations": 458,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6967817999975523,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1697.3687281101124,
+          "residual": 0.001771886751457688
+        },
+        {
+          "iteration": 100,
+          "energy": 1697.3658046606379,
+          "residual": 7.109787209351459e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 1697.365640020545,
+          "residual": 1.7554703673511307e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1697.365621322269,
+          "residual": 5.45788856522178e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 1697.3656188831421,
+          "residual": 1.8320260305598746e-06
+        }
+      ]
+    },
+    {
+      "Q": 1150.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1627.2536271817971,
+      "energy_per_charge": 1.4150031540711279,
+      "omega": 1.4026148633410798,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.327813273026334,
+      "max_residual": 1.477290512141849e-14,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -9.774048079457596e-06,
+      "tail_charge_fraction": 1.386899526455196e-12,
+      "relaxation_iterations": 584,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.8523450999928173,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1627.2671176413885,
+          "residual": 0.0028724718350820327
+        },
+        {
+          "iteration": 100,
+          "energy": 1627.2546206116454,
+          "residual": 0.00016779526686140633
+        },
+        {
+          "iteration": 200,
+          "energy": 1627.253762113637,
+          "residual": 4.635742827426015e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1627.2536478696593,
+          "residual": 1.5823283218710515e-05
+        },
+        {
+          "iteration": 400,
+          "energy": 1627.25363053329,
+          "residual": 5.793336591952691e-06
+        },
+        {
+          "iteration": 500,
+          "energy": 1627.2536277422364,
+          "residual": 2.2025069947306797e-06
+        }
+      ]
+    },
+    {
+      "Q": 1100.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1557.1024857714992,
+      "energy_per_charge": 1.4155477143377266,
+      "omega": 1.4034503935628457,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.43544496421328,
+      "max_residual": 9.298117831235686e-15,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -9.481804216331924e-06,
+      "tail_charge_fraction": 3.694458424274577e-12,
+      "relaxation_iterations": 678,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.8473388999991585,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1557.1182120086776,
+          "residual": 0.0030109792253017187
+        },
+        {
+          "iteration": 100,
+          "energy": 1557.1040201091032,
+          "residual": 0.0002186799236243292
+        },
+        {
+          "iteration": 200,
+          "energy": 1557.1027420496334,
+          "residual": 6.768420684601095e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1557.1025333323373,
+          "residual": 2.5913809871783156e-05
+        },
+        {
+          "iteration": 400,
+          "energy": 1557.102495014406,
+          "residual": 1.0570174562560264e-05
+        },
+        {
+          "iteration": 500,
+          "energy": 1557.1024876139022,
+          "residual": 4.452517554529023e-06
+        },
+        {
+          "iteration": 600,
+          "energy": 1557.1024861446372,
+          "residual": 1.9128922945643723e-06
+        }
+      ]
+    },
+    {
+      "Q": 1000.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1416.6546206885978,
+      "energy_per_charge": 1.4166546206885977,
+      "omega": 1.405692903436146,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.888048531207902,
+      "max_residual": 1.0241807402167069e-14,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -8.246211694928809e-06,
+      "tail_charge_fraction": 6.502395115946474e-11,
+      "relaxation_iterations": 1289,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 1.2203666999994311,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1416.737827669464,
+          "residual": 0.005761015066231612
+        },
+        {
+          "iteration": 100,
+          "energy": 1416.669430433587,
+          "residual": 0.0007038465685891698
+        },
+        {
+          "iteration": 200,
+          "energy": 1416.6589634483748,
+          "residual": 0.00030311009682112977
+        },
+        {
+          "iteration": 300,
+          "energy": 1416.6560481187387,
+          "residual": 0.00016237974985196246
+        },
+        {
+          "iteration": 400,
+          "energy": 1416.6551147780526,
+          "residual": 9.259256612942357e-05
+        },
+        {
+          "iteration": 500,
+          "energy": 1416.654796439511,
+          "residual": 5.423460934592117e-05
+        },
+        {
+          "iteration": 600,
+          "energy": 1416.6546841714012,
+          "residual": 3.221680011208927e-05
+        },
+        {
+          "iteration": 700,
+          "energy": 1416.654643825288,
+          "residual": 1.929124255777015e-05
+        },
+        {
+          "iteration": 800,
+          "energy": 1416.6546291659583,
+          "residual": 1.1607036178862273e-05
+        },
+        {
+          "iteration": 900,
+          "energy": 1416.6546238047445,
+          "residual": 7.004677553629213e-06
+        },
+        {
+          "iteration": 1000,
+          "energy": 1416.6546218362978,
+          "residual": 4.235509260722137e-06
+        },
+        {
+          "iteration": 1100,
+          "energy": 1416.654621111816,
+          "residual": 2.5644699257199033e-06
+        },
+        {
+          "iteration": 1200,
+          "energy": 1416.6546208447783,
+          "residual": 1.5541418434683596e-06
+        }
+      ]
+    },
+    {
+      "Q": 900.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1273.1217959164605,
+      "energy_per_charge": 1.4145797732405117,
+      "omega": 1.4145196146751813,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 44.52398360151089,
+      "max_residual": 4.572106441991418e-05,
+      "converged": false,
+      "classification": "unresolved",
+      "virial_relative": -0.00045957939797206454,
+      "tail_charge_fraction": 0.016930572399269626,
+      "relaxation_iterations": 3999,
+      "newton_iterations": 29,
+      "relaxation_stop": "iteration_limit",
+      "wall_seconds": 3.8606868000060786,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1276.0657752515626,
+          "residual": 0.007398082652407656
+        },
+        {
+          "iteration": 100,
+          "energy": 1275.963648149014,
+          "residual": 0.0018169508340333124
+        },
+        {
+          "iteration": 200,
+          "energy": 1275.919247858788,
+          "residual": 0.001388570088113883
+        },
+        {
+          "iteration": 300,
+          "energy": 1275.8850519120133,
+          "residual": 0.001402908077978507
+        },
+        {
+          "iteration": 400,
+          "energy": 1275.8504777450444,
+          "residual": 0.0016013016409898856
+        },
+        {
+          "iteration": 500,
+          "energy": 1275.8074392564913,
+          "residual": 0.001973736864028977
+        },
+        {
+          "iteration": 600,
+          "energy": 1275.7445715952067,
+          "residual": 0.0025313759249292883
+        },
+        {
+          "iteration": 700,
+          "energy": 1275.6436527741198,
+          "residual": 0.003195683681868511
+        },
+        {
+          "iteration": 800,
+          "energy": 1275.4822974718618,
+          "residual": 0.0036828171073485585
+        },
+        {
+          "iteration": 900,
+          "energy": 1275.2525967215108,
+          "residual": 0.0036502452803451636
+        },
+        {
+          "iteration": 1000,
+          "energy": 1274.9805070393697,
+          "residual": 0.003121736213811295
+        },
+        {
+          "iteration": 1100,
+          "energy": 1274.709160767507,
+          "residual": 0.002435483095738855
+        },
+        {
+          "iteration": 1200,
+          "energy": 1274.467571640949,
+          "residual": 0.001836140450873677
+        },
+        {
+          "iteration": 1300,
+          "energy": 1274.2643561744012,
+          "residual": 0.0013851087262076473
+        },
+        {
+          "iteration": 1400,
+          "energy": 1274.0969519795235,
+          "residual": 0.0010617115514059846
+        },
+        {
+          "iteration": 1500,
+          "energy": 1273.959363563737,
+          "residual": 0.0008309572514963188
+        },
+        {
+          "iteration": 1600,
+          "energy": 1273.8455766422687,
+          "residual": 0.000664157184163847
+        },
+        {
+          "iteration": 1700,
+          "energy": 1273.7505685838287,
+          "residual": 0.0005412284998492351
+        },
+        {
+          "iteration": 1800,
+          "energy": 1273.670403899729,
+          "residual": 0.0004487309583319926
+        },
+        {
+          "iteration": 1900,
+          "energy": 1273.6020657742179,
+          "residual": 0.00037771929163169025
+        },
+        {
+          "iteration": 2000,
+          "energy": 1273.5432517423615,
+          "residual": 0.0003221781440456003
+        },
+        {
+          "iteration": 2100,
+          "energy": 1273.4921986375346,
+          "residual": 0.00027799439986034324
+        },
+        {
+          "iteration": 2200,
+          "energy": 1273.4475471577462,
+          "residual": 0.0002423022228030293
+        },
+        {
+          "iteration": 2300,
+          "energy": 1273.4082407602486,
+          "residual": 0.00021306657491726785
+        },
+        {
+          "iteration": 2400,
+          "energy": 1273.3734508818377,
+          "residual": 0.00018881585431104769
+        },
+        {
+          "iteration": 2500,
+          "energy": 1273.3425214958716,
+          "residual": 0.00016846772138282782
+        },
+        {
+          "iteration": 2600,
+          "energy": 1273.3149277200253,
+          "residual": 0.0001512137007441208
+        },
+        {
+          "iteration": 2700,
+          "energy": 1273.2902446884032,
+          "residual": 0.00013644136220792978
+        },
+        {
+          "iteration": 2800,
+          "energy": 1273.2681240202492,
+          "residual": 0.0001236809045217372
+        },
+        {
+          "iteration": 2900,
+          "energy": 1273.2482759949785,
+          "residual": 0.0001125678463094432
+        },
+        {
+          "iteration": 3000,
+          "energy": 1273.2304560673438,
+          "residual": 0.0001028165269436864
+        },
+        {
+          "iteration": 3100,
+          "energy": 1273.2144547085768,
+          "residual": 9.420098450669322e-05
+        },
+        {
+          "iteration": 3200,
+          "energy": 1273.200089800564,
+          "residual": 8.65409527634658e-05
+        },
+        {
+          "iteration": 3300,
+          "energy": 1273.187200981976,
+          "residual": 7.969146873075764e-05
+        },
+        {
+          "iteration": 3400,
+          "energy": 1273.1756454737208,
+          "residual": 7.353506759295663e-05
+        },
+        {
+          "iteration": 3500,
+          "energy": 1273.1652950114637,
+          "residual": 6.797585944045699e-05
+        },
+        {
+          "iteration": 3600,
+          "energy": 1273.1560335938018,
+          "residual": 6.293499365749642e-05
+        },
+        {
+          "iteration": 3700,
+          "energy": 1273.1477558207594,
+          "residual": 5.834715907517522e-05
+        },
+        {
+          "iteration": 3800,
+          "energy": 1273.1403656512512,
+          "residual": 5.4157865597454625e-05
+        },
+        {
+          "iteration": 3900,
+          "energy": 1273.1337754518229,
+          "residual": 5.0321320756915665e-05
+        }
+      ]
+    },
+    {
+      "Q": 800.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 1131.6449902150048,
+      "energy_per_charge": 1.414556237768756,
+      "omega": 1.4144405761622496,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 47.58013463807102,
+      "max_residual": 3.407228378439313e-05,
+      "converged": false,
+      "classification": "unresolved",
+      "virial_relative": -0.0002875101912805975,
+      "tail_charge_fraction": 0.02581355008469375,
+      "relaxation_iterations": 3999,
+      "newton_iterations": 29,
+      "relaxation_stop": "iteration_limit",
+      "wall_seconds": 4.062709999998333,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1135.4333249321608,
+          "residual": 0.01553546513290896
+        },
+        {
+          "iteration": 100,
+          "energy": 1134.989447347768,
+          "residual": 0.005384692898689716
+        },
+        {
+          "iteration": 200,
+          "energy": 1134.7083210100236,
+          "residual": 0.005246767616788536
+        },
+        {
+          "iteration": 300,
+          "energy": 1134.3787135107514,
+          "residual": 0.005406090488543805
+        },
+        {
+          "iteration": 400,
+          "energy": 1133.9845028048749,
+          "residual": 0.004740371113119181
+        },
+        {
+          "iteration": 500,
+          "energy": 1133.5858306333766,
+          "residual": 0.003574649571984074
+        },
+        {
+          "iteration": 600,
+          "energy": 1133.2405632099435,
+          "residual": 0.002536973419345166
+        },
+        {
+          "iteration": 700,
+          "energy": 1132.9640455705708,
+          "residual": 0.0018043277239401844
+        },
+        {
+          "iteration": 800,
+          "energy": 1132.7475331382557,
+          "residual": 0.001318024764535808
+        },
+        {
+          "iteration": 900,
+          "energy": 1132.5773730720819,
+          "residual": 0.0009940326307756489
+        },
+        {
+          "iteration": 1000,
+          "energy": 1132.4418162481788,
+          "residual": 0.0007725646773797633
+        },
+        {
+          "iteration": 1100,
+          "energy": 1132.3320663824402,
+          "residual": 0.0006164347999847847
+        },
+        {
+          "iteration": 1200,
+          "energy": 1132.2417865108116,
+          "residual": 0.0005030161404876038
+        },
+        {
+          "iteration": 1300,
+          "energy": 1132.1664294792158,
+          "residual": 0.00041835216249174996
+        },
+        {
+          "iteration": 1400,
+          "energy": 1132.102702940444,
+          "residual": 0.00035361345817618657
+        },
+        {
+          "iteration": 1500,
+          "energy": 1132.048190731965,
+          "residual": 0.000303053997204846
+        },
+        {
+          "iteration": 1600,
+          "energy": 1132.0010940709897,
+          "residual": 0.00026282886778918556
+        },
+        {
+          "iteration": 1700,
+          "energy": 1131.9600552678119,
+          "residual": 0.000230297375516579
+        },
+        {
+          "iteration": 1800,
+          "energy": 1131.9240364050352,
+          "residual": 0.0002036021521328418
+        },
+        {
+          "iteration": 1900,
+          "energy": 1131.892234441432,
+          "residual": 0.00018140839861736647
+        },
+        {
+          "iteration": 2000,
+          "energy": 1131.8640206809227,
+          "residual": 0.0001627382488209982
+        },
+        {
+          "iteration": 2100,
+          "energy": 1131.8388968454487,
+          "residual": 0.0001468630093876227
+        },
+        {
+          "iteration": 2200,
+          "energy": 1131.8164627405245,
+          "residual": 0.0001332314432504849
+        },
+        {
+          "iteration": 2300,
+          "energy": 1131.796392228521,
+          "residual": 0.00012142100252627701
+        },
+        {
+          "iteration": 2400,
+          "energy": 1131.7784152986637,
+          "residual": 0.00011110398562490012
+        },
+        {
+          "iteration": 2500,
+          "energy": 1131.7623046924546,
+          "residual": 0.0001020235992050896
+        },
+        {
+          "iteration": 2600,
+          "energy": 1131.7478659685166,
+          "residual": 9.397672514642515e-05
+        },
+        {
+          "iteration": 2700,
+          "energy": 1131.7349301711215,
+          "residual": 8.680131465348172e-05
+        },
+        {
+          "iteration": 2800,
+          "energy": 1131.7233484613712,
+          "residual": 8.036703542818259e-05
+        },
+        {
+          "iteration": 2900,
+          "energy": 1131.7129882133972,
+          "residual": 7.456824652455647e-05
+        },
+        {
+          "iteration": 3000,
+          "energy": 1131.7037301887922,
+          "residual": 6.931866599129399e-05
+        },
+        {
+          "iteration": 3100,
+          "energy": 1131.6954664909458,
+          "residual": 6.454728766374855e-05
+        },
+        {
+          "iteration": 3200,
+          "energy": 1131.6880990723903,
+          "residual": 6.019523144887465e-05
+        },
+        {
+          "iteration": 3300,
+          "energy": 1131.681538625781,
+          "residual": 5.621329865335579e-05
+        },
+        {
+          "iteration": 3400,
+          "energy": 1131.675703734923,
+          "residual": 5.256006457628232e-05
+        },
+        {
+          "iteration": 3500,
+          "energy": 1131.6705201979498,
+          "residual": 4.920038335327903e-05
+        },
+        {
+          "iteration": 3600,
+          "energy": 1131.6659204620246,
+          "residual": 4.6104210954320775e-05
+        },
+        {
+          "iteration": 3700,
+          "energy": 1131.6618431291859,
+          "residual": 4.324567483602397e-05
+        },
+        {
+          "iteration": 3800,
+          "energy": 1131.6582325076229,
+          "residual": 4.060233553673036e-05
+        },
+        {
+          "iteration": 3900,
+          "energy": 1131.6550381929078,
+          "residual": 3.8154598098633304e-05
+        }
+      ]
+    },
+    {
+      "Q": 600.0,
+      "lambda_sigma": 12.0,
+      "L": 100.0,
+      "h": 0.2,
+      "energy": 848.727162181129,
+      "energy_per_charge": 1.4145452703018817,
+      "omega": 1.4145276319243973,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 52.47433844613702,
+      "max_residual": 7.653077255037263e-13,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -0.0004565000136787464,
+      "tail_charge_fraction": 0.04535860375033629,
+      "relaxation_iterations": 3999,
+      "newton_iterations": 12,
+      "relaxation_stop": "iteration_limit",
+      "wall_seconds": 2.9670001000049524,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 853.9948867949396,
+          "residual": 0.03840485856520391
+        },
+        {
+          "iteration": 100,
+          "energy": 852.1077001125365,
+          "residual": 0.013704475086715698
+        },
+        {
+          "iteration": 200,
+          "energy": 851.1218581072646,
+          "residual": 0.0077261495873705635
+        },
+        {
+          "iteration": 300,
+          "energy": 850.4829066992193,
+          "residual": 0.004496467768647828
+        },
+        {
+          "iteration": 400,
+          "energy": 850.0715445791764,
+          "residual": 0.002881608527495731
+        },
+        {
+          "iteration": 500,
+          "energy": 849.7948107656586,
+          "residual": 0.0020176480738448776
+        },
+        {
+          "iteration": 600,
+          "energy": 849.5988972577981,
+          "residual": 0.0015108431355006482
+        },
+        {
+          "iteration": 700,
+          "energy": 849.4539351398341,
+          "residual": 0.0011889029300808692
+        },
+        {
+          "iteration": 800,
+          "energy": 849.3427448762825,
+          "residual": 0.0009709742713292698
+        },
+        {
+          "iteration": 900,
+          "energy": 849.254941984439,
+          "residual": 0.0008158504202270028
+        },
+        {
+          "iteration": 1000,
+          "energy": 849.1839440040524,
+          "residual": 0.0007009127252323706
+        },
+        {
+          "iteration": 1100,
+          "energy": 849.1254011762112,
+          "residual": 0.0006129390869839339
+        },
+        {
+          "iteration": 1200,
+          "energy": 849.0763355721722,
+          "residual": 0.0005437813427268085
+        },
+        {
+          "iteration": 1300,
+          "energy": 849.0346470714944,
+          "residual": 0.0004881900907634867
+        },
+        {
+          "iteration": 1400,
+          "energy": 848.9988177127478,
+          "residual": 0.0004426536306735853
+        },
+        {
+          "iteration": 1500,
+          "energy": 848.9677277160895,
+          "residual": 0.0004047458991330676
+        },
+        {
+          "iteration": 1600,
+          "energy": 848.940536695714,
+          "residual": 0.0003727438572755705
+        },
+        {
+          "iteration": 1700,
+          "energy": 848.9166042609538,
+          "residual": 0.00034539427170312675
+        },
+        {
+          "iteration": 1800,
+          "energy": 848.8954352718565,
+          "residual": 0.000321766709990828
+        },
+        {
+          "iteration": 1900,
+          "energy": 848.8766411185862,
+          "residual": 0.00030115805509668784
+        },
+        {
+          "iteration": 2000,
+          "energy": 848.8599118265337,
+          "residual": 0.00028302876726948926
+        },
+        {
+          "iteration": 2100,
+          "energy": 848.8449957440814,
+          "residual": 0.000266959260507093
+        },
+        {
+          "iteration": 2200,
+          "energy": 848.8316846982041,
+          "residual": 0.00025261935544024217
+        },
+        {
+          "iteration": 2300,
+          "energy": 848.8198031690283,
+          "residual": 0.00023974644282219774
+        },
+        {
+          "iteration": 2400,
+          "energy": 848.8092004436854,
+          "residual": 0.00022812958604684743
+        },
+        {
+          "iteration": 2500,
+          "energy": 848.7997449766345,
+          "residual": 0.00021759776324704297
+        },
+        {
+          "iteration": 2600,
+          "energy": 848.7913203702143,
+          "residual": 0.00020801105441872278
+        },
+        {
+          "iteration": 2700,
+          "energy": 848.7838225280632,
+          "residual": 0.00019925396265399605
+        },
+        {
+          "iteration": 2800,
+          "energy": 848.7771576419356,
+          "residual": 0.00019123030682352397
+        },
+        {
+          "iteration": 2900,
+          "energy": 848.7712407578709,
+          "residual": 0.00018385928697543292
+        },
+        {
+          "iteration": 3000,
+          "energy": 848.7659947353325,
+          "residual": 0.00017707243444754832
+        },
+        {
+          "iteration": 3100,
+          "energy": 848.7613494658805,
+          "residual": 0.00017081123516812568
+        },
+        {
+          "iteration": 3200,
+          "energy": 848.7572412585562,
+          "residual": 0.0001650252685892001
+        },
+        {
+          "iteration": 3300,
+          "energy": 848.753612329531,
+          "residual": 0.0001596707436099723
+        },
+        {
+          "iteration": 3400,
+          "energy": 848.750410355697,
+          "residual": 0.00015470934139692294
+        },
+        {
+          "iteration": 3500,
+          "energy": 848.7475880674725,
+          "residual": 0.0001501072962586335
+        },
+        {
+          "iteration": 3600,
+          "energy": 848.7451028667033,
+          "residual": 0.0001458346617412309
+        },
+        {
+          "iteration": 3700,
+          "energy": 848.7429164624759,
+          "residual": 0.00014186472124732712
+        },
+        {
+          "iteration": 3800,
+          "energy": 848.7409945219229,
+          "residual": 0.0001381735118131195
+        },
+        {
+          "iteration": 3900,
+          "energy": 848.739306335548,
+          "residual": 0.0001347394367279671
+        }
+      ]
+    }
+  ],
+  "fragmentation": [
+    {
+      "Q": 1200.0,
+      "Q1": 600.0,
+      "Q2": 600.0,
+      "daughter_minus_parent_energy": 0.08870587641513339,
+      "relative_margin": 5.226091270439696e-05,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 2500.0,
+      "Q1": 1000.0,
+      "Q2": 1500.0,
+      "daughter_minus_parent_energy": 21.31701651735648,
+      "relative_margin": 0.006068490350185978,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 2500.0,
+      "Q1": 1200.0,
+      "Q2": 1300.0,
+      "daughter_minus_parent_energy": 22.115866891891528,
+      "relative_margin": 0.006295905654065922,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 2500.0,
+      "Q1": 1250.0,
+      "Q2": 1250.0,
+      "daughter_minus_parent_energy": 22.147483143844966,
+      "relative_margin": 0.006304906112443024,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    }
+  ],
+  "source_sha256": {
+    "continue_branch.py": "3cc263395d200803294325561d9344fcdf23d12047e0e69734bb107d51034cc6",
+    "vacuum_spherical.py": "15dd30d74f7603f1354c464ff69ca9c7bcbb08c7590468b623bb0bf848da4441"
+  }
+}
