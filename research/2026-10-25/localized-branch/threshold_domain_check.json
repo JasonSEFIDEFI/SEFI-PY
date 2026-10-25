@@ -1,0 +1,20 @@
+{
+  "source_folder": "threshold_h0p1_L100",
+  "seed_Q": 1225,
+  "Q": 1225.4252840308072,
+  "L": 100.0,
+  "lambda_sigma": 12.0,
+  "status": 0,
+  "message": "The algorithm converged to the desired accuracy.",
+  "tolerance": 1e-09,
+  "nodes": 3094,
+  "max_rms_residual": 9.99034804764252e-10,
+  "boundary_residual": 8.94227068309536e-38,
+  "charge_relative_error": 1.113280483467726e-14,
+  "energy": 1733.0130563512744,
+  "energy_per_charge": 1.414213562373099,
+  "omega": 1.4015431328173373,
+  "finite_volume_energy_per_charge": null,
+  "relative_energy_difference": null,
+  "virial_relative": 1.865683384757716e-13
+}

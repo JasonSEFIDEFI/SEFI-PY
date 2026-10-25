@@ -1,0 +1,872 @@
+{
+  "scope": "Threshold, first-law and selected energy-Hessian checks; exploratory.",
+  "hessian_directional_relative_error": 2.509297488240636e-10,
+  "threshold_runs": [
+    {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1225.0,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-08,
+      "nodes": 1577,
+      "max_rms_residual": 9.984267618640212e-09,
+      "boundary_residual": 3.0977664371750136e-40,
+      "charge_relative_error": 5.367874852096548e-13,
+      "energy": 1732.4170012399304,
+      "energy_per_charge": 1.4142179601958615,
+      "omega": 1.4015487653918717,
+      "finite_volume_energy_per_charge": 1.4142175171134437,
+      "relative_energy_difference": 3.133056080694683e-07,
+      "virial_relative": 3.273550310835162e-12,
+      "seed_Q": 1225.0
+    },
+    {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1230.0,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-08,
+      "nodes": 1578,
+      "max_rms_residual": 9.994682465203811e-09,
+      "boundary_residual": 2.2737367544323206e-13,
+      "charge_relative_error": 5.654764822608511e-13,
+      "energy": 1739.4245799804178,
+      "energy_per_charge": 1.4141663251873315,
+      "omega": 1.4014828373180284,
+      "finite_volume_energy_per_charge": 1.4142175171134437,
+      "relative_energy_difference": 0.004028988435088264,
+      "virial_relative": 3.3197080965829107e-12,
+      "seed_Q": 1230.0
+    },
+    {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1225.4258566902186,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-08,
+      "nodes": 1577,
+      "max_rms_residual": 9.985152549958093e-09,
+      "boundary_residual": 3.507169796512152e-40,
+      "charge_relative_error": 5.356732089671848e-13,
+      "energy": 1733.013858957227,
+      "energy_per_charge": 1.4142135564512772,
+      "omega": 1.401543125233991,
+      "finite_volume_energy_per_charge": null,
+      "relative_energy_difference": null,
+      "virial_relative": 3.278458145391965e-12,
+      "seed_Q": 1225.0
+    },
+    {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1225.4252840308072,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-08,
+      "nodes": 1577,
+      "max_rms_residual": 9.985151547012137e-09,
+      "boundary_residual": 1.9494864235686855e-40,
+      "charge_relative_error": 5.358590060424653e-13,
+      "energy": 1733.013056350364,
+      "energy_per_charge": 1.414213562372356,
+      "omega": 1.4015431328152976,
+      "finite_volume_energy_per_charge": null,
+      "relative_energy_difference": null,
+      "virial_relative": 3.2781972610113067e-12,
+      "seed_Q": 1225.0
+    },
+    {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1225.4252790308067,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-08,
+      "nodes": 1577,
+      "max_rms_residual": 9.985153142920105e-09,
+      "boundary_residual": 3.681000871011646e-40,
+      "charge_relative_error": 5.358590082288862e-13,
+      "energy": 1733.0130493426468,
+      "energy_per_charge": 1.4142135624240535,
+      "omega": 1.4015431328814916,
+      "finite_volume_energy_per_charge": null,
+      "relative_energy_difference": null,
+      "virial_relative": 3.277934871539756e-12,
+      "seed_Q": 1225.0
+    }
+  ],
+  "first_law": [
+    {
+      "Q": 1250.0,
+      "checks": [
+        {
+          "relative_step": 0.001,
+          "dEdQ": 1.4012253064287505,
+          "omega": 1.4012253002783674,
+          "absolute_error": 6.1503830917075675e-09,
+          "runs": [
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 1248.75,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1374,
+              "max_rms_residual": 9.99628652571559e-09,
+              "boundary_residual": 3.76525534247764e-39,
+              "charge_relative_error": 6.094251785453435e-13,
+              "energy": 1765.7001037530422,
+              "energy_per_charge": 1.4139740570594932,
+              "omega": 1.4012411170538157,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.10135769247296e-12,
+              "seed_Q": 1250.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 1251.25,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1377,
+              "max_rms_residual": 9.980815291147133e-09,
+              "boundary_residual": 2.2737367544323206e-13,
+              "charge_relative_error": 4.1395183429345265e-13,
+              "energy": 1769.203167019114,
+              "energy_per_charge": 1.4139485850302609,
+              "omega": 1.4012095195902299,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.0121945881531974e-12,
+              "seed_Q": 1250.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 1250.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1376,
+              "max_rms_residual": 9.997614492145398e-09,
+              "boundary_residual": 2.2737367544323206e-13,
+              "charge_relative_error": 6.406480679288507e-13,
+              "energy": 1767.4516452600544,
+              "energy_per_charge": 1.4139613162080436,
+              "omega": 1.4012253002783674,
+              "finite_volume_energy_per_charge": 1.4139595339431406,
+              "relative_energy_difference": 1.2604764236099617e-06,
+              "virial_relative": 3.1139789326282085e-12,
+              "seed_Q": 1250.0
+            }
+          ]
+        },
+        {
+          "relative_step": 0.0005,
+          "dEdQ": 1.4012253020948264,
+          "omega": 1.4012253002783674,
+          "absolute_error": 1.8164589832281308e-09,
+          "runs": [
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 1249.375,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1376,
+              "max_rms_residual": 9.997043088041899e-09,
+              "boundary_residual": 3.4025051326535744e-38,
+              "charge_relative_error": 6.424244716875311e-13,
+              "energy": 1766.5758769778886,
+              "energy_per_charge": 1.4139676854250234,
+              "omega": 1.4012332041429731,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.104968554068615e-12,
+              "seed_Q": 1250.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 1250.625,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1377,
+              "max_rms_residual": 9.973169171438858e-09,
+              "boundary_residual": 2.2737367544323206e-13,
+              "charge_relative_error": 4.152495549923774e-13,
+              "energy": 1768.3274086055071,
+              "energy_per_charge": 1.4139549494097008,
+              "omega": 1.4012174054356148,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.003142708645787e-12,
+              "seed_Q": 1250.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 1250.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1376,
+              "max_rms_residual": 9.997614492145398e-09,
+              "boundary_residual": 2.2737367544323206e-13,
+              "charge_relative_error": 6.406480679288507e-13,
+              "energy": 1767.4516452600544,
+              "energy_per_charge": 1.4139613162080436,
+              "omega": 1.4012253002783674,
+              "finite_volume_energy_per_charge": 1.4139595339431406,
+              "relative_energy_difference": 1.2604764236099617e-06,
+              "virial_relative": 3.1139789326282085e-12,
+              "seed_Q": 1250.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Q": 5000.0,
+      "checks": [
+        {
+          "relative_step": 0.001,
+          "dEdQ": 1.3869546395252654,
+          "omega": 1.386954637823421,
+          "absolute_error": 1.701844443147138e-09,
+          "runs": [
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 4995.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.97336040660945e-09,
+              "boundary_residual": 6.02339961306991e-36,
+              "charge_relative_error": 2.2634491767245786e-12,
+              "energy": 6979.375542728516,
+              "energy_per_charge": 1.3972723809266299,
+              "omega": 1.3869620040809796,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.058416977268096e-12,
+              "seed_Q": 5000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 5005.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.987573140326545e-09,
+              "boundary_residual": 9.094947017729282e-13,
+              "charge_relative_error": 2.2583816490777127e-12,
+              "energy": 6993.245089123769,
+              "energy_per_charge": 1.397251766058695,
+              "omega": 1.3869472817686281,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.0552124602752485e-12,
+              "seed_Q": 5000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 5000.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.971805763312526e-09,
+              "boundary_residual": 9.094947017729282e-13,
+              "charge_relative_error": 2.260821929667145e-12,
+              "energy": 6986.310334329026,
+              "energy_per_charge": 1.3972620668658051,
+              "omega": 1.386954637823421,
+              "finite_volume_energy_per_charge": 1.3972607593609985,
+              "relative_energy_difference": 9.357620433278765e-07,
+              "virial_relative": 3.0564225730570253e-12,
+              "seed_Q": 5000.0
+            }
+          ]
+        },
+        {
+          "relative_step": 0.0005,
+          "dEdQ": 1.3869546382498812,
+          "omega": 1.386954637823421,
+          "absolute_error": 4.264602004866447e-10,
+          "runs": [
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 4997.5,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.963943814150906e-09,
+              "boundary_residual": 8.242931721049034e-37,
+              "charge_relative_error": 2.2623168859908496e-12,
+              "energy": 6982.842943132682,
+              "energy_per_charge": 1.3972672222376552,
+              "omega": 1.3869583196753077,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.0576797720789815e-12,
+              "seed_Q": 5000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 5002.5,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.979694969776196e-09,
+              "boundary_residual": 9.094947017729282e-13,
+              "charge_relative_error": 2.259510275588996e-12,
+              "energy": 6989.777716323932,
+              "energy_per_charge": 1.3972569148073826,
+              "omega": 1.3869509585222242,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 3.0562075679965067e-12,
+              "seed_Q": 5000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 5000.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.971805763312526e-09,
+              "boundary_residual": 9.094947017729282e-13,
+              "charge_relative_error": 2.260821929667145e-12,
+              "energy": 6986.310334329026,
+              "energy_per_charge": 1.3972620668658051,
+              "omega": 1.386954637823421,
+              "finite_volume_energy_per_charge": 1.3972607593609985,
+              "relative_energy_difference": 9.357620433278765e-07,
+              "virial_relative": 3.0564225730570253e-12,
+              "seed_Q": 5000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Q": 100000.0,
+      "checks": [
+        {
+          "relative_step": 0.001,
+          "dEdQ": 1.3735146779398202,
+          "omega": 1.3735146773876357,
+          "absolute_error": 5.521845203304565e-10,
+          "runs": [
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 99900.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1618,
+              "max_rms_residual": 9.998209854040519e-09,
+              "boundary_residual": 1.4551915228366852e-11,
+              "charge_relative_error": 1.7915315855223615e-12,
+              "energy": 137599.48361212434,
+              "energy_per_charge": 1.377372208329573,
+              "omega": 1.3735172139886778,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 1.1049344540750897e-12,
+              "seed_Q": 100000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 100100.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1619,
+              "max_rms_residual": 9.956715007338868e-09,
+              "boundary_residual": 1.015131752714806e-40,
+              "charge_relative_error": 1.767454399065776e-12,
+              "energy": 137874.1865477123,
+              "energy_per_charge": 1.3773645009761468,
+              "omega": 1.373512144192749,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 9.895888461612214e-13,
+              "seed_Q": 100000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 100000.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1620,
+              "max_rms_residual": 9.94967361019801e-09,
+              "boundary_residual": 1.4551915228366852e-11,
+              "charge_relative_error": 1.7532147467136384e-12,
+              "energy": 137736.83520665957,
+              "energy_per_charge": 1.3773683520665956,
+              "omega": 1.3735146773876357,
+              "finite_volume_energy_per_charge": 1.3773678983683169,
+              "relative_energy_difference": 3.29395022173776e-07,
+              "virial_relative": 1.037484325294366e-12,
+              "seed_Q": 100000.0
+            }
+          ]
+        },
+        {
+          "relative_step": 0.0005,
+          "dEdQ": 1.3735146775114118,
+          "omega": 1.3735146773876357,
+          "absolute_error": 1.237761004801996e-10,
+          "runs": [
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 99950.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1619,
+              "max_rms_residual": 9.973945473318693e-09,
+              "boundary_residual": 1.4551915228366852e-11,
+              "charge_relative_error": 1.7858308373301432e-12,
+              "energy": 137668.15944110142,
+              "energy_per_charge": 1.3773702795507896,
+              "omega": 1.3735159452618788,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 1.0881050198459013e-12,
+              "seed_Q": 100000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 100050.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1619,
+              "max_rms_residual": 9.988763640660784e-09,
+              "boundary_residual": 1.4551915228366852e-11,
+              "charge_relative_error": 1.7728465239236737e-12,
+              "energy": 137805.51090885256,
+              "energy_per_charge": 1.3773664258755878,
+              "omega": 1.373513410364925,
+              "finite_volume_energy_per_charge": null,
+              "relative_energy_difference": null,
+              "virial_relative": 1.0061328272102687e-12,
+              "seed_Q": 100000.0
+            },
+            {
+              "source_folder": "h0p1_L80",
+              "Q": 100000.0,
+              "L": 80.0,
+              "lambda_sigma": 12.0,
+              "status": 0,
+              "message": "The algorithm converged to the desired accuracy.",
+              "tolerance": 1e-08,
+              "nodes": 1620,
+              "max_rms_residual": 9.94967361019801e-09,
+              "boundary_residual": 1.4551915228366852e-11,
+              "charge_relative_error": 1.7532147467136384e-12,
+              "energy": 137736.83520665957,
+              "energy_per_charge": 1.3773683520665956,
+              "omega": 1.3735146773876357,
+              "finite_volume_energy_per_charge": 1.3773678983683169,
+              "relative_energy_difference": 3.29395022173776e-07,
+              "virial_relative": 1.037484325294366e-12,
+              "seed_Q": 100000.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "spectra": [
+    {
+      "folder": "h0p1_L80",
+      "Q": 1250.0,
+      "sectors": [
+        {
+          "ell": 0,
+          "amplitude": {
+            "eigenvalues": [
+              0.038037964718978495,
+              0.043005313410174766
+            ],
+            "residuals": [
+              1.0692525317081809e-12,
+              3.735094029930071e-11
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              -4.5979856597594565e-14,
+              0.038527718468783244
+            ],
+            "residuals": [
+              9.50251055202726e-13,
+              1.4499552079171428e-10
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.001547403906437302,
+              0.006243120980866634
+            ],
+            "residuals": [
+              1.3293776232825466e-12,
+              3.0452835326106396e-11
+            ]
+          }
+        },
+        {
+          "ell": 1,
+          "amplitude": {
+            "eigenvalues": [
+              1.1723533392302785e-05,
+              0.03980254475830279
+            ],
+            "residuals": [
+              1.978748510130791e-12,
+              3.9559134136963377e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              0.039633576995885114,
+              0.045074873112073914
+            ],
+            "residuals": [
+              1.55321600815375e-12,
+              3.0915909762048093e-10
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.003146007585070161,
+              0.009263860606976409
+            ],
+            "residuals": [
+              1.187776557024236e-12,
+              8.556450975968983e-11
+            ]
+          }
+        },
+        {
+          "ell": 2,
+          "amplitude": {
+            "eigenvalues": [
+              0.04175224740344025,
+              0.04932826471873845
+            ],
+            "residuals": [
+              1.1972971579790996e-12,
+              4.071967468384544e-11
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              0.04176140851828875,
+              0.04946583570305829
+            ],
+            "residuals": [
+              8.160324116289086e-13,
+              2.4713009913987802e-11
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.005189426673344985,
+              0.01291547644007691
+            ],
+            "residuals": [
+              9.493164514621346e-13,
+              2.1388783903526554e-11
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "folder": "threshold_h0p1_L100",
+      "Q": 1200.0,
+      "sectors": [
+        {
+          "ell": 0,
+          "amplitude": {
+            "eigenvalues": [
+              0.035557316348036404,
+              0.03848389547566339
+            ],
+            "residuals": [
+              1.835013810339921e-12,
+              3.024093669888896e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              9.49439303312087e-15,
+              0.035909412150315526
+            ],
+            "residuals": [
+              1.0580384134419692e-12,
+              3.539767824637402e-10
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.0009886481500198873,
+              0.003972661545109178
+            ],
+            "residuals": [
+              1.7766444374561814e-12,
+              3.39749169927213e-11
+            ]
+          }
+        },
+        {
+          "ell": 1,
+          "amplitude": {
+            "eigenvalues": [
+              1.2369290788745081e-05,
+              0.03676054600999167
+            ],
+            "residuals": [
+              2.3143465717883555e-12,
+              3.582276907919207e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              0.036706943128014716,
+              0.040440184690907
+            ],
+            "residuals": [
+              1.3588347909490224e-12,
+              2.7260119996555665e-11
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.0020162252556146644,
+              0.005946704939624989
+            ],
+            "residuals": [
+              1.412250443431872e-12,
+              4.107103835949803e-12
+            ]
+          }
+        },
+        {
+          "ell": 2,
+          "amplitude": {
+            "eigenvalues": [
+              0.03803494956545109,
+              0.042954018154843204
+            ],
+            "residuals": [
+              1.4102518278199244e-12,
+              3.630911155992042e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              0.03803674950168992,
+              0.04298000297089199
+            ],
+            "residuals": [
+              1.2826560120863901e-12,
+              1.4295050410546688e-11
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.0033215743814560875,
+              0.008269759059337616
+            ],
+            "residuals": [
+              1.232187244006446e-12,
+              3.200830964071794e-11
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "folder": "threshold_h0p1_L100",
+      "Q": 1000.0,
+      "sectors": [
+        {
+          "ell": 0,
+          "amplitude": {
+            "eigenvalues": [
+              0.020189951715920657,
+              0.025985084977539753
+            ],
+            "residuals": [
+              1.233582614223667e-12,
+              2.484308454235282e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              2.0776114959046437e-14,
+              0.02520372439040913
+            ],
+            "residuals": [
+              1.1438709478200321e-12,
+              2.7688052844806452e-11
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.0009883715039253455,
+              0.003968450873269664
+            ],
+            "residuals": [
+              1.807312675506312e-12,
+              3.31471684701089e-11
+            ]
+          }
+        },
+        {
+          "ell": 1,
+          "amplitude": {
+            "eigenvalues": [
+              1.5766105955626405e-05,
+              0.026032909303252274
+            ],
+            "residuals": [
+              1.6891283179476345e-12,
+              2.593266232699502e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              0.02598278399404189,
+              0.02979138233697493
+            ],
+            "residuals": [
+              2.784130996534947e-12,
+              1.9057017159047522e-11
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.0020168302358052454,
+              0.0059515621048287495
+            ],
+            "residuals": [
+              1.5392892418342244e-12,
+              4.193856957602327e-12
+            ]
+          }
+        },
+        {
+          "ell": 2,
+          "amplitude": {
+            "eigenvalues": [
+              0.027302557770982748,
+              0.032224224569516645
+            ],
+            "residuals": [
+              1.4675833814347733e-12,
+              1.0541462184689052e-10
+            ]
+          },
+          "phi_phase": {
+            "eigenvalues": [
+              0.027304270332345906,
+              0.032246911035281774
+            ],
+            "residuals": [
+              1.2314799426903975e-12,
+              2.8421389732147545e-11
+            ]
+          },
+          "sigma_phase": {
+            "eigenvalues": [
+              0.003321589130637138,
+              0.008270029381906034
+            ],
+            "residuals": [
+              1.3888579409652727e-12,
+              5.86743986054641e-11
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "binding_crossing": {
+    "Q": 1225.4252840308072,
+    "refined_check": {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1225.4252840308072,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-09,
+      "nodes": 3194,
+      "max_rms_residual": 9.990302698945733e-10,
+      "boundary_residual": 5.4520263299547085e-39,
+      "charge_relative_error": 1.0390617845698775e-14,
+      "energy": 1733.0130563512753,
+      "energy_per_charge": 1.4142135623730996,
+      "omega": 1.4015431328173376,
+      "finite_volume_energy_per_charge": null,
+      "relative_energy_difference": null,
+      "virial_relative": 1.870931439285866e-13,
+      "seed_Q": 1225.0
+    },
+    "scope": "Numerical E(Q)/Q=sqrt(2) crossing on selected spherical branch, finite L=120; not minimum existence charge"
+  }
+}

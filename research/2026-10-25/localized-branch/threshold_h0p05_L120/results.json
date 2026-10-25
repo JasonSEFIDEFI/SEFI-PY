@@ -1,0 +1,369 @@
+{
+  "scope": "Fixed-charge continuation and restricted fragmentation comparisons.\nAll values dimensionless. No continuum/global/nonlinear stability claim.\n",
+  "source_commit": "847a071351ed2b1c54e240fd9a520a1cce238178",
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "configuration": {
+    "h": 0.05,
+    "L": 120.0,
+    "lam": 12.0,
+    "charges": "2500,1300,1250,1230,1225,1220,1200",
+    "out": "threshold_h0p05_L120"
+  },
+  "gradient_checks": [
+    {
+      "Q": 50000.0,
+      "lambda_sigma": 12.0,
+      "relative_gradient_error": 1.8699498245635585e-08
+    },
+    {
+      "Q": 100000.0,
+      "lambda_sigma": 15.0,
+      "relative_gradient_error": 1.7233063096522875e-08
+    }
+  ],
+  "runs": [
+    {
+      "Q": 2500.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 3512.753281113193,
+      "energy_per_charge": 1.4051013124452774,
+      "omega": 1.3928432651539453,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.473379578079316,
+      "max_residual": 1.8329088247170944e-13,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -5.806180526172344e-07,
+      "tail_charge_fraction": 6.722193891508581e-20,
+      "relaxation_iterations": 417,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6960268999973778,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 3996.6724773931255,
+          "residual": 3.989470701504696
+        },
+        {
+          "iteration": 100,
+          "energy": 3512.8127082131605,
+          "residual": 0.0008597810177464887
+        },
+        {
+          "iteration": 200,
+          "energy": 3512.7543369454793,
+          "residual": 7.599972285167456e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 3512.753308807103,
+          "residual": 9.406250949639539e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 3512.7532819668013,
+          "residual": 1.3529529113709415e-06
+        }
+      ]
+    },
+    {
+      "Q": 1300.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 1837.4969849082795,
+      "energy_per_charge": 1.413459219160215,
+      "omega": 1.4006198034777217,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.170261202436007,
+      "max_residual": 2.274846977456946e-13,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -6.3527697533387e-07,
+      "tail_charge_fraction": 3.0139590535226137e-16,
+      "relaxation_iterations": 632,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 1.7166986000083853,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1839.6928070714089,
+          "residual": 0.049022911280909895
+        },
+        {
+          "iteration": 100,
+          "energy": 1837.5361321043638,
+          "residual": 0.000905040419820119
+        },
+        {
+          "iteration": 200,
+          "energy": 1837.5000393935459,
+          "residual": 0.00019167482242038458
+        },
+        {
+          "iteration": 300,
+          "energy": 1837.4972857042762,
+          "residual": 5.098140443834942e-05
+        },
+        {
+          "iteration": 400,
+          "energy": 1837.4970175664416,
+          "residual": 1.4832337532938444e-05
+        },
+        {
+          "iteration": 500,
+          "energy": 1837.4969886514116,
+          "residual": 4.538761578520845e-06
+        },
+        {
+          "iteration": 600,
+          "energy": 1837.496985352604,
+          "residual": 1.4359534297597731e-06
+        }
+      ]
+    },
+    {
+      "Q": 1250.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 1767.4510883618036,
+      "energy_per_charge": 1.4139608706894429,
+      "omega": 1.4012247462916083,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.2058162103137295,
+      "max_residual": 2.0580065429598449e-13,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -6.301944313674646e-07,
+      "tail_charge_fraction": 6.571490483262927e-16,
+      "relaxation_iterations": 474,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 1.1381302999943728,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1767.4617814965045,
+          "residual": 0.0024714308597878903
+        },
+        {
+          "iteration": 100,
+          "energy": 1767.4515944983818,
+          "residual": 0.0001098244663112341
+        },
+        {
+          "iteration": 200,
+          "energy": 1767.45113860635,
+          "residual": 2.5529993208872614e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1767.451094152968,
+          "residual": 7.335700979188564e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 1767.4510890780484,
+          "residual": 2.2898899598999822e-06
+        }
+      ]
+    },
+    {
+      "Q": 1230.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 1739.424034334749,
+      "energy_per_charge": 1.4141658815729667,
+      "omega": 1.401482265717636,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.224180799048326,
+      "max_residual": 1.654093528813405e-13,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -6.274103111251397e-07,
+      "tail_charge_fraction": 9.218929793721574e-16,
+      "relaxation_iterations": 412,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.7189568000030704,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1739.4259039241688,
+          "residual": 0.0009085250965449876
+        },
+        {
+          "iteration": 100,
+          "energy": 1739.4241351699868,
+          "residual": 4.994851275294532e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 1739.4240450066154,
+          "residual": 1.2008338627647608e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1739.4240356322484,
+          "residual": 3.5571085167107608e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 1739.4240345032867,
+          "residual": 1.1418012445668646e-06
+        }
+      ]
+    },
+    {
+      "Q": 1225.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 1732.4164584639684,
+      "energy_per_charge": 1.4142175171134437,
+      "omega": 1.40154818907244,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.229204863671616,
+      "max_residual": 2.0163731795364015e-13,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -6.266351875090202e-07,
+      "tail_charge_fraction": 1.0060123425136427e-15,
+      "relaxation_iterations": 296,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.5076944999891566,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1732.4165795071963,
+          "residual": 0.000261909613131453
+        },
+        {
+          "iteration": 100,
+          "energy": 1732.4164653015746,
+          "residual": 1.317954390732401e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 1732.416459201991,
+          "residual": 3.175585342879428e-06
+        }
+      ]
+    },
+    {
+      "Q": 1220.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 1725.4085513665987,
+      "energy_per_charge": 1.4142693043988515,
+      "omega": 1.4016147589044285,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.2344141641369175,
+      "max_residual": 1.619399059293869e-13,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -6.258261443012487e-07,
+      "tail_charge_fraction": 1.0990524618320132e-15,
+      "relaxation_iterations": 299,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6008021000016015,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1725.4086738969413,
+          "residual": 0.00026317445539389417
+        },
+        {
+          "iteration": 100,
+          "energy": 1725.4085584413297,
+          "residual": 1.3461722483620875e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 1725.4085521416607,
+          "residual": 3.270801217092334e-06
+        }
+      ]
+    },
+    {
+      "Q": 1200.0,
+      "lambda_sigma": 12.0,
+      "L": 120.0,
+      "h": 0.05,
+      "energy": 1697.3735440663413,
+      "energy_per_charge": 1.4144779533886178,
+      "omega": 1.4018878265497239,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.257240281106134,
+      "max_residual": 2.2244706077145793e-13,
+      "converged": true,
+      "classification": "not_below_free_threshold",
+      "virial_relative": -6.222251578909701e-07,
+      "tail_charge_fraction": 1.5844538144117506e-15,
+      "relaxation_iterations": 439,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.7341040000028443,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1697.3755543075613,
+          "residual": 0.0009351948536310689
+        },
+        {
+          "iteration": 100,
+          "energy": 1697.3736677221086,
+          "residual": 5.662901092047534e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 1697.3735583972957,
+          "residual": 1.4350828822951023e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 1697.3735459573022,
+          "residual": 4.464300998541226e-06
+        },
+        {
+          "iteration": 400,
+          "energy": 1697.3735443316557,
+          "residual": 1.4995402864842466e-06
+        }
+      ]
+    }
+  ],
+  "fragmentation": [
+    {
+      "Q": 2500.0,
+      "Q1": 1200.0,
+      "Q2": 1300.0,
+      "daughter_minus_parent_energy": 22.117247861427586,
+      "relative_margin": 0.006296271355105992,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 2500.0,
+      "Q1": 1250.0,
+      "Q2": 1250.0,
+      "daughter_minus_parent_energy": 22.148895610414,
+      "relative_margin": 0.0063052807407513135,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    }
+  ],
+  "source_sha256": {
+    "continue_branch.py": "3cc263395d200803294325561d9344fcdf23d12047e0e69734bb107d51034cc6",
+    "vacuum_spherical.py": "15dd30d74f7603f1354c464ff69ca9c7bcbb08c7590468b623bb0bf848da4441"
+  }
+}

@@ -1,0 +1,27 @@
+Q,Q1,Q2,daughter_minus_parent_energy,relative_margin,scope
+2500.0,1250.0,1250.0,22.148613382461008,0.006305205888837256,Compared spherical stationary candidates only; not a global fission bound
+5000.0,2500.0,2500.0,39.19664614578869,0.005610498381664175,Compared spherical stationary candidates only; not a global fission bound
+10000.0,5000.0,5000.0,64.52486868478627,0.004639379126581468,Compared spherical stationary candidates only; not a global fission bound
+15000.0,5000.0,10000.0,79.8393924823722,0.0038357496796163726,Compared spherical stationary candidates only; not a global fission bound
+20000.0,5000.0,15000.0,88.2862084867229,0.0031857826724626887,Compared spherical stationary candidates only; not a global fission bound
+20000.0,10000.0,10000.0,103.60073228431065,0.003738402899196174,Compared spherical stationary candidates only; not a global fission bound
+25000.0,5000.0,20000.0,93.92699159336917,0.0027142652887173478,Compared spherical stationary candidates only; not a global fission bound
+25000.0,10000.0,15000.0,117.68833139530761,0.003400911147844092,Compared spherical stationary candidates only; not a global fission bound
+30000.0,5000.0,25000.0,98.07237724040169,0.002363578639230126,Compared spherical stationary candidates only; not a global fission bound
+30000.0,10000.0,20000.0,127.47450014898641,0.003072180098786884,Compared spherical stationary candidates only; not a global fission bound
+30000.0,15000.0,15000.0,135.92131615334074,0.0032757513228070805,Compared spherical stationary candidates only; not a global fission bound
+40000.0,10000.0,30000.0,140.6972866458309,0.0025460706653874406,Compared spherical stationary candidates only; not a global fission bound
+40000.0,15000.0,25000.0,158.93027140386403,0.002876016386030519,Compared spherical stationary candidates only; not a global fission bound
+40000.0,20000.0,20000.0,164.5710545105103,0.002978092500929574,Compared spherical stationary candidates only; not a global fission bound
+50000.0,10000.0,40000.0,149.5442634725332,0.0021667084953996443,Compared spherical stationary candidates only; not a global fission bound
+50000.0,20000.0,30000.0,186.6408178340498,0.002704190961251072,Compared spherical stationary candidates only; not a global fission bound
+50000.0,25000.0,25000.0,190.78620348108234,0.002764252391155288,Compared spherical stationary candidates only; not a global fission bound
+60000.0,10000.0,50000.0,156.05346476566046,0.0018853611411896547,Compared spherical stationary candidates only; not a global fission bound
+60000.0,20000.0,40000.0,201.9969959538721,0.002440428268480698,Compared spherical stationary candidates only; not a global fission bound
+60000.0,30000.0,30000.0,215.2197824507166,0.0026001794657824298,Compared spherical stationary candidates only; not a global fission bound
+80000.0,20000.0,60000.0,222.77399650539155,0.002020425758498016,Compared spherical stationary candidates only; not a global fission bound
+80000.0,30000.0,50000.0,251.35296112205833,0.0022796197271321397,Compared spherical stationary candidates only; not a global fission bound
+80000.0,40000.0,40000.0,260.19993794875336,0.0023598564699561933,Compared spherical stationary candidates only; not a global fission bound
+100000.0,20000.0,80000.0,236.69170402898453,0.001718434880828707,Compared spherical stationary candidates only; not a global fission bound
+100000.0,40000.0,60000.0,294.8946460238658,0.0021410012994582594,Compared spherical stationary candidates only; not a global fission bound
+100000.0,50000.0,50000.0,301.4038473169785,0.002188259561399922,Compared spherical stationary candidates only; not a global fission bound

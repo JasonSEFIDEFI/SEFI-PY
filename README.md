@@ -69,3 +69,7 @@ The foundational work investigates SEFI, DEFI, and GWFM proposals. Finite-domain
 - [Book manuscripts and early source material](https://github.com/JasonSEFIDEFI/Publishing-V-Drive-Content).
 
 These are research drafts and computational studies, not confirmations of new physics, a working propulsion engine, journal acceptance, or a doctoral award. Prior versions and submission history remain distinct. Existing draft pull requests are retained for review.
+
+## Localized vacuum branch — 25 October 2026
+
+[Continuation, binding threshold and publication-readiness record](research/2026-10-25/localized-branch/README.md): three-grid charge continuation, selected fragmentation comparisons, independent continuum collocation and an exploratory binding crossing near Q=1225.43 in the dimensionless lambda=12 model. Includes unsuccessful runs, raw profiles and limitations. **Exploratory / Not Promoted**; no observed-particle identification or general nonlinear stability claim.

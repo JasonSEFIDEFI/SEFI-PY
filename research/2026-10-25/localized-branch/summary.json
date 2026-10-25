@@ -1,0 +1,181 @@
+{
+  "scope": "Exploratory model-dependent numerical research, not promoted",
+  "counts": {
+    "main_profiles": 39,
+    "sampled_partitions": 26
+  },
+  "convergence_ratio_range": [
+    4.007533716417122,
+    4.009578107271007
+  ],
+  "min_sampled_fragmentation_margin": 22.148613382461008,
+  "min_sampled_fragmentation_relative_margin": 0.001718434880828707,
+  "symbolic_square_identity": "0",
+  "branch_rows": [
+    {
+      "Q": 1250.0,
+      "energy_per_charge": 1.4139595339431406,
+      "omega": 1.401223084350689,
+      "rms_radius": 7.20526630337919,
+      "binding_fraction": 0.00017962522543502057,
+      "three_grid_difference_ratio": 4.008473397242763,
+      "richardson_energy_per_charge": 1.413961317211967
+    },
+    {
+      "Q": 2500.0,
+      "energy_per_charge": 1.4051000885901561,
+      "omega": 1.392842384820226,
+      "rms_radius": 7.473094624233383,
+      "binding_fraction": 0.00644419911208205,
+      "three_grid_difference_ratio": 4.007533716417122,
+      "richardson_energy_per_charge": 1.4051017211605055
+    },
+    {
+      "Q": 5000.0,
+      "energy_per_charge": 1.3972607593609985,
+      "omega": 1.3869537783731882,
+      "rms_radius": 8.633153086965155,
+      "binding_fraction": 0.011987441969973256,
+      "three_grid_difference_ratio": 4.008241947946377,
+      "richardson_energy_per_charge": 1.3972620675761258
+    },
+    {
+      "Q": 10000.0,
+      "energy_per_charge": 1.3908082724925197,
+      "omega": 1.3824632720059777,
+      "rms_radius": 10.379944148024869,
+      "binding_fraction": 0.016550039190191823,
+      "three_grid_difference_ratio": 4.0087881416489175,
+      "richardson_energy_per_charge": 1.390809298363543
+    },
+    {
+      "Q": 15000.0,
+      "energy_per_charge": 1.3876364752831878,
+      "omega": 1.3803189077618305,
+      "rms_radius": 11.678991528935514,
+      "binding_fraction": 0.018792838505458986,
+      "three_grid_difference_ratio": 4.009023194049191,
+      "richardson_energy_per_charge": 1.387637363179564
+    },
+    {
+      "Q": 20000.0,
+      "energy_per_charge": 1.3856282358783043,
+      "omega": 1.3789752828804778,
+      "rms_radius": 12.73626198645311,
+      "binding_fraction": 0.0202128782068981,
+      "three_grid_difference_ratio": 4.009157994939606,
+      "richardson_energy_per_charge": 1.3856290372278817
+    },
+    {
+      "Q": 25000.0,
+      "energy_per_charge": 1.3841976609111082,
+      "omega": 1.3780232763178293,
+      "rms_radius": 13.639940559247572,
+      "binding_fraction": 0.021224447467198204,
+      "three_grid_difference_ratio": 4.009246787516771,
+      "richardson_energy_per_charge": 1.3841984010705124
+    },
+    {
+      "Q": 30000.0,
+      "energy_per_charge": 1.3831057647447431,
+      "omega": 1.3772989992576299,
+      "rms_radius": 14.436012946241096,
+      "binding_fraction": 0.021996534650786548,
+      "three_grid_difference_ratio": 4.009310293105604,
+      "richardson_energy_per_charge": 1.38310645847854
+    },
+    {
+      "Q": 40000.0,
+      "energy_per_charge": 1.3815139595155415,
+      "omega": 1.3762460853617313,
+      "rms_radius": 15.804887984205214,
+      "binding_fraction": 0.023122110922683237,
+      "three_grid_difference_ratio": 4.0093959671857,
+      "richardson_energy_per_charge": 1.38151458601876
+    },
+    {
+      "Q": 50000.0,
+      "energy_per_charge": 1.3803819368414867,
+      "omega": 1.3754990090097992,
+      "rms_radius": 16.968452507704388,
+      "binding_fraction": 0.023922571831964223,
+      "three_grid_difference_ratio": 4.009451721256743,
+      "richardson_energy_per_charge": 1.3803825158664704
+    },
+    {
+      "Q": 60000.0,
+      "energy_per_charge": 1.3795187683705645,
+      "omega": 1.3749301026374716,
+      "rms_radius": 17.989928963926772,
+      "binding_fraction": 0.024532924111059784,
+      "three_grid_difference_ratio": 4.009491250105254,
+      "richardson_energy_per_charge": 1.3795193113819286
+    },
+    {
+      "Q": 80000.0,
+      "energy_per_charge": 1.378261460291182,
+      "omega": 1.3741022802613378,
+      "rms_radius": 19.74073905007185,
+      "binding_fraction": 0.025421975180031753,
+      "three_grid_difference_ratio": 4.009544075951029,
+      "richardson_energy_per_charge": 1.3782619511374243
+    },
+    {
+      "Q": 100000.0,
+      "energy_per_charge": 1.3773678983683169,
+      "omega": 1.3735143819096354,
+      "rms_radius": 21.224798091098133,
+      "binding_fraction": 0.026053818875099832,
+      "three_grid_difference_ratio": 4.009578107271007,
+      "richardson_energy_per_charge": 1.3773683523518114
+    }
+  ],
+  "binding_crossing": {
+    "Q": 1225.4252840308072,
+    "refined_check": {
+      "source_folder": "threshold_h0p05_L120",
+      "Q": 1225.4252840308072,
+      "L": 120.0,
+      "lambda_sigma": 12.0,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "tolerance": 1e-09,
+      "nodes": 3194,
+      "max_rms_residual": 9.990302698945733e-10,
+      "boundary_residual": 5.4520263299547085e-39,
+      "charge_relative_error": 1.0390617845698775e-14,
+      "energy": 1733.0130563512753,
+      "energy_per_charge": 1.4142135623730996,
+      "omega": 1.4015431328173376,
+      "finite_volume_energy_per_charge": null,
+      "relative_energy_difference": null,
+      "virial_relative": 1.870931439285866e-13,
+      "seed_Q": 1225.0
+    },
+    "scope": "Numerical E(Q)/Q=sqrt(2) crossing on selected spherical branch, finite L=120; not minimum existence charge"
+  },
+  "first_law_errors": [
+    {
+      "Q": 1250.0,
+      "errors": [
+        6.1503830917075675e-09,
+        1.8164589832281308e-09
+      ]
+    },
+    {
+      "Q": 5000.0,
+      "errors": [
+        1.701844443147138e-09,
+        4.264602004866447e-10
+      ]
+    },
+    {
+      "Q": 100000.0,
+      "errors": [
+        5.521845203304565e-10,
+        1.237761004801996e-10
+      ]
+    }
+  ],
+  "spectra_completed": 3
+}

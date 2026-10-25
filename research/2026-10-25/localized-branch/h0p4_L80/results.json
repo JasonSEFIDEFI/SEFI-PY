@@ -1,0 +1,738 @@
+{
+  "scope": "Fixed-charge continuation and restricted fragmentation comparisons.\nAll values dimensionless. No continuum/global/nonlinear stability claim.\n",
+  "source_commit": "847a071351ed2b1c54e240fd9a520a1cce238178",
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "configuration": {
+    "h": 0.4,
+    "L": 80.0,
+    "lam": 12.0,
+    "charges": "100000,80000,60000,50000,40000,30000,25000,20000,15000,10000,5000,2500,1250",
+    "out": "h0p4_L80"
+  },
+  "gradient_checks": [
+    {
+      "Q": 50000.0,
+      "lambda_sigma": 12.0,
+      "relative_gradient_error": 1.8699498245635585e-08
+    },
+    {
+      "Q": 100000.0,
+      "lambda_sigma": 15.0,
+      "relative_gradient_error": 1.7233063096522875e-08
+    }
+  ],
+  "runs": [
+    {
+      "Q": 100000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 137736.1075570992,
+      "energy_per_charge": 1.377361075570992,
+      "omega": 1.3735099424193662,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 21.22348851838728,
+      "max_residual": 7.26185093403473e-10,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.0592310450415175e-05,
+      "tail_charge_fraction": 1.6710647382426933e-12,
+      "relaxation_iterations": 253,
+      "newton_iterations": 1,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.2883058000006713,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 139172.979663265,
+          "residual": 0.3593165915335473
+        },
+        {
+          "iteration": 100,
+          "energy": 137736.13960014016,
+          "residual": 0.0002640379732345016
+        },
+        {
+          "iteration": 200,
+          "energy": 137736.10758774946,
+          "residual": 6.137882731940304e-06
+        }
+      ]
+    },
+    {
+      "Q": 80000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 110260.32668348216,
+      "energy_per_charge": 1.3782540835435269,
+      "omega": 1.3740974880251504,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 19.7393141637158,
+      "max_residual": 7.505588730582092e-10,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.1444824013617535e-05,
+      "tail_charge_fraction": 5.830937635070234e-13,
+      "relaxation_iterations": 197,
+      "newton_iterations": 1,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.21369690001301933,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 110262.80704417036,
+          "residual": 0.006035339656745124
+        },
+        {
+          "iteration": 100,
+          "energy": 110260.32721214076,
+          "residual": 3.32984341245195e-05
+        }
+      ]
+    },
+    {
+      "Q": 60000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 82770.63646431195,
+      "energy_per_charge": 1.3795106077385324,
+      "omega": 1.3749248123331566,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 17.98834082921021,
+      "max_residual": 9.741103117027327e-10,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.2649181256031974e-05,
+      "tail_charge_fraction": 1.813916594387214e-13,
+      "relaxation_iterations": 206,
+      "newton_iterations": 1,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.21096060000127181,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 82774.13798226905,
+          "residual": 0.00899826759629322
+        },
+        {
+          "iteration": 100,
+          "energy": 82770.63725522779,
+          "residual": 4.355131462040109e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 82770.63646538308,
+          "residual": 1.219529513230358e-06
+        }
+      ]
+    },
+    {
+      "Q": 50000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 69018.66175241911,
+      "energy_per_charge": 1.3803732350483822,
+      "omega": 1.375493375470922,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 16.966751571659636,
+      "max_residual": 6.379606615324433e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.3480304500767e-05,
+      "tail_charge_fraction": 9.627472039212424e-14,
+      "relaxation_iterations": 195,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.26189619999786373,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 69019.90089182623,
+          "residual": 0.0072485931566433
+        },
+        {
+          "iteration": 100,
+          "energy": 69018.66207338439,
+          "residual": 2.8674629330659868e-05
+        }
+      ]
+    },
+    {
+      "Q": 40000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 55260.18177229796,
+      "energy_per_charge": 1.381504544307449,
+      "omega": 1.3762399997376393,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 15.803038133607323,
+      "max_residual": 2.940521433840491e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.4573337984975574e-05,
+      "tail_charge_fraction": 4.945488783736076e-14,
+      "relaxation_iterations": 203,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.20235029999457765,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 55261.76527526969,
+          "residual": 0.006222864048504598
+        },
+        {
+          "iteration": 100,
+          "energy": 55260.1822239827,
+          "residual": 3.5634788890878503e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 55260.181773051474,
+          "residual": 1.0994525811822316e-06
+        }
+      ]
+    },
+    {
+      "Q": 30000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 41492.86018083581,
+      "energy_per_charge": 1.3830953393611936,
+      "omega": 1.3772922735873765,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 14.433951627231489,
+      "max_residual": 2.8796409701214998e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.6118033746605266e-05,
+      "tail_charge_fraction": 2.491607033914565e-14,
+      "relaxation_iterations": 215,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.26831070000480395,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 41495.11835063115,
+          "residual": 0.011779855443369014
+        },
+        {
+          "iteration": 100,
+          "energy": 41492.860892716155,
+          "residual": 4.744424838448377e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 41492.860182222175,
+          "residual": 1.5704917433558875e-06
+        }
+      ]
+    },
+    {
+      "Q": 25000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 34604.663449693864,
+      "energy_per_charge": 1.3841865379877545,
+      "omega": 1.378016108143386,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 13.637732628548067,
+      "max_residual": 3.6162479261081515e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.7182627251042064e-05,
+      "tail_charge_fraction": 1.782455761298947e-14,
+      "relaxation_iterations": 204,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.33240709999518003,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 34605.44397394973,
+          "residual": 0.0047283046502170425
+        },
+        {
+          "iteration": 100,
+          "energy": 34604.663747392355,
+          "residual": 3.149702070042327e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 34604.663450347856,
+          "residual": 1.1055584237715764e-06
+        }
+      ]
+    },
+    {
+      "Q": 20000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 27712.32387236758,
+      "energy_per_charge": 1.3856161936183788,
+      "omega": 1.3789675298688941,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 12.73385981436217,
+      "max_residual": 2.1690819713288123e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -1.858320656797701e-05,
+      "tail_charge_fraction": 1.3133439856982516e-14,
+      "relaxation_iterations": 214,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.3670323999976972,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 27713.34450619902,
+          "residual": 0.00752952674188781
+        },
+        {
+          "iteration": 100,
+          "energy": 27712.324314620302,
+          "residual": 3.994959860660358e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 27712.323873487025,
+          "residual": 1.4974899406310777e-06
+        }
+      ]
+    },
+    {
+      "Q": 15000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 20814.3469920384,
+      "energy_per_charge": 1.38762313280256,
+      "omega": 1.3803103220018176,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 11.676311953608073,
+      "max_residual": 3.0725611941881392e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -2.055919101161761e-05,
+      "tail_charge_fraction": 1.0508079549632569e-14,
+      "relaxation_iterations": 227,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.32481960000586696,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 20815.80438032011,
+          "residual": 0.011644016697105054
+        },
+        {
+          "iteration": 100,
+          "energy": 20814.34772962507,
+          "residual": 5.414273034993252e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 20814.3469943155,
+          "residual": 2.225636521996366e-06
+        }
+      ]
+    },
+    {
+      "Q": 10000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 13907.928573806705,
+      "energy_per_charge": 1.3907928573806705,
+      "omega": 1.3824533340745777,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 10.376812499793388,
+      "max_residual": 2.3175905639050143e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -2.3697343777868718e-05,
+      "tail_charge_fraction": 1.073233895321128e-14,
+      "relaxation_iterations": 249,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.3393281000026036,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 13910.201120613458,
+          "residual": 0.02318355034340286
+        },
+        {
+          "iteration": 100,
+          "energy": 13907.930091318976,
+          "residual": 8.262559934434869e-05
+        },
+        {
+          "iteration": 200,
+          "energy": 13907.928580236532,
+          "residual": 3.934451256966832e-06
+        }
+      ]
+    },
+    {
+      "Q": 5000.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 6986.2055189368275,
+      "energy_per_charge": 1.3972411037873655,
+      "omega": 1.3869408534518386,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 8.62901947145055,
+      "max_residual": 3.2831810187206045e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -3.007256209263265e-05,
+      "tail_charge_fraction": 3.020122482964736e-14,
+      "relaxation_iterations": 298,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.37543790000199806,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 6990.605573542742,
+          "residual": 0.03562334167524329
+        },
+        {
+          "iteration": 100,
+          "energy": 6986.210763031285,
+          "residual": 0.00017184752419757698
+        },
+        {
+          "iteration": 200,
+          "energy": 6986.205562030903,
+          "residual": 1.0843817710270119e-05
+        }
+      ]
+    },
+    {
+      "Q": 2500.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 3512.6889078423746,
+      "energy_per_charge": 1.4050755631369498,
+      "omega": 1.3928247368941766,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.467387952718317,
+      "max_residual": 2.048708425128609e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -3.730751163717174e-05,
+      "tail_charge_fraction": 4.261905412575904e-13,
+      "relaxation_iterations": 374,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.6371870000002673,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 3515.73848306352,
+          "residual": 0.04772960977745927
+        },
+        {
+          "iteration": 100,
+          "energy": 3512.6994721391684,
+          "residual": 0.00033145471507653457
+        },
+        {
+          "iteration": 200,
+          "energy": 3512.6891249972705,
+          "residual": 3.211001778148648e-05
+        },
+        {
+          "iteration": 300,
+          "energy": 3512.6889138576266,
+          "residual": 4.145793221208005e-06
+        }
+      ]
+    },
+    {
+      "Q": 1250.0,
+      "lambda_sigma": 12.0,
+      "L": 80.0,
+      "h": 0.4,
+      "energy": 1767.4159244746354,
+      "energy_per_charge": 1.4139327395797083,
+      "omega": 1.4011898531760487,
+      "free_phi_mass": 1.4142135623730951,
+      "rms_radius": 7.194277026003871,
+      "max_residual": 2.9559688030644793e-15,
+      "converged": true,
+      "classification": "below_free_threshold_candidate",
+      "virial_relative": -4.05129500375371e-05,
+      "tail_charge_fraction": 1.2857898952417405e-10,
+      "relaxation_iterations": 673,
+      "newton_iterations": 2,
+      "relaxation_stop": "polish",
+      "wall_seconds": 0.8415005999995628,
+      "history": [
+        {
+          "iteration": 0,
+          "energy": 1769.8120821491561,
+          "residual": 0.05311177039892831
+        },
+        {
+          "iteration": 100,
+          "energy": 1767.4630459128812,
+          "residual": 0.001015580443015654
+        },
+        {
+          "iteration": 200,
+          "energy": 1767.420006818546,
+          "residual": 0.00022987179912790923
+        },
+        {
+          "iteration": 300,
+          "energy": 1767.4163703085937,
+          "residual": 6.516237732950847e-05
+        },
+        {
+          "iteration": 400,
+          "energy": 1767.4159780096616,
+          "residual": 2.0125033766998923e-05
+        },
+        {
+          "iteration": 500,
+          "energy": 1767.4159312425322,
+          "residual": 6.516789547647561e-06
+        },
+        {
+          "iteration": 600,
+          "energy": 1767.4159253587306,
+          "residual": 2.176561797267995e-06
+        }
+      ]
+    }
+  ],
+  "fragmentation": [
+    {
+      "Q": 2500.0,
+      "Q1": 1250.0,
+      "Q2": 1250.0,
+      "daughter_minus_parent_energy": 22.14294110689616,
+      "relative_margin": 0.00630370114969765,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 5000.0,
+      "Q1": 2500.0,
+      "Q2": 2500.0,
+      "daughter_minus_parent_energy": 39.17229674792179,
+      "relative_margin": 0.005607091953098325,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 10000.0,
+      "Q1": 5000.0,
+      "Q2": 5000.0,
+      "daughter_minus_parent_energy": 64.48246406695034,
+      "relative_margin": 0.004636381595199766,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 15000.0,
+      "Q1": 5000.0,
+      "Q2": 10000.0,
+      "daughter_minus_parent_energy": 79.78710070512898,
+      "relative_margin": 0.003833274266814518,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 20000.0,
+      "Q1": 5000.0,
+      "Q2": 15000.0,
+      "daughter_minus_parent_energy": 88.22863860764846,
+      "relative_margin": 0.003183732949066127,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 20000.0,
+      "Q1": 10000.0,
+      "Q2": 10000.0,
+      "daughter_minus_parent_energy": 103.53327524583074,
+      "relative_margin": 0.003736001200139895,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 25000.0,
+      "Q1": 5000.0,
+      "Q2": 20000.0,
+      "daughter_minus_parent_energy": 93.86594161054381,
+      "relative_margin": 0.002712522887182543,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 25000.0,
+      "Q1": 10000.0,
+      "Q2": 15000.0,
+      "daughter_minus_parent_energy": 117.61211615124193,
+      "relative_margin": 0.0033987360207163755,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 30000.0,
+      "Q1": 5000.0,
+      "Q2": 25000.0,
+      "daughter_minus_parent_energy": 98.00878779488266,
+      "relative_margin": 0.0023620639157613367,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 30000.0,
+      "Q1": 10000.0,
+      "Q2": 20000.0,
+      "daughter_minus_parent_energy": 127.39226533847977,
+      "relative_margin": 0.003070221353343053,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 30000.0,
+      "Q1": 15000.0,
+      "Q2": 15000.0,
+      "daughter_minus_parent_energy": 135.83380324099562,
+      "relative_margin": 0.003273666906764186,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 40000.0,
+      "Q1": 10000.0,
+      "Q2": 30000.0,
+      "daughter_minus_parent_energy": 140.6069823445505,
+      "relative_margin": 0.002544453851489809,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 40000.0,
+      "Q1": 15000.0,
+      "Q2": 25000.0,
+      "daughter_minus_parent_energy": 158.82866943430417,
+      "relative_margin": 0.0028741973757662395,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 40000.0,
+      "Q1": 20000.0,
+      "Q2": 20000.0,
+      "daughter_minus_parent_energy": 164.4659724371959,
+      "relative_margin": 0.0029762112096352713,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 50000.0,
+      "Q1": 10000.0,
+      "Q2": 40000.0,
+      "daughter_minus_parent_energy": 149.44859368554899,
+      "relative_margin": 0.002165336010449533,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 50000.0,
+      "Q1": 20000.0,
+      "Q2": 30000.0,
+      "daughter_minus_parent_energy": 186.52230078427237,
+      "relative_margin": 0.0027024908343392324,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 50000.0,
+      "Q1": 25000.0,
+      "Q2": 25000.0,
+      "daughter_minus_parent_energy": 190.6651469686185,
+      "relative_margin": 0.002762515849011455,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 60000.0,
+      "Q1": 10000.0,
+      "Q2": 50000.0,
+      "daughter_minus_parent_energy": 155.9538619138766,
+      "relative_margin": 0.0018841689344882462,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 60000.0,
+      "Q1": 20000.0,
+      "Q2": 40000.0,
+      "daughter_minus_parent_energy": 201.86918035359122,
+      "relative_margin": 0.00243889849077856,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 60000.0,
+      "Q1": 30000.0,
+      "Q2": 30000.0,
+      "daughter_minus_parent_energy": 215.0838973596692,
+      "relative_margin": 0.0025985531409125568,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 80000.0,
+      "Q1": 20000.0,
+      "Q2": 60000.0,
+      "daughter_minus_parent_energy": 222.63365319736477,
+      "relative_margin": 0.002019163736349758,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 80000.0,
+      "Q1": 30000.0,
+      "Q2": 50000.0,
+      "daughter_minus_parent_energy": 251.1952497727616,
+      "relative_margin": 0.002278201573752389,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 80000.0,
+      "Q1": 40000.0,
+      "Q2": 40000.0,
+      "daughter_minus_parent_energy": 260.0368611137674,
+      "relative_margin": 0.0023583900840439182,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 100000.0,
+      "Q1": 20000.0,
+      "Q2": 80000.0,
+      "daughter_minus_parent_energy": 236.54299875054858,
+      "relative_margin": 0.001717363754108475,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 100000.0,
+      "Q1": 40000.0,
+      "Q2": 60000.0,
+      "daughter_minus_parent_energy": 294.71067951072473,
+      "relative_margin": 0.0021396762601887157,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    },
+    {
+      "Q": 100000.0,
+      "Q1": 50000.0,
+      "Q2": 50000.0,
+      "daughter_minus_parent_energy": 301.21594773902325,
+      "relative_margin": 0.002186906201151014,
+      "scope": "Compared spherical stationary candidates only; not a global fission bound"
+    }
+  ],
+  "source_sha256": {
+    "continue_branch.py": "3cc263395d200803294325561d9344fcdf23d12047e0e69734bb107d51034cc6",
+    "vacuum_spherical.py": "15dd30d74f7603f1354c464ff69ca9c7bcbb08c7590468b623bb0bf848da4441"
+  }
+}
