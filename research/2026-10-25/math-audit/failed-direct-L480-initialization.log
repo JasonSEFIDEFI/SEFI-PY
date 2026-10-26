@@ -1,0 +1,9 @@
+{"square_identity": true, "critical_potential": "3*alpha*sin(theta)**2/8 - 9*sin(theta)**4/1024", "metric": "3/4 - 9*sin(theta)**2/16", "foundations_linear_schur": true, "first_correction_local_density": true}
+Traceback (most recent call last):
+  File "C:\Users\jason\.codex\.chatgpt-projects\g-p-6ab0f34fedd88191bfa21706b2af07de\output\sefi-math-audit-2026-10-25\continue_math.py", line 160, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\jason\.codex\.chatgpt-projects\g-p-6ab0f34fedd88191bfa21706b2af07de\output\sefi-math-audit-2026-10-25\continue_math.py", line 111, in main
+    assert row['admissible'],row
+           ~~~^^^^^^^^^^^^^^
+AssertionError: {'center': 0.5, 'L': 480, 'tol': 1e-08, 'alpha': -0.0012742736888411669, 'q_scaled': np.float64(112693.89826649267), 'action_scaled': np.float64(5.828146763913779), 'binding_scaled': np.float64(60.1049296396831), 'success': True, 'admissible': False, 'max_rms_residual': 2.418892528916018e-09, 'nodes': 7082, 'seconds': 5.101676700025564, 'message': 'The algorithm converged to the desired accuracy.'}

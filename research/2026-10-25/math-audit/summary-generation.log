@@ -1,0 +1,32 @@
+{
+  "tests": {
+    "audit": 6,
+    "qec": 5,
+    "geometry": 3,
+    "nuclear": 8,
+    "voxel": 3
+  },
+  "total_tests": 25,
+  "first_correction": {
+    "charge_error_reduction_factor": 1283.6094487834266,
+    "leading_relative_charge_error": 0.001284393111473306,
+    "corrected_relative_charge_error": 1.0006105148965848e-06,
+    "observed_successive_orders": [
+      1.9934081011312077,
+      1.996768592232425,
+      1.9988928685108904,
+      1.9992843457261542
+    ],
+    "second_alpha_improvements": [
+      224.97612117529764,
+      450.08158240314816,
+      900.1971426770729
+    ]
+  },
+  "convergence": {
+    "fold_scaled_charge_relative_change": 1.2214806943688927e-10,
+    "binding_crossing_scaled_charge_relative_change": 1.6991408280375708e-11,
+    "full_scaled_charge_domain_tolerance_relative_change": 2.1596999744133427e-09
+  },
+  "scope": "Descriptive deterministic convergence; no statistical intervals or new-physics claim"
+}

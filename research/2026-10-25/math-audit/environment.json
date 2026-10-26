@@ -1,0 +1,20 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_main_SEFI_PY": "847a071351ed2b1c54e240fd9a520a1cce238178",
+  "source_main_QEC": "7be66ac5d3e487196121dec136c3136ee5246963",
+  "source_research_parent": "b9d5afb70a7fcd68d1092d4e8b58084db5805159",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "script_sha256": {
+    "continue_math.py": "397933b9946633dafb7da17853a5086640f716d58e05a473c04c7bd48e9b46d5",
+    "foundations_floquet.py": "6f73cde715b254785678cd220eb5198e5191cd6ea51079f719ba748927f88a13",
+    "refine_landmarks.py": "b7eabe4b8ae869481c04eabdc26206fbd6aa66c263556250b3ef1cb1137de17f",
+    "second_alpha.py": "c66cf8b30d6bf46728f0d7ead912a031febcde9f6f905b8070cf1d866568d851",
+    "stability.py": "58230793c9391b982bba56a1ce62fe601cf45a38bf37d37e1d9e0973cbd6000c",
+    "summarize.py": "413f3797afe610fec33e80f127ab9f507147f0745f09ac2dcff5898f5fef5e15",
+    "test_audit.py": "920ed0c6193c9753e880d2d2dd932e6ed459089aefd9d24a5b66f534726286de"
+  }
+}

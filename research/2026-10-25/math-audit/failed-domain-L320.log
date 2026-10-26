@@ -1,0 +1,9 @@
+{"square_identity": true, "critical_potential": "3*alpha*sin(theta)**2/8 - 9*sin(theta)**4/1024", "metric": "3/4 - 9*sin(theta)**2/16", "foundations_linear_schur": true, "first_correction_local_density": true}
+Traceback (most recent call last):
+  File "C:\Users\jason\.codex\.chatgpt-projects\g-p-6ab0f34fedd88191bfa21706b2af07de\output\sefi-math-audit-2026-10-25\continue_math.py", line 160, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\jason\.codex\.chatgpt-projects\g-p-6ab0f34fedd88191bfa21706b2af07de\output\sefi-math-audit-2026-10-25\continue_math.py", line 115, in main
+    assert abs(check['virial_relative'])<2e-6,check
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'alpha': 0.0006036655200210052, 'center': 0.5, 'q_scaled': 17196.452728441065, 'S0': 7.561524826009634, 'S1': -0.47375328886714435, 'norm': 12999.29638626663, 'binding_scaled': 3.637911319548225, 'virial_relative': -6.467299978356515e-06, 'tail_slope': -7.744830293997835e-07}
