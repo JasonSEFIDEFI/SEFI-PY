@@ -1,0 +1,19 @@
+{
+  "deltas": [
+    0.5,
+    0.25,
+    0.125,
+    0.0625,
+    0.03125,
+    0.015625
+  ],
+  "full_domain": 320,
+  "full_tolerance": 2e-09,
+  "fold_bounds": [
+    0.95,
+    1.27
+  ],
+  "center_parameter": "f(0)=sqrt(3)/2*sin(center)",
+  "endpoint": "Minimum scaled charge on the positive monotone spherical solution branch",
+  "limits": "Not a global all-solution minimum, nonlinear stability or physical matter claim"
+}

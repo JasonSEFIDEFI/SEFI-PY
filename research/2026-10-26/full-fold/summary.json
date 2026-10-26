@@ -1,0 +1,133 @@
+{
+  "tests_passed": 3,
+  "fold_refinement_relative_change": 2.8876856461579337e-10,
+  "closest_delta": 0.015625,
+  "closest_q_error_reduction": 4324.3248515295845,
+  "closest_leading_relative_error": 0.0012026762796915752,
+  "closest_corrected_relative_error": 2.7811885577147817e-07,
+  "correction_remainder_orders": [
+    1.9962602400289606,
+    1.997876839854015,
+    1.998610121391521,
+    1.998740585355373,
+    1.9981063122585447
+  ],
+  "effective_Qmin_exponents": [
+    1.5282394885120074,
+    1.513991966183649,
+    1.5069646212875016,
+    1.503474542141738,
+    1.5017353379810698
+  ],
+  "radial_crossings": [
+    {
+      "delta": 0.25,
+      "below": -0.0005259356414132132,
+      "above": 0.0005417093804305272,
+      "at_fold": -2.665199528388175e-06,
+      "zero_mode_refinement_ratio": 4.0049290054903635,
+      "tangent_overlap": 0.9999999441366649,
+      "family_identity_residual_ratio": 0.4613777934969744
+    },
+    {
+      "delta": 0.03125,
+      "below": -0.0005328130598862405,
+      "above": 0.0005513160770078032,
+      "at_fold": -2.6007776213527365e-06,
+      "zero_mode_refinement_ratio": 4.00689510604092,
+      "tangent_overlap": 0.9999999443663945,
+      "family_identity_residual_ratio": 0.44270026211397173
+    }
+  ],
+  "full_fold_bvp_solves": 83,
+  "matching_domain_certificates": [
+    {
+      "delta": 0.25,
+      "original_center": 1.1100188070298427,
+      "corrected_center": 1.1100188103774848,
+      "original_tangent": {
+        "alpha_c": 0.005973787375779543,
+        "I_c": 3.365785381319395,
+        "omega_c": -0.0005626783735745178,
+        "q_c": -9.92004696840354e-05,
+        "bvp_residual": 1.9913406042560312e-10,
+        "nodes": 2671
+      },
+      "corrected_tangent": {
+        "alpha_c": 0.0059737874150913575,
+        "I_c": 3.365860153122164,
+        "omega_c": -0.0005626783772781446,
+        "q_c": -1.160460172400235e-09,
+        "bvp_residual": 1.9913405754631053e-10,
+        "nodes": 2671
+      },
+      "checks": [
+        {
+          "h": 0.5,
+          "L": 320,
+          "identity_residual_per_tangent": 5.667337955630901e-05,
+          "rayleigh": -1.0649109208952626e-05,
+          "q_c": -1.160460172400235e-09
+        },
+        {
+          "h": 0.25,
+          "L": 320,
+          "identity_residual_per_tangent": 1.419391074476228e-05,
+          "rayleigh": -2.663652360284957e-06,
+          "q_c": -1.160460172400235e-09
+        },
+        {
+          "h": 0.125,
+          "L": 320,
+          "identity_residual_per_tangent": 3.5500793968734874e-06,
+          "rayleigh": -6.659989521086452e-07,
+          "q_c": -1.160460172400235e-09
+        }
+      ]
+    },
+    {
+      "delta": 0.03125,
+      "original_center": 1.1059139086244185,
+      "corrected_center": 1.105913834501568,
+      "original_tangent": {
+        "alpha_c": 0.0060108690184740195,
+        "I_c": 0.435971070815537,
+        "omega_c": -7.096881360640508e-05,
+        "q_c": 0.0023601277702450796,
+        "bvp_residual": 1.9999695569678786e-10,
+        "nodes": 2707
+      },
+      "corrected_tangent": {
+        "alpha_c": 0.006010868044150468,
+        "I_c": 0.4341876150507725,
+        "omega_c": -7.096880210253069e-05,
+        "q_c": 3.0841672549186683e-09,
+        "bvp_residual": 1.999951503265775e-10,
+        "nodes": 2707
+      },
+      "checks": [
+        {
+          "h": 0.5,
+          "L": 320,
+          "identity_residual_per_tangent": 5.634764147248585e-05,
+          "rayleigh": -1.0398717907872677e-05,
+          "q_c": 3.0841672549186683e-09
+        },
+        {
+          "h": 0.25,
+          "L": 320,
+          "identity_residual_per_tangent": 1.4112314259102197e-05,
+          "rayleigh": -2.6010294444755974e-06,
+          "q_c": 3.0841672549186683e-09
+        },
+        {
+          "h": 0.125,
+          "L": 320,
+          "identity_residual_per_tangent": 3.529666374950429e-06,
+          "rayleigh": -6.503414179834921e-07,
+          "q_c": 3.0841672549186683e-09
+        }
+      ]
+    }
+  ]
+}

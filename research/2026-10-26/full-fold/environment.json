@@ -1,0 +1,21 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "sympy": "1.14.0",
+  "matplotlib": "3.11.1",
+  "source_research_parent": "e67232b2edbbae4f7fa863be1c5510c4a8ac52e3",
+  "thread_configuration": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "scripts": {
+    "radial.py": "76fdf094e8549d20437d491c6e21483319e6c51a1016fc635e3214e4a8a8501c",
+    "sensitivity.py": "d0961a9560e89303d878eeb997d07004824c674642bd66ac6a816badaaa8364e",
+    "session.py": "999b29a0d969d3592afc259965c8f38f346d96372c91ccab59b1df97121e0f70",
+    "summarize.py": "284651f3109f84e09e0524ffd15219c58976d5354d0e5d0a158684551a0fa094",
+    "test_math.py": "952c664fb4a2c7e2388d5e453e8df61b9a864cbb407b27f675aece654a3f17c9"
+  },
+  "scope": "Dimensionless classical-field research; deterministic convergence, no statistical inference"
+}

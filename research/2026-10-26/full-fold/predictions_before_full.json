@@ -1,0 +1,31 @@
+{
+  "alpha0": 0.002914930803370637,
+  "q0": 10740.730889267126,
+  "q1": -825.9256846491921,
+  "alpha1": 0.00023422719631816622,
+  "derivative_refinements": [
+    {
+      "h": 2e-05,
+      "q1": -825.9334382935696,
+      "q0_second_derivative": 888772870.912362,
+      "q1_derivative": -208168.41040154258,
+      "alpha1": 0.00023422003215270188
+    },
+    {
+      "h": 1e-05,
+      "q1": -825.9272353714205,
+      "q0_second_derivative": 888756074.29145,
+      "q1_derivative": -208169.56470581845,
+      "alpha1": 0.00023422575746869477
+    },
+    {
+      "h": 5e-06,
+      "q1": -825.9256846491921,
+      "q0_second_derivative": 888751875.5363997,
+      "q1_derivative": -208169.86002940274,
+      "alpha1": 0.00023422719631816622
+    }
+  ],
+  "prediction": "q_min(delta)=q0+delta*q1+O(delta^2); alpha_fold=alpha0+delta*alpha1+O(delta^2)",
+  "protocol": "Derived exclusively from reduced solutions before this session full-model evaluation; not external preregistration"
+}
