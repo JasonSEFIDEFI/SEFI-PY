@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from matplotlib.ticker import NullLocator
 ROOT=Path(__file__).resolve().parent
 data=json.loads((ROOT/'results.json').read_text())
 radial=json.loads((ROOT/'radial_results.json').read_text())
@@ -64,6 +65,11 @@ mid=np.sqrt(d[:-1]*d[1:])
 axes[1,1].semilogx(mid,data['effective_exponents'],'o-',label='Observed adjacent-pair exponent')
 axes[1,1].axhline(1.5,color='gray',ls='--',label='Derived critical exponent 3/2')
 axes[1,1].set(xlabel='Geometric-mean delta of adjacent pair',ylabel='Effective exponent of Q_min',title='Approach to the critical exponent')
+for ax in [axes[0,0],axes[0,1]]:
+    ax.set_xticks([1/64,1/32,1/16,1/8,1/4,1/2],labels=['1/64','1/32','1/16','1/8','1/4','1/2'])
+    ax.xaxis.set_minor_locator(NullLocator())
+axes[1,1].set_xticks(mid,labels=[f'{x:.3f}' for x in mid])
+axes[1,1].xaxis.set_minor_locator(NullLocator())
 for ax in axes.flat:ax.legend(fontsize=7)
 fig.tight_layout();fig.savefig(ROOT/'full_fold_results.png',dpi=180);plt.close(fig)
 
