@@ -1,5 +1,5 @@
 from quantum.logical_register import LogicalPhiRegister
-from quantum.sefi_stabilizers import (
+from quantum.self_stabilizers import (
     authorship_stabilizer,
     metric_stabilizer,
     origin_stabilizer,

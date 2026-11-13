@@ -24,4 +24,3 @@ class LogicalPhiRegister:
     def snapshot(self):
 
         return self.bits.copy()
-``

@@ -10,9 +10,9 @@ def sovereignty_distance(phi):
     )
 
 
-def within_surf**e(
+def within_surface(
     phi,
     radius=100.0
 ):
 
-**  return sovereignty_distance(phi**<= radius
+    return sovereignty_distance(phi) <= radius

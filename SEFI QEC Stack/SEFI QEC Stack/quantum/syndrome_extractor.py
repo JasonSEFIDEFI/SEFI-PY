@@ -10,6 +10,7 @@ class SyndromeExtractor:
 
         for i in range(len(transmitted)):
 
-            if transmitted[i] != receivedsyndrome.append(i)
+            if transmitted[i] != received[i]:
+                syndrome.append(i)
 
         return syndrome

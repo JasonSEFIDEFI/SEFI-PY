@@ -25,4 +25,3 @@ class AzureSEFIJob:
             "logical_qubits": len(register.bits),
             "status": "simulated",
         }
-``

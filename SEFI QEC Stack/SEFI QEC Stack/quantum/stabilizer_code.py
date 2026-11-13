@@ -20,7 +20,7 @@ class SEFIStabilizerCode:
         for stabilizer in self.stabilizers:
 
             results[stabilizer["name"]] = (
-                stabilizerregister
+                stabilizer["check"](register)
             )
 
         return results

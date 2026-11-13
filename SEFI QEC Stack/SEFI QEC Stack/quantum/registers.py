@@ -5,4 +5,5 @@ REGISTER_MAP = {
     "authorship": (4, 7),
     "sovereignty": (8, 11),
     "warp": (12, 15),
-    "metric": (16,
+    "metric": (16, 19),
+}
