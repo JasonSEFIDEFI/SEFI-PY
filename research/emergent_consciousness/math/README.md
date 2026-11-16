@@ -133,24 +133,58 @@ literature has not yet been established.
 
 No physical interpretation is inferred from this theorem.
 
-## 7. Next research checkpoint
+## 7. Checkpoint 041: complete trace-one boundary-metric interval
 
-Checkpoint 041:
-
-Characterize symbolically the complete set of positive-definite
-boundary metrics satisfying all 32 semidefinite inequalities.
-
-The boundary metric family obtained from the unit-eigenvector
-constraint and trace normalization is
+For the boundary family
 
     P(r) = [[1-r, (608*r-594)/145],
-            [(608*r-594)/145, r]].
+            [(608*r-594)/145, r]],
 
-Determine its admissible parameter set using exact algebraic
-inequalities rather than a numerical grid.
+the exact set satisfying P(r) positive definite and all 32 boundary
+vertex inequalities P(r)-M.T*P(r)*M positive semidefinite is the
+**closed interval** [r_minus, r_plus], where
 
-Do not advance to broader claims until the required
-mathematical dependencies are established.
+    r_minus = (1585543261 - 145*sqrt(163411650609))/1654143502
+    r_plus  = (4871334677 + 1595*sqrt(12061387921))/5143279214
+
+Approximately: [0.923092923378325734, 0.981184241759181940].
+
+The exact positive-definite range is (484/533, 729/733).
+Sufficiency follows by checking both diagonal entries and the
+determinant of each of 32 vertex margins: exact real-root isolation
+and algebraic sign comparisons establish nonnegativity over the
+closed interval. The matrix-norm convexity argument extends the
+vertex inequalities to each full uncertainty box.
+
+Necessity within the trace-one family follows from two B-box
+vertex determinants, proportional respectively to the negatives of
+
+    827071751*r**2 - 1585543261*r + 758855474
+    2571639607*r**2 - 4871334677*r + 2303901468.
+
+Their sign constraints, together with P(r) positive definite,
+restrict r to precisely the stated interval. At either endpoint
+a margin becomes singular; P(r) remains positive definite.
+
+Reproduce with:
+
+    python verify_checkpoint_041_exact_interval.py
+
+The verifier was independently executed using SymPy and passed
+96 exact scalar checks. Its decimal output is for presentation only;
+the proof uses exact rational/algebraic arithmetic.
+
+**Scope:** This characterizes the specified trace-normalized
+one-parameter boundary family, not arbitrary Lyapunov matrices.
+It does not establish a physical SEFI, GWFM, DEFI, or consciousness
+interpretation. Literature novelty remains unassessed.
+
+## 7a. Next research stop-gate
+
+Before generalizing, determine whether the unit-eigenvector
+constraint exhausts all common quadratic boundary metrics up to
+positive scaling, and distinguish this from general (nonquadratic)
+stability certificates. Do not infer physical conclusions.
 
 ## 8. Publication status
 
