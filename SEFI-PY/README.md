@@ -1,90 +1,44 @@
-# SEFI‑PY: Single Entity Field Interpretation (Python Core)
+# SEFI-PY — Python Research Implementation
 
-SEFI‑PY is a geometric field engine that models a single entity’s identity, autonomy, and dynamic behavior as a layered field. It is the Python implementation of SEFI (Single Entity Field Interpretation), designed to be structurally parallel to SEFI‑JS and suitable for research, simulation, and extension.
+**Status: exploratory mathematical and computational software.**
 
-## Time manuscript dynamics — Jason D. Dutton
+This directory contains Python implementations and demonstrations associated with the proposed Single Entity Field Interpretation (SEFI) and related geometric modeling. Its identity-layer terminology describes a **modeling framework**, not an experimentally verified structure of matter or consciousness.
 
-The [Time dynamics module](core/time_dynamics.py) adds the classical identity equations, directed clock phase, linear and nonlinear stability calculations, exact recurrence certificates, Floquet analysis, and the DNA penalty energy distinction from the submitted Time manuscript. See the [mathematical scope and reproduction guide](docs/TIME_DYNAMICS.md). These are conditional model results, not empirical validation.
+## Conceptual components
 
-Run `python demo_time_dynamics.py` for the manuscript examples and `python -m pytest tests/test_time_dynamics.py` for verification. The new module requires only the Python standard library.
+The program uses proposed labels including **Field Origin**, **Field Authorship**, **Field Sovereignty**, **Warp Expression**, and **DEFI** to organize model states and transformations. Their names do not establish that the corresponding structures are independent physical observables, universally stable, or derived from established physics.
 
----
+The software should be assessed module by module: implemented functions, tested behavior, mathematical assumptions, and physical interpretation are separate questions.
 
-## Core Concept
+## Time dynamics
 
-An entity is represented as a **field** with layered interpretation:
+The [time dynamics module](core/time_dynamics.py) investigates model-specific clock phase, stability, recurrence, and Floquet calculations associated with the Time manuscript. Consult the [mathematical scope and reproduction guide](docs/TIME_DYNAMICS.md) for definitions and limitations.
 
-- **FIELD ORIGIN** — raw geometric state (position, momentum)
-- **FIELD AUTHORSHIP** — expressed identity derived from origin
-- **FIELD SOVEREIGNTY** — autonomous persistence and self‑governance
-- **WARP:EXPRESSION** — dynamic expression of the sovereign field
-- **WARP:DEFI** — Dynamic Entity Field Integration (active manipulation of the field)
+Suggested local checks, subject to the dependencies and interfaces documented in the checkout:
 
-Each layer is geometric, minimal, and stable, and each builds directly on the previous.
-
----
-
-## Project Structure
-
-```text
-SEFI-PY/
-    main.py
-    core/
-        __init__.py
-        field_origin.py
-        field_authorship.py
-        field_sovereignty.py
-        warp_expression.py
-        warp_defi.py
-    utils/
-        __init__.py
-        geometry.py
-        stability.py
-    tests/
-        test_core.py
+```bash
+python demo_time_dynamics.py
+python -m pytest tests/test_time_dynamics.py
 ```
 
-# SEFI-PY Engine
+These are mathematical/software checks, not experimental validation of the manuscript's physical interpretation.
 
-SEFI-PY is the Python implementation of the Single Entity Field Interpretation (SEFI) engine.
+## Software organization
 
-## Features
-- Full SEFI layer stack (Origin, Authorship, Sovereignty, Expression, DEFI)
-- Simulation engine with:
-  - geometric evolution
-  - behavioral layer
-  - multi-entity interaction
-  - environment forces
-  - DNA identity configuration
-- Config-driven architecture
-- Full test suite
+The directory includes a Python core, utilities, tests, demonstrations, and presentation material. For the authoritative current file inventory, inspect the checkout; older directory diagrams and feature lists are not guaranteed to reflect the implementation.
 
-## Run Simulation
+In particular, claims of complete multi-entity dynamics, universally stable identity layers, or a fully validated simulation engine require independent module-level verification and are **not made here**.
 
-## Render a PowerPoint Video
+## Presentation rendering
 
-The presentation runner renders the canonical narrative sequence and assembles a single PowerPoint-ready 16:9 MP4 at 1920x1080 and 30 fps:
+Historical presentation-rendering tools may be available in the checkout, including a PowerShell-based renderer. Their outputs are visual communication artifacts and do not constitute scientific validation. Check scripts and dependencies before use.
 
-```powershell
-.\render_presentation.ps1
-```
+## Research standards
 
-The final video is written to `animations/presentation/SEFI-boardroom.mp4`. Use a fast half-resolution preview while iterating:
+- State mathematical assumptions before interpreting output.
+- Keep exact proofs distinct from numerical experiments and visualizations.
+- Record versions, seeds, parameters, tests, and failure cases.
+- Do not infer physical behavior from a software demonstration.
+- Preserve historical work while clearly identifying superseded claims.
 
-```powershell
-.\render_presentation.ps1 -Preview
-```
-
-To render another scene, pass its source file and class name:
-
-```powershell
-.\render_presentation.ps1 core/animations/sefi_core.py SEFICore
-```
-
-To render one scene in isolation, pass its source file and class name:
-
-```powershell
-.\render_presentation.ps1 core/animations/sefi_core.py SEFICore
-```
-
-The assembled MP4 and individual clips are saved in `animations/presentation`. Insert `SEFI-boardroom.mp4` into PowerPoint as a video.
+For the broader program and verified mathematical checkpoints, see the [repository overview](../README.md).
