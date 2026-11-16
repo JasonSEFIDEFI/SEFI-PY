@@ -1,8 +1,8 @@
 # SEFI QEC Stack — Architecture Notes and Research Archive
 
-**Status: proposed software architecture; executable pipeline not verified in this directory.**
+**Status: historical architecture notes in this directory; the implementation is maintained in a separate repository.**
 
-This folder preserves a QEC software design associated with SEFI/GWFM research. Its earlier README described a complete modular engine and provided a `QECStack().run()` example. During the November 2026 documentation audit, the cited `qec_stack/stack.py` implementation could not be found at either of the documented nested paths on this repository's `main` branch. **Do not treat the earlier usage example or module inventory as verified runnable code.**
+This folder preserves a QEC software design associated with SEFI/GWFM research. Its earlier README described a complete modular engine and provided a `QECStack().run()` example. The cited `qec_stack/stack.py` path is not present in this directory. The actual Python orchestrator was located at [`JasonSEFIDEFI/SEFI_QEC_Stack/stack.py`](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack/blob/main/stack.py). The historical `QECStack().run()` example does not match that source. See the [authoritative QEC README](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack) for the real API and scientific limitations.
 
 ## Proposed architecture (not an implementation inventory)
 
@@ -12,7 +12,7 @@ The geometric vocabulary is an exploratory interpretation, not a demonstrated ph
 
 ## What would be required to claim an executable QEC stack
 
-1. Locate or restore versioned implementation files and specify the authoritative package path.
+1. Use the separate [SEFI_QEC_Stack repository](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack) as the authoritative implementation and verify its dependencies.
 2. Document the actual callable interfaces and installation requirements.
 3. Add deterministic tests with explicit stabilizer definitions, noise models, expected syndromes, and Pauli-frame updates.
 4. Compare decoder outcomes with conventional baselines under matched information and seeds.
