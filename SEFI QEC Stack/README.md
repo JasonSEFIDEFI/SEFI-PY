@@ -1,67 +1,41 @@
-SEFI‑QEC Stack
-A modular quantum‑error‑correction engine built on geometric identity principles from the SEFI canon. The stack provides stabilizer acquisition, syndrome transport, multi‑decoder correction, Pauli‑frame routing, and warp‑residual geometric analysis in a clean, dependency‑free architecture. All directories include __init__.py to support package‑level imports and orchestrated pipeline execution.
+# SEFI QEC Stack — Research Software
 
-Purpose
-The SEFI‑QEC Stack serves as the dedicated quantum‑error‑correction engine for SEFI and GWFM research. It is designed for real‑time decoding pipelines, low‑latency correction, deterministic transport, and geometric consistency across worldline‑based field models. The architecture demonstrates autonomous systems‑level development suitable for high‑level technical evaluation.
+**Status: computational research prototype.** This project explores software components for quantum-error-correction workflows and proposed geometric diagnostics. It does **not** establish fault-tolerant quantum computation, hardware-level correction, physical error suppression, or real-time decoder performance.
 
-Features
-Stabilizer parity evaluation
+## Scope
 
-Syndrome extraction and transport
+The code is organized around stabilizer/parity evaluation, syndrome extraction and transport, decoder experiments, Pauli-frame bookkeeping, and an exploratory geometric residual-analysis module. The geometric terminology is part of a proposed research interpretation; it is not an experimentally validated quantum observable or demonstrated correction mechanism.
 
-Majority‑vote and stabilizer‑energy decoders
+The project is not evidence that SEFI, GWFM, or DEFI is a validated physical theory.
 
-Pauli‑frame consistency and correction routing
+## Modules
 
-Warp‑residual geometry analysis
+The documented software organization includes:
 
-Unified stack.py orchestrator for full‑pipeline coordination
+- `qec_stack/stabilizers/`: stabilizer and parity utilities
+- `qec_stack/syndromes/`: syndrome extraction and transport
+- `qec_stack/decoders/`: majority-vote and energy-minimization approaches
+- `qec_stack/pauli_frame/`: Pauli-frame routing
+- `qec_stack/warp_geometry/`: exploratory residual analysis
+- `qec_stack/stack.py`: pipeline orchestration
 
-Package‑ready directory structure using __init__.py in all modules
+Module names and interfaces should be checked against the checkout before use. The repository contains historical copies of this README; their presence does not establish independent implementations.
 
-Repository Structure
-Code
-qec_stack/
-│
-├── stack.py
-│
-├── stabilizers/
-│   ├── __init__.py
-│   ├── stabilizer_core.py
-│   └── parity_eval.py
-│
-├── syndromes/
-│   ├── __init__.py
-│   ├── extract.py
-│   └── transport.py
-│
-├── decoders/
-│   ├── __init__.py
-│   ├── majority_vote.py
-│   └── energy_min.py
-│
-├── pauli_frame/
-│   ├── __init__.py
-│   └── frame_router.py
-│
-└── warp_geometry/
-    ├── __init__.py
-    └── residual_analysis.py
-Usage
-Import the stack as a package:
+## Using and evaluating the code
 
-python
-from qec_stack import stack
+Run from the directory containing the `qec_stack` package in an appropriately configured Python environment. Inspect `stack.py` and the available test files for the actual supported API before invoking the orchestrator. Earlier documentation included an unverified `engine.run()` example; it is intentionally not repeated here.
 
-engine = stack.QECStack()
-engine.run()
-Call individual modules directly:
+Any claimed improvement must be measured against a matched conventional baseline, with explicit error model, code parameters, decoding metric, sample count, random seed, and uncertainty. Software unit tests establish only the tested software properties.
 
-python
-from qec_stack.stabilizers import parity_eval
-from qec_stack.decoders import majority_vote
-License
-MIT License.
+## Evidence boundaries
 
-Status
-Active development as part of the SEFI and GWFM research platform.
+| Claim | Current documentation status |
+| --- | --- |
+| Source code organized into QEC-related modules | Software architecture described here |
+| Correctness of a specific decoder or pipeline | Requires reproducible tests for that implementation |
+| Lower logical error rates than a baseline | Not established by this README |
+| Real-time or low-latency operation | Requires timing benchmarks on specified hardware |
+| Physical quantum-error-correction performance | Requires appropriate experimental evidence |
+| SEFI-specific physical mechanism | Hypothesis, not demonstrated |
+
+**Research principle:** Keep mathematical definitions, executable behavior, numerical comparisons, and physical claims separate.
