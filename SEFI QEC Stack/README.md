@@ -1,41 +1,27 @@
-# SEFI QEC Stack — Research Software
+# SEFI QEC Stack — Architecture Notes and Research Archive
 
-**Status: computational research prototype.** This project explores software components for quantum-error-correction workflows and proposed geometric diagnostics. It does **not** establish fault-tolerant quantum computation, hardware-level correction, physical error suppression, or real-time decoder performance.
+**Status: proposed software architecture; executable pipeline not verified in this directory.**
 
-## Scope
+This folder preserves a QEC software design associated with SEFI/GWFM research. Its earlier README described a complete modular engine and provided a `QECStack().run()` example. During the November 2026 documentation audit, the cited `qec_stack/stack.py` implementation could not be found at either of the documented nested paths on this repository's `main` branch. **Do not treat the earlier usage example or module inventory as verified runnable code.**
 
-The code is organized around stabilizer/parity evaluation, syndrome extraction and transport, decoder experiments, Pauli-frame bookkeeping, and an exploratory geometric residual-analysis module. The geometric terminology is part of a proposed research interpretation; it is not an experimentally validated quantum observable or demonstrated correction mechanism.
+## Proposed architecture (not an implementation inventory)
 
-The project is not evidence that SEFI, GWFM, or DEFI is a validated physical theory.
+The design calls for stabilizer/parity handling, syndrome transport, decoder comparison, Pauli-frame bookkeeping, and exploratory geometric residual analysis. These are *intended components*. Their existence, correctness, integration, and performance must be established from actual source files and reproducible tests before any operational claim.
 
-## Modules
+The geometric vocabulary is an exploratory interpretation, not a demonstrated physical error-correction mechanism.
 
-The documented software organization includes:
+## What would be required to claim an executable QEC stack
 
-- `qec_stack/stabilizers/`: stabilizer and parity utilities
-- `qec_stack/syndromes/`: syndrome extraction and transport
-- `qec_stack/decoders/`: majority-vote and energy-minimization approaches
-- `qec_stack/pauli_frame/`: Pauli-frame routing
-- `qec_stack/warp_geometry/`: exploratory residual analysis
-- `qec_stack/stack.py`: pipeline orchestration
+1. Locate or restore versioned implementation files and specify the authoritative package path.
+2. Document the actual callable interfaces and installation requirements.
+3. Add deterministic tests with explicit stabilizer definitions, noise models, expected syndromes, and Pauli-frame updates.
+4. Compare decoder outcomes with conventional baselines under matched information and seeds.
+5. Report logical-error metrics, uncertainties, code parameters, and any timing measurements on named hardware.
 
-Module names and interfaces should be checked against the checkout before use. The repository contains historical copies of this README; their presence does not establish independent implementations.
+No real-time performance, quantum advantage, fault tolerance, hardware operation, or physical SEFI validation is established by this folder.
 
-## Using and evaluating the code
+## Historical documentation
 
-Run from the directory containing the `qec_stack` package in an appropriately configured Python environment. Inspect `stack.py` and the available test files for the actual supported API before invoking the orchestrator. Earlier documentation included an unverified `engine.run()` example; it is intentionally not repeated here.
+The original architecture narrative remains accessible in Git history. A separate `sefi_qec_stack.tex` document also describes the earlier design; it should be read as a proposal unless its described source and tests are independently verified.
 
-Any claimed improvement must be measured against a matched conventional baseline, with explicit error model, code parameters, decoding metric, sample count, random seed, and uncertainty. Software unit tests establish only the tested software properties.
-
-## Evidence boundaries
-
-| Claim | Current documentation status |
-| --- | --- |
-| Source code organized into QEC-related modules | Software architecture described here |
-| Correctness of a specific decoder or pipeline | Requires reproducible tests for that implementation |
-| Lower logical error rates than a baseline | Not established by this README |
-| Real-time or low-latency operation | Requires timing benchmarks on specified hardware |
-| Physical quantum-error-correction performance | Requires appropriate experimental evidence |
-| SEFI-specific physical mechanism | Hypothesis, not demonstrated |
-
-**Research principle:** Keep mathematical definitions, executable behavior, numerical comparisons, and physical claims separate.
+For the broader research program, see the [repository README](../README.md). The nested copy of this README provides the same status warning.
