@@ -179,12 +179,38 @@ one-parameter boundary family, not arbitrary Lyapunov matrices.
 It does not establish a physical SEFI, GWFM, DEFI, or consciousness
 interpretation. Literature novelty remains unassessed.
 
-## 7a. Next research stop-gate
+## 7a. Checkpoint 042: completeness up to positive scaling
 
-Before generalizing, determine whether the unit-eigenvector
-constraint exhausts all common quadratic boundary metrics up to
-positive scaling, and distinguish this from general (nonquadratic)
-stability certificates. Do not infer physical conclusions.
+Let M_star = B + (7/145)*[[1,-1],[-1,1]]. Its unit
+eigenvector can be chosen as v=(-27/2,1). Every positive-definite
+common quadratic boundary metric P obeys H=P-M_star.T*P*M_star >= 0.
+Because M_star*v=v, v.T*H*v=0; for a positive-semidefinite H this
+implies H*v=0. Positive trace normalization is always possible.
+
+Solving H*v=0 together with trace(P)=1 yields **exactly**
+
+    P(r) = [[1-r, (608*r-594)/145],
+            [(608*r-594)/145, r]].
+
+Thus every positive-definite common quadratic boundary metric is
+a positive scalar multiple of a P(r) in the closed interval proved
+at Checkpoint 041. Conversely every such positive multiple is a
+valid common quadratic boundary metric. This is an if-and-only-if
+classification **within the common quadratic metric class**.
+
+Reproduce the exact linear-algebra necessity check:
+
+    python verify_checkpoint_042_metric_completeness.py
+
+The proof uses the positive-semidefinite kernel lemma, not a numerical
+search. It says nothing about completeness among nonquadratic
+Lyapunov functions or physical field dynamics.
+
+## 7b. Next research stop-gate
+
+Independently reproduce the checkpoint 041 and 042 scripts on the
+research laptop. Then assess mathematical novelty against the
+robust-control literature before formulating a publication thesis.
 
 ## 8. Publication status
 
