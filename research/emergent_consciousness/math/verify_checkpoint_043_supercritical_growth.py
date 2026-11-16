@@ -10,7 +10,7 @@ B = sp.Matrix([[sp.Rational(4,5), -2], [0, sp.Rational(3,10)]])
 D = sp.Matrix([[1,-1],[-1,1]])
 M = B + t*D
 char = sp.factor((lam*sp.eye(2)-M).det())
-assert sp.factor(char.subs(lam,1)) == (7-145*t)/50
+assert sp.simplify(char.subs(lam,1) - (7-145*t)/50) == 0
 assert sp.Poly(char,lam).LC() == 1
 assert sp.solve(char.subs(lam,1),t) == [sp.Rational(7,145)]
 print("PASS: det(I-M(t))=(7-145*t)/50")
