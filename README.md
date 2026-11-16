@@ -1,71 +1,98 @@
-# SEFI-PY — field engineering and reproducible research
+# SEFI-PY — SEFI Research Program
 
-## Double Slit Explorer — educational demo
+**Geometric foundations · Mathematical analysis · Reproducible computational research**
 
-[Open the Double Slit Explorer project](SEFI-PY%20Evolution/sim/double_slit_explorer) for a five-chapter introduction to quantum interference, QFT, and the proposed GWFM, SEFI and DEFI interpretations. Includes interactive detection patterns, observation controls, identity cards and a geometry–identity illustration. Run `npm install` then `npm run dev` inside that folder. [Installation guide](SEFI-PY%20Evolution/sim/double_slit_explorer/INSTALL.md) · [Validation](SEFI-PY%20Evolution/sim/double_slit_explorer/docs/VALIDATION.md).
+**Researcher:** Jason Duran Dutton  
+**Status:** Active mathematical and computational research. Proposed physical interpretations remain unvalidated.
 
-This is an educational app separate from the Vortex Research Console. All detector probabilities use the same standard quantum reference; the proposed geometry does not independently derive matter or interference. Production build and seven numerical tests passed; browser coverage is partial and documented.
+## Central research question
 
-Python research software by **Jason Duran Dutton**, connecting geometric modeling with practical questions about measurement, drift, diagnosis, and recovery.
+> Can a minimally constrained mathematical structure produce geometry, distinguishable physical entities, and their interactions as emergent properties, rather than requiring those structures to be specified beforehand?
 
-## For the meeting with Hillary — Friday, 25 September 2026
+The SEFI Research Program examines this question through mathematical derivation, reproducible computation, and critical comparison with established physics. The purpose is to discover what follows from the assumptions—not to presume a particular physical conclusion.
 
-The proposed contribution is a small, testable engineering workflow: turn calibration measurements into evidence of a change, identify the next useful check, and document whether the system has recovered. Jason brings field experience in electrical integration, controls, commissioning, maintenance, and fault isolation; this prototype demonstrates how that approach can be extended through software.
+## Frameworks under investigation
 
-### Start with the microwave calibration workbench
+| Framework | Research direction |
+| --- | --- |
+| **GWFM — Geometric Worldline Foundations Model** | Worldline-based geometric foundations |
+| **SEFI — Single Entity Field Interpretation** | Proposed mathematical interpretation of physical entities |
+| **DEFI — Dynamic Entity Field Integration** | Coupled dynamics and interacting structures |
+| **Warp geometry** | Exploratory geometric transformations and constraints |
 
-[**Open the prototype and reproduction guide**](SEFI-PY%20Evolution/research/calibration_workbench/README.md)
+These are developing research proposals, **not established physical theories**.
 
-| What to review | Evidence |
-|---|---|
-| What was built and how to run it | [Workbench README](SEFI-PY%20Evolution/research/calibration_workbench/README.md) |
-| What an engineer would receive | [Sample service report](SEFI-PY%20Evolution/research/calibration_workbench/sample_output/service_report.md) |
-| When the tool declines to infer a cause | [Ambiguous measurement example](SEFI-PY%20Evolution/research/calibration_workbench/sample_output/ambiguous_report.md) |
-| What the benchmark found | [Validation record](SEFI-PY%20Evolution/research/calibration_workbench/VALIDATION.md) and [metrics](SEFI-PY%20Evolution/research/calibration_workbench/sample_output/metrics.csv) |
-| Implementation and checks | [Python source](SEFI-PY%20Evolution/research/calibration_workbench/workbench.py) and [tests](SEFI-PY%20Evolution/research/calibration_workbench/test_workbench.py) |
+## Research standards
 
-For the visual demonstration, download the workbench folder and open `sample_output/index.html` locally. GitHub does not render that HTML as a hosted application.
+- State assumptions and dependencies explicitly; use exact derivations wherever feasible.
+- Distinguish mathematical proofs, model-dependent calculations, numerical experiments, physical measurements, and hypotheses.
+- Stop at unresolved mathematical dependencies rather than inventing missing structure.
+- Retain unsuccessful experiments, counterexamples, and historical records.
+- Compare results with established literature before claiming novelty.
+- Do not treat passing software tests as evidence of experimental physical validation.
 
-### The engineering question
+## Verified mathematical result: robust stability
 
-Can a reproducible diagnostic workflow distinguish microwave amplitude drift from detuning, recognize an inadequate measurement design, and verify restoration against explicit acceptance criteria?
+A completed research checkpoint establishes an **exact stability threshold for one specified uncertain switched linear system**:
 
-The motivation comes from [eleQtron researchers' public work on microwave-chain errors and coherent storage transfer](https://indico.fysik.su.se/event/9371/contributions/15175/) and the company's [RF/system-test responsibilities](https://eleqtron.com/en/jobs/rf-radio-frequency-test-engineer-f-m-d/). This is an independent proposal; it is not an eleQtron assignment or statement about an internal fault.
+```text
+x[k+1] = M[k] x[k]
 
-### What has been demonstrated
+M[k] in {B + E, C + E : |E[i,j]| <= epsilon}
 
-- A standard two-level quantum response generates synthetic calibration counts.
-- Conventional fitting, conventional temporal tracking, and SEFI-inspired tangent tracking receive identical measurements, without simulation truth labels.
-- Separate healthy calibration runs set alert thresholds. Held-out tests cover healthy operation and three drift scenarios.
-- The tool reports ambiguous evidence and requires repeated acceptable measurements for recovery verification.
-- Eleven tests pass for this addition, covering physical limits, input validation, observability, reproducibility, and recovery checks.
+B = [[4/5, -2],      C = [[2/5, 6/5],
+     [0,   3/10]]         [0,   7/10]]
+```
 
-**The benchmark does not establish an advantage over conventional tracking.** Observed healthy per-scan false alarms are 1.11% for independent fitting, 0.94% for conventional tracking, and 1.22% for the SEFI-inspired method. All three detect all 120 simulated fault runs at least once during the injected fault windows. Smoothed methods lag during recovery. These are small synthetic experiments, not hardware reliability guarantees.
+For arbitrary switching, the family is uniformly exponentially stable **if and only if**
 
-### Where the research framework enters
+```text
+0 <= epsilon < 7/145
+```
 
-SEFI/DEFI motivates tracking deviations from a reference geometry. This prototype defines that geometry through a physical response model and measurable populations. Its weighted tangent projection and EWMA are established mathematical techniques; their inclusion does not establish a novel algorithm or validate the wider field theory. It neither implements quantum error correction nor controls equipment.
+The proof employs an exact rational common quadratic Lyapunov certificate, verifies the 32 vertices of the critical uncertainty boxes, and identifies a boundary matrix with eigenvalue 1. The threshold is a mathematical result for **this model**, not a validation of SEFI or a general robust-control algorithm. Novelty relative to existing literature has not been established.
 
-### Proposed next step with eleQtron
+- [Exact theorem and certificate](https://github.com/JasonSEFIDEFI/SEFI-PY/blob/research/emergent-consciousness-math/research/emergent_consciousness/math/README.md)
+- [Verification scripts](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/research/emergent-consciousness-math/research/emergent_consciousness/math)
 
-Identify one useful calibration workflow with an RF validation or operations engineer. Agree on the measurement format, relevant operating limits, and a success criterion. Evaluate approved anonymized data against the team's current method, keeping whichever method offers the strongest evidence. Potential measures include false alarms, time to diagnosis, recovery verification, and measurement burden.
+**Open checkpoint:** Exact characterization of the full admissible boundary-metric family.
 
-## Broader research portfolio
+## Repository navigation
 
-The engineering prototype is separate from the foundational research below. Readers can evaluate its code and measurements without accepting the wider theoretical interpretation.
+| Area | Scope |
+| --- | --- |
+| [Current mathematical investigations](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/research/emergent-consciousness-math/research/emergent_consciousness/math) | Stability proofs, symbolic verification, and research checkpoints (research branch) |
+| [October 18 research](research/2026-10-18/) | Dated dynamics, coupling, and visualization investigations |
+| [October 19 research](research/2026-10-19/) | Dated vortex investigations |
+| [SEFI-PY Evolution](SEFI-PY%20Evolution/) | Earlier simulations, educational demonstrations, and engineering prototypes |
+| [SEFI-PY implementation](SEFI-PY/) | Software and benchmarks |
+| [QEC Stack](SEFI%20QEC%20Stack/) | Quantum information and error-correction software investigations |
 
-- [Vortex Research Console](SEFI-PY%20Evolution/sim/vortex_console/README.md): interactive views, profile recalculation, evolution, parameter sweeps, and saved checkpoints.
-- [Console reviewer guide](SEFI-PY%20Evolution/sim/vortex_console/REVIEWER_GUIDE.md), [test report](SEFI-PY%20Evolution/sim/vortex_console/TEST_REPORT.md), and [model history](SEFI-PY%20Evolution/sim/vortex_console/MODEL_HISTORY.md).
-- [23 September field research checkpoint](SEFI-PY%20Evolution/research/physical_matter_2026_09_23/README.md): coupled classical vortex/carrier calculations, limited perturbation tests, a rest-state obstruction, and unsuccessful revised searches.
-- [Earlier evolution engine](SEFI-PY%20Evolution/README.md) and [QEC research repository](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack).
-- [Professional portfolio and resume](https://github.com/JasonSEFIDEFI/CV-) and [doctoral research portfolio](https://github.com/JasonSEFIDEFI/PhD).
+These folders represent different stages of development. Their inclusion does not mean that all earlier models, claims, or experimental interpretations remain endorsed. Project-level documentation is undergoing review.
 
-The foundational work investigates SEFI, DEFI, and GWFM proposals. Finite-domain classical solutions and passing software checks do not establish observed matter, a continuum existence theorem, nonlinear stability, universal gravity, or hardware QEC performance. Validation statements apply only to the named experiment and revision; this README does not certify all legacy modules.
+## Reproducibility and limitations
 
-## Research synchronization - October 18, 2026
+Use each project's own instructions, inputs, and verification criteria. For the exact stability checkpoint, activate a Python environment with SymPy and run from the research branch:
 
-- [Manuscript archive and author-review drafts](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/main/RESEARCH-UPDATE-2026-10-18.md).
-- [New simulations, assumptions, and reproducible calculations](https://github.com/JasonSEFIDEFI/SEFI-PY/tree/main/research/2026-10-18).
-- [Book manuscripts and early source material](https://github.com/JasonSEFIDEFI/Publishing-V-Drive-Content).
+```bash
+python research/emergent_consciousness/math/verify_exact_threshold_theorem.py
+```
 
-These are research drafts and computational studies, not confirmations of new physics, a working propulsion engine, journal acceptance, or a doctoral award. Prior versions and submission history remain distinct. Existing draft pull requests are retained for review.
+A verified property of a selected mathematical model does not establish that the model describes nature. Numerical simulations, software unit tests, and physical experiments have different evidentiary roles.
+
+## Manuscripts and academic work
+
+The wider program includes manuscripts submitted for scholarly evaluation. **Submission, peer review, acceptance, and publication are different stages.** This README makes no claim of journal acceptance or experimental confirmation. The suitability and novelty of the exact stability result remain subjects for literature review.
+
+Jason Duran Dutton is pursuing Information Technology studies at American InterContinental University, with the stated objective of continuing through an MSIT. An intended degree is not represented as awarded. His professional background includes industrial electrical maintenance, controls, troubleshooting, and safety-regulated technical work.
+
+## Related repositories
+
+- [SEFI Manuscripts](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts)
+- [SEFI QEC Stack](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack)
+- [Doctoral research portfolio](https://github.com/JasonSEFIDEFI/PhD)
+- [Professional portfolio](https://github.com/JasonSEFIDEFI/CV-)
+
+---
+
+**Research principle:** Mathematical results determine which conclusions are justified. Where assumptions, derivations, or validation remain incomplete, the research remains open.
