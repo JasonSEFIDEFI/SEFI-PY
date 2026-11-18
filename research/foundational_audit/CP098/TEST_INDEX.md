@@ -321,3 +321,64 @@ but the CP098 test collection has not yet been
 committed or independently reproduced from Git.
 
 Reported symbolic passes are not physical validation.
+
+## CP098-T27 through T30 milestone
+
+### T27 — Non-adapted normal bracket
+
+Initial test failed because the supplied acceleration vector
+did not have the expected curvature.
+
+Original fixture preserved:
+`tests/CP098_T27_initial_fixture.py.bak`
+
+Correction:
+The acceleration vector was changed to the exact
+Lorentz transform of the intended rest-frame vector.
+
+Corrected result:
+- v = 4
+- kappa = 1
+- Primary constraints satisfied
+- Direct (q,P) bracket = -64/3
+- Predicted bracket = -64/3
+- Difference = 0
+- Normal-vector derivative tensor verified
+
+### T28 — Boosted external bracket
+
+- All five constraints satisfied
+- Symbolic transverse momenta retained
+- Direct and candidate (u,p1) brackets agree
+- Difference = 0
+
+### T29 — Symbolic regular family
+
+- Symbolic v, kappa, tangential acceleration,
+  A, B, C, and transverse momenta
+- All five constraints satisfied
+- Direct and candidate brackets agree
+- Difference = 0
+
+### T30 — Complete external momentum components
+
+- Restored two transverse p0 components
+- All five constraints satisfied
+- Direct and candidate brackets agree
+- Difference = 0
+
+### Interpretation
+
+The regular constrained-family calculation is compatible
+with a general Lorentz-frame reduction argument.
+
+The frame-exhaustiveness argument must be explicitly
+documented and checked before treating the resulting
+normal-preservation formula as a fully audited
+regular-surface identity.
+
+No unrestricted off-surface identity is claimed.
+
+DYNAMICAL CONSISTENCY: OPEN.
+GENERAL DIRAC CLOSURE: NOT ESTABLISHED.
+PHYSICAL VALIDATION: NOT ESTABLISHED.

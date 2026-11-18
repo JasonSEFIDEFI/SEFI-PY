@@ -1,0 +1,127 @@
+"""CP098-T27: Non-adapted (q,P) normal bracket.
+
+Checks the general geometric derivative and the
+primary-surface reduction at a Lorentz-boosted point.
+
+Independent canonical differentiation.
+Not a proof of full Dirac closure.
+"""
+
+import sympy as sp
+
+eta = sp.diag(-1, 1, 1, 1)
+
+u = sp.Matrix(sp.symbols("u0:4", real=True))
+q = sp.Matrix(sp.symbols("q0:4", real=True))
+P = sp.Matrix(sp.symbols("P0:4", real=True))
+p1 = sp.Matrix(sp.symbols("r0:4", real=True))
+
+A, C = sp.symbols("A C", nonzero=True, real=True)
+
+def mdot(x, y):
+    return (x.T * eta * y)[0]
+
+def contract(p, x):
+    return (p.T * x)[0]
+
+v = sp.sqrt(-mdot(u, u))
+T = u/v
+w = q + T*mdot(T, q)
+w2 = mdot(w, w)
+k = sp.sqrt(w2)/v**2
+N = w/sp.sqrt(w2)
+
+chi = contract(p1, N) + 2*A*k/v
+
+# Only P-dependent part of H_c contributes.
+HP = -v*w2*mdot(P, P)/(4*C)
+
+# Non-adapted Lorentz-boosted configuration:
+# boost parameter beta=3/5, gamma=5/4.
+#
+# u=(5,3,0,0), so v=4.
+# q is the exact boost of (2,16,0,0).
+#
+# Normal N=(3/5,1,0,0)*5/4
+#         =(3/4,5/4,0,0).
+#
+# kappa=1.
+
+point = {}
+
+def assign(vec, vals):
+    point.update(zip(list(vec), map(sp.sympify, vals)))
+
+assign(u, [5, 3, 0, 0])
+assign(q, [sp.Rational(29,2), sp.Rational(43,2), 0, 0])
+assign(P, [0, 0, 2, -1])
+assign(p1, [0, 0, 3, 4])
+
+point[A] = sp.Integer(2)
+point[C] = sp.Integer(3)
+
+def at(expr):
+    return sp.simplify(expr.subs(point))
+
+print("=== CP098-T27 ===", flush=True)
+
+print("v =", at(v))
+print("kappa =", at(k))
+print("T =", at(T))
+print("N =", at(N))
+
+assert at(v) == 4
+assert at(k) == 1
+
+phi_T = contract(P, T)
+phi_N = contract(P, N)
+
+assert at(phi_T) == 0
+assert at(phi_N) == 0
+
+print("PASS: primary constraints", flush=True)
+
+# Direct canonical (q,P) bracket.
+direct = sp.Integer(0)
+
+for qi, Pi in zip(q, P):
+    direct += (
+        at(sp.diff(chi, qi))
+        * at(sp.diff(HP, Pi))
+    )
+
+direct = sp.simplify(direct)
+
+# Primary-surface prediction.
+predicted = (
+    -v**3*k*mdot(p1, P)/(2*C)
+)
+
+difference = sp.simplify(direct - at(predicted))
+
+print("Direct bracket =", direct)
+print("Predicted =", at(predicted))
+print("Difference =", difference)
+
+assert difference == 0
+
+# Verify the normal-vector derivative tensor.
+projector = (
+    sp.eye(4)
+    + T*(T.T*eta)
+    - N*(N.T*eta)
+)
+
+for mu in range(4):
+    for nu in range(4):
+        actual = at(sp.diff(N[mu], q[nu]))
+        expected = at(
+            projector[mu, nu]/(v**2*k)
+        )
+        assert sp.simplify(actual-expected) == 0, (
+            mu, nu, actual, expected
+        )
+
+print("PASS: full normal-vector derivative tensor")
+print("PASS: non-adapted canonical bracket")
+print("GENERAL DIRAC CLOSURE: NOT ESTABLISHED")
