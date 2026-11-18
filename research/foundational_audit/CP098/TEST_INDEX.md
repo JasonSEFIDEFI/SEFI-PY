@@ -382,3 +382,54 @@ No unrestricted off-surface identity is claimed.
 DYNAMICAL CONSISTENCY: OPEN.
 GENERAL DIRAC CLOSURE: NOT ESTABLISHED.
 PHYSICAL VALIDATION: NOT ESTABLISHED.
+
+## CP098 T31-T39 REGULAR CLOSURE MILESTONE
+
+Status: PASS for the specified regular-sector Hamiltonian model.
+
+Regularity assumptions:
+- v > 0
+- kappa > 0
+- A != 0
+- C != 0
+- Specified quadratic internal kinetic model
+- Regular five-constraint surface and adapted Lorentz-frame coverage
+
+Evidence:
+- T31: regular constrained-family parameterization
+- T32: external tertiary bracket
+- T33: internal tertiary bracket
+- T34: combined identity and normal multiplier
+- T35: external tangential preservation
+- T36: complete tangential cancellation
+- T37: chi_T preservation
+- T38R: primary preservation
+- T39: five-equation consistency assembly
+
+T38 development failures:
+- Original derivative implementation failed.
+- First correction left a second derivative defect.
+- Unrestricted symbolic implementation timed out.
+- T38R replaced it with efficient directional derivatives.
+- Preserve failed versions and diagnostic logs.
+
+Conclusion:
+The five constraints have mutually consistent preservation
+equations on the specified regular constraint surface.
+
+The normal multiplier is fixed:
+lambda_N = -v^3 F_N/(2A).
+
+The tangential multiplier lambda_T remains undetermined
+by these preservation equations.
+
+Limitations:
+- Constraint classification remains open.
+- Gauge interpretation remains open.
+- Singular sectors remain open.
+- General physical validation remains open.
+- T39 assembles earlier results; it is not an independent
+  canonical derivation.
+
+No experimental or consciousness-related claim follows
+from this checkpoint.
