@@ -1,0 +1,66 @@
+{
+  "build_figure.py": {
+    "bytes": 2915,
+    "sha256": "ae5de3a4629175990ed399cb54a6ebfa607d21cbf0fabde41c5c8fa6b105cfef"
+  },
+  "LICENSE": {
+    "bytes": 1942,
+    "sha256": "2604f9f7056c7003d0f98a657d471e23d0501fa2c34be87a52353ff2885e9baa"
+  },
+  "phase_model.py": {
+    "bytes": 1818,
+    "sha256": "51854a56fb09aea9abe16d158f64c3e9ee3622b1a2d8b40fe3273e5ecb03f2e2"
+  },
+  "protocol.json": {
+    "bytes": 1155,
+    "sha256": "21260aa0e861cc3ed80ad612f8de5ad17757f223779ed1899ce26e38c7da0f27"
+  },
+  "README.md": {
+    "bytes": 3111,
+    "sha256": "dcb58249d9668eb2e7ebc89356cccc59829e512d89d02bc1641017561ee4c350"
+  },
+  "RESEARCH_NOTE.md": {
+    "bytes": 8008,
+    "sha256": "3c06f283f36c8f878fcb66f6d1f1f6d9e81b5c7076eacb10d876d82ea4936215"
+  },
+  "run_study.py": {
+    "bytes": 3247,
+    "sha256": "2260be7337981b75d0557d2c3a28911120f4e48db489af47573e1f94d6669b97"
+  },
+  "test_phase_model.py": {
+    "bytes": 1675,
+    "sha256": "5a0950222a8a5b62a8c651e0a8ce0be307fd7fa1c82465e5350b86b0d75f6a47"
+  },
+  "figures/phase_stability.png": {
+    "bytes": 56903,
+    "sha256": "755221a842fb52b7866d066337237b5343eab7b4958bf88573481297cc24ec0b"
+  },
+  "figures/phase_stability.svg": {
+    "bytes": 56254,
+    "sha256": "020956df680138ab73ee702f15ff6651d44f18b50fa0e24b0628a1e6834e9d08"
+  },
+  "results/all_trajectories_summary.csv": {
+    "bytes": 4279,
+    "sha256": "25f7295aeb63b4b1362f0d5b2167b046f8c720a86c5ef365ede859aa0a915dc7"
+  },
+  "results/locking_thresholds.csv": {
+    "bytes": 92,
+    "sha256": "d0375f0dc84f6ef011556308304c6e595c2c6966022afdcfec6a53f2f1767890"
+  },
+  "results/run_record.json": {
+    "bytes": 2704,
+    "sha256": "93338e395c3203d6f034b7d28d66d63ff74ae64b14498f48a49e927618c40913"
+  },
+  "results/sampled_trajectories.csv": {
+    "bytes": 848385,
+    "sha256": "e9b487ebc53a41f1073ec92c008fd6a699d6c945141ebc99e3ff223dee869649"
+  },
+  "results/test_validation.json": {
+    "bytes": 805,
+    "sha256": "f0d1171bc71ff6d86bac79c3ab458504dc9cdd82d223e868ddb3500c3c856a1f"
+  },
+  "results/time_step_convergence.csv": {
+    "bytes": 652,
+    "sha256": "5e209ce317391ddfb72a44675bce1706b1ab4903e81b8bae4a51adb4a8362c64"
+  }
+}
