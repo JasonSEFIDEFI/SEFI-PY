@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "protocol_sha256": "6a16ae1e7a704acf434cf688386f4b8809e126e4c4d5cb5df11707e68883c1d8",
+  "source_sha256": "66e6334608eaf42790c9785cf68b2c1210820e5b24791495ab9378aa771afac6",
+  "completed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "quadrature_max_error": 1.1102230246251565e-16,
+  "conditional_decision_violation": 0.0,
+  "unique_displacement_trials": 80000,
+  "all_four_actuator_settings_reported": true
+}

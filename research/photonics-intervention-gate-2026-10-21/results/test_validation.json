@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "output": "test_choice_is_model_optimal_within_two_actions (test_gate.GateChecks.test_choice_is_model_optimal_within_two_actions) ... ok\ntest_exact_score_matches_independent_integral (test_gate.GateChecks.test_exact_score_matches_independent_integral) ... ok\ntest_noise_can_make_correction_harmful (test_gate.GateChecks.test_noise_can_make_correction_harmful) ... ok\ntest_zero_covariance_recovers_deterministic_score (test_gate.GateChecks.test_zero_covariance_recovers_deterministic_score) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.451s\n\nOK\n"
+}

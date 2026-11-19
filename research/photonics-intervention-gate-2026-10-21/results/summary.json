@@ -1,0 +1,154 @@
+[
+  {
+    "actuator_variance": 0,
+    "policies": {
+      "hold": {
+        "fidelity": 0.9472908006612901,
+        "action_fraction": 0.0
+      },
+      "always_correct": {
+        "fidelity": 0.9658239648972202,
+        "action_fraction": 1.0
+      },
+      "mse_gate": {
+        "fidelity": 0.9658239648972202,
+        "action_fraction": 1.0
+      },
+      "fidelity_gate": {
+        "fidelity": 0.9658239648972202,
+        "action_fraction": 1.0
+      }
+    },
+    "paired_gain": {
+      "always_correct": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "mse_gate": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0
+      },
+      "hold": {
+        "mean": 0.018533164235930245,
+        "lo": 0.01823827155039111,
+        "hi": 0.018844448319287502
+      }
+    }
+  },
+  {
+    "actuator_variance": 0.0025,
+    "policies": {
+      "hold": {
+        "fidelity": 0.9472908006612901,
+        "action_fraction": 0.0
+      },
+      "always_correct": {
+        "fidelity": 0.9564654245124566,
+        "action_fraction": 1.0
+      },
+      "mse_gate": {
+        "fidelity": 0.9591600660534203,
+        "action_fraction": 0.5140125
+      },
+      "fidelity_gate": {
+        "fidelity": 0.959161270127081,
+        "action_fraction": 0.5128874999999999
+      }
+    },
+    "paired_gain": {
+      "always_correct": {
+        "mean": 0.0026958456146241815,
+        "lo": 0.0025889146998807587,
+        "hi": 0.0027999700052328737
+      },
+      "mse_gate": {
+        "mean": 1.2040736605156698e-06,
+        "lo": -1.1363601058235611e-05,
+        "hi": 1.320177303215305e-05
+      },
+      "hold": {
+        "mean": 0.01187046946579095,
+        "lo": 0.011528493290366537,
+        "hi": 0.012213957789434075
+      }
+    }
+  },
+  {
+    "actuator_variance": 0.01,
+    "policies": {
+      "hold": {
+        "fidelity": 0.9472908006612901,
+        "action_fraction": 0.0
+      },
+      "always_correct": {
+        "fidelity": 0.9291952430584596,
+        "action_fraction": 1.0
+      },
+      "mse_gate": {
+        "fidelity": 0.9513655244368232,
+        "action_fraction": 0.1537375
+      },
+      "fidelity_gate": {
+        "fidelity": 0.9513610811499194,
+        "action_fraction": 0.154675
+      }
+    },
+    "paired_gain": {
+      "always_correct": {
+        "mean": 0.022165838091459632,
+        "lo": 0.02172234131866114,
+        "hi": 0.022597827626473322
+      },
+      "mse_gate": {
+        "mean": -4.4432869038435465e-06,
+        "lo": -2.6701071568535353e-05,
+        "hi": 1.7894999116270926e-05
+      },
+      "hold": {
+        "mean": 0.004070280488629391,
+        "lo": 0.0038500842080960804,
+        "hi": 0.0042977723891446445
+      }
+    }
+  },
+  {
+    "actuator_variance": 0.04,
+    "policies": {
+      "hold": {
+        "fidelity": 0.9472908006612901,
+        "action_fraction": 0.0
+      },
+      "always_correct": {
+        "fidelity": 0.8337470821934551,
+        "action_fraction": 1.0
+      },
+      "mse_gate": {
+        "fidelity": 0.9474676378494635,
+        "action_fraction": 0.0038875000000000008
+      },
+      "fidelity_gate": {
+        "fidelity": 0.9474761744127512,
+        "action_fraction": 0.0048625000000000005
+      }
+    },
+    "paired_gain": {
+      "always_correct": {
+        "mean": 0.1137290922192961,
+        "lo": 0.11288254577556539,
+        "hi": 0.11459928178796276
+      },
+      "mse_gate": {
+        "mean": 8.536563287708799e-06,
+        "lo": -2.0816133892280626e-05,
+        "hi": 4.152634104796243e-05
+      },
+      "hold": {
+        "mean": 0.00018537375146129297,
+        "lo": 0.00010557137224687736,
+        "hi": 0.0002648077763284842
+      }
+    }
+  }
+]

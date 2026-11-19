@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-21",
+  "status": "prospective local feasibility specification, not independent preregistration",
+  "seeds": 20,
+  "trials_per_seed": 4000,
+  "prior_covariance": [[0.0225, 0], [0, 0.005625]],
+  "measurement_covariance": [[0.03125, 0], [0, 0.03125]],
+  "actuator_variance_per_real_component": [0, 0.0025, 0.01, 0.04],
+  "policies": ["hold", "always_correct", "mse_gate", "fidelity_gate"],
+  "score": "unconditional encoded entanglement fidelity exp(-r2)*(1-r2/2)^2",
+  "information": "All policies share exact specified calibrated Gaussian prior/noise covariances and the same probe observations. Latent displacement and actuator realizations are evaluator-only. Exact covariance knowledge is an optimistic feasibility assumption, not a learned-noise demonstration.",
+  "scope": "Ideal bypass and additive Gaussian correction disturbance; no state-dependent actuator error, bypass loss, actuator noise correlation, noise drift, hardware, latency target or unique SEFI derivation.",
+  "analysis": "Report every actuator setting. Seed-paired bootstrap intervals are exploratory descriptive, not a confirmatory superiority or novelty claim. Include a conventional minimum-MSE gate and independent Gauss-Hermite expected-fidelity integration."
+}
