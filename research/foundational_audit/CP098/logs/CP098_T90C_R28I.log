@@ -1,0 +1,61 @@
+=== CP098-T90C-R28I ===
+STAGE 1: symbolic constraints
+PASS: phi1
+PASS: phi2
+PASS: chi
+PASS: psi
+PASS: theta
+PASS: B
+PASS: A
+PASS: J
+PASS: Q
+PASS: pA
+STAGE 1 PASS
+STAGE 2: full canonical bracket
+pair 01 = 0
+pair 02 = (3694084*a**2*w**4 + 3694084*b**2*w**4 + 802816*rho**4*w**4 + 476656*rho**2*w**6 + 41330688*rho**2*w**2 + 19393941*w**4 + 531948096)/(14776336*w**2)
+pair 03 = 0
+pair 04 = 0
+pair 05 = 0
+pair 06 = 0
+pair 07 = 8*w**2*z**2/31
+pair 08 = 8*t**2*w**2/31
+pair 09 = 0
+pair 10 = 0
+pair 11 = 16*b*rho*w**2*z/31
+D derived
+STAGE 2 PASS
+STAGE 3: isolate identity correction
+PASS: R28G recovered
+identity correction = w**2*(31*a**2 + 31*b**2 + 64*b*rho*z)/124
+identity-momentum total degree = 2
+monomials and coefficients:
+(2, 0) : w**2/4
+(0, 2) : w**2/4
+(0, 1) : 16*rho*w**2*z/31
+STAGE 3 PASS
+STAGE 4: exact witness regressions
+PASS: (1, 1, 0, 0, 1, 0)
+PASS: (1, 1, 0, 0, 0, 2)
+PASS: (1, 1, 0, 0, 1, 2)
+PASS: (2, 1, 1, 1, 1, 1)
+PASS: (1/2, 2, 1, 0, 1, 2)
+STAGE 4 PASS
+STAGE 5: sign diagnostics
+a² coefficient = w**2/4
+ab coefficient = 0
+b² coefficient = w**2/4
+a coefficient = 0
+b coefficient = 16*rho*w**2*z/31
+constant = 0
+quadratic determinant = w**4/4
+STAGE 5 COMPLETE
+
+R28I COMPLETE
+SIX-VARIABLE CANONICAL FAMILY: DERIVED
+R28G/R28H REGRESSIONS: VERIFIED
+GLOBAL SIGN: PENDING EXACT INTERPRETATION
+GENERAL IA BRANCH: OPEN
+FULL DIRAC CLOSURE: OPEN
+PHYSICAL VALIDATION: NOT CLAIMED
+ELAPSED SECONDS = 27.37

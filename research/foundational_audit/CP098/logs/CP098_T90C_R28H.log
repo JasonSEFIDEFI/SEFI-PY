@@ -1,0 +1,43 @@
+=== CP098-T90C-R28H ===
+STAGE 1: canonical derivatives
+PASS: 11 canonical pairs
+STAGE 2: independent identity witnesses
+case = (1, 1, 0, 0, 0, 0)
+PASS: ten constraints
+D = 593952197/14776336
+identity correction = 0
+sign = 1
+case = (1, 1, 0, 0, 1, 0)
+PASS: ten constraints
+D = 597646281/14776336
+identity correction = 1/4
+sign = 1
+case = (1, 1, 0, 0, 0, 2)
+PASS: ten constraints
+D = 608728533/14776336
+identity correction = 1
+sign = 1
+case = (1, 1, 0, 0, 1, 2)
+PASS: ten constraints
+D = 612422617/14776336
+identity correction = 5/4
+sign = 1
+case = (2, 1, 1, 1, 1, 1)
+PASS: ten constraints
+D = 88323969/3694084
+identity correction = 126/31
+sign = 1
+case = (1/2, 2, 1, 0, 1, 2)
+PASS: ten constraints
+D = 9257965849/59105344
+identity correction = 411/496
+sign = 1
+STAGE 2 PASS
+
+R28H COMPLETE
+IDENTITY-MOMENTUM WITNESSES: CHECKED
+GLOBAL IDENTITY-MOMENTUM SIGN: OPEN
+GENERAL IA BRANCH: OPEN
+FULL DIRAC CLOSURE: OPEN
+PHYSICAL VALIDATION: NOT CLAIMED
+ELAPSED SECONDS = 77.82

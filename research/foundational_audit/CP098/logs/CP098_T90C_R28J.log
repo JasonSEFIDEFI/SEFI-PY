@@ -1,0 +1,34 @@
+=== CP098-T90C-R28J ===
+STAGE 1: independent canonical derivatives
+PASS: 11 canonical pairs
+STAGE 1 PASS
+STAGE 2: sign-changing rational witnesses
+WITNESS: positive baseline
+PASS: ten constraints
+PASS: independent bracket regression
+D = 593952197/14776336
+WITNESS: negative rational witness
+PASS: ten constraints
+PASS: independent bracket regression
+D = -636127803/14776336
+PASS: both signs realized
+STAGE 2 PASS
+STAGE 3: exact D=0 witness
+WITNESS: exact algebraic zero
+PASS: ten constraints
+PASS: independent bracket regression
+D = 0
+z_star = sqrt(1187904394)/496
+b_star = -2*sqrt(1187904394)/961
+PASS: exact canonical D=0
+STAGE 3 PASS
+
+R28J COMPLETE
+TEN CONSTRAINTS: VERIFIED AT ALL WITNESSES
+POSITIVE AND NEGATIVE D: VERIFIED
+EXACT D=0 WITNESS: VERIFIED
+NEXT DIRAC PRESERVATION: NOT YET CHECKED
+GENERAL IA BRANCH: OPEN
+FULL DIRAC CLOSURE: OPEN
+PHYSICAL VALIDATION: NOT CLAIMED
+ELAPSED SECONDS = 47.618

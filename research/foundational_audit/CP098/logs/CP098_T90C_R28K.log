@@ -1,0 +1,23 @@
+=== CP098-T90C-R28K ===
+STAGE 1: exact witness
+PASS: phi1
+PASS: phi2
+PASS: chi
+PASS: psi
+PASS: theta
+PASS: B
+PASS: A
+PASS: J
+PASS: Q
+PASS: pA
+PASS: D=0
+STAGE 1 PASS
+STAGE 2: Q preservation
+{Q,Hc} = 14*sqrt(1187904394)/923521
+{Q,phi1} = 0
+{Q,phi2} = -5990/961
+Traceback (most recent call last):
+  File "/home/d/Research/Repositories/SEFI-PY/research/foundational_audit/CP098/tests/CP098_T90C_R28K.py", line 100, in <module>
+    assert S.simplify(L2-expected_L2)==0,(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('R27R multiplier coefficient mismatch', -5990/961, -2995/961)

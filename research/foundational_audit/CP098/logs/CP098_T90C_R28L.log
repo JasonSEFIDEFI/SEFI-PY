@@ -1,0 +1,87 @@
+=== CP098-T90C-R28L ===
+STAGE 1: witness regression
+PASS: ten conditions and D=0
+lambda2 = 7*sqrt(1187904394)/2878195
+STAGE 1 PASS
+STAGE 2: simultaneous tangency
+
+condition = phi1
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = phi2
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = chi
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = psi
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = theta
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = B
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = A
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = J
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+condition = Q
+F = 14*sqrt(1187904394)/923521
+K1 = 0
+K2 = -5990/961
+dot = 0
+STATUS: satisfied
+
+condition = pA
+F = 0
+K1 = 0
+K2 = 0
+dot = 0
+STATUS: satisfied
+
+STAGE 3: multiplier compatibility
+PASS: no lambda1-independent obstruction
+lambda1 remains unrestricted by these equations
+
+R28L COMPLETE
+SIMULTANEOUS TANGENCY COMPATIBLE = True
+Ddot PRESERVATION: NOT YET CHECKED
+FULL DIRAC CLOSURE: OPEN
+PHYSICAL VALIDATION: NOT CLAIMED
+ELAPSED SECONDS = 134.489
