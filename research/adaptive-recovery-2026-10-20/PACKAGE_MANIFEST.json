@@ -1,0 +1,138 @@
+{
+  "adaptive.py": {
+    "bytes": 3472,
+    "sha256": "bb89edb5541ceeba107951cf72b32b6f751b5ee5c3b817fcea2d604b6dbf02e3"
+  },
+  "Adaptive_Recovery_Report.pdf": {
+    "bytes": 12553,
+    "sha256": "2106d435d433a9331f31d652c60a788e570bea6f92ddea76453b6c6dc8b59ae0"
+  },
+  "ALGORITHM_AND_PROTOCOL.md": {
+    "bytes": 4182,
+    "sha256": "2f8757e25920ca4941eea38126161f3b4aa633e705b3fb8c20c012289a34f61a"
+  },
+  "benchmark.py": {
+    "bytes": 7520,
+    "sha256": "baff95a816ced1d6fe4d0478b50600cb7cf5d770367b655dcf75074fb29c2d8f"
+  },
+  "build_report.py": {
+    "bytes": 15689,
+    "sha256": "f9c6041c4a31a663899bd55b64da3b45bbb39e726c7dcf5e73c0951d1a2de232"
+  },
+  "CLAIMS.md": {
+    "bytes": 1411,
+    "sha256": "409fb929c0bc8f0ebc47d9dd69c2866bf04e176607f7d645082409ec66edd411"
+  },
+  "LICENSE": {
+    "bytes": 1942,
+    "sha256": "2604f9f7056c7003d0f98a657d471e23d0501fa2c34be87a52353ff2885e9baa"
+  },
+  "MODIFICATIONS.md": {
+    "bytes": 981,
+    "sha256": "fe68b9775d94a5354f630c72de32089361c998af6d6305920437ffa93ffafb88"
+  },
+  "physical_reference.py": {
+    "bytes": 3573,
+    "sha256": "a12d61108374f25023737836b6e0953605f47b9c3fac1bf0945d16baee1641ad"
+  },
+  "protocol.json": {
+    "bytes": 3030,
+    "sha256": "9db8f924dda84bab7944f507e3e460a7a18394c754a49c972ca15f4ebdfa7699"
+  },
+  "README.md": {
+    "bytes": 2190,
+    "sha256": "edca8061ca994edf598aa5bca5a0d338bdddd63d5b36746c27b0308916d96cc3"
+  },
+  "report-requirements.txt": {
+    "bytes": 17,
+    "sha256": "054e7483ed0899a13425d3ff89d0ae162290c88989825c77d22174ceb36f33f1"
+  },
+  "requirements.txt": {
+    "bytes": 13,
+    "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+  },
+  "RESULTS.md": {
+    "bytes": 1464,
+    "sha256": "67e585aa3afc22a38cfb70f2bd8f6a649e34e4e1d112e427f7e769d83a3ae694"
+  },
+  "selection.json": {
+    "bytes": 821,
+    "sha256": "b87c16509dee8c49e62b5798a364a59af8de533c2ffcbf7b59e716335e250c04"
+  },
+  "SUBMISSION_ROUTE.md": {
+    "bytes": 3750,
+    "sha256": "97383d1179b03c5901b59b43de9b71293c79e3b38c578c3ab217b07d9403400f"
+  },
+  "test_adaptive.py": {
+    "bytes": 2463,
+    "sha256": "b68effca8fa3e431abf3c73245552466330dc516300a63b6b8301b5f6fe9cb74"
+  },
+  "validate_saved_results.py": {
+    "bytes": 1714,
+    "sha256": "b0ecb86d1c653d28c4b1f5f05dc66cb6a6844e2ac829c6ace21be613cb7d4480"
+  },
+  "figures/fidelity_comparison.png": {
+    "bytes": 38120,
+    "sha256": "2dc063bc1c994bd9fc12a0418e9a96dbf7959b6ef1ea5655d594a648254da75f"
+  },
+  "figures/fidelity_comparison.svg": {
+    "bytes": 7498,
+    "sha256": "d595c10cfe4d4d590e6cec8c3e2fb361474cf187dbc8e8d40f909b5555f7abc8"
+  },
+  "figures/quality_vs_runtime.png": {
+    "bytes": 49454,
+    "sha256": "85027664da24d5947d9890557a7935be8979980eb1fb0d6fdbcc77be658182f1"
+  },
+  "figures/quality_vs_runtime.svg": {
+    "bytes": 5415,
+    "sha256": "eeeb4fdd3e728ce00d6b8025217663298c433b6b7957086cecdade33c477ae7b"
+  },
+  "results/test_validation.json": {
+    "bytes": 1009,
+    "sha256": "5cdc8f3b2a8d86510c3087d5a6b363a91c2747b8a4428f31c01cf2146a420ef0"
+  },
+  "results/development/run_record.json": {
+    "bytes": 2785,
+    "sha256": "503be5bf30fb1482bdd6ad9335452b3567b0545dc25e0c164a383fe70614f1f7"
+  },
+  "results/development/seed_metrics.csv": {
+    "bytes": 20005,
+    "sha256": "86b00c1f8f2f670a59bd79fb3969cdca44e3fc22af615e58d0b26f26ad5a7de9"
+  },
+  "results/evaluation/decision.json": {
+    "bytes": 372,
+    "sha256": "c98770dcbe32575bf71a65283350965ebb0b457326fa7dc8285351f7e7542643"
+  },
+  "results/evaluation/example_fidelities.npz": {
+    "bytes": 536065,
+    "sha256": "b359dcf951c1be031f803b306f426215662b1e973e7daf8f2b4db2d92efa58b4"
+  },
+  "results/evaluation/fidelity_summary.csv": {
+    "bytes": 2299,
+    "sha256": "8df0bb43ead35e48a10b775be1cb705dda563de0a8deafabb9dc928e36a070e8"
+  },
+  "results/evaluation/paired_differences.csv": {
+    "bytes": 2077,
+    "sha256": "1fb7abd872e1e17ad0292dd1e97ca6effd5f72f5c31cef45938818f1e454077d"
+  },
+  "results/evaluation/raw_streams_and_predictions.npz": {
+    "bytes": 26734233,
+    "sha256": "fa3feaf02c626423fce328988537472ee494e945d2cf65878f0328253cf83514"
+  },
+  "results/evaluation/run_record.json": {
+    "bytes": 10470,
+    "sha256": "a92e8fe5f88321983b0e4877e139ffc5920925934277ba4c7c9e00d5f81ebc82"
+  },
+  "results/evaluation/saved_results_validation.json": {
+    "bytes": 253,
+    "sha256": "5c89520e3a4d9a5a84e4532a1d3b0035353740ffa146da85a16c9bb924988cc3"
+  },
+  "results/evaluation/seed_metrics.csv": {
+    "bytes": 59961,
+    "sha256": "e564f0d19b5987a01e1bf2dd4d99e868a96fe864da0ca376ea5417192159dbb3"
+  },
+  "results/evaluation/timing.csv": {
+    "bytes": 1454,
+    "sha256": "3b9af2a7e3b618e2ae21f65f4352b4d89492f3a2c5eb25ca4de73098da711227"
+  }
+}

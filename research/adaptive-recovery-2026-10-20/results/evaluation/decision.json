@@ -1,0 +1,13 @@
+{
+  "primary": {
+    "scenario": "joint_drift",
+    "baseline": "rolling:128",
+    "mean": 0.002103156783858767,
+    "lo": 0.0017684630967303256,
+    "hi": 0.002438903987076441
+  },
+  "improvement_supported": true,
+  "candidate": "conventional adaptive mixture, no established SEFI-specific novelty",
+  "evaluation_cases": 100,
+  "evaluation_samples": 240000
+}

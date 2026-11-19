@@ -1,0 +1,129 @@
+{
+  "status": "completed",
+  "stage": "development",
+  "protocol_sha256": "9db8f924dda84bab7944f507e3e460a7a18394c754a49c972ca15f4ebdfa7699",
+  "sources": {
+    "adaptive.py": "bb89edb5541ceeba107951cf72b32b6f751b5ee5c3b817fcea2d604b6dbf02e3",
+    "benchmark.py": "baff95a816ced1d6fe4d0478b50600cb7cf5d770367b655dcf75074fb29c2d8f"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 122 Stepping 8, GenuineIntel",
+  "started_utc": "2026-10-21T03:48:24Z",
+  "completed_cases": [
+    {
+      "scenario": "stationary",
+      "seed": 101,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 102,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 103,
+      "status": "completed"
+    },
+    {
+      "scenario": "stationary",
+      "seed": 104,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 101,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 102,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 103,
+      "status": "completed"
+    },
+    {
+      "scenario": "mean_step",
+      "seed": 104,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 101,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 102,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 103,
+      "status": "completed"
+    },
+    {
+      "scenario": "rotation",
+      "seed": 104,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 101,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 102,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 103,
+      "status": "completed"
+    },
+    {
+      "scenario": "joint_drift",
+      "seed": 104,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 101,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 102,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 103,
+      "status": "completed"
+    },
+    {
+      "scenario": "bursts",
+      "seed": 104,
+      "status": "completed"
+    }
+  ],
+  "elapsed_seconds": 22.22717399999965,
+  "methods": [
+    "ew:0.005",
+    "ew:0.01",
+    "ew:0.03",
+    "ew:0.05",
+    "ew:0.1",
+    "ew:0.15",
+    "rolling:32",
+    "rolling:64",
+    "rolling:128",
+    "rolling:256"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "date": "2026-10-20",
+  "scope": "Synthetic pilot-assisted bosonic displacement recovery; no hardware, protecting QEC code, or theory validation",
+  "pilot_modes": 16,
+  "calibration_samples": 512,
+  "stream_length": 2400,
+  "development_seeds": [101, 102, 103, 104],
+  "evaluation_seeds": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+  "scenarios": ["stationary", "mean_step", "rotation", "joint_drift", "bursts"],
+  "primary_scenario": "joint_drift",
+  "primary_metric": "unconditional entanglement fidelity",
+  "candidate": "predictive-likelihood mixture of EW Gaussian experts; conventional adaptive empirical Bayes, not a SEFI derivation",
+  "candidate_rates": [0.01, 0.05, 0.15],
+  "candidate_share": 0.005,
+  "baseline_grid": {"ew_rates": [0.005, 0.01, 0.03, 0.05, 0.1, 0.15], "rolling_windows": [32, 64, 128, 256]},
+  "selection": "Select best EW and best rolling baseline by equally weighted mean development fidelity across all scenarios; select stronger family for primary comparator. No evaluation tuning.",
+  "primary_inference": "Paired seed-cluster percentile bootstrap, 10000 resamples, 95% CI on candidate minus selected conventional baseline in joint_drift. Improvement supported only if lower bound > 0. No universal-superiority claim.",
+  "secondary_inference": "Per-scenario means and descriptive paired intervals; not confirmatory claims after multiple comparisons",
+  "speed": "Seven alternating-order repeated complete-stream runs on evaluation seed 2001 joint_drift, including initialization, prediction and update, excluding file IO and simulator. Warm up separately. Median microseconds/sample; no hardware feedback deadline established.",
+  "information": "All estimators receive the same 512 noisy calibration observations and causal probe means y_t. No truth, future observations, regime labels or change times are supplied. Observation-noise R=I/32 is known.",
+  "model": "Calibration beta~N(0,diag(0.15^2,0.075^2)). Stream beta_t independent conditional on scripted mean/covariance. y_t=beta_t+epsilon_t with epsilon~N(0,I/32).",
+  "scenario_definitions": {
+    "stationary": "unchanged calibration distribution",
+    "mean_step": "mean changes at 1/3 and 2/3 of stream to (0.45,-0.30) and (-0.25,0.35)",
+    "rotation": "anisotropic covariance angle rotates 0 to 2*pi; major standard deviation 0.15",
+    "joint_drift": "mean=(0.35*sin(4*pi*u),0.25*cos(3*pi*u)-0.25); covariance angle=3*pi*u; major standard deviation=0.10+0.18*(0.5+0.5*sin(2*pi*u)); minor/major=0.5; u=t/(T-1)",
+    "bursts": "stationary distribution plus 5% independent additive N(0,0.7^2 I) burst displacements"
+  },
+  "interruption": "Each run has started/completed/interrupted/failed manifest status; interrupted or failed runs excluded from summaries; final completion requires every prescribed evaluation case.",
+  "resources": "Local computation only. No paid services. Prior research equations and console unchanged."
+}
