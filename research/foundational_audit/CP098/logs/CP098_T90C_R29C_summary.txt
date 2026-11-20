@@ -1,0 +1,16 @@
+=== CP098-T90C-R29C ===
+PASS: exact Ddot factorization
+PASS: P strictly increasing for x >= 31/32
+PASS: P(31/32) = 219821236558923
+PASS: exact R28S/R28T regression
+R29C PASS
+
+RESULT:
+Ddot != 0 throughout the restricted D=0 subfamily:
+w=1, t=a=0, b=-32*rho*z/31, rho^2>31/32.
+
+SIX-PARAMETER FAMILY: NOT EXCLUDED
+FULL DIRAC CLOSURE: OPEN
+PHYSICAL VALIDATION: NOT CLAIMED
+
+This is a result summary, not the executable R29C script.
